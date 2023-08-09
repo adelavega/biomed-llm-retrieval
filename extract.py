@@ -7,20 +7,44 @@ import pandas as pd
 import tqdm 
 import warnings 
 import concurrent.futures
+import requests
+import time
 
-def get_openai_completion(prompt, model_name):
+def get_openai_completion(prompt, model_name, temperature=0, request_timeout=3, num_retries=3):
     # Check that model_name is a valid model name before using it in the openai.ChatCompletion.create() call.
     valid_models = ["gpt-3.5-turbo", "gpt-4"]
     if model_name not in valid_models:
         raise ValueError(f"{model_name} is not a valid OpenAI model name.")
 
-    completion = openai.ChatCompletion.create(
-        model=model_name,
-        messages=[
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0
-    )
+    for i in range(num_retries):
+        try:
+            completion = openai.ChatCompletion.create(
+                model=model_name,
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=temperature,
+                request_timeout=request_timeout
+            )
+
+        except requests.exceptions.HTTPError as e:
+            if isinstance(e.__cause__, requests.exceptions.HTTPError) and e.__cause__.response.status_code == 429:
+                # If we get a 429 error, wait for the specified amount of time and retry
+                retry_after = int(e.__cause__.response.headers.get("Retry-After", "5"))
+                print(f"Received 429 error. Retrying after {retry_after} seconds...")
+                time.sleep(retry_after)
+            else:
+                # If it's not a 429 error, re-raise the exception
+                raise e
+        except requests.exceptions.RequestException as e:
+            # If we get any other kind of exception, retry after a short delay
+            print(f"Received {type(e).__name__} exception. Retrying after 1 second...")
+            time.sleep(1)
+        except openai.error.RateLimitError as e:
+            # If we get a RateLimitError, retry after a short delay
+            print(f"Received {type(e).__name__} exception. Retrying after 1 minute...")
+            time.sleep(61)
+
 
     if not completion['choices'] or not completion['choices'][0]['message'].get('content'):
         raise ValueError("The completion must contain a 'choices' list with at least one element, \
