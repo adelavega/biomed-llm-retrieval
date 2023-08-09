@@ -131,7 +131,7 @@ s
                 ]
 
             results = []
-            for future in tqdm.tqdm(concurrent.futures.as_completed(futures), total=len(texts)):
+            for future in tqdm.tqdm(futures, total=len(texts)):
                 results.append(future.result())
 
     else:
