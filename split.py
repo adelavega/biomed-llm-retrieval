@@ -99,7 +99,6 @@ def split_pmc_document(text: str,
     _outputs = []
 
     start_char = 0
-    chunk_id = 0
     for ix, content in enumerate(sections):
         if ix == 0:
             section_name = 'Authors'
@@ -114,8 +113,7 @@ def split_pmc_document(text: str,
             
         for ix, chunk in enumerate(content):
             end_char = start_char + len(chunk)
-            _outputs.append({'section_name': section_name, 'content': chunk, 'chunk_id': ix, 'start_char': start_char, 'end_char': end_char})
-            chunk_id += 1
+            _outputs.append({'section_name': section_name, 'content': chunk, 'start_char': start_char, 'end_char': end_char})
             start_char = end_char
         
     return _outputs
