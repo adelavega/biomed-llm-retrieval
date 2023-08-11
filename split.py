@@ -1,19 +1,28 @@
 import re
 
-def join_strings(strings, max_tokens=4000):
+def split_lines(text, max_tokens=100):
     """Join strings to form largest possible strings that are less than max_tokens."""
+
+    strings = text.splitlines()
+    if text[-1] == '\n':
+        strings[-1] = strings[-1] + '\n'
+
     chunks = []
     current_chunk = ''
-    for string in strings:
+    for ix, string in enumerate(strings):
+        if ix != 0:
+            string = '\n' + string
         if len(current_chunk) + len(string) + 1 <= max_tokens:
-            if current_chunk:
-                current_chunk += '\n' + string
-            else:
-                current_chunk = string
+                current_chunk += string
         else:
-            chunks.append(current_chunk)
+            if current_chunk != '':
+                chunks.append(current_chunk)
             current_chunk = string
     chunks.append(current_chunk)
+
+    if strings[-1] == '':
+        chunks[-1] = chunks[-1] + '\n'
+
     return chunks
 
 
@@ -32,10 +41,12 @@ def split_markdown(text, delimiters, min_tokens=None, max_tokens=None):
 
     if not delimiters:
         # Join lines to form largest possible strings that are less than max_tokens
-        return join_strings(text.splitlines(), max_tokens=max_tokens)
+        return split_lines(text, max_tokens=max_tokens)
+    
+    delim_match = f'\n{delimiters[0]}'
 
     # Split on first delimiter
-    candidate_chunks = re.split(f'\n\s*{delimiters[0]}', text)
+    candidate_chunks = re.split(delim_match, text)
 
     # If there is only one chunk, split on next delimiter
     if len(candidate_chunks) == 1:
@@ -47,9 +58,9 @@ def split_markdown(text, delimiters, min_tokens=None, max_tokens=None):
     for ix, chunk in enumerate(candidate_chunks):
         if chunk:
             if not ix == 0:
-                chunk = delimiters[0] + chunk
+                chunk = delim_match + chunk
             if prev_chunk:
-                chunk = prev_chunk + "\n" + chunk
+                chunk = prev_chunk + chunk
                 prev_chunk = None
             if min_tokens and len(chunk) < min_tokens:
                 prev_chunk = chunk
@@ -75,18 +86,28 @@ def split_pmc_document(text, delimiters=['## ', '### '], min_tokens=20, max_toke
         list: List of chunks.
     """
 
-    sections = re.split(f'\n\s*# ', text)
+    sections = re.split(f'\n# ', text)
 
-    _outputs = {}
+    _outputs = []
 
-    for ix, section in enumerate(sections):
+    start_char = 0
+    chunk_id = 0
+    for ix, content in enumerate(sections):
         if ix == 0:
-            _outputs['Authors'] = section
+            section_name = 'Authors'
         else:
-            section_name, content = section.split('\n', maxsplit=1)
-            _outputs[section_name] = content
-
-    _outputs['Body'] = split_markdown(_outputs['Body'], delimiters, 
-                                      min_tokens, max_tokens)
-
+            content = '\n# ' + content
+            section_name, _ = content.replace('\n# ', '').split('\n', maxsplit=1)
+            
+        if section_name == 'Body':
+            content = split_markdown(content, delimiters, min_tokens, max_tokens)
+        else:
+            content = [content]
+            
+        for ix, chunk in enumerate(content):
+            end_char = start_char + len(chunk)
+            _outputs.append({'section_name': section_name, 'content': chunk, 'chunk_id': ix, 'start_char': start_char, 'end_char': end_char})
+            chunk_id += 1
+            start_char = end_char
+        
     return _outputs
