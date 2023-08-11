@@ -10,7 +10,14 @@ import concurrent.futures
 import requests
 import time
 
-def get_openai_completion(prompt, model_name, temperature=0, request_timeout=3, num_retries=3):
+from typing import List, Dict, Union
+
+def get_openai_completion(
+        prompt: str, 
+        model_name: str, 
+        temperature: float = 0, 
+        request_timeout: int = 3, 
+        num_retries: int = 3) -> str:
     # Check that model_name is a valid model name before using it in the openai.ChatCompletion.create() call.
     valid_models = ["gpt-3.5-turbo", "gpt-4"]
     if model_name not in valid_models:
@@ -55,7 +62,7 @@ def get_openai_completion(prompt, model_name, temperature=0, request_timeout=3, 
     return message
 
 
-def format_string_with_variables(string, **kwargs):
+def format_string_with_variables(string: str, **kwargs: str) -> str:
     # Find all possible variables in the string
     possible_variables = set(re.findall(r"{(\w+)}", string))
 
@@ -70,7 +77,7 @@ def format_string_with_variables(string, **kwargs):
     return string.format(**kwargs)
 
 
-def validate_completion_keys(completion, expected_keys):
+def validate_completion_keys(completion: dict, expected_keys: List[str]) -> bool:
     """Checks that the completion contains all the expected keys."""
     if not expected_keys:
         return
@@ -79,16 +86,17 @@ def validate_completion_keys(completion, expected_keys):
         raise ValueError(f"Completion keys {completion_keys} do not match the expected keys {expected_keys}.")
     
 
-def extract_from_text(text, template, expected_keys=None, model_name="gpt-3.5-turbo"):
+def extract_from_text(
+        text: str, 
+        template: str, 
+        expected_keys: List[str] = None, 
+        model_name: str = "gpt-3.5-turbo") -> Dict[str, str]:
     """Extracts information from a text sample using an OpenAI LLM.
 
     Args:
         text: A string containing the text sample.
         template: A dictionary containing the template for the prompt and the expected keys in the completion.
         model_name: A string containing the name of the LLM to be used for the extraction.
-
-    Returns:
-        A dictionary containing the extracted information.
     """
 
     # Encode text to ascii
@@ -107,9 +115,13 @@ def extract_from_text(text, template, expected_keys=None, model_name="gpt-3.5-tu
 
     return data
 
-
-def extract_from_multiple(texts, template, expected_keys=None, 
-                          model_name="gpt-3.5-turbo", return_type="pandas", num_workers=1):
+def extract_from_multiple(
+        texts: List[str], 
+        template: str, 
+        expected_keys: List[str] = None, 
+        model_name: str = "gpt-3.5-turbo", 
+        return_type: str = "pandas", 
+        num_workers: int = 1) -> Union[List[Dict[str, str]], pd.DataFrame]:
     """Extracts information from multiple text samples using an OpenAI LLM.
 
     Args:
@@ -118,9 +130,6 @@ def extract_from_multiple(texts, template, expected_keys=None,
         model_name: A string containing the name of the LLM to be used for the extraction.
         return_type: A string specifying the type of the returned object. Can be either "pandas" or "list".
         num_workers: An integer specifying the number of workers to use for parallel processing.
-s
-    Returns:
-        A list of dictionaries containing the extracted information.
     """
 
     if num_workers > 1:
