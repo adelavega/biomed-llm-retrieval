@@ -1,6 +1,7 @@
 import re
+from typing import List, Optional
 
-def split_lines(text, max_tokens=100):
+def split_lines(text: str, max_tokens: int = 100) -> List[str]:
     """Join strings to form largest possible strings that are less than max_tokens."""
 
     strings = text.splitlines()
@@ -26,7 +27,11 @@ def split_lines(text, max_tokens=100):
     return chunks
 
 
-def split_markdown(text, delimiters, min_tokens=None, max_tokens=None):
+def split_markdown(
+        text: str, 
+        delimiters: List[str], 
+        min_tokens: Optional[int] = None, 
+        max_tokens: Optional[int] = None) -> List[str]:
     """Split markdown text into chunks based on delimiters.
 
     Args:
@@ -73,7 +78,10 @@ def split_markdown(text, delimiters, min_tokens=None, max_tokens=None):
     return chunks
 
 
-def split_pmc_document(text, delimiters=['## ', '### '], min_tokens=20, max_tokens=4000):
+def split_pmc_document(text: str, 
+            delimiters: List[str] = ['## ', '### '], 
+            min_tokens: int = 20, 
+            max_tokens: int = 4000) -> List[str]:
     """Split PMC document text into chunks based on delimiters, and split by top level sections.
 
     Args:
