@@ -1,5 +1,6 @@
 import re
 from typing import List, Optional
+import warnings
 
 def split_lines(text: str, max_tokens: int = 100) -> List[str]:
     """Join strings to form largest possible strings that are less than max_tokens."""
@@ -96,6 +97,12 @@ def split_pmc_document(text: str,
 
     sections = re.split(f'\n# ', text)
 
+    # If failed to split, markdown is not formatted properly
+    # Skip for now
+    if len(sections) == 1:
+        warnings.warn("Skipping document, not in markdown")
+        return
+
     _outputs = []
 
     start_char = 0
@@ -106,10 +113,7 @@ def split_pmc_document(text: str,
             content = '\n# ' + content
             section_name, _ = content.replace('\n# ', '').split('\n', maxsplit=1)
             
-        if section_name == 'Body':
-            content = split_markdown(content, delimiters, min_tokens, max_tokens)
-        else:
-            content = [content]
+        content = split_markdown(content, delimiters, min_tokens, max_tokens)
             
         for ix, chunk in enumerate(content):
             end_char = start_char + len(chunk)
