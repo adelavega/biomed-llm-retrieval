@@ -1,18 +1,30 @@
-ZERO_SHOT_SINGLE_GROUP_DEMOGRAPHICS = {
-    'template': """
-                You will be provided with a text sample from a scientific journal. 
+ZERO_SHOT_SAMPLE_SIZE_FUNCTION = {
+    'messages': [
+        {
+            "role": "user", 
+            "content":
+                """You will be provided with a text sample from a scientific journal. 
                 The sample is delimited with triple backticks.
+                        
+                Your task is to identify the total number of participants that underwent fMRI or neuroimaging in the study, if any. 
+                If the number of participants is not mentioned in the text, provide null as the value.
 
-                Perform the following tasks:
-                1. Identify the total number of participants that underwent fMRI or neuroimaging in the study, if any. 
-                2. Provide your response in a JSON format containing a single key `count` and a integer value corresponding to the number of participants. 
-                Do not provide any additional information except the JSON. If the number of participants is not mentioned in the text, provide `n/a` as the value. If the number of participants is 0 return `n/a`.
+                Call the extractData function to save the participant count. 
 
                 Text sample: ```{text}```
-
-                Your JSON response:
-                """,
-    'expected_keys': ['count']
+                """
+        }
+    ],
+    'parameters':
+        {
+            'type': 'object',
+            'properties': {
+                'count': {
+                    'title': 'Count', 
+                    'type': 'integer'
+                    },
+            }, 
+            'required': ['count']
+        }
 }
-
 

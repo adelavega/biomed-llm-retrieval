@@ -5,61 +5,72 @@ import json
 import re 
 import pandas as pd
 import tqdm 
-import warnings 
 import concurrent.futures
-import requests
-import time
+from copy import deepcopy
 
 from typing import List, Dict, Union
 
-def get_openai_completion(
-        prompt: str, 
-        model_name: str, 
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_random_exponential,
+    retry_if_exception_type
+)  
+
+@retry(
+    retry=retry_if_exception_type((
+        openai.error.APIError, 
+        openai.error.APIConnectionError, 
+        openai.error.RateLimitError, 
+        openai.error.ServiceUnavailableError, 
+        openai.error.Timeout)), 
+    wait=wait_random_exponential(multiplier=1, max=60), 
+    stop=stop_after_attempt(10)
+)
+def chat_completion_with_backoff(**kwargs):
+    return openai.ChatCompletion.create(**kwargs)
+
+def format_function(parameters):
+    """ Format function for OpenAI function calling from parameters"""
+    functions = [
+        {
+            'name': 'extractData',
+            'parameters': parameters
+        }
+
+    ]
+
+    function_call = {"name": "extractData"}
+
+    return functions, function_call
+
+def get_openai_json_response(
+        messages: List[Dict[str, str]],
+        parameters: Dict[str, object],
+        model_name: str = "gpt-3.5-turbo",
         temperature: float = 0, 
-        request_timeout: int = 3, 
-        num_retries: int = 3) -> str:
+        request_timeout: int = 10) -> str:
     # Check that model_name is a valid model name before using it in the openai.ChatCompletion.create() call.
     valid_models = ["gpt-3.5-turbo", "gpt-4"]
     if model_name not in valid_models:
         raise ValueError(f"{model_name} is not a valid OpenAI model name.")
-
-    for i in range(num_retries):
-        try:
-            completion = openai.ChatCompletion.create(
-                model=model_name,
-                messages=[
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=temperature,
-                request_timeout=request_timeout
-            )
-
-        except requests.exceptions.HTTPError as e:
-            if isinstance(e.__cause__, requests.exceptions.HTTPError) and e.__cause__.response.status_code == 429:
-                # If we get a 429 error, wait for the specified amount of time and retry
-                retry_after = int(e.__cause__.response.headers.get("Retry-After", "5"))
-                print(f"Received 429 error. Retrying after {retry_after} seconds...")
-                time.sleep(retry_after)
-            else:
-                # If it's not a 429 error, re-raise the exception
-                raise e
-        except requests.exceptions.RequestException as e:
-            # If we get any other kind of exception, retry after a short delay
-            print(f"Received {type(e).__name__} exception. Retrying after 1 second...")
-            time.sleep(1)
-        except openai.error.RateLimitError as e:
-            # If we get a RateLimitError, retry after a short delay
-            print(f"Received {type(e).__name__} exception. Retrying after 1 minute...")
-            time.sleep(61)
-
-
-    if not completion['choices'] or not completion['choices'][0]['message'].get('content'):
-        raise ValueError("The completion must contain a 'choices' list with at least one element, \
-                         and the first element must contain a 'message' dictionary with a non-empty 'content' field.")
     
-    message = completion['choices'][0]['message']['content']
+    functions, function_call = format_function(parameters)
 
-    return message
+    completion = chat_completion_with_backoff(
+        model=model_name,
+        messages=messages,
+        functions=functions,
+        function_call=function_call,
+        temperature=temperature,
+        request_timeout=request_timeout
+    )
+    
+    c = completion['choices'][0]['message']
+    res = c['function_call']['arguments']
+    data = json.loads(res)
+
+    return data
 
 
 def format_string_with_variables(string: str, **kwargs: str) -> str:
@@ -69,27 +80,17 @@ def format_string_with_variables(string: str, **kwargs: str) -> str:
     # Find all provided variables in the kwargs dictionary
     provided_variables = set(kwargs.keys())
 
-    # Check that all possible variables are provided
-    if possible_variables != provided_variables:
-        raise ValueError(f"Not all possible variables are provided. Missing variables: {possible_variables - provided_variables}")
+    # Check that all provided variables are in the possible variables
+    if not provided_variables.issubset(possible_variables):
+        raise ValueError(f"Provided variables {provided_variables} are not in the possible variables {possible_variables}.")
 
     # Format the string with the provided variables
     return string.format(**kwargs)
 
-
-def validate_completion_keys(completion: dict, expected_keys: List[str]) -> bool:
-    """Checks that the completion contains all the expected keys."""
-    if not expected_keys:
-        return
-    completion_keys = set(completion.keys())
-    if completion_keys != set(expected_keys):
-        raise ValueError(f"Completion keys {completion_keys} do not match the expected keys {expected_keys}.")
-    
-
 def extract_from_text(
         text: str, 
-        template: str, 
-        expected_keys: List[str] = None, 
+        messages: str,
+        parameters: Dict[str, object],
         model_name: str = "gpt-3.5-turbo") -> Dict[str, str]:
     """Extracts information from a text sample using an OpenAI LLM.
 
@@ -102,23 +103,24 @@ def extract_from_text(
     # Encode text to ascii
     text = text.encode("ascii", "ignore").decode()
 
-    prompt = format_string_with_variables(template, text=text)
-    completion = get_openai_completion(prompt, model_name)
+    messages = deepcopy(messages)
 
-    try:
-        data = json.loads(completion)
-    except json.decoder.JSONDecodeError:
-        warnings.warn("Completion is not a valid JSON. Returning the completion as a string.")
-        data = completion
+    # Format the message with the text
+    for message in messages:
+        message['content'] = format_string_with_variables(message['content'], text=text)
 
-    validate_completion_keys(data, expected_keys)
+    data = get_openai_json_response(
+        messages,
+        parameters=parameters,
+        model_name=model_name
+    )
 
     return data
 
 def extract_from_multiple(
         texts: List[str], 
-        template: str, 
-        expected_keys: List[str] = None, 
+        messages: str,
+        parameters: Dict[str, object],
         model_name: str = "gpt-3.5-turbo", 
         return_type: str = "pandas", 
         num_workers: int = 1) -> Union[List[Dict[str, str]], pd.DataFrame]:
@@ -135,7 +137,8 @@ def extract_from_multiple(
     if num_workers > 1:
         with concurrent.futures.ThreadPoolExecutor(max_workers=num_workers) as executor:
             futures = [
-                executor.submit(extract_from_text, text, template, expected_keys, model_name) 
+                executor.submit(
+                    extract_from_text, text, messages, parameters, model_name) 
                 for text in texts
                 ]
 
@@ -147,7 +150,7 @@ def extract_from_multiple(
         results = []
         for text in tqdm.tqdm(texts):
             results.append(
-                extract_from_text(text, template, expected_keys, model_name))
+                extract_from_text(text, messages, parameters, model_name))
 
     if return_type == "pandas":
         results = pd.DataFrame(results)

@@ -70,7 +70,7 @@ def _rank_numbers(numbers: List[float]) -> List[Tuple[float, int]]:
         ranks[index] = rank
     return ranks
 
-def query_embeddings(embeddings: List[List], query: str) -> Tuple[List[float], List[int]]:
+def query_embeddings(embeddings: List[List], query: str, compute_ranks=True) -> Tuple[List[float], List[int]]:
     """Query a list of embeddings with a query string. Returns the distances and ranks of the embeddings. """
 
     embeddings = np.array(embeddings)
