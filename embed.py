@@ -31,12 +31,15 @@ def embed_pmc_article(
 
     split_doc = split_pmc_document(document, min_tokens=min_tokens, max_tokens=max_tokens)
 
-    # Embed each chunk
-    for chunk in split_doc:
-        res = embed_text(chunk['content'], model_name)
-        chunk['embedding'] = res
+    if split_doc:
+        # Embed each chunk
+        for chunk in split_doc:
+            res = embed_text(chunk['content'], model_name)
+            chunk['embedding'] = res
 
-    return split_doc
+        return split_doc
+    else:
+        return []
 
 def embed_pmc_articles(
         articles: List[Dict], # List of dicts with keys 'pmcid' and 'text'
@@ -51,8 +54,9 @@ def embed_pmc_articles(
     results = []
     for art in tqdm.tqdm(articles):
         for chunk in embed_pmc_article(art['text'], model_name, min_tokens, max_tokens):
-            chunk['pmcid'] = art['pmcid']
-            results.append(chunk)
+            if chunk:
+                chunk['pmcid'] = art['pmcid']
+                results.append(chunk)
     return results
 
 def _rank_numbers(numbers: List[float]) -> List[Tuple[float, int]]:
