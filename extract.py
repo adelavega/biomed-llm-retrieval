@@ -122,7 +122,6 @@ def extract_from_multiple(
         messages: str,
         parameters: Dict[str, object],
         model_name: str = "gpt-3.5-turbo", 
-        return_type: str = "pandas", 
         num_workers: int = 1) -> Union[List[Dict[str, str]], pd.DataFrame]:
     """Extracts information from multiple text samples using an OpenAI LLM.
 
@@ -151,8 +150,5 @@ def extract_from_multiple(
         for text in tqdm.tqdm(texts):
             results.append(
                 extract_from_text(text, messages, parameters, model_name))
-
-    if return_type == "pandas":
-        results = pd.DataFrame(results)
 
     return results
