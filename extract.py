@@ -152,3 +152,38 @@ def extract_from_multiple(
                 extract_from_text(text, messages, parameters, model_name))
 
     return results
+
+def get_relevant_chunks(embeddings_df, annotations_df):
+    """ Get relevant chunks from embeddings_df based on annotations_df"""
+    # Find first chunk that contains a true annotation
+    sections = []
+    # For every section, see if it contains any annotations
+    for ix, row in embeddings_df.iterrows():
+        annotations  = annotations_df[annotations_df.pmcid == row['pmcid']]
+        for ix_a, annot in annotations.iterrows():
+            contains = [True for s, e in  zip(annot['start_char'], annot['end_char']) if (row.start_char <= s) & (row.end_char >= e)]
+            if any(contains):
+                sections.append(ix)
+                break
+    return embeddings_df.loc[sections]
+    
+def extract_on_match(embeddings_df, annotations_df, messages, parameters, model_name="gpt-3.5-turbo", num_workers=1):
+    """ Extract anntotations on chunk with relevant information (based on annotation meta data) """
+    body_df = embeddings_df[embeddings_df.section_name == 'Body']
+
+    sections = get_relevant_chunks(body_df, annotations_df)
+
+    res = extract_from_multiple(sections.content.to_list(), messages, parameters, 
+                          model_name=model_name, num_workers=num_workers)
+
+    # Combine results into single df and add pmcid
+    pred_groups_df = []
+    for ix, r in enumerate(res):
+        rows = r['groups']
+        pmcid = sections.iloc[ix]['pmcid']
+        for row in rows:
+            row['pmcid'] = pmcid
+            pred_groups_df.append(row)
+    pred_groups_df = pd.DataFrame(pred_groups_df)
+
+    return sections, pred_groups_df
