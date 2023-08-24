@@ -88,7 +88,8 @@ def flatten_sections(sections, section_depth=0, **kwargs):
         if isinstance(content, tuple):
             content = [content]
         if isinstance(content, list):
-            kwargs[section_key] = section_name
+            if section_name is not None:
+                kwargs[section_key] = section_name
             flattened.extend(
                 flatten_sections(content, section_depth=section_depth+1, **kwargs))
         else:
