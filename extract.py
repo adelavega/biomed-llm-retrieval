@@ -6,6 +6,7 @@ import re
 import pandas as pd
 import tqdm 
 import concurrent.futures
+from embed import get_chunk_query_distance
 from copy import deepcopy
 
 from typing import List, Dict, Union
@@ -15,7 +16,7 @@ from tenacity import (
     stop_after_attempt,
     wait_random_exponential,
     retry_if_exception_type
-)  
+)
 
 @retry(
     retry=retry_if_exception_type((
@@ -166,12 +167,43 @@ def get_relevant_chunks(embeddings_df, annotations_df):
                 sections.append(ix)
                 break
     return embeddings_df.loc[sections]
-    
-def extract_on_match(embeddings_df, annotations_df, messages, parameters, model_name="gpt-3.5-turbo", num_workers=1):
-    """ Extract anntotations on chunk with relevant information (based on annotation meta data) """
-    body_df = embeddings_df[embeddings_df.section_name == 'Body']
 
-    sections = get_relevant_chunks(body_df, annotations_df)
+_PARTICIPANTS_SECTIONS = (
+    r"(?:participants?|subjects?|patients|population|demographics?|design|procedure)"
+)
+
+_METHODS_SECTIONS = (
+    r"methods?|materials?|design?|case|procedures?"
+)
+
+def get_chunks_heuristic(embeddings_df, section_2=True):
+    """ if fallback=True, returns all if one step fails """
+    results = []
+    for pmcid, sub_df in embeddings_df.groupby('pmcid', sort=False):
+        # Try getting Methods section
+        m_ix = sub_df.section_1.apply(
+            lambda x: bool(re.search(_METHODS_SECTIONS, x,  re.IGNORECASE)) if not pd.isna(x) else False)
+
+        if m_ix.sum() != 0:
+            sub_df = sub_df[m_ix]
+
+            # Try getting design section
+            d_ix = sub_df.section_2.apply(
+                lambda x: bool(re.search(_PARTICIPANTS_SECTIONS, x,  re.IGNORECASE)) if not pd.isna(x) else False)
+            if section_2 and d_ix.sum() > 0:
+                sub_df = sub_df[d_ix]
+        results.append(sub_df)
+    
+    return pd.concat(results)
+    
+def extract_on_match(
+        embeddings_df, annotations_df, messages, parameters, model_name="gpt-3.5-turbo", 
+        num_workers=1):
+    """ Extract anntotations on chunk with relevant information (based on annotation meta data) """
+
+    embeddings_df = embeddings_df[embeddings_df.section_0 == 'Body']
+
+    sections = get_relevant_chunks(embeddings_df, annotations_df)
 
     res = extract_from_multiple(sections.content.to_list(), messages, parameters, 
                           model_name=model_name, num_workers=num_workers)
@@ -187,3 +219,58 @@ def extract_on_match(embeddings_df, annotations_df, messages, parameters, model_
     pred_groups_df = pd.DataFrame(pred_groups_df)
 
     return sections, pred_groups_df
+
+
+def _extract_iteratively(
+        sub_df, messages, parameters, model_name="gpt-3.5-turbo"):
+    """ Iteratively attempt to extract annotations from chunks in ranks_df until one succeeds. """
+    for _, row in sub_df.iterrows():
+        res = extract_from_text(row['content'], messages, parameters, model_name)
+        if res['groups']:
+            result = [
+                {**r, **row[['rank', 'start_char', 'end_char', 'pmcid']].to_dict()} for r in res['groups']
+                ]
+            return result
+        
+    return []
+    
+
+def search_extract(
+        embeddings_df, query, messages, parameters, model_name="gpt-3.5-turbo", 
+        heuristic_strategy=None, num_workers=1):
+    """ Search for query in embeddings_df and extract annotations from nearest chunks,
+    using heuristic to narrow down search space if specified.
+    """
+
+    # Use heuristic to narrow down search space
+    if heuristic_strategy == None:
+        embeddings_df = embeddings_df[embeddings_df.section_0 == 'Body']
+    elif heuristic_strategy == 'methods':
+        embeddings_df = get_chunks_heuristic(embeddings_df, section_2=False)
+    elif heuristic_strategy == 'demographics':
+        embeddings_df = get_chunks_heuristic(embeddings_df, section_2=True)
+
+    # Search for query in chunks
+    ranks_df = get_chunk_query_distance(embeddings_df, query)
+    ranks_df.sort_values('distance', inplace=True)
+    
+    # For every document, try to extract annotations by distance until one succeeds
+    if num_workers > 1:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=num_workers) as executor:
+            futures = [
+                executor.submit(
+                    _extract_iteratively, sub_df, messages, parameters, model_name) 
+                for _, sub_df in ranks_df.groupby('pmcid', sort=False)
+                ]
+
+            results = []
+            for future in tqdm.tqdm(futures, total=len(ranks_df.pmcid.unique())):
+                results.extend(future.result())
+    else:
+        results = []
+        for _, sub_df in tqdm.tqdm(ranks_df.groupby('pmcid', sort=False)):
+            results.extend(_extract_iteratively(sub_df, messages, parameters, model_name))
+
+    results = pd.DataFrame(results)
+
+    return results
