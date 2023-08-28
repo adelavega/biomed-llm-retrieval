@@ -1,92 +1,14 @@
 """ Provides a high-level API for LLMs for the purpose of infomation retrieval from documents and evaluation of the results."""
 
-import openai
-import json
-import re 
 import pandas as pd
 import tqdm 
-import concurrent.futures
-from embed import get_chunk_query_distance
 from copy import deepcopy
-
 from typing import List, Dict, Union
+import concurrent.futures
 
-from tenacity import (
-    retry,
-    stop_after_attempt,
-    wait_random_exponential,
-    retry_if_exception_type
-)
-
-@retry(
-    retry=retry_if_exception_type((
-        openai.error.APIError, 
-        openai.error.APIConnectionError, 
-        openai.error.RateLimitError, 
-        openai.error.ServiceUnavailableError, 
-        openai.error.Timeout)), 
-    wait=wait_random_exponential(multiplier=1, max=60), 
-    stop=stop_after_attempt(10)
-)
-def chat_completion_with_backoff(**kwargs):
-    return openai.ChatCompletion.create(**kwargs)
-
-def format_function(parameters):
-    """ Format function for OpenAI function calling from parameters"""
-    functions = [
-        {
-            'name': 'extractData',
-            'parameters': parameters
-        }
-
-    ]
-
-    function_call = {"name": "extractData"}
-
-    return functions, function_call
-
-def get_openai_json_response(
-        messages: List[Dict[str, str]],
-        parameters: Dict[str, object],
-        model_name: str = "gpt-3.5-turbo",
-        temperature: float = 0, 
-        request_timeout: int = 10) -> str:
-    # Check that model_name is a valid model name before using it in the openai.ChatCompletion.create() call.
-    valid_models = ["gpt-3.5-turbo", "gpt-4"]
-    if model_name not in valid_models:
-        raise ValueError(f"{model_name} is not a valid OpenAI model name.")
-    
-    functions, function_call = format_function(parameters)
-
-    completion = chat_completion_with_backoff(
-        model=model_name,
-        messages=messages,
-        functions=functions,
-        function_call=function_call,
-        temperature=temperature,
-        request_timeout=request_timeout
-    )
-    
-    c = completion['choices'][0]['message']
-    res = c['function_call']['arguments']
-    data = json.loads(res)
-
-    return data
-
-
-def format_string_with_variables(string: str, **kwargs: str) -> str:
-    # Find all possible variables in the string
-    possible_variables = set(re.findall(r"{(\w+)}", string))
-
-    # Find all provided variables in the kwargs dictionary
-    provided_variables = set(kwargs.keys())
-
-    # Check that all provided variables are in the possible variables
-    if not provided_variables.issubset(possible_variables):
-        raise ValueError(f"Provided variables {provided_variables} are not in the possible variables {possible_variables}.")
-
-    # Format the string with the provided variables
-    return string.format(**kwargs)
+from embed import get_chunk_query_distance
+from openai import get_openai_json_response, format_string_with_variables
+from search import get_chunks_heuristic, get_relevant_chunks
 
 def extract_from_text(
         text: str, 
@@ -154,48 +76,7 @@ def extract_from_multiple(
 
     return results
 
-def get_relevant_chunks(embeddings_df, annotations_df):
-    """ Get relevant chunks from embeddings_df based on annotations_df"""
-    # Find first chunk that contains a true annotation
-    sections = []
-    # For every section, see if it contains any annotations
-    for ix, row in embeddings_df.iterrows():
-        annotations  = annotations_df[annotations_df.pmcid == row['pmcid']]
-        for ix_a, annot in annotations.iterrows():
-            contains = [True for s, e in  zip(annot['start_char'], annot['end_char']) if (row.start_char <= s) & (row.end_char >= e)]
-            if any(contains):
-                sections.append(ix)
-                break
-    return embeddings_df.loc[sections]
 
-_PARTICIPANTS_SECTIONS = (
-    r"(?:participants?|subjects?|patients|population|demographics?|design|procedure)"
-)
-
-_METHODS_SECTIONS = (
-    r"methods?|materials?|design?|case|procedures?"
-)
-
-def get_chunks_heuristic(embeddings_df, section_2=True):
-    """ if fallback=True, returns all if one step fails """
-    results = []
-    for pmcid, sub_df in embeddings_df.groupby('pmcid', sort=False):
-        # Try getting Methods section
-        m_ix = sub_df.section_1.apply(
-            lambda x: bool(re.search(_METHODS_SECTIONS, x,  re.IGNORECASE)) if not pd.isna(x) else False)
-
-        if m_ix.sum() != 0:
-            sub_df = sub_df[m_ix]
-
-            # Try getting design section
-            d_ix = sub_df.section_2.apply(
-                lambda x: bool(re.search(_PARTICIPANTS_SECTIONS, x,  re.IGNORECASE)) if not pd.isna(x) else False)
-            if section_2 and d_ix.sum() > 0:
-                sub_df = sub_df[d_ix]
-        results.append(sub_df)
-    
-    return pd.concat(results)
-    
 def extract_on_match(
         embeddings_df, annotations_df, messages, parameters, model_name="gpt-3.5-turbo", 
         num_workers=1):
