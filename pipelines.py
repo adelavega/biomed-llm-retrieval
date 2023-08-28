@@ -31,7 +31,7 @@ def extract_gpt_demographics(
         embedding_model_name (str): Name of the OpenAI embedding model to use.
         min_tokens (int): Minimum number of tokens per chunk.
         max_tokens (int): Maximum number of tokens per chunk.
-        query (str): Query to use for the extraction.
+        search_query (str): Query to use for semantic search.
         heuristic_strategy (str): Heuristic strategy to use for the extraction.
         template (dict): Template to use for the extraction (see templates.py).
         extraction_model_name (str): Name of the OpenAI model to use for the extraction.
@@ -55,15 +55,15 @@ def extract_gpt_demographics(
         embeddings = embed_pmc_articles(articles, embedding_model_name, min_tokens, max_tokens)
         embeddings = pd.DataFrame(embeddings)
 
-    if query is None:
-        query = 'How many participants or subjects were recruited for this study?' 
+    if search_query is None:
+        search_query = 'How many participants or subjects were recruited for this study?' 
 
     if template is None:
         template = ZERO_SHOT_MULTI_GROUP
 
     print('Extracting demographics...')
     predictions = search_extract(
-        embeddings, query, **template, 
+        embeddings, search_query, **template, 
         heuristic_strategy=heuristic_strategy, 
         model_name=extraction_model_name, 
         num_workers=num_workers
