@@ -45,7 +45,7 @@ def get_openai_json_response(
         parameters: Dict[str, object],
         model_name: str = "gpt-3.5-turbo",
         temperature: float = 0, 
-        request_timeout: int = 20) -> str:
+        request_timeout: int = 30) -> str:
     # Check that model_name is a valid model name before using it in the openai.ChatCompletion.create() call.
     valid_models = ["gpt-3.5-turbo", "gpt-4"]
     if model_name not in valid_models:
