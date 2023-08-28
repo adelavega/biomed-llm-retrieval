@@ -127,10 +127,10 @@ def split_pmc_document(text: str,
     # Add start_chars and end_chars
     for ix, chunk in enumerate(_outputs):
         if ix == 0:
-            chunk['start_chars'] = 0
+            chunk['start_char'] = 0
         else:
-            chunk['start_chars'] = _outputs[ix-1]['end_chars']
-        chunk['end_chars'] = chunk['start_chars'] + len(chunk['content'])
+            chunk['start_char'] = _outputs[ix-1]['end_char']
+        chunk['end_char'] = chunk['start_char'] + len(chunk['content'])
 
     return _outputs
 

@@ -2,7 +2,9 @@
 
 import openai
 import tqdm
+import re
 import numpy as np
+import pandas as pd
 from split import split_pmc_document
 from typing import Dict, List, Optional, Tuple
 from sklearn.metrics.pairwise import euclidean_distances
@@ -83,3 +85,17 @@ def query_embeddings(embeddings: List[List], query: str, compute_ranks=True) -> 
     distances = euclidean_distances(embeddings, np.array(query_embedding).reshape(1, -1), squared=True)
 
     return distances, _rank_numbers(distances)
+
+def get_chunk_query_distance(embeddings_df, query):
+    # For every document, get distance and rank between query and embeddings
+    distances, ranks = zip(*[
+        query_embeddings(sub_df['embedding'].tolist(), query) 
+        for pmcid, sub_df in embeddings_df.groupby('pmcid', sort=False)
+    ])
+
+    # Combine with meta-data into a df
+    ranks_df = embeddings_df[['pmcid', 'content', 'start_char', 'end_char']].copy()
+    ranks_df['distance'] = np.concatenate(distances)
+    ranks_df['rank'] = np.concatenate(ranks)
+
+    return ranks_df
