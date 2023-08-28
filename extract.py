@@ -7,7 +7,7 @@ from typing import List, Dict, Union
 import concurrent.futures
 
 from embed import get_chunk_query_distance
-from openai import get_openai_json_response, format_string_with_variables
+from oai import get_openai_json_response, format_string_with_variables
 from search import get_chunks_heuristic, get_relevant_chunks
 
 def extract_from_text(
