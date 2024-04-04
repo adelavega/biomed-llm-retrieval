@@ -1,7 +1,7 @@
 import pprint
 import pandas as pd
 from labelrepo.projects.participant_demographics import get_participant_demographics
-from publang.evaluate import score_columns, hungarian_match_compare 
+from publang.evaluate import score_columns, hungarian_match_compare
 
 
 # Load annotations

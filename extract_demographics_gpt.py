@@ -1,12 +1,12 @@
 import pandas as pd
-import os
+from pathlib import Path
+from publang_pipelines.demographics import extract_gpt_demographics, clean_gpt_demo_predictions
 from labelrepo.projects.participant_demographics import get_participant_demographics
-from labelrepo.database import get_database_connection
-from publang.pipelines import extract_gpt_demographics
+from labelrepo import database
 
-api_key = open('/home/zorro/.keys/open_ai.key').read().strip()
 
-# Load annotations
+### Training documents
+# Load original annotations
 subgroups = get_participant_demographics()
 jerome_pd = subgroups[(subgroups.project_name == 'participant_demographics') & \
                       (subgroups.annotator_name == 'Jerome_Dockes')]
@@ -15,30 +15,32 @@ subset_cols = ['count', 'diagnosis', 'group_name', 'subgroup_name', 'male count'
        'age median', 'pmcid']
 jerome_pd_subset = jerome_pd[subset_cols].sort_values('pmcid')
 
+# database.make_database()
+
 # Load articles
 docs = pd.read_sql(
     "select pmcid, text from document",
-    get_database_connection(),
+    database.get_database_connection(),
 )
 docs = docs[docs.pmcid.isin(jerome_pd.pmcid)].to_dict(orient='records')
 
-max_tokens = 1000
+model_name = 'gpt-3.5-turbo-1106'
 
-predictions_path = f'data/participant_demographics_gpt_maxtokens-{max_tokens}.csv'
-embeddings_path = f'data/evaluation_embeddings_maxtokens-{max_tokens}.csv'
+output_dir = Path('outputs')
 
-# Try to open each, if not set to None
-embeddings, predictions = None, None
-if os.path.exists(embeddings_path):
-    embeddings = pd.read_csv(embeddings_path)
-if os.path.exists(predictions_path):
-    predictions = pd.read_csv(predictions_path)
+docs = docs[0:2]
 
-if predictions is None:
+for max_chars in [10000]:
+
+    predictions_path = output_dir / f'eval_participant_demographics_{model_name}_tokens-{max_chars}.csv'
+    clean_predictions_path = output_dir / f'eval_participant_demographics_{model_name}_tokens-{max_chars}_clean.csv'
+    embeddings_path = output_dir / f'eval_embeddings_tokens-{max_chars}.parquet'
+
     # Extract
-    predictions, embeddings = extract_gpt_demographics(
-        articles=docs, embeddings=embeddings, api_key=api_key, max_tokens=max_tokens, num_workers=10
+    predictions = extract_gpt_demographics(
+        articles=docs, output_path=predictions_path, max_chars=max_chars, num_workers=1,
+        embeddings_path=embeddings_path, extraction_model_name=model_name
     )
-    # Save predictions
+
+    clean_gpt_demo_predictions(predictions).to_csv(clean_predictions_path, index=False)
     predictions.to_csv(predictions_path, index=False)
-    embeddings.to_csv(embeddings_path, index=False)
