@@ -1,5 +1,7 @@
-import pprint
+import numpy as np
+from pathlib import Path
 import pandas as pd
+import glob
 from labelrepo.projects.participant_demographics import get_participant_demographics
 from publang.evaluate import score_columns, hungarian_match_compare
 
@@ -13,22 +15,25 @@ subset_cols = ['count', 'diagnosis', 'group_name', 'subgroup_name', 'male count'
        'age median', 'pmcid']
 jerome_pd = jerome_pd[subset_cols].sort_values('pmcid')
 
-predictions_default = pd.read_csv('data/jerome_subset_1_predictions.csv')
-predictions_smaller_chunks = pd.read_csv('data/jerome_subset_1_smaller_chunks_predictions.csv')
-predictions_1000_chunks = pd.read_csv('data/participant_demographics_gpt_maxtokens-1000.csv')
+results_dir = Path('outputs')
 
 
 def _evaluate(annotations, predictions):
+    # Overall recall
+    # Print both fraction and percentage
+    n_studies_in_predictions = len(set(predictions.pmcid.unique()))
+    n_studies_in_annotations = len(set(annotations.pmcid.unique()))
+    print(f"Studies with prediction: {n_studies_in_predictions / n_studies_in_annotations:.2f} ({n_studies_in_predictions} / {n_studies_in_annotations})")
+
+    # Subset to only pmcids in predictions
+    diff = set(set(annotations.pmcid.unique()) - set(predictions.pmcid.unique()))
+    annotations = annotations[annotations.pmcid.isin(predictions.pmcid.unique())]
 
     # Match compare
     match_compare = hungarian_match_compare(annotations, predictions)
 
     # Compare by columns (matched accuracy)
     res_mean, res_sums, counts = score_columns(annotations, predictions)
-
-    # Subset to only pmcids in predictions
-    diff = set(set(annotations.pmcid.unique()) - set(predictions.pmcid.unique()))
-    annotations = annotations[annotations.pmcid.isin(predictions.pmcid.unique())]
 
     # Compute overlap of pmcids
     pred_n_groups = predictions.groupby('pmcid').size()
@@ -43,29 +48,25 @@ def _evaluate(annotations, predictions):
     f"Missing pmcids: {diff}\n"
     )
 
-    # Compare by columns (matched accuracy)
-    print("Column wise comparison of predictions and annotations (error):\n")
-    pprint.pprint(match_compare)
+    combined_stats = {
+        "matched_accuracy": match_compare,
+        "counts": counts,
+        "avg_mean_percentage_error": res_mean,
+        "summed_mean_percentage_error": res_sums,
+    }
 
-    # Compare by columns (count of pmcids with overlap)
-    print("\nPercentage response given by pmcid:\n")
-    pprint.pprint(counts)
-
-
-    # Compare by columns (summed mean percentage error on sum by pmcid)
-    print("\nSummed Mean percentage error:\n")
-    pprint.pprint(res_mean)
-
-    # Compare by columns (summed mean percentage error on mean by pmcid)
-    print("\nAveraged Mean percentage error:\n")
-    pprint.pprint(res_sums)
+    print(pd.DataFrame(combined_stats))
+    return combined_stats
 
 
-print("Evaluate with default chunk size (4000)")
-_evaluate(jerome_pd, predictions_default)
 
-print("Evaluate with smaller chunk size (2000)")
-_evaluate(jerome_pd, predictions_smaller_chunks)
+for f in sorted(results_dir.glob('eval_participant_demographics_*_clean.csv')):
+    predictions = pd.read_csv(f)
+    print(f"\nResults for {f.name}")
+    _evaluate(jerome_pd, predictions)
 
-print("Evaluate with smaller chunk size (1000)")
-_evaluate(jerome_pd, predictions_1000_chunks)
+
+# for f in glob.glob('../fmri_participant_demographics/data/outputs/gpt/eval_*_clean.csv'):
+#     predictions = pd.read_csv(f)
+#     print(f"\nResults for {f}")
+#     _evaluate(jerome_pd, predictions)

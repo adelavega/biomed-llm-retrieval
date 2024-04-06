@@ -31,55 +31,66 @@ docs = pd.read_sql(
 )
 docs = docs[docs.pmcid.isin(jerome_pd.pmcid)].to_dict(orient='records')
 
-model_name = 'gpt-4-0125-preview'
-
+model_name = 'gpt-3.5-turbo-0613'
 output_dir = Path('outputs')
-
-# for max_chars in [4000, 20000]:
-#     predictions_path = output_dir / \
-#         f'eval_participant_demographics_{model_name}_tokens-{max_chars}.json'
-#     clean_predictions_path = output_dir / \
-#         f'eval_participant_demographics_{model_name}_tokens-{max_chars}_clean.csv'
-#     embeddings_path = output_dir / \
-#         f'eval_embeddings_tokens-{max_chars}.parquet'
-
-#     # Extract
-#     predictions = search_extract(
-#         articles=docs, output_path=predictions_path, max_chars=max_chars,
-#         embeddings_path=embeddings_path, extraction_model_name=model_name,
-#         num_workers=6, **ZERO_SHOT_MULTI_GROUP
-#     )
-
-#     clean_gpt_demo_predictions(predictions).to_csv(
-#         clean_predictions_path, index=False)
+min_chars = 40
 
 
-# Extract using full Body
-predictions_path = output_dir / \
-    f'eval_participant_demographics_{model_name}_tokens-all_body.json'
-clean_predictions_path = output_dir / \
-    f'eval_participant_demographics_{model_name}_tokens-all_body_clean.csv'
+def _run(model_name, min_chars, max_chars):
+    predictions_path = output_dir / \
+        f'eval_participant_demographics_{model_name}_minchars-{min_chars}_maxchars-{max_chars}.json'
+    clean_predictions_path = output_dir / \
+        f'eval_participant_demographics_{model_name}_minchars-{min_chars}_maxchars-{max_chars}_clean.csv'
+    embeddings_path = output_dir / \
+        f'eval_embeddings_minchars-{min_chars}_maxchars-{max_chars}.parquet'
 
-# Get text body
-all_preds = []
-for doc in tqdm(docs):
-    split_doc = split_pmc_document(doc['text'], delimiters=['# '])
-    if split_doc is None:
-        continue
-
-    text = [section['content'] for section in split_doc
-            if section.get('section_0') == 'Body'][0]
-
-    prediction = extract_from_text(
-        text, model_name=model_name,
-        num_workers=6, messages=ZERO_SHOT_MULTI_GROUP['messages'],
-        output_schema=ZERO_SHOT_MULTI_GROUP['output_schema']
+    # Extract
+    predictions = search_extract(
+        articles=docs, output_path=predictions_path,
+        min_chars=min_chars, max_chars=max_chars,
+        embeddings_path=embeddings_path, extraction_model_name=model_name,
+        num_workers=6, **ZERO_SHOT_MULTI_GROUP
     )
 
-    prediction['pmcid'] = doc['pmcid']
-    all_preds.append(prediction)
+    clean_gpt_demo_predictions(predictions).to_csv(
+        clean_predictions_path, index=False
+    )
 
-json.dump(all_preds, open(predictions_path, 'w'))
 
-clean_gpt_demo_predictions(all_preds).to_csv(
-    clean_predictions_path, index=False)
+# Extract using chunks
+for model_name in ['gpt-4-0125-preview']:
+    _run(model_name, min_chars, 4000)
+
+# Split body into large sections (by setting min_chars to high number)
+for model_name in ['gpt-3.5-turbo-1106', 'gpt-4-0125-preview']:
+    _run(model_name, 2000, 30000)
+
+# Extract using full Body
+# predictions_path = output_dir / \
+#     f'eval_participant_demographics_{model_name}_tokens-all_body.json'
+# clean_predictions_path = output_dir / \
+#     f'eval_participant_demographics_{model_name}_tokens-all_body_clean.csv'
+
+# # Get text body
+# all_preds = []
+# for doc in tqdm(docs):
+#     split_doc = split_pmc_document(doc['text'], delimiters=['# '])
+#     if split_doc is None:
+#         continue
+
+#     text = [section['content'] for section in split_doc
+#             if section.get('section_0') == 'Body'][0]
+
+#     prediction = extract_from_text(
+#         text, model_name=model_name,
+#         num_workers=6, messages=ZERO_SHOT_MULTI_GROUP['messages'],
+#         output_schema=ZERO_SHOT_MULTI_GROUP['output_schema']
+#     )
+
+#     prediction['pmcid'] = doc['pmcid']
+#     all_preds.append(prediction)
+
+# json.dump(all_preds, open(predictions_path, 'w'))
+
+# clean_gpt_demo_predictions(all_preds).to_csv(
+#     clean_predictions_path, index=False)
