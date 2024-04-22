@@ -1,14 +1,11 @@
 import pandas as pd
-import json
 from pathlib import Path
-from publang.pipelines import search_extract, extract_from_text
+from publang.pipelines import search_extract
 from nipub_templates.demographics import (
     clean_gpt_demo_predictions, ZERO_SHOT_MULTI_GROUP)
-from publang.utils.split import split_pmc_document
 from labelrepo.projects.participant_demographics import \
         get_participant_demographics
 from labelrepo import database
-from tqdm import tqdm
 
 # Load original annotations
 subgroups = get_participant_demographics()
@@ -31,6 +28,9 @@ docs = pd.read_sql(
 )
 docs = docs[docs.pmcid.isin(jerome_pd.pmcid)].to_dict(orient='records')
 
+# Test
+docs = docs[:10]
+
 model_name = 'gpt-3.5-turbo-0613'
 output_dir = Path('outputs')
 min_chars = 40
@@ -38,17 +38,17 @@ min_chars = 40
 
 def _run(model_name, min_chars, max_chars):
     predictions_path = output_dir / \
-        f'eval_participant_demographics_{model_name}_minchars-{min_chars}_maxchars-{max_chars}.json'
+        f'eval_participant_demographics_{model_name}_minchars-{min_chars}_maxchars-{max_chars}_test.json'
     clean_predictions_path = output_dir / \
-        f'eval_participant_demographics_{model_name}_minchars-{min_chars}_maxchars-{max_chars}_clean.csv'
+        f'eval_participant_demographics_{model_name}_minchars-{min_chars}_maxchars-{max_chars}_clean_test.csv'
     embeddings_path = output_dir / \
-        f'eval_embeddings_minchars-{min_chars}_maxchars-{max_chars}.parquet'
+        f'eval_embeddings_minchars-{min_chars}_maxchars-{max_chars}_test.parquet'
 
     # Extract
     predictions = search_extract(
         articles=docs, output_path=predictions_path,
         min_chars=min_chars, max_chars=max_chars,
-        embeddings_path=embeddings_path, extraction_model_name=model_name,
+        embeds_path=embeddings_path, extraction_model=model_name,
         num_workers=6, **ZERO_SHOT_MULTI_GROUP
     )
 
@@ -61,9 +61,9 @@ def _run(model_name, min_chars, max_chars):
 for model_name in ['gpt-4-0125-preview']:
     _run(model_name, min_chars, 4000)
 
-# Split body into large sections (by setting min_chars to high number)
-for model_name in ['gpt-3.5-turbo-1106', 'gpt-4-0125-preview']:
-    _run(model_name, 2000, 30000)
+# # Split body into large sections (by setting min_chars to high number)
+# for model_name in ['gpt-3.5-turbo-1106', 'gpt-4-0125-preview']:
+#     _run(model_name, 2000, 30000)
 
 # Extract using full Body
 # predictions_path = output_dir / \
@@ -82,7 +82,7 @@ for model_name in ['gpt-3.5-turbo-1106', 'gpt-4-0125-preview']:
 #             if section.get('section_0') == 'Body'][0]
 
 #     prediction = extract_from_text(
-#         text, model_name=model_name,
+#         text, model=model_name,
 #         num_workers=6, messages=ZERO_SHOT_MULTI_GROUP['messages'],
 #         output_schema=ZERO_SHOT_MULTI_GROUP['output_schema']
 #     )
