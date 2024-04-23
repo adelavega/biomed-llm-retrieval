@@ -1,31 +1,23 @@
 import pandas as pd
 import numpy as np
 
-ZERO_SHOT_MULTI_GROUP = {
-    "search_query": "How many participants or subjects were recruited for this study?",
-    "messages": [
-        {
-            "role": "user",
-            "content": """You will be provided with a text sample from a scientific journal. 
+base_message = """You will be provided with a text sample from a scientific journal. 
                 The sample is delimited with triple backticks.
-                        
+
                 Your task is to identify groups of participants that participated in the study, and underwent MRI.
                 If there is no mention of any participant groups, return a null array.
-                
+
                 For each group identify:
                    - the number of participants in each group, and the diagnosis. 
                    - the number of male participants, and their mean age, median age, minimum and maximum age
                    - the number of female participants, and their mean age, median age, minimum and maximum age.
                    - 
                 If any of the information is missing, return `null` for that field.               
-                
-                Call the extractData function to save the output.
 
-                Text sample: ```{text}```
-                """,
-        }
-    ],
-    "output_schema": {
+                Text sample: ${text}
+                """
+
+output_schema = {
         "type": "object",
         "properties": {
             "groups": {
@@ -83,11 +75,45 @@ ZERO_SHOT_MULTI_GROUP = {
                 },
             }
         },
-    },
+    }
+
+ZERO_SHOT_MULTI_GROUP_FC = {
+    "search_query": "How many participants or subjects were recruited for this study?",
+    "messages": [
+        {
+            "role": "user",
+            "content": base_message + "\n Call the extractData function to save the output."
+        }
+    ],
+    "output_schema": output_schema
+}
+
+ZERO_SHOT_MULTI_GROUP_FW_JSON = {
+    "search_query": "How many participants or subjects were recruited for this study?",
+    "messages": [
+        {
+            "role": "user",
+            "content": f"{base_message} \n Please, ensure to responsd in JSON format using the following JSON schema: {output_schema}"
+        }
+    ],
+    "output_schema": output_schema,
+    "response_format": {"type": "json_object", "schema": output_schema},
+}
+
+ZERO_SHOT_MULTI_GROUP_OAI_JSON = {
+    "search_query": "How many participants or subjects were recruited for this study?",
+    "messages": [
+        {
+            "role": "user",
+            "content": f"{base_message} \n Please, ensure to responsd in JSON format using the following JSON schema: {output_schema}"
+        }
+    ],
+    "output_schema": output_schema,
+    "response_format": {"type": "json_object"},
 }
 
 
-def clean_gpt_demo_predictions(predictions):
+def clean_predictions(predictions):
     # Clean known issues with GPT demographics predictions
     predictions = [p for p in predictions if "groups" in p]
 
