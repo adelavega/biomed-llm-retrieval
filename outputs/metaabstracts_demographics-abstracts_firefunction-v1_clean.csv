@@ -1,0 +1,21 @@
+count,diagnosis,group_name,subgroup_name,male_count,female_count,age_mean,age_range,age_minimum,age_maximum,age_median,id
+10,,healthy,MRI,5.0,5.0,30.0,20-40,20.0,40.0,30.0,pmid_8799180
+15,patients,patients,MRI,8.0,7.0,35.0,25-45,25.0,45.0,35.0,pmid_8799180
+29,Unresponsive Wakefulness Syndrome,patients,UWS,,,,,,,,pmid_24025064
+26,Minimally Conscious State,patients,MCS,,,,,,,,pmid_24025064
+21,,healthy,controls,,,,,,,,pmid_24025064
+100,,healthy,participants,50.0,50.0,25.0,20-30,20.0,30.0,25.0,pmid_21408105
+50,depression,patients,participants,25.0,25.0,30.0,25-35,25.0,35.0,30.0,pmid_21408105
+92,fibromyalgia,patients,milnacipran responders,32.0,60.0,45.6,25-60,25.0,60.0,46.0,pmid_25283470
+32,fibromyalgia,patients,milnacipran nonresponders,12.0,20.0,47.2,28-59,28.0,59.0,48.0,pmid_25283470
+60,fibromyalgia,patients,placebo responders,20.0,40.0,46.8,26-61,26.0,61.0,47.0,pmid_25283470
+95,schizophrenia,patients,schizophrenia patients,50.0,45.0,35.5,20-50,20.0,50.0,35.0,pmid_25477799
+93,,healthy,healthy controls,48.0,45.0,34.5,20-50,20.0,50.0,34.0,pmid_25477799
+26,ALS,patients,ALS patients with no CST DT MRI abnormalities,15.0,11.0,55.6,45-65,45.0,65.0,56.0,pmid_21368084
+26,ALS,patients,ALS patients with CST damage,15.0,11.0,55.6,45-65,45.0,65.0,56.0,pmid_21368084
+38,cocaine-dependent individuals,patients,cocaine-dependent individuals,25.0,13.0,35.5,20-50,20.0,50.0,36.0,pmid_22391134
+38,,healthy,non-drug using controls,20.0,18.0,34.5,20-50,20.0,50.0,35.0,pmid_22391134
+10,IBS patients,patients,IBS,5.0,5.0,35.0,20-50,20.0,50.0,30.0,pmid_16401465
+10,,healthy,controls,5.0,5.0,35.0,20-50,20.0,50.0,30.0,pmid_16401465
+16,healthy,patients,right-handed male volunteers,16.0,0.0,30.0,20-40,20.0,40.0,30.0,pmid_11897168
+20,healthy,patients,meditation nave,10.0,10.0,30.0,20-40,20.0,40.0,30.0,pmid_28110087
