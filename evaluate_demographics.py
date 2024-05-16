@@ -37,6 +37,9 @@ def _evaluate(annotations, predictions):
             lambda x: _filter_imaging_sample(x)
         ).reset_index(drop=True)
 
+    if 'assessment_type' in predictions.columns:
+        predictions = predictions[predictions.assessment_type != 'behavioral']
+
     # Subset to only pmcids in predictions
     annotations = annotations[annotations.pmcid.isin(predictions.pmcid.unique())]
 

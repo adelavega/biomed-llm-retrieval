@@ -1,9 +1,9 @@
 import pandas as pd
 import os
 from pathlib import Path
-from publang.pipelines import search_extract
-from nipub_templates.prompts import FEW_SHOT_FC_2
+from nipub_templates.prompts import FEW_SHOT_FC, ZERO_SHOT_MULTI_GROUP_FC, FEW_SHOT_FC_2
 from nipub_templates.clean import clean_predictions
+from publang.pipelines import search_extract
 from labelrepo.projects.participant_demographics import \
         get_participant_demographics
 from labelrepo import database
@@ -37,9 +37,10 @@ fireworks_client = OpenAI(api_key=os.getenv('FIREWORKS_API_KEY'),
                           base_url='https://api.fireworks.ai/inference/v1')
 
 
-def _run(model_name, extraction_client, min_chars, max_chars, prepend=''):
+def _run(extraction_model, extraction_client, min_chars, max_chars,
+         prepend='', **extract_kwargs):
     prepend += '_'
-    short_model_name = model_name.split('/')[-1]
+    short_model_name = extraction_model.split('/')[-1]
 
     embeddings_path = output_dir / \
         f'eval_embeddings_minc-{min_chars}_maxc-{max_chars}.parquet'
@@ -52,10 +53,10 @@ def _run(model_name, extraction_client, min_chars, max_chars, prepend=''):
     predictions = search_extract(
         articles=docs, output_path=predictions_path,
         min_chars=min_chars, max_chars=max_chars,
-        embeds_path=embeddings_path, extraction_model=model_name,
+        embeds_path=embeddings_path, extraction_model=extraction_model,
         embed_model=embed_model, embed_client=openai_client,
         extraction_client=extraction_client,
-        num_workers=1, **FEW_SHOT_FC_2
+        **extract_kwargs
     )
 
     clean_predictions(predictions).to_csv(
@@ -64,12 +65,14 @@ def _run(model_name, extraction_client, min_chars, max_chars, prepend=''):
 
 
 models = [
-    ("accounts/fireworks/models/firefunction-v1", fireworks_client),
+    # ("accounts/fireworks/models/firefunction-v1", fireworks_client),
     # ("gpt-3.5-turbo-0613", openai_client),
     # ("gpt-4-0125-preview", openai_client),
+    ("gpt-4o-2024-05-13", openai_client),
 ]
 
 
 # Split body into large sections (by setting min_chars to high number)
 for model_name, client in models:
-    _run(model_name, client, 40, 4000, prepend='demographics-few-shot')
+    _run(model_name, client, 40, 4000, prepend='demographics-fewshot2',
+         **FEW_SHOT_FC_2, num_workers=10)
