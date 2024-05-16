@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+
 def clean_predictions(predictions):
     # Clean known issues with GPT demographics predictions
     predictions = [p for p in predictions if "groups" in p]
