@@ -1,0 +1,428 @@
+,count,diagnosis,group_name,subgroup_name,male_count,female_count,age_mean,age_minimum,age_maximum,age_median,pmcid
+77,18,,healthy,_,9.0,9.0,23.67,19.0,35.0,,2144768
+308,12,,healthy,_,6.0,6.0,25.4,20.0,40.0,,2151069
+49,15,,healthy,_,8.0,7.0,,,,,2390848
+229,13,phantom limb pain,patients,_,11.0,2.0,52.92,32.0,75.0,,2494616
+42,24,,healthy,_,12.0,12.0,,,,,2525845
+11,19,,healthy,rh,7.0,12.0,24.7,19.0,30.0,,2561002
+12,15,,healthy,lh,5.0,10.0,26.1,21.0,35.0,,2561002
+214,18,,healthy,_,13.0,5.0,32.0,,,,2648877
+213,15,Autism Spectrum Disorder,patients,_,12.0,3.0,38.0,,,,2648877
+269,30,,healthy,_,14.0,16.0,,,,,2748718
+56,18,,healthy,_,,,26.7,18.0,60.0,22.5,2775905
+82,10,,healthy,_,3.0,7.0,39.8,18.0,50.0,,2935390
+370,48,,healthy,_,24.0,24.0,26.4,,,,2993660
+143,12,,healthy,experiment 1,,,,,,,2995581
+144,18,,healthy,experiment 2,,,,,,,2995581
+7,15,,healthy,phobic prone,9.0,6.0,39.2,,,,3002948
+8,15,,healthy,eating disorders prone,10.0,5.0,34.4,,,,3002948
+321,19,,healthy,_,12.0,7.0,,,,,3045463
+320,21,idiopathic Parkinson's Disease,patients,_,14.0,7.0,,,,,3045463
+170,14,,healthy,_,6.0,8.0,24.8,22.0,29.0,,3078751
+361,11,,healthy,_,5.0,6.0,31.0,25.0,38.0,,3132672
+55,20,,healthy,_,12.0,8.0,24.4,,,,3147157
+252,21,Parkinson's disease,patients,_,13.0,8.0,60.8,44.0,73.0,,3182403
+333,16,,healthy,_,9.0,7.0,,18.0,35.0,,3183226
+195,12,,healthy,_,,,31.0,18.0,55.0,,3258233
+150,14,,healthy,_,,,,,,,3324921
+158,103,,healthy,_,52.0,51.0,32.5,,,,3334814
+206,24,,healthy,_,12.0,12.0,,,,,3362560
+302,10,,healthy,_,5.0,5.0,,22.0,43.0,,3407245
+249,18,,healthy,_,18.0,,25.11,21.0,33.0,,3409150
+417,14,,healthy,study 2,7.0,7.0,23.0,24.0,30.0,,3422286
+416,12,,healthy,study 1,6.0,6.0,26.0,23.0,39.0,,3422286
+378,8,mild cognitive impairment,patients,MCI,,,,,,,3423412
+379,14,Alzheimer disease,patients,AD,,,,,,,3423412
+380,14,,healthy,_,,,,,,,3423412
+67,20,amyotrophic lateral sclerosis,patients,_,,,,,,,3447931
+68,20,,healthy,_,,,,,,,3447931
+264,22,,healthy,_,5.0,17.0,,23.0,41.0,,3483694
+323,58,,healthy,_,26.0,32.0,24.02,,,,3492343
+32,24,,healthy,Würzburg,12.0,12.0,26.0,23.0,34.0,,3502502
+33,46,,healthy,Oxford,21.0,25.0,30.0,19.0,63.0,,3502502
+409,20,,healthy,_,,,,,,,3510214
+408,20,mal de debarquement syndrome,patients,_,,,,,,,3510214
+197,44,,healthy,non-smokers,,,,,,,3511796
+196,45,,healthy,smokers,,,,,,,3511796
+203,1220,,healthy,study 1,,,,,,,3520927
+204,40,,healthy,study 2,,,,,,,3520927
+319,31,,healthy,_,,,,18.0,22.0,,3539852
+46,10,,healthy,less-proficient,3.0,7.0,30.0,19.0,45.0,,3554651
+45,11,,healthy,proficient,3.0,8.0,28.73,19.0,46.0,,3554651
+281,32,,healthy,_,,,,,,,3605341
+303,19,,healthy,young,5.0,14.0,22.6,18.0,27.0,,3660406
+304,15,,healthy,old,5.0,10.0,61.1,51.0,71.0,,3660406
+297,32,,healthy,_,,,,,,,3672681
+419,33,,healthy,_,17.0,16.0,25.3,,,,3676955
+396,12,auditory hallucination,patients,ah,5.0,7.0,15.97,,,,3701149
+395,22,,healthy,_,16.0,6.0,16.0,,,,3701149
+397,13,22q11.2 Deletion Syndrome ,patients,22q11.2DS,9.0,4.0,16.14,,,,3701149
+265,10,chronic marijuana use,patients,_,8.0,2.0,,,,,3742334
+266,18,,healthy,_,11.0,7.0,,,,,3742334
+263,102,,healthy,_,,,21.5,20.0,23.0,,3775427
+147,19,obsessive–compulsive disorder,patients,_,,,,,,,3777673
+148,19,,healthy,_,,,,,,,3777673
+336,17,,healthy,_,8.0,9.0,7.4,6.9,7.8,,3780305
+22,12,,healthy,_,,,,,,,3788350
+115,12,,healthy,_,7.0,5.0,,19.0,32.0,,3791281
+114,12,"Binge drinking
+",patients,_,7.0,5.0,,19.0,32.0,,3791281
+185,48,,healthy,_,,,,8.0,36.0,,3842522
+184,42,autism,patients,_,,,,8.0,36.0,,3842522
+355,16,,healthy,_,16.0,,23.8,20.0,30.0,,3866656
+301,19,,healthy,_,10.0,9.0,22.8,19.0,31.0,,3869649
+248,18,,healthy,experiment 2,9.0,9.0,26.6,21.0,38.0,,3869681
+247,18,,healthy,experiment 1,10.0,8.0,26.3,21.0,41.0,,3869681
+234,15,,healthy,_,,,,,,,3877773
+233,17,Tourette syndrome,patients,_,,,,,,,3877773
+360,15,,healthy,_,,,25.6,22.0,30.0,,3889700
+21,25,,healthy,unhappy,,,,,,,3893192
+20,26,,healthy,happy,,,,,,,3893192
+52,6,,healthy,_,5.0,1.0,,22.0,35.0,,3894920
+415,31,,healthy,_,,31.0,,,,,3913832
+414,31,anorexia nervosa,patients,_,,31.0,,,,,3913832
+174,18,,healthy,study 2,,18.0,24.0,20.0,30.0,,3965851
+173,24,,healthy,study 1,,24.0,24.0,20.0,30.0,,3965851
+74,17,,healthy,_,,,,,,,3984441
+73,16,dementia with Lewy bodies,patients,_,,,,,,,3984441
+376,220,,healthy,adolescents,115.0,105.0,14.61,14.0,15.0,,3991323
+377,28,,healthy,adults,17.0,11.0,25.24,20.0,39.0,,3991323
+86,19,,healthy,_,,,,,,,4017227
+85,23,Mesial temporal lobe epilepsy,patients,_,,,,,,,4017227
+19,10,,healthy,_,7.0,3.0,27.72,,,,4029023
+267,27,Social anxiety disorder,patients,_,15.0,12.0,,,,,4029608
+268,27,,healthy,_,14.0,13.0,,,,,4029608
+386,23,,healthy,_,,,15.2,,,,4030253
+387,18,Internet Addiction,patients,_,,,15.1,,,,4030253
+145,13,,healthy,dcg,5.0,8.0,23.1,,,,4034409
+146,13,,healthy,tcg,4.0,9.0,23.5,,,,4034409
+373,13,,healthy,_,4.0,9.0,48.7,38.0,62.0,,4048172
+372,13,Chronic Back Pain,patients,_,4.0,9.0,51.8,43.0,65.0,,4048172
+270,16,,healthy,_,10.0,6.0,30.1,18.0,40.0,,4072722
+66,12,,healthy,_,7.0,5.0,38.0,23.0,60.0,,4075342
+63,272,,healthy,_,123.0,149.0,24.454779411764704,18.0,68.0,,4115625
+76,46,,healthy,_,,46.0,,,,,4174863
+75,157,incarcerated,patients,_,,157.0,,,,,4174863
+343,30,knee osteoarthritis,patients,_,,,,,,,4175730
+311,37,Parkinson's disease,patients,_,17.0,20.0,,,,,4184784
+312,34,,healthy,_,22.0,12.0,,,,,4184784
+198,30,Attention Deficit Hyperactivity Disorder,patients,_,,,,10.0,17.0,,4190683
+199,30,,healthy,_,,,,10.0,17.0,,4190683
+402,22,,healthy,_,,,,,,,4215530
+401,24,"Very preterm birth
+",patients,_,,,,,,,4215530
+232,18,,healthy,_,18.0,,23.9,18.0,33.0,,4255751
+163,18,Autism spectrum conditions,patients,_,,,30.4,,,,4265725
+164,18,,healthy,_,,,28.6,,,,4265725
+317,20,,healthy,_,,,5.8,5.2,6.8,,4274095
+71,10,,healthy,pet,,,,,,,4280551
+72,15,,healthy,fmri,,,,,,,4280551
+23,18,,healthy,_,9.0,9.0,,20.0,32.0,,4318429
+287,284,,healthy,_,144.0,140.0,25.0,,,,4319399
+190,23,,healthy,_,18.0,5.0,22.0,,,,4330553
+129,32,,healthy,_,17.0,15.0,,25.0,27.0,,4332461
+315,22,,healthy,Experiment 1,17.0,5.0,,19.0,41.0,,4349631
+316,16,,healthy,Experiment 2,11.0,5.0,,20.0,59.0,,4349631
+91,19,,healthy,dataset 2,,,,,,,4352055
+90,20,,healthy,dataset 1,,,,,,,4352055
+424,40,,healthy,_,20.0,20.0,20.0,18.0,23.0,,4370584
+298,33,,healthy,_,33.0,,,,,,4380440
+351,53,social anxiety disorder,patients,_,36.0,17.0,29.9,,,,4416052
+352,33,,healthy,_,19.0,14.0,29.4,,,,4416052
+194,23,,healthy,_,11.0,12.0,24.2,18.0,31.0,,4436102
+255,14,,healthy,experiment 2,,,,,,,4458841
+254,15,,healthy,experiment 1,,,,,,,4458841
+65,18,,healthy,_,8.0,10.0,63.0,,,,4473263
+64,32,chronic left-hemisphere stroke,patients,_,27.0,5.0,62.0,,,,4473263
+205,20,,healthy,_,12.0,8.0,24.0,,,,4477935
+347,18,,healthy,_,10.0,8.0,25.0,22.0,29.0,,4493392
+122,1,thermo-coagulation lesions in the left parahippocampal cortex,patients,lph,,,,,,,4522562
+117,10,epilepsy,patients,epilepsy,,,,,,,4522562
+118,14,refractory epilepsy,patients,refractory epilepsy,,,,,,,4522562
+116,8,chronic lumbar back-pain,patients,chronic lumbar back-pain,,,,,,,4522562
+120,5, thermo-coagulation lesions in the right parahippocampal cortex,patients,rpc,,,,,,,4522562
+121,3,thermo-coagulation lesions in the left hippocampus,patients,lh,,,,,,,4522562
+119,5,thermo-coagulation lesions in the right hippocampus,patients,rh,,,,,,,4522562
+17,23,anorexia nervosa,patients,_,,23.0,,,,,4530666
+18,24,,healthy,_,,24.0,,,,,4530666
+412,11,,healthy,_,5.0,6.0,56.0,,,,4589842
+411,11,Depression,patients,_,5.0,6.0,61.0,,,,4589842
+293,20,,healthy,_,16.0,4.0,,20.0,36.0,,4717328
+384,21,Essential tremor,patients,_,12.0,9.0,51.6,,,,4732188
+385,21,,healthy,_,14.0,7.0,50.6,,,,4732188
+103,20,,healthy,_,9.0,11.0,21.95,18.0,35.0,,4810172
+277,15,,healthy,_,15.0,,22.33,,,,4838249
+58,29,,healthy,_,15.0,14.0,26.76,,,,4869560
+57,29,major depressive disorder,patients,_,,,,,,,4869560
+392,21,,healthy,_,,,,,,,4936600
+391,14,Developmental coordination disorder and attention-deficit hyperactivity disorder,patients,dcd+adhd,,,,,,,4936600
+389,6,Developmental coordination disorder,patients,dcd,,,,,,,4936600
+390,19,attention-deficit hyperactivity disorder,patients,adhd,,,,,,,4936600
+29,18,,healthy,_,,18.0,21.04,,,,4975394
+124,19,,healthy,_,8.0,11.0,33.0,20.0,52.0,,4983635
+123,45,major depressive disorder,patients,_,16.0,29.0,37.0,19.0,58.0,,4983635
+88,40,heroin addiction,patients,_,40.0,,,,,,4990879
+279,21,posttraumatic stress disorder,patients,_,,,,,,,5030332
+284,56,,healthy,_,,56.0,24.3,,,,5068584
+126,21,Severe Childhood Abuse,patients,severe childhood abuse,15.0,6.0,17.5,,,,5104469
+127,19,,patients,psychiatric controls,9.0,10.0,16.9,,,,5104469
+128,27,,healthy,_,21.0,6.0,17.5,,,,5104469
+51,17,,healthy,_,7.0,10.0,25.0,19.0,30.0,,5218407
+94,37,,healthy,_,,,,,,,5266856
+93,39,Poststroke Aphasia,patients,_,,,,,,,5266856
+83,15,,healthy,_,15.0,,26.0,,,,5270359
+227,16,autism spectrum disorder,patients,_,16.0,,,8.0,18.0,,5279905
+228,16,,healthy,_,,,,,,,5279905
+209,33,schizophrenia,patients,_,,,,,,,5292583
+210,35,,healthy,_,,,,,,,5292583
+38,15,,healthy,_,7.0,8.0,23.8,,,,5324609
+201,17,,healthy,_,,,,,,,5339238
+200,14,former iron deficiency anemia,patients,_,,,,,,,5339238
+342,15,,healthy,_,6.0,9.0,25.0,20.0,37.0,,5371603
+341,14,deafness,patients,_,3.0,11.0,25.0,18.0,33.0,,5371603
+140,233,,healthy,_,116.0,117.0,16.1,9.9,26.6,,5390693
+306,42,bronchial asthma without acute attacks,patients,_,,,,,,,5394595
+307,60,,healthy,_,,,,,,,5394595
+256,34,Alcohol dependence,patients,_,34.0,,,,,,5413198
+257,26,,healthy,_,26.0,,,,,,5413198
+238,19,,healthy,validation study,,,,18.0,65.0,,5416685
+235,20,unipolar major depression,patients,primary study,,,,18.0,65.0,,5416685
+237,19,,healthy,primary study,,,,18.0,65.0,,5416685
+236,19,unipolar major depression,patients,validation study,,,,18.0,65.0,,5416685
+208,32,,healthy,_,13.0,19.0,23.97,,,,5428836
+350,33,,healthy,_,,,,,,,5447679
+87,75,chronic dieters,patients,_,,75.0,19.38,18.0,23.0,,5460048
+172,56,,healthy,_,54.0,2.0,34.4,21.0,60.0,,5460049
+406,16,obesity,patients,_,,16.0,46.31,,,,5537800
+251,47,,healthy,_,,47.0,19.62,,,,5548834
+356,16,Asymptomatic Carotid Stenosis,patients,_,,,,,,,5552726
+365,52,,healthy,old hc,,,,,,,5598991
+364,60,,healthy,young hc,,,,,,,5598991
+362,58,early adult onset depression,patients,eod,,,,,,,5598991
+363,62,later adult onset depression,patients,lod,,,,,,,5598991
+95,18,Parkinson's disease with anxiety disorder,patients,PD-A,,,,,,,5655292
+96,45,Parkinson's disease without anxiety disorder,patients,PD-NA,,,,,,,5655292
+166,15,,healthy,_,,,,60.0,70.0,,5665859
+165,72,ischemic stroke,patients,_,,,,60.0,70.0,,5665859
+24,10,idiopathic musculoskeletal pain,patients,_,1.0,9.0,16.3,,,,5686883
+25,10,,healthy,_,1.0,9.0,16.1,,,,5686883
+388,40,,healthy,_,24.0,16.0,68.4,,,,5717028
+78,8,,healthy,_,5.0,3.0,,19.0,27.0,,5719057
+135,13,Developmental dyscalculia,patients,follow-up,,,,,,,5758587
+136,11,,healthy,baseline,,,,,,,5758587
+137,8,,healthy,follow-up,,,,,,,5758587
+134,14,Developmental dyscalculia,patients,baseline,,,,,,,5758587
+139,25,temporal lobe epilepsy,patients,_,13.0,12.0,33.6,20.0,45.0,,5761874
+138,23,,healthy,_,15.0,8.0,31.1,19.0,44.0,,5761874
+14,21,,healthy,_,21.0,,25.77,20.0,40.0,,5776089
+207,16,,healthy,_,6.0,10.0,23.1,19.0,29.0,,5832413
+180,5,Tourette syndrome,patients,_,3.0,2.0,27.0,,,,5857897
+366,28,autism spectrum disorder,patients,_,,,,10.0,17.0,,5870086
+50,30,,healthy,_,10.0,20.0,,18.0,25.0,,5881103
+182,31,,healthy,_,,,,25.0,27.0,,5890144
+262,17,,healthy,study 2 experiment 1,5.0,12.0,24.0,18.0,31.0,,5902547
+261,44,,healthy,experiment 2,11.0,33.0,22.0,,,,5902547
+260,41,,healthy,experiment 1,16.0,25.0,19.0,,,,5902547
+407,27,left hemisphere infarcts,patients,_,,,59.1,,,,5903407
+216,100,Multi-Problem Young Adults,patients,_,100.0,,,,,,6004505
+217,22,,healthy,_,22.0,,,,,,6004505
+157,10,,healthy,experiment 2,,,,,,,6016936
+156,14,,healthy,experiment 1,,,,,,,6016936
+282,21,posttraumatic stress disorder,patients,_,6.0,15.0,21.5,18.0,31.0,,6024199
+283,21,,healthy,_,7.0,14.0,22.1,18.0,37.0,,6024199
+250,20,,healthy,_,1.0,19.0,,18.0,31.0,,6136263
+92,15,,healthy,_,8.0,7.0,22.21,,,,6195265
+242,44,schizophrenia,patients,_,,,,,,,6197719
+244,44,,healthy,controls,,,,,,,6197719
+243,42,,healthy,siblings,,,,,,,6197719
+112,11,,healthy,_,7.0,4.0,28.0,,,,6198067
+334,44,relapsing-remitting multiple sclerosis,patients,_,,,,,,,6200185
+335,25,,healthy,_,,,,,,,6200185
+288,22,,healthy,fMRI,11.0,11.0,23.3,,,,6215330
+289,21,,healthy,EEG,9.0,12.0,26.76,,,,6215330
+5,12,cockroach phobia,patients,_,4.0,8.0,,,,,6220927
+6,12,,healthy,_,4.0,8.0,,,,,6220927
+107,70,,healthy,_,,,,,,,6246657
+106,21,bipolar disorder,patients,bdd,,,,,,,6246657
+105,40,major depressive disorder,patients,mdd,,,,,,,6246657
+26,26,Psychogenic erectile dysfunction,patients,_,26.0,,26.8,,,,6290711
+27,26,,healthy,_,26.0,,28.5,,,,6290711
+192,11,,healthy,_,8.0,3.0,33.1,25.0,47.0,,6328158
+104,16,,healthy,_,8.0,8.0,22.5,,,,6344389
+188,38,ADHD,patients,_,18.0,20.0,,,,,6347794
+102,32,,healthy,_,,,,,,,6350268
+101,31,"vascular mild cognitive impairment
+",patients,_,,,,,,,6350268
+211,17,panic disorder,patients,_,2.0,15.0,,,,,6382839
+212,17,,healthy,_,4.0,13.0,,,,,6382839
+230,42,Parkinson’s disease,patients,_,,,,,,,6389716
+231,40,,healthy,_,,,,,,,6389716
+161,18,Juvenile myoclonic epilepsy,patients,_,3.0,15.0,30.11,20.0,48.0,,6412974
+162,24,,healthy,_,14.0,10.0,33.2,,,,6412974
+324,55,,healthy,_,55.0,,24.255,18.0,35.0,,6434022
+393,41,ulcerative colitis,patients,_,25.0,16.0,37.1,20.0,54.0,,6457314
+394,42,,healthy,_,25.0,17.0,36.86,22.0,55.0,,6457314
+423,820,,healthy,HCP,,,,,,,6492297
+425,26,hearing loss,patients,_,,,,,,,6509414
+292,10,,healthy,_,4.0,6.0,20.8,,,,6528067
+344,12,,healthy,young adults,8.0,4.0,25.2,,,,6585311
+345,9,,healthy,controls,4.0,5.0,64.2,,,,6585311
+346,10,chronic post-stroke hemiparesis,patients,_,6.0,4.0,66.7,,,,6585311
+44,151,schizophrenia,patients,_,114.0,37.0,37.8,,,,6611425
+43,163,,healthy,_,117.0,46.0,36.9,,,,6611425
+113,27,,healthy,_,,,,,,,6646524
+224,51,,healthy,study 1 adults,10.0,41.0,43.71,27.49,55.91,,6664004
+225,53,,healthy,study 1 adolescents,26.0,27.0,13.37,12.18,14.82,,6664004
+226,51,,healthy,study 2 adolescents,26.0,25.0,13.98,12.03,15.94,,6664004
+410,12,chronic tinnitus,patients,_,,,,,,,6667657
+130,50,Idiopathic Parkinson’s disease,patients,_,29.0,21.0,57.7,,,,6675526
+131,20,,healthy,_,11.0,9.0,54.6,,,,6675526
+318,61,Pedophilic Child Sexual Offenders,patients,_,61.0,,,,,,6678781
+331,17,,healthy,_,,17.0,20.7,18.0,23.0,,6688454
+155,21,,healthy,_,,,23.04,18.0,35.0,,6697392
+89,5,supratentorial gliomas,patients,_,2.0,3.0,33.7,,,,6699415
+154,18,,healthy,_,9.0,9.0,30.3,,,,6726765
+272,16,,healthy,_,12.0,4.0,,18.0,40.0,,6787094
+310,20,,healthy,_,,20.0,42.1,21.0,70.0,,6820536
+309,20,fibromyalgia,patients,_,,20.0,46.4,22.0,70.0,,6820536
+280,31,,healthy,_,10.0,21.0,24.3,20.0,29.0,,6847157
+53,121,panic disorder with agoraphobia,patients,_,,,,,,,6854061
+54,77,,healthy,_,,,,,,,6854061
+367,29,,healthy,_,15.0,14.0,34.5,,,,6868994
+175,8,right-sided cerebral palsy,patients,_,3.0,5.0,,10.0,30.0,,6878729
+400,20,,healthy,_,9.0,11.0,67.8,56.0,77.0,,6902076
+399,17,Dementia with Lewy bodies,patients,_,13.0,4.0,71.88,60.0,82.0,,6902076
+215,70,bipolar disorder,patients,_,,,37.0,18.0,65.0,,6908505
+193,26,,healthy,_,,,,,,,6908964
+191,13,,healthy,_,8.0,5.0,,20.0,22.0,,6989437
+413,20,,healthy,_,10.0,10.0,22.3,19.0,28.0,,7002496
+337,28,,healthy,young,19.0,9.0,24.39,18.0,34.0,,7004957
+338,23,,healthy,old,,,,,,,7004957
+159,26,,healthy,_,17.0,9.0,11.4,8.0,16.0,,7005761
+278,104,,healthy,_,,,17.11,12.27,21.96,,7038454
+322,55,,healthy,_,17.0,38.0,13.0,,,,7057279
+31,45,,healthy,_,22.0,23.0,32.0,,,,7082218
+30,223,mood and/or anxiety disorder,patients,_,61.0,162.0,36.0,,,,7082218
+48,32,,healthy,_,,,,,,,7090024
+47,35,subjective cognitive decline,patients,_,,,,,,,7090024
+183,57,,healthy,_,31.0,26.0,10.19,,,,7099000
+353,43,major depressive disorder,patients,_,13.0,30.0,,,,,7118554
+354,56,,healthy,_,30.0,26.0,,,,,7118554
+189,33,,healthy,_,18.0,15.0,25.242,,,,7156375
+286,28,,healthy,_,,,,8.0,18.0,,7194032
+285,26,Autism spectrum disorder,patients,_,,,,8.0,18.0,,7194032
+34,39,,healthy,tsd,22.0,17.0,33.5,,,,7260173
+35,15,,healthy,control,7.0,8.0,34.5,,,,7260173
+60,32,,healthy,never pregnant,,32.0,,,,,7272423
+59,25,,healthy,post-partum,,25.0,,,,,7272423
+382,18,lung cancer,patients,_,,,,48.0,70.0,,7275001
+383,21,,healthy,_,,,,48.0,70.0,,7275001
+177,37,,healthy,_,,,,,,,7275020
+176,53,acute mild traumatic brain injury,patients,_,,,,,,,7275020
+357,20,,healthy,_,9.0,11.0,23.0,18.0,27.0,,7339141
+339,19,,healthy,work with children,9.0,10.0,,,,,7395771
+340,19,,healthy,no work with children,9.0,10.0,,,,,7395771
+218,7,,healthy,_,7.0,,23.5,21.0,28.0,,7406917
+405,54,Chronic cannabis users,patients,_,,,,,,,7416060
+404,90,,healthy,_,,,,,,,7416060
+125,13,,healthy,_,,,28.4,19.0,45.0,,7430162
+239,19,,healthy,_,12.0,7.0,27.9,,,,7456884
+403,28,,healthy,_,15.0,13.0,26.39,,,,7481390
+349,20,,healthy,_,,,,,,,7485713
+348,24,multiple system atrophy,patients,_,,,,,,,7485713
+359,10,,healthy,_,5.0,5.0,67.7,,,,7493988
+358,10,essential tremor ,patients,_,6.0,4.0,69.4,,,,7493988
+153,24,,healthy,_,,24.0,,,,,7518235
+152,24,post-prandial distress subtype functional dyspepsia without major depressive disorder,patients,fd-pds-no-mdd,,24.0,,,,,7518235
+151,24,post-prandial distress subtype functional dyspepsia with major depressive disorder,patients,fd-pds-mdd,,24.0,,,,,7518235
+141,50,acute mild traumatic brain injury,patients,_,,,,,,,7539836
+142,43,,healthy,_,,,,,,,7539836
+149,29,,healthy,_,,,,,,,7563756
+100,12,,healthy,_,5.0,7.0,25.8,,,,7649291
+328,255,autism spectrum disorder,patients,dataset 2,224.0,31.0,17.05,7.0,55.4,,7721229
+329,160,,healthy,dataset 1,115.0,45.0,37.04,19.0,59.0,,7721229
+330,314,,healthy,dataset 2,249.0,65.0,17.04,6.47,56.2,,7721229
+327,151,schizophrenia,patients,dataset 1,115.0,36.0,38.77,18.0,62.0,,7721229
+160,46,,healthy,_,32.0,14.0,22.61,,,,7745153
+15,7,,healthy,hcd,2.0,5.0,31.0,,,,7758977
+16,6,,healthy,fasting,1.0,5.0,29.0,,,,7758977
+332,34,,healthy,_,,,73.2,56.0,83.0,,7779563
+259,39,,healthy,_,,,,,,,7829678
+258,53,Type 2 diabetes mellitus,patients,_,,,,,,,7829678
+420,19,mesial temporal lobe epilepsy,patients,_,11.0,8.0,45.3,,,,7836234
+421,19,,healthy,_,10.0,9.0,45.8,,,,7836234
+111,28,,healthy,_,14.0,14.0,,55.0,81.0,,7838677
+109,11,amnestic mild cognitive impairment,patients,amci,4.0,7.0,,65.0,81.0,,7838677
+110,6,mild Alzheimer's dementia,patients,mad,4.0,2.0,,65.0,81.0,,7838677
+36,17,schizophrenia,patients,_,,,,,,,7851842
+37,18,,healthy,_,,,,,,,7851842
+299,19,major depressive disorder,patients,_,,,,18.0,55.0,,7875881
+300,17,,healthy,_,,,,18.0,55.0,,7875881
+202,63,,healthy,_,36.0,27.0,37.0,22.0,55.0,,7913329
+422,15,,healthy,_,5.0,10.0,31.6,22.0,54.0,,7981326
+13,29,,healthy,_,16.0,13.0,23.6,21.0,33.0,,7989009
+418,24,,healthy,_,12.0,12.0,25.3,21.0,34.0,,7994216
+245,30,,healthy,fmri experiment,9.0,21.0,23.0,,,,8018944
+246,9,,healthy,tms-mep experiment,2.0,7.0,24.0,,,,8018944
+381,39,,healthy,_,21.0,18.0,21.33,18.0,24.0,,8152834
+368,11,stroke,patients,_,11.0,,56.21,45.0,68.0,,8154462
+369,9,,healthy,_,9.0,,53.7,40.0,67.0,,8154462
+168,40,,healthy,_,8.0,32.0,,25.0,63.0,,8172304
+169,32,chronic urticaria,patients,_,6.0,26.0,,25.0,65.0,,8172304
+179,27,,healthy,_,18.0,9.0,14.49,,,,8213933
+178,28,autism spectrum disorder,patients,_,20.0,8.0,14.58,,,,8213933
+325,104,White matter hyperintensities,patients,_,,,,,,,8315277
+326,37,,healthy,_,,,,,,,8315277
+133,32,,healthy,old,,,,65.0,81.0,,8318202
+132,29,,healthy,young,,,,19.0,30.0,,8318202
+223,67,,healthy,_,36.0,31.0,15.6,,,,8379626
+40,54,,healthy,_,26.0,28.0,,,,,8459240
+39,55,cocaine use disorder ,patients,_,27.0,28.0,,,,,8459240
+62,18,,healthy,_,9.0,9.0,,55.0,,,8544331
+61,18,neovascular age-related macular degeneration,patients,_,9.0,9.0,,55.0,,,8544331
+291,35,,healthy,_,26.0,9.0,27.12,,,,8550949
+290,31,schizophrenia,patients,_,26.0,5.0,26.64,,,,8550949
+241,30,,healthy,_,12.0,18.0,47.63,,,,8569140
+240,30,hemifacial spasm,patients,_,12.0,18.0,48.87,,,,8569140
+271,595,,healthy,_,218.0,377.0,39.47,8.0,83.0,,8615904
+181,24,,healthy,_,10.0,14.0,34.5,,,,8699602
+41,110,,healthy,_,,,,,,,8752963
+305,20,,healthy,_,14.0,6.0,24.0,20.0,34.0,,8764488
+187,79,,healthy,_,,,,,,,8782893
+186,88,attention/deficit hyperactivity disorder,patients,_,,,,,,,8782893
+81,31,,healthy,_,,,,,,,8785614
+80,26,periventricular venous infarction,patients,pvi,,,,,,,8785614
+79,26,arterial ischemic stroke,patients,ais,,,,,,,8785614
+219,14,posttraumatic stress disorder,patients,_,,,,,,,8785646
+220,15,,healthy,_,,,,,,,8785646
+167,216,,healthy,_,,,,,,,8828908
+108,20,,healthy,_,9.0,11.0,,21.0,31.0,,8837589
+426,28,schizophrenia,patients,schizophrenia,20.0,8.0,,21.0,54.0,,8883821
+428,30,,healthy,_,22.0,8.0,,19.0,54.0,,8883821
+427,20,autism spectrum disorder,patients,autism spectrum disorder,16.0,4.0,,19.0,43.0,,8883821
+253,10,,healthy,_,7.0,3.0,26.6,,,,8893203
+9,66,Temporal lobe epilepsy,patients,_,,,,,,,8933317
+10,31,,healthy,_,,,,,,,8933317
+296,23,,healthy,_,,,,,,,8933759
+294,12,Left Mesial Temporal Lobe Epilepsy,patients,LMTLE,,,,,,,8933759
+295,11,Right Mesial Temporal Lobe Epilepsy,patients,RMTLE,,,,,,,8933759
+98,23,,healthy,_,10.0,13.0,21.13,,,,8939409
+97,24,internet addiction,patients,_,14.0,10.0,20.58,,,,8939409
+171,1,GNE myopathy with congenital thrombocytopenia,patients,_,1.0,,,,,,8978988
+313,163,,healthy,_,117.0,46.0,36.9,,,,9057100
+314,151,schizophrenia,patients,_,114.0,37.0,37.8,,,,9057100
+84,134,,healthy,_,72.0,62.0,5.34,5.08,5.22,,9108497
+374,38,,healthy,NC,16.0,22.0,,,,,9205431
+375,38,,healthy,APOE,16.0,22.0,,,,,9205431
+69,20,offenders,patients,_,20.0,,,,,,9230060
+70,20,,healthy,_,20.0,,,,,,9230060
+28,173,tuberous sclerosis complex,patients,_,,,,,,,9308181
+273,539,autism spectrum disorder,patients,abide 1,,,,,,,9407088
+274,521,autism spectrum disorder,patients,abide 2,,,,,,,9407088
+275,573,,healthy,abide 1,,,,,,,9407088
+276,593,,healthy,abide 2,,,,,,,9407088
+221,100,schizophrenia,patients,_,,,,,,,9435010
+222,50,,healthy,_,,,,,,,9435010
+398,6,Pontocerebellar hypoplasia,patients,_,,,,,,,9461104
+99,23,,healthy,_,23.0,,29.9,,,,9548384
+371,1418,,healthy,_,546.0,872.0,22.39,18.0,35.0,,9564100

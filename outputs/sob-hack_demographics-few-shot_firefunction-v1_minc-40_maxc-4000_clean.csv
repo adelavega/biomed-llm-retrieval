@@ -1,0 +1,53 @@
+count,diagnosis,group_name,subgroup_name,male_count,female_count,age_mean,age_range,age_minimum,age_maximum,age_median,imaging_sample,pmcid,rank,start_char,end_char
+31,none,healthy,participants,0,0,27.0,20-40,20,40,27,no,11014977,0,56202,57042
+15,healthy,healthy,volunteers,2,9,27.87,27.87±5.17,22,35,28,no,10984539,0,32464,33011
+22,none,healthy,females,0,22,28.1,20-49 years,20,49,28,no,10964920,0,8889,9559
+20,healthy,healthy,participants,11,9,36.196,19.6,19,60,36,no,11039764,0,4667,5516
+255,neurotypical,healthy,Han Chinese,131,124,21.62,17-29 years,17,29,21,yes,10980722,0,7476,9267
+73,none,healthy,none,29,44,22.3,18-39,18,39,22,no,10956805,0,9936,11058
+54,cocaine use disorder,patients,cocaine use disorder,37,17,35.2,20-60,20,60,35,no,11035677,0,2922,4844
+62,low-risk preterm,patients,preterm,15,18,25.33,20-32,20,32,25,no,10917835,0,5207,6741
+25,smokers,healthy,in-person,12,13,25.53,18-30,18,30,25,yes,10854308,0,20010,22512
+17,smokers,healthy,in-person,10,7,24.7,19-30,19,30,24,yes,10854308,0,20010,22512
+72,smokers,healthy,online,36,36,25.53,18-30,18,30,25,no,10854308,0,20010,22512
+147,non-smokers,healthy,online,73,74,25.53,18-30,18,30,25,no,10854308,0,20010,22512
+0,none,healthy,none,0,0,0.0,none,0,0,0,no,10877862,0,32425,32715
+13,healthy,healthy,fMRI,9,1,24.0,19-29,19,29,24,yes,10839845,0,6376,7755
+36,MDD,patients,MDD,10,26,28.03,28.03±10.20,28,48,28,no,11026377,0,9944,11766
+43,healthy,healthy,healthy,16,27,29.42,29.42±12.56,20,52,29,no,11026377,0,9944,11766
+79,"HC, UD, BD18 Type I, Type II",healthy,"HC, UD, BD18 Type I, Type II",31,48,25.5,18-35,18,35,25,yes,10995093,0,20421,20910
+20,healthy,healthy,behavioral,7,13,25.53,25.5±3,22,29,25,no,10853141,0,3395,3599
+105,ADHD,patients,boys,55,0,12.3,10-15,10,15,12,yes,10917226,0,4564,5996
+50,TD,healthy,boys,50,0,12.5,10-15,10,15,12,yes,10917226,0,4564,5996
+16,mild or moderate AD,patients,AD,0,0,0.0,,0,0,0,no,11024046,0,2357,3542
+16,healthy,healthy,HCs,0,0,0.0,,0,0,0,no,11024046,0,2357,3542
+122,relapsingremitting MS,patients,MS patients,38,84,37.69,37.69±9.9,18,65,37,yes,11033924,0,5075,6662
+97,healthy,healthy,HC subjects,41,56,38.11,38.11±12.0,18,65,38,yes,11033924,0,5075,6662
+86,none,healthy,fMRI,40,46,22.9,22.4-23.4,22,24,23,yes,10945575,0,25915,27587
+335,amyloid- and tau-PET sample,healthy,PET sample,150,185,70.5,60-80,60,80,70,yes,10997795,0,4659,8182
+713,fMRI sample,healthy,fMRI sample,350,363,65.3,55-75,55,75,65,yes,10997795,0,4659,8182
+16,musicians,healthy,musicians,3,5,44.1,20-67,20,67,44,yes,10917383,0,8330,10286
+16,non-musicians,healthy,non-musicians,3,5,43.0,20-63,20,63,43,yes,10917383,0,8330,10286
+74,SZ,patients,COBRE,59,15,37.43,18-65,18,65,37,yes,10968155,0,6365,9362
+10,BPD,patients,faces task,5,5,25.5,20-30,20,30,25,yes,10870473,0,15576,16365
+1,study design,healthy,author contributions,1,0,0.0,0,0,0,0,no,10850607,0,22941,23284
+1,healthy,healthy,materials,1,0,0.0,,0,0,0,no,11063816,0,7018,8735
+2953,autism or Asperger syndrome,patients,cognitive functions,86,35,0.0,0-0,0,0,0,yes,11016874,0,14869,17260
+1,healthy,healthy,ethics,1,0,25.5,25-25,25,25,25,no,10839335,0,30949,31125
+10,healthy,healthy,autobiographical recall,5,5,25.5,20-30,20,30,25,yes,11011908,0,9620,10840
+31,TLE,patients,TLE,12,19,10.5,10-11,10,11,10,yes,10936866,0,4436,5959
+35,healthy,healthy,healthy,17,18,33.5,33-12,33,35,33,no,10936866,0,4436,5959
+29,NDPH,patients,NDPH,15,14,37.0021,37.00-21.06,37,21,37,yes,10958407,0,12307,13884
+37,healthy,healthy,healthy,16,21,34.891,34.89-10.96,34,10,34,yes,10958407,0,12307,13884
+22,healthy,healthy,young adults,22,0,22.81,22.81.2,22,22,22,yes,10858222,0,7771,8812
+178,PME,patients,prenatally exposed to marijuana,35,143,12.5,10-15,10,15,12,yes,10914455,0,16886,17539
+90,unexposed,healthy,unexposed to marijuana,37,53,12.3,10-15,10,15,12,yes,10914455,0,16886,17539
+10,healthy,healthy,group1,5,5,25.5,20-30,20,30,25,yes,10907080,0,22901,23209
+58,PD,patients,NC,39,19,70.03,70.03,70,70,70,no,10999557,0,10098,11022
+10,refractory epilepsy,patients,temporal lobe resection,5,5,30.0,20-40,20,40,30,yes,11069337,0,3836,5117
+20,healthy,healthy,behavioral,7,13,25.53,25.5±3,22,29,25,no,10937914,0,68706,68822
+395,healthy,healthy,resting-state fMRI,197,198,24.15,22-36 years,22,36,24,yes,11000510,0,17043,19433
+7392,TBI,patients,mild,5082,2310,35.6,18-65,18,65,35,yes,10982609,0,11326,14401
+3,refractory focal epilepsy,patients,ECoG implantation,2,1,30.0,25-35,25,35,30,yes,10968112,0,4615,5935
+1,approved,healthy,animal,1,0,0.0,,0,0,0,no,10961455,0,55355,55596
+7,LITT candidates,patients,fMRI-adjuvant LITT candidates,3,4,45.5,25-60,25,60,45,yes,10844152,0,1773,4306

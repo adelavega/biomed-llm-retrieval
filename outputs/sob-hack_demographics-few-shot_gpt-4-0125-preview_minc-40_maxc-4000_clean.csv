@@ -1,0 +1,71 @@
+count,diagnosis,group_name,subgroup_name,male_count,female_count,age_mean,age_range,age_minimum,age_maximum,age_median,imaging_sample,pmcid,rank,start_char,end_char
+31.0,,healthy,,14.0,17.0,27.0,20-40,20.0,40.0,,no,11014977,0,56202,57042
+15.0,,healthy,,6.0,9.0,27.87,,,,,no,10984539,0,32464,33011
+22.0,,healthy,,0.0,22.0,28.1,20-49,20.0,49.0,,no,10964920,0,8889,9559
+20.0,,healthy,,11.0,9.0,36.19,19.6,,,,no,11039764,0,4667,5516
+229.0,,healthy,neurotypical Han Chinese,114.0,115.0,21.62,17-29,17.0,29.0,,yes,10980722,0,7476,9267
+73.0,,healthy,,29.0,44.0,22.3,18-39,18.0,39.0,,no,10956805,0,9936,11058
+54.0,cocaine use disorder,patients,,,,,,,,,no,11035677,0,2922,4844
+33.0,low-risk preterm,patients,preterm,,,25.33,20-32,20.0,32.0,,no,10917835,0,5207,6741
+29.0,full-term,healthy,full-term,,,26.41,20-32,20.0,32.0,,no,10917835,0,5207,6741
+25.0,,healthy,in-person non-smokers,,,,,,,,yes,10854308,0,20010,22512
+17.0,nicotine-smoking,patients,in-person smokers,,,,,,,,yes,10854308,0,20010,22512
+72.0,nicotine-smoking,patients,online smokers,,,,,,,,no,10854308,0,20010,22512
+147.0,,healthy,online non-smokers,,,,,,,,no,10854308,0,20010,22512
+13.0,,healthy,"fMRI, MEG, PET",9.0,1.0,24.0,19-29,19.0,29.0,,yes,10839845,0,6376,7755
+36.0,major depressive disorder,patients,,10.0,26.0,28.03,null,,,,no,11026377,0,9944,11766
+43.0,,healthy,,16.0,27.0,29.42,null,,,,no,11026377,0,9944,11766
+31.0,Healthy Control,healthy,HC,,,,,,,,yes,10995093,0,20421,20910
+27.0,Unipolar Depression,patients,UD,,,,,,,,yes,10995093,0,20421,20910
+21.0,Bipolar Disorder Type I,patients,BD18 Type I,,,,,,,,yes,10995093,0,20421,20910
+3.0,Bipolar Disorder Type II,patients,Type II,,,,,,,,yes,10995093,0,20421,20910
+1460.0,,healthy,general population,,,,,,,,yes,10853141,1,22237,25997
+736.0,depression,patients,depression cohort,,,,,,,,yes,10853141,1,22237,25997
+52.0,cardiovascular disease,patients,cardiovascular disease cohort,,,,,,,,yes,10853141,1,22237,25997
+46.0,ADHD,patients,ADHD,46.0,0.0,,,,,,yes,10917226,0,4564,5996
+46.0,,healthy,TD,46.0,0.0,,,,,,yes,10917226,0,4564,5996
+16.0,mild or moderate Alzheimer's Disease,patients,AD subjects,,,,,,,,yes,11024046,0,2357,3542
+16.0,,healthy,HCs,,,,,,,,yes,11024046,0,2357,3542
+122.0,relapsing-remitting MS,patients,,38.0,84.0,37.69,18-65,18.0,65.0,,yes,11033924,0,5075,6662
+97.0,,healthy,,41.0,56.0,38.1,18-65,18.0,65.0,,yes,11033924,0,5075,6662
+50.0,,healthy,typically lateralized for language,24.0,26.0,22.4,null,,,,yes,10945575,0,25915,27587
+36.0,,healthy,atypically lateralized for language,16.0,20.0,23.4,null,,,,yes,10945575,0,25915,27587
+335.0,amyloid elevated,patients,PET sample,,,,,,,,yes,10997795,0,4659,8182
+713.0,amyloid elevated,patients,fMRI sample,,,,,,,,yes,10997795,0,4659,8182
+8.0,,healthy,musicians,3.0,5.0,44.1,20-67,20.0,67.0,,yes,10917383,0,8330,10286
+8.0,,healthy,non-musician controls,3.0,5.0,43.0,20-63,20.0,63.0,,yes,10917383,0,8330,10286
+74.0,schizophrenia,patients,,59.0,15.0,37.43,,,,,yes,10968155,0,6365,9362
+74.0,,healthy,,54.0,20.0,37.88,,,,,yes,10968155,0,6365,9362
+30.0,Borderline Personality Disorder (BPD),patients,,1.0,29.0,,,,,,yes,10870473,1,12690,15576
+30.0,,healthy,,1.0,29.0,,,,,,yes,10870473,1,12690,15576
+55.0,BPPV with RD,patients,BPPV with RD,,,,,,,,yes,10850607,1,2782,6607
+55.0,BPPV without RD,patients,BPPV without RD,,,,,,,,yes,10850607,1,2782,6607
+55.0,,healthy,healthy volunteers,,,,,,,,yes,10850607,1,2782,6607
+57.0,,healthy,,11.0,39.0,21.6,,,,,yes,11063816,1,4823,7018
+2953.0,autism or Asperger syndrome,patients,case-control studies,2538.0,415.0,,,,,,yes,11016874,0,14869,17260
+2799.0,,healthy,case-control studies,2395.0,404.0,,,,,,yes,11016874,0,14869,17260
+48.0,epilepsy,patients,EEGfMRI,15.0,33.0,,,,,28.0,yes,10839335,1,12151,13983
+340.0,,healthy,,99.0,241.0,,18-74,18.0,74.0,,yes,11011908,1,14321,17565
+31.0,TLE,patients,total,9.0,22.0,11.0,10-11,10.0,11.0,,yes,10936866,0,4436,5959
+19.0,left-TLE,patients,left-TLE,,,,,,,,yes,10936866,0,4436,5959
+12.0,right-TLE,patients,right-TLE,,,,,,,,yes,10936866,0,4436,5959
+35.0,,healthy,total,18.0,17.0,33.0,33±12,,,,no,10936866,0,4436,5959
+29.0,NDPH,patients,,15.0,14.0,37.0,21.06,,,,yes,10958407,0,12307,13884
+37.0,,healthy,,16.0,21.0,34.89,10.96,,,,yes,10958407,0,12307,13884
+22.0,,healthy,,22.0,0.0,22.81,null,,,,yes,10858222,0,7771,8812
+88.0,prenatally exposed to marijuana,patients,PME,35.0,53.0,,,,,,no,10914455,0,16886,17539
+90.0,without prenatal marijuana exposure,healthy,unexposed controls,37.0,53.0,,,,,,no,10914455,0,16886,17539
+612.0,glioma,patients,low and high grade glioma,,,,38.1-40.8,,,,yes,10907080,1,3999,6566
+1000.0,,healthy,Brain Genomics Superstruct Project,,,,,,,,yes,10907080,1,3999,6566
+284.0,,healthy,TractoInferno,,,,,,,,yes,10907080,1,3999,6566
+58.0,Parkinson's Disease,patients,Total PD patients,39.0,19.0,70.03,,,,,no,10999557,0,10098,11022
+27.0,Parkinson's Disease,patients,NC group,,,,,,,,no,10999557,0,10098,11022
+21.0,Parkinson's Disease,patients,MCI group,18.0,3.0,,,,,,no,10999557,0,10098,11022
+10.0,Parkinson's Disease,patients,SCI group,,,74.4,,,,,no,10999557,0,10098,11022
+6.0,,healthy,common marmoset monkeys,4.0,2.0,,,32.0,44.0,,yes,10937914,1,55011,56541
+395.0,,healthy,resting-state fMRI,,,,22-36,22.0,36.0,,yes,11000510,0,17043,19433
+7392.0,TBI,patients,overall,5087.0,2305.0,,,,,,yes,10982609,0,11326,14401
+3.0,refractory focal epilepsy,patients,ECoG-fMRI study,,,,,,,,yes,10968112,0,4615,5935
+12.0,absence epilepsy,patients,GAERS,0.0,12.0,,,3.0,8.0,,yes,10961455,1,5288,8541
+12.0,seizure-free,healthy,NEC,0.0,12.0,,,3.0,8.0,,yes,10961455,1,5288,8541
+7.0,various,patients,fMRI-adjuvant LITT candidates,,,,,,,,yes,10844152,0,1773,4306
