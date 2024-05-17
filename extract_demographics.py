@@ -10,23 +10,19 @@ from labelrepo import database
 from openai import OpenAI
 
 # Load original annotations
-subgroups = get_participant_demographics()
-jerome_pd = subgroups[
-    (subgroups.project_name == 'participant_demographics') &
-    (subgroups.annotator_name == 'Jerome_Dockes')
-    ]
-subset_cols = [
-    'count', 'diagnosis', 'group_name', 'subgroup_name', 'male count',
-    'female count', 'age mean', 'age minimum', 'age maximum',
-    'age median', 'pmcid']
-jerome_pd_subset = jerome_pd[subset_cols].sort_values('pmcid')
+combined_annotations = pd.read_csv('annotations/combined_pd.csv')
+
+# TMP: ONLY EXTRACT NEW ANNOTATIONS
+combined_annotations = combined_annotations[
+    combined_annotations.annotator_name != 'Jerome_Dockes']
 
 # Load articles that have been annotated
 docs = pd.read_sql(
     "select pmcid, text from document",
     database.get_database_connection(),
 )
-docs = docs[docs.pmcid.isin(jerome_pd.pmcid)].to_dict(orient='records')
+docs = docs[
+    docs.pmcid.isin(combined_annotations.pmcid)].to_dict(orient='records')
 
 output_dir = Path('outputs')
 
@@ -74,5 +70,5 @@ models = [
 
 # Split body into large sections (by setting min_chars to high number)
 for model_name, client in models:
-    _run(model_name, client, 40, 4000, prepend='demographics-fewshot2',
-         **FEW_SHOT_FC_2, num_workers=10)
+    _run(model_name, client, 40, 4000, prepend='demographics-fewshot',
+         **FEW_SHOT_FC, num_workers=10)

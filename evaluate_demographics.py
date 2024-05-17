@@ -1,20 +1,18 @@
 from pathlib import Path
 import pandas as pd
-from labelrepo.projects.participant_demographics import get_participant_demographics
 from publang.evaluate import score_columns, hungarian_match_compare
 
 
 # Load annotations
-subgroups = get_participant_demographics(include_locations=True)
-jerome_pd = subgroups[(subgroups.project_name == 'participant_demographics') & \
-                      (subgroups.annotator_name == 'Jerome_Dockes')]
+combined_annotations = pd.read_csv('annotations/combined_pd.csv')
+
 subset_cols = ['count', 'diagnosis', 'group_name', 'subgroup_name', 'male count',
        'female count', 'age mean', 'age minimum', 'age maximum',
        'age median', 'pmcid']
-jerome_pd = jerome_pd[subset_cols].sort_values('pmcid')
+combined_annotations = combined_annotations[subset_cols].sort_values('pmcid')
 
 # Replace column names space with underscore
-jerome_pd.columns = jerome_pd.columns.str.replace(' ', '_')
+combined_annotations.columns = combined_annotations.columns.str.replace(' ', '_')
 
 results_dir = Path('outputs')
 
@@ -75,7 +73,7 @@ for f in sorted(results_dir.glob('eval_*_clean.csv')):
     predictions.columns = predictions.columns.str.replace(' ', '_')
 
     n_studies, corr_n_groups, more, less, stats = _evaluate(
-        jerome_pd, predictions)
+        combined_annotations, predictions)
 
     # Add metadata to pd dataframe
     _, task, model_name, min_chars, max_chars, _ = f.stem.split('_')
