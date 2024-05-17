@@ -14,7 +14,7 @@ combined_annotations = pd.read_csv('annotations/combined_pd.csv')
 
 # TMP: ONLY EXTRACT NEW ANNOTATIONS
 combined_annotations = combined_annotations[
-    combined_annotations.annotator_name != 'Jerome_Dockes']
+    combined_annotations.annotator_name == 'Jerome_Dockes']
 
 # Load articles that have been annotated
 docs = pd.read_sql(

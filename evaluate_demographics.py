@@ -2,7 +2,6 @@ from pathlib import Path
 import pandas as pd
 from publang.evaluate import score_columns, hungarian_match_compare
 
-
 # Load annotations
 combined_annotations = pd.read_csv('annotations/combined_pd.csv')
 
