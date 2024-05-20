@@ -14,7 +14,7 @@ combined_annotations = pd.read_csv('annotations/combined_pd.csv')
 
 # TMP: ONLY EXTRACT NEW ANNOTATIONS
 combined_annotations = combined_annotations[
-    combined_annotations.annotator_name == 'Jerome_Dockes']
+    combined_annotations.annotator_name != 'Jerome_Dockes']
 
 # Load articles that have been annotated
 docs = pd.read_sql(
@@ -62,9 +62,9 @@ def _run(extraction_model, extraction_client, min_chars, max_chars,
 
 models = [
     # ("accounts/fireworks/models/firefunction-v1", fireworks_client),
-    # ("gpt-3.5-turbo-0613", openai_client),
-    # ("gpt-4-0125-preview", openai_client),
-    ("gpt-4o-2024-05-13", openai_client),
+    ("gpt-3.5-turbo-0613", openai_client),
+    ("gpt-4-0125-preview", openai_client),
+    # ("gpt-4o-2024-05-13", openai_client),
 ]
 
 
