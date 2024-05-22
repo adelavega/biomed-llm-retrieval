@@ -1,2 +1,3 @@
 *.parquet
 *.pkl
+data/pubget_searches
