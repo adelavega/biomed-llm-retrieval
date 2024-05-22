@@ -1,0 +1,5 @@
+These combined annotations were created by joining Jerome's participant demographics annotations with the annotations of the other annotators.
+Only in instances were Jerome had not annotated a participant's demographics were the other annotators' annotations used.
+
+In addition the UMLS column was added by Alejandro, to indicate a UMLS ID associated with each manual disease label.
+This was added by searching UMLS and choosing the top result, in addition to some subjective interpretation.
