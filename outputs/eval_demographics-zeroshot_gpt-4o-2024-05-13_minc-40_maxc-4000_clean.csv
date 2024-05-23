@@ -1,0 +1,394 @@
+count,diagnosis,group_name,subgroup_name,male_count,female_count,age_mean,age_range,age_minimum,age_maximum,age_median,imaging_sample,pmcid,rank,start_char,end_char
+15.0,,healthy,healthy adults,5.0,10.0,31.69,22-54,22.0,54.0,,yes,7981326,0,9579,10553
+23.0,none,healthy,healthy participants,18.0,5.0,222.0,,,,,yes,4330553,0,10707,11145
+16.0,no history of neurological or psychiatric illness,healthy,all,9.0,7.0,,18-35,18.0,35.0,,yes,3183226,0,28053,28467
+15.0,none,healthy,right-handed,8.0,7.0,22.21,null,,,,yes,6195265,0,13097,13950
+45.0,none,healthy,healthy,18.0,27.0,24.49,null,,,,yes,5428836,0,26550,27302
+12.0,,healthy,first experiment,6.0,6.0,26.0,23-39,23.0,39.0,,yes,3422286,0,8558,9073
+14.0,,healthy,second experiment,7.0,7.0,23.0,24-30,24.0,30.0,,yes,3422286,0,8558,9073
+48.0,none,healthy,treatment group 1,24.0,24.0,26.4,null,,,,yes,2993660,0,19298,19503
+23.0,,healthy,all,11.0,12.0,24.2,18-31,18.0,31.0,,no,4436102,0,11102,11949
+18.0,none,healthy,right-handed volunteers,9.0,9.0,30.3,26-34,26.0,34.0,,yes,6726765,0,7719,8450
+15.0,none,healthy,undergraduate students,10.0,5.0,,20-22,20.0,22.0,,yes,6989437,0,9041,9577
+40.0,"No subject had a history of neurological, psychiatric, or major medical disorders",healthy,healthy volunteers,32.0,8.0,20.5,18-28,18.0,28.0,,yes,3605341,0,12059,12659
+10.0,,healthy,students,4.0,6.0,20.8,,,,,yes,6528067,0,11679,12501
+20.0,,healthy,healthy adults,12.0,8.0,24.4,19-35,19.0,35.0,,no,3147157,0,7853,8437
+51.0,,healthy,adolescents,26.0,25.0,13.98,12.03-15.94,12.0,15.0,,yes,6664004,0,9809,11672
+20.0,none,healthy,healthy undergraduate and postgraduate students,10.0,10.0,22.3,19-28,19.0,28.0,,yes,7002496,0,9427,10109
+20.0,,healthy,,9.0,11.0,23.0,18-27,18.0,27.0,,yes,7339141,0,6763,7761
+16.0,none,healthy,Experiment 2,11.0,5.0,,20-59,20.0,59.0,,yes,4349631,0,5763,6450
+33.0,none,healthy,right-handed volunteers,17.0,16.0,25.3,,,,,no,3676955,0,3877,4423
+18.0,none,healthy,University of Gothenburg,9.0,9.0,,20-32,20.0,32.0,,yes,4318429,0,6580,6988
+55.0,,healthy,adolescents,17.0,38.0,13.082,12-14,12.0,14.0,,yes,7057279,0,6753,7414
+40.0,,healthy,,20.0,20.0,20.0,18-23,18.0,23.0,,yes,4370584,0,11424,11801
+11.0,none,healthy,right-handed observers,8.0,3.0,33.1,25-47,25.0,47.0,,no,6328158,0,9509,10064
+18.0,none,healthy,right-handed healthy volunteers,9.0,9.0,23.67,19-35,19.0,35.0,,yes,2144768,0,59146,59841
+11.0,none,healthy,healthy,7.0,4.0,28.0,21-35,21.0,35.0,,yes,6198067,0,8869,9939
+31.0,,healthy,,10.0,21.0,24.3,20-29,20.0,29.0,,yes,6847157,0,10334,11086
+23.0,,healthy,community-dwelling young men,23.0,0.0,29.96,,,,,no,9548384,0,4925,6082
+19.0,none,healthy,healthy volunteers,12.0,7.0,27.9,null,,,,yes,7456884,0,7752,8584
+60.0,,healthy,participants,,,,,,,,yes,5902547,2,16064,19777
+15.0,none,healthy,university students,15.0,0.0,22.33,,,,,no,4838249,0,6364,7265
+29.0,none,healthy,all participants,15.0,14.0,34.5,null,,,,yes,6868994,0,7334,7745
+15.0,none,healthy,,7.0,8.0,25.6,22-30,22.0,30.0,,yes,3889700,0,16355,17140
+1418.0,none,healthy,young participants,546.0,872.0,22.39,18-35,18.0,35.0,,no,9564100,0,24189,25345
+55.0,,healthy,White male participants,55.0,0.0,24.255,18-35,18.0,35.0,,yes,6434022,0,30465,32004
+24.0,without a history of neurological or psychological complications,healthy,Study 1,0.0,24.0,24.0,20-30,20.0,30.0,,yes,3965851,0,13949,14774
+18.0,without a history of neurological or psychological complications,healthy,Study 2,0.0,18.0,24.0,20-30,20.0,30.0,,yes,3965851,0,13949,14774
+13.0,,healthy,DCG,5.0,8.0,23.1,20-26,20.0,26.0,,yes,4034409,0,13409,14663
+13.0,,healthy,TCG,4.0,9.0,23.5,21-26,21.0,26.0,,yes,4034409,0,13409,14663
+31.0,normal neurological history,healthy,Duke University students,16.0,15.0,20.0,18-22,18.0,22.0,20.0,yes,3539852,0,18645,19836
+42.0,,healthy,healthy males,42.0,0.0,23.86,19-32,19.0,32.0,,yes,4380440,0,10534,11508
+40.0,,healthy,older adults,24.0,16.0,68.4,,,,,yes,5717028,0,6784,7467
+10.0,none,healthy,right-handed participants,7.0,3.0,26.6,,,,,yes,8893203,0,8471,9034
+12.0,none,healthy,adults,6.0,6.0,25.4,20-40,20.0,40.0,,no,2151069,0,9653,9985
+34.0,none,healthy,right-handed students,19.0,15.0,,18-25,18.0,25.0,,yes,6908964,0,11176,11873
+32.0,healthy,healthy,fMRI study,,,23.0,19-30,19.0,30.0,,yes,3672681,0,13846,15500
+58.0,free from self-reported life-time psychiatric or neurological disease and medication,healthy,right-handed participants,26.0,32.0,24.02,,,,,yes,3492343,0,6544,7179
+18.0,none,healthy,right-handed female volunteers,0.0,18.0,21.04,,,,,yes,4975394,0,6805,7868
+20.0,no history of neuromuscular disorder or injury to their brain,healthy,,16.0,4.0,,20-36,20.0,36.0,,no,4717328,0,6158,6634
+10.0,,healthy,,5.0,5.0,29.5,23-43,23.0,43.0,,yes,3407245,0,19626,20086
+20.0,no prior history of neurological disease,healthy,male participants,20.0,0.0,23.9,18-33,18.0,33.0,,yes,4255751,0,5627,6165
+38.0,none,healthy,healthy adults,19.0,19.0,24.08,20.75-27.41,20.0,28.0,,no,7395771,0,8721,10120
+18.0,none,healthy,healthy participants,10.0,8.0,25.0,22-29,22.0,29.0,,yes,4493392,0,8993,9484
+34.0,,healthy,older-aged participants,14.0,20.0,73.2,56-83,56.0,83.0,,yes,7779563,0,11922,13361
+67.0,none,healthy,adolescents,36.0,31.0,15.6,13-18,13.0,18.0,,yes,8379626,0,7716,9834
+28.0,,healthy,general,,,,,,,,yes,5447679,2,19610,21357
+134.0,,healthy,FinnBrain Birth Cohort Study,72.0,62.0,5.34,5.08-5.22,5.0,5.0,,yes,9108497,0,9500,12550
+26.0,free of any past or present mental disorders,healthy,typically developing children and adolescents,17.0,9.0,11.42,8-16,8.0,16.0,,yes,7005761,0,7835,9334
+34.0,neurologically healthy,healthy,,17.0,17.0,24.9,20-38,20.0,38.0,,yes,6646524,0,12647,13860
+13.0,none,healthy,healthy,6.0,7.0,28.4,19-45,19.0,45.0,,no,7430162,0,7494,8254
+100.0,multi-problem young adults,patients,,100.0,0.0,,,,,,yes,6004505,0,7938,9518
+22.0,,healthy,,,,,,,,,yes,6004505,0,7938,9518
+20.0,no history of neurological or psychological disease,healthy,ASU American Sign Language undergraduate program,1.0,19.0,21.4,18-31,18.0,31.0,,yes,6136263,0,16503,17874
+18.0,,healthy,all,11.0,7.0,26.7,18-60,18.0,60.0,22.5,yes,2775905,0,7644,8859
+45.0,nicotine dependence,patients,smokers,,,,,,,,yes,3511796,0,3425,5707
+44.0,none,healthy,non-smokers,,,,,,,,yes,3511796,0,3425,5707
+31.0,drug-nave/free first episode psychosis (FEP),patients,,26.0,5.0,26.64,,,,,yes,8550949,0,5892,6567
+35.0,none,healthy,,26.0,9.0,27.12,,,,,yes,8550949,0,5892,6567
+16.0,none,healthy,right-handed,10.0,6.0,30.1,18-40,18.0,40.0,,yes,4072722,0,12442,12867
+24.0,"normal pregnancies, uncomplicated term vaginal or Caesarean deliveries, and healthy babies",patients,postpartum group,0.0,24.0,,,,,,yes,7272423,0,23741,25117
+27.0,never experienced pregnancy,healthy,control group,0.0,27.0,,,,,,yes,7272423,0,23741,25117
+47.0,,healthy,undergraduate students,0.0,47.0,19.62,,,,,yes,5548834,0,7835,9127
+272.0,self-reported normal audition,healthy,,123.0,149.0,24.5,18-68,18.0,68.0,,yes,4115625,0,8650,9157
+18.0,none,healthy,Lyon University students,8.0,10.0,22.5,null,,,,yes,6344389,0,14874,15604
+19.0,"no history of neurological illness, psychiatric disorders, or substance abuse",healthy,N/A,10.0,9.0,22.8,19-31,19.0,31.0,,no,3869649,0,5579,6473
+20.0,,healthy,healthy,12.0,8.0,245.6,,,,,yes,4477935,1,7228,7547
+21.0,none,healthy,healthy volunteers,12.0,14.0,23.04,18-35,18.0,35.0,,yes,6697392,0,7141,11005
+10.0,,healthy,,7.0,3.0,27.72,,,,,yes,4029023,0,7975,8487
+17.0,none,healthy,right handed,17.0,0.0,23.8,20-30,20.0,30.0,,yes,3866656,0,9829,10487
+17.0,none,healthy,healthy,7.0,10.0,,21-31,21.0,31.0,,yes,8837589,0,7291,8667
+22.0,,healthy,fMRI,11.0,11.0,23.33,,,,,yes,6215330,0,17562,19091
+220.0,,healthy,adolescents,115.0,105.0,14.61,14-15,14.0,15.0,,yes,3991323,0,7509,9650
+28.0,,healthy,adults,17.0,11.0,25.24,20-39,20.0,39.0,,yes,3991323,0,7509,9650
+104.0,at risk for substance use,patients,NCANDA study participants,,,17.11,12.27-21.96,12.0,21.0,,yes,7038454,0,6792,9449
+10.0,no past history of depression or other psychiatric disorder,healthy,healthy volunteers,3.0,7.0,39.8,18-50,18.0,50.0,,yes,2935390,0,7096,7923
+17.0,no history of psychiatric or neurological disorders,healthy,female participants,0.0,17.0,20.7,18-23,18.0,23.0,,no,6688454,0,12232,14191
+21.0,none,healthy,Exp. 1,12.0,9.0,26.0,null,,,,yes,4458841,0,45697,46616
+22.0,none,healthy,Exp. 2,7.0,15.0,28.0,null,,,,yes,4458841,0,45697,46616
+22.0,,healthy,,5.0,17.0,,23-41,23.0,41.0,,yes,3483694,0,28089,30834
+43.0,MDD,patients,MDD patients,13.0,30.0,,,,,,yes,7118554,0,8471,10050
+56.0,none,healthy,healthy controls,30.0,26.0,,,,,,yes,7118554,0,8471,10050
+21.0,,healthy,right-handed male volunteers,21.0,0.0,25.77,20-40,20.0,40.0,,yes,5776089,0,7315,8159
+32.0,none,healthy,healthy young subjects,,,,25-27,25.0,27.0,,yes,5890144,0,7227,8372
+29.0,none,healthy,all participants,16.0,13.0,23.6,21-33,21.0,33.0,,yes,7989009,0,44675,45771
+233.0,free of neurological and psychiatric disorders,healthy,all,116.0,117.0,16.1,9.9-26.6,9.0,26.0,,yes,5390693,0,6438,8339
+39.0,no history of neurological or psychiatric illness,healthy,right-handed students from Tohoku University,21.0,18.0,21.33,18-24,18.0,24.0,,no,8152834,0,7186,8239
+12.0,,healthy,healthy volunteers,7.0,5.0,38.0,23-60,23.0,60.0,,yes,4075342,0,7661,9066
+36.0,none,healthy,all participants,19.0,17.0,26.45,21-41,21.0,41.0,,yes,3869681,0,12247,13506
+18.0,none,healthy,Experiment 1,10.0,8.0,26.3,21-41,21.0,41.0,,yes,3869681,0,12247,13506
+18.0,none,healthy,Experiment 2,9.0,9.0,26.6,21-38,21.0,38.0,,yes,3869681,0,12247,13506
+26.0,ASD,patients,ASD,,,,,,,,yes,7194032,1,9309,10707
+28.0,typically-developing,healthy,TD,,,,,,,,yes,7194032,1,9309,10707
+18.0,lung cancer,patients,lung cancer patients,,,,48-70,48.0,70.0,,yes,7275001,0,8631,10461
+21.0,none,healthy,healthy controls,,,,48-70,48.0,70.0,,yes,7275001,0,8631,10461
+19.0,obesity,patients,obese women,0.0,19.0,,35-55,35.0,55.0,,yes,5537800,0,8516,10261
+29.0,self-reported healthy,healthy,young adults,10.0,19.0,23.8,19-30,19.0,30.0,,no,8318202,0,8764,10050
+32.0,self-reported healthy,healthy,older adults,15.0,17.0,71.0,65-81,65.0,81.0,,no,8318202,0,8764,10050
+17.0,,healthy,fMRI subjects,,,,,,,,yes,4280551,1,45357,48516
+24.0,none,healthy,landscape_architecture_designers,10.0,14.0,34.5,32-37,32.0,37.0,,yes,8699602,0,8940,9612
+10.0,juvenile fibromyalgia,patients,IMP,1.0,9.0,16.3,14-17,14.0,17.0,,yes,5686883,1,7085,9280
+10.0,no complaint of pain,healthy,control,1.0,9.0,16.1,14-17,14.0,17.0,,yes,5686883,1,7085,9280
+70.0,no current or lifetime mental disorders and no history of mental disorder in first-degree relatives,healthy,HC,,,,16-48,16.0,48.0,,yes,6246657,0,7306,10392
+40.0,MDD,patients,MDD,,,,16-48,16.0,48.0,,yes,6246657,0,7306,10392
+21.0,BDD,patients,BDD,,,,16-48,16.0,48.0,,yes,6246657,0,7306,10392
+21.0,,healthy,initial,8.0,13.0,24.9,19-30,19.0,30.0,,yes,5218407,0,9582,10592
+20.0,,healthy,after_exclusion,8.0,12.0,25.1,19-30,19.0,30.0,,yes,5218407,0,9582,10592
+17.0,,healthy,final,7.0,10.0,25.0,19-30,19.0,30.0,,yes,5218407,0,9582,10592
+15.0,Autism Spectrum Disorder,patients,,12.0,3.0,38.0,,,,,yes,2648877,0,10521,12299
+18.0,non-autistic,healthy,,13.0,5.0,32.0,,,,,yes,2648877,0,10521,12299
+216.0,,healthy,young adults,,,,,,,,yes,8828908,0,5902,6887
+40.0,heroin use,patients,heroin relapser,,,,,,,,yes,4990879,0,7250,8174
+19.0,ADHD,patients,ADHD,,,,,,,,yes,4936600,3,7788,11563
+6.0,DCD,patients,DCD,,,,,,,,yes,4936600,3,7788,11563
+14.0,DCD+ADHD,patients,DCD+ADHD,,,,,,,,yes,4936600,3,7788,11563
+21.0,None,healthy,typically developing,,,,,,,,yes,4936600,3,7788,11563
+39.0,total sleep deprivation (TSD),healthy,experimental,22.0,17.0,33.5,21-50,21.0,50.0,,yes,7260173,0,30977,33120
+15.0,no sleep loss,healthy,control,7.0,8.0,34.5,21-50,21.0,50.0,,yes,7260173,0,30977,33120
+17.0,bronchial asthma,patients,GCBT completers,7.0,10.0,50.76,-,,,,no,5394595,0,5950,6820
+25.0,bronchial asthma,patients,GCBT non-completers,,,,-,,,,no,5394595,0,5950,6820
+60.0,,healthy,HCs,,,,-,,,,no,5394595,0,5950,6820
+31.0,AN,patients,AN,0.0,31.0,,,,,,yes,3913832,0,7409,9049
+35.0,no diagnosis,healthy,HC,0.0,35.0,,,,,,yes,3913832,0,7409,9049
+40.0,,healthy,healthy,8.0,32.0,,25-63,25.0,63.0,,yes,8172304,0,6637,7668
+32.0,chronic urticaria,patients,chronic urticaria,6.0,26.0,,25-65,25.0,65.0,,yes,8172304,0,6637,7668
+19.0,none,healthy,younger adults,5.0,14.0,22.6,18-27,18.0,27.0,,yes,3660406,0,12986,16917
+15.0,none,healthy,older adults,5.0,10.0,61.1,51-71,51.0,71.0,,yes,3660406,0,12986,16917
+44.0,chronic osteoarthritis,patients,acupuncture nave patients,25.0,19.0,,43-70,43.0,70.0,,yes,4175730,1,19248,20025
+57.0,without reading disorders,healthy,typically developing children,31.0,26.0,10.19,,,,,yes,7099000,1,8182,9167
+20.0,Christians,patients,Christians,,,,,,,,yes,2748718,0,25958,29873
+21.0,Nonbelievers,patients,Nonbelievers,,,,,,,,yes,2748718,0,25958,29873
+33.0,ASD,patients,children and adolescents,,,,10-17,10.0,17.0,,yes,5870086,0,9508,11703
+147.0,MDD,patients,depression group,50.0,97.0,,18-45,18.0,45.0,,yes,5598991,0,7260,9372
+130.0,,healthy,healthy control group,49.0,81.0,,,,,,yes,5598991,0,7260,9372
+24.0,,healthy,Aachen University students,12.0,12.0,,,,,,yes,3362560,0,7514,9845
+21.0,PTSD,patients,PTSD group,6.0,15.0,21.5,18-31,18.0,31.0,,yes,6024199,0,14405,15358
+21.0,trauma-exposed control,patients,trauma-exposed control group,7.0,14.0,22.1,18-37,18.0,37.0,,yes,6024199,0,14405,15358
+12.0,problematic tinnitus,patients,initial MRI scanning session,1.0,11.0,,,21.0,72.0,,yes,6667657,0,7425,9782
+17.0,PD,patients,PD patients,2.0,15.0,,,,,,yes,6382839,0,30626,32637
+17.0,,healthy,HC,4.0,13.0,,,,,,yes,6382839,0,30626,32637
+70.0,BD,patients,,,,37.0,18-65,18.0,65.0,,no,6908505,0,7076,8109
+18.0,smokers,patients,,18.0,0.0,25.11,21-33,21.0,33.0,,yes,3409150,1,8569,9966
+13.0,"unilateral, upper limb amputation and phantom limb pain",patients,,11.0,2.0,52.92,32-75,32.0,75.0,,yes,2494616,0,8118,9527
+6.0,none,healthy,,,,43.0,30-56,30.0,56.0,,yes,2494616,0,8118,9527
+30.0,MDD,patients,"first-episode, drug-nave MDD",9.0,21.0,,18-45,18.0,45.0,,yes,4869560,0,6957,9021
+29.0,none,healthy,healthy subjects,15.0,14.0,26.76,,,,,yes,4869560,0,6957,9021
+12.0,normal or corrected-to-normal vision,healthy,right-handed,,,,,,,,yes,2995581,1,10787,14569
+72.0,ischemic stroke,patients,temporal lobe group,,,,60-70,60.0,70.0,,yes,5665859,0,7175,10809
+72.0,ischemic stroke,patients,frontal lobe group,,,,60-70,60.0,70.0,,yes,5665859,0,7175,10809
+72.0,ischemic stroke,patients,parietal lobe group,,,,60-70,60.0,70.0,,yes,5665859,0,7175,10809
+15.0,none,healthy,blank control group,,,,,,,,yes,5665859,0,7175,10809
+20.0,fibromyalgia,patients,FM,0.0,20.0,46.4,22-70,22.0,70.0,,yes,6820536,0,5393,6615
+20.0,none,healthy,HC,0.0,20.0,42.1,21-70,21.0,70.0,,yes,6820536,0,5393,6615
+34.0,schizophrenia,patients,unmedicated patients with schizophrenia,,,,,,,,yes,5292583,0,6605,8461
+35.0,none,healthy,healthy controls,,,,,,,,yes,5292583,0,6605,8461
+56.0,null,healthy,football enthusiasts,54.0,2.0,34.4,21-60,21.0,60.0,,yes,5460049,0,6967,8342
+12.0,none,healthy,right-handed,5.0,7.0,25.8,null,,,,no,7649291,1,8416,8816
+28.0,schizophrenia,patients,Sz,,,,21-54,21.0,54.0,,yes,8883821,0,7464,8764
+20.0,autism spectrum disorder,patients,ASD,,,,19-43,19.0,43.0,,yes,8883821,0,7464,8764
+30.0,,healthy,controls,,,,19-54,19.0,54.0,,yes,8883821,0,7464,8764
+20.0,none,healthy,young adults,14.0,6.0,24.0,20-34,20.0,34.0,,yes,8764488,0,15910,17003
+39.0,aphasia,patients,aphasia group,,,,,,,,yes,5266856,0,11355,12649
+37.0,no neurologic or psychiatric disorders,healthy,control group,,,,,,,,yes,5266856,0,11355,12649
+11.0,proficient,patients,proficient,3.0,8.0,28.73,19-46,19.0,46.0,,yes,3554651,0,39775,41437
+10.0,less-proficient,patients,less-proficient,3.0,7.0,30.0,19-45,19.0,45.0,,yes,3554651,0,39775,41437
+14.0,congenitally profoundly deaf,patients,CS group,3.0,11.0,25.0,18-33,18.0,33.0,,yes,5371603,1,25055,27824
+15.0,normally hearing,healthy,NH group,6.0,9.0,25.166666666666668,20-37,20.0,37.0,,yes,5371603,1,25055,27824
+24.0,VPT,patients,VPT,,,,,,,,yes,4215530,0,10681,12744
+22.0,no diagnosis,healthy,CT,,,,,,,,yes,4215530,0,10681,12744
+21.0,idiopathic PD,patients,,14.0,7.0,,,,,,yes,3045463,0,6018,9180
+19.0,,healthy,,12.0,7.0,,,,,,yes,3045463,0,6018,9180
+16.0,none,healthy,right-handed participants,6.0,10.0,23.1,19-29,19.0,29.0,,yes,5832413,0,59945,61874
+157.0,"substance use disorders, major depression",patients,incarcerated,0.0,157.0,,18-50,18.0,50.0,,no,4174863,0,7405,10633
+46.0,none,healthy,non-incarcerated,0.0,46.0,,18-50,18.0,50.0,,no,4174863,0,7405,10633
+17.0,aMCI/mAD,patients,aMCI/mAD,8.0,9.0,,65-81,65.0,81.0,,yes,7838677,1,6036,9501
+28.0,,healthy,control,14.0,14.0,,55-81,55.0,81.0,,yes,7838677,1,6036,9501
+18.0,none,healthy,healthy,,,,,,,,yes,7851842,0,9615,11713
+17.0,schizophrenia or schizoaffective disorder,patients,patients,,,,,,,,yes,7851842,0,9615,11713
+32.0,chronic left-hemisphere stroke,patients,,27.0,5.0,62.0,10 years,,,,yes,4473263,0,8398,9988
+18.0,none,healthy,,8.0,10.0,63.0,9 years,,,,yes,4473263,0,8398,9988
+103.0,no current or history of diagnosis of any Axis I psychiatric or substance (except nicotine) use disorders,healthy,,52.0,51.0,32.5,,18.0,,,yes,3334814,0,8117,11961
+12.0,controls,healthy,CR,7.0,5.0,,19-32,19.0,32.0,,yes,3791281,0,6198,9421
+12.0,binge drinkers,patients,BD,7.0,5.0,,19-32,19.0,32.0,,yes,3791281,0,6198,9421
+24.0,internet addiction,patients,IA,14.0,10.0,20.58,null,,,,yes,8939409,0,8544,9896
+23.0,no diagnosis,healthy,HC,10.0,13.0,21.13,null,,,,yes,8939409,0,8544,9896
+54.0,Cocaine Users (CUs),patients,CUs,,,,18-45,18.0,45.0,,yes,8459240,1,7650,8658
+54.0,Non-Cocaine Users (nonCUs),healthy,nonCUs,,,,18-45,18.0,45.0,,yes,8459240,1,7650,8658
+63.0,no current use of prescription medications,healthy,,36.0,27.0,,,,,,no,7913329,0,10518,11796
+8.0,right-sided cerebral palsy,patients,,3.0,5.0,,10-30,10.0,30.0,,yes,6878729,1,7912,9122
+17.0,DLB,patients,DLB patients,13.0,4.0,71.88,60-82,60.0,82.0,,yes,6902076,1,6917,8222
+20.0,healthy,healthy,healthy subjects,9.0,11.0,67.8,56-77,56.0,77.0,,yes,6902076,1,6917,8222
+53.0,T2DM,patients,T2DM,,,,45-75,45.0,75.0,,yes,7829678,0,7017,9210
+39.0,healthy,healthy,HC,,,,,,,,yes,7829678,0,7017,9210
+22.0,T2DM-CI,patients,T2DM-CI,,,,,,,,yes,7829678,0,7017,9210
+31.0,T2DM-NC,patients,T2DM-NC,,,,,,,,yes,7829678,0,7017,9210
+45.0,MDD,patients,all patients,16.0,29.0,37.0,19-58,19.0,58.0,,yes,4983635,0,8102,10652
+19.0,none,healthy,all healthy controls,8.0,11.0,33.0,20-52,20.0,52.0,,yes,4983635,0,8102,10652
+50.0,relapsing-remitting MS,patients,,,,,18-55,18.0,55.0,,yes,6200185,0,7655,8461
+25.0,,healthy,,,,,18-55,18.0,55.0,,yes,6200185,0,7655,8461
+46.0,,healthy,KAIST participants,32.0,14.0,22.61,,,,,no,7745153,0,9299,12877
+28.0,No subjects had any history of neurological disorders,healthy,healthy,15.0,13.0,26.39,,,,,yes,7481390,1,8040,10638
+16.0,DLB,patients,DLB,,,,,,,,yes,3984441,0,7293,9018
+17.0,no history of psychiatric or neurological brain disease,healthy,controls,,,,,,,,yes,3984441,0,7293,9018
+50.0,IPD,patients,IPD patients,,,,,,,,yes,6675526,0,4609,5604
+20.0,none,healthy,healthy controls,11.0,9.0,54.6,,,,,yes,6675526,0,4609,5604
+24.0,FD-PDS-MDD,patients,FD-PDS-MDD,0.0,24.0,42.44,,,,,no,7518235,1,18065,18709
+24.0,FD-PDS,patients,FD-PDS,0.0,24.0,42.44,,,,,no,7518235,1,18065,18709
+24.0,,healthy,HC,0.0,24.0,42.44,,,,,no,7518235,1,18065,18709
+53.0,SAD (generalized subtype),patients,SAD patients,36.0,17.0,29.9,,,,,yes,4416052,0,5666,9459
+33.0,None,healthy,Control participants,19.0,14.0,29.4,,,,,yes,4416052,0,5666,9459
+17.0,,healthy,children,8.0,9.0,7.4,6.9-7.8,6.0,8.0,,no,3780305,0,14497,15232
+13.0,chronic pain,patients,chronic pain group,4.0,9.0,51.8,43-65,43.0,65.0,,yes,4048172,0,8990,10646
+13.0,no chronic pain,healthy,normal control group,4.0,9.0,48.7,38-62,38.0,62.0,,yes,4048172,0,8990,10646
+7.0,,healthy,pre and post 10 day HCD,2.0,5.0,31.0,,,,,yes,7758977,0,6078,7557
+6.0,,healthy,pre and post 10 day fast,1.0,5.0,29.0,,,,,yes,7758977,0,6078,7557
+15.0,none,healthy,men with driving experience,15.0,0.0,26.0,null,,,,yes,5270359,0,8450,9492
+16.0,no history of neurological disorders,healthy,propofol data collection,12.0,4.0,,18-40,18.0,40.0,,yes,6787094,0,37350,38168
+35.0,SCD,patients,SCD subjects,,,,,,,,yes,7090024,1,5511,6530
+32.0,,healthy,healthy control subjects,,,,,,,,yes,7090024,1,5511,6530
+42.0,PD,patients,PD patients,,,,,,,,yes,6389716,0,8216,9580
+40.0,normal,healthy,normal controls,,,,,,,,yes,6389716,0,8216,9580
+14.0,none,healthy,right-handed,6.0,8.0,24.8,22-29,22.0,29.0,,yes,3078751,0,10341,10716
+46.0,schizophrenia,patients,"patients with drug-naive, first-episode schizophrenia",,,,18-37,18.0,37.0,,yes,6197719,0,10028,12384
+46.0,none,healthy,unaffected siblings,,,,18-37,18.0,37.0,,yes,6197719,0,10028,12384
+46.0,none,healthy,healthy controls,,,,18-37,18.0,37.0,,yes,6197719,0,10028,12384
+39.0,mild WMHs,patients,mild,,,,40-80,40.0,80.0,,yes,8315277,1,7581,10145
+37.0,moderate WMHs,patients,moderate,,,,40-80,40.0,80.0,,yes,8315277,1,7581,10145
+28.0,severe WMHs,patients,severe,,,,40-80,40.0,80.0,,yes,8315277,1,7581,10145
+37.0,no WMHs,healthy,HCs,,,,,,,,yes,8315277,1,7581,10145
+10.0,MJ abuse,patients,chronic marijuana users,8.0,2.0,,,,,,yes,3742334,0,7512,11306
+18.0,no diagnosis,healthy,nonusing comparison subjects,11.0,7.0,,,,,,yes,3742334,0,7512,11306
+23.0,AN,patients,AN,0.0,23.0,,,,,,yes,4530666,1,9512,12494
+24.0,healthy,healthy,HC,0.0,24.0,,,,,,yes,4530666,1,9512,12494
+6.0,normal hearing levels,healthy,young adults,5.0,1.0,28.5,22-35,22.0,35.0,,yes,3894920,0,10745,11773
+30.0,,healthy,students,10.0,20.0,,18-25,18.0,25.0,,no,5881103,0,15988,18765
+11.0,"depression (2 MDD, 9 BPD)",patients,depressed patients,5.0,6.0,61.0,6-18,6.0,18.0,,yes,4589842,0,6061,7568
+11.0,healthy,healthy,healthy controls,5.0,6.0,56.0,8-68,8.0,68.0,,yes,4589842,0,6061,7568
+19.0,MDD,patients,MDD patients,,,,18-55,18.0,55.0,,yes,7875881,0,7093,8833
+17.0,none,healthy,healthy controls,,,,18-55,18.0,55.0,,yes,7875881,0,7093,8833
+30.0,"ADHD, hyperactive-impulsive/inattentive combined subtype",patients,ADHD boys,30.0,0.0,,10-17,10.0,17.0,,yes,4190683,0,9065,12151
+30.0,No diagnosis,healthy,healthy control boys,30.0,0.0,,10-17,10.0,17.0,,yes,4190683,0,9065,12151
+27.0,left hemisphere infarcts,patients,,17.0,10.0,59.1,,,,,yes,5903407,0,7983,10239
+24.0,none,healthy,,20.0,4.0,57.0,,,,,yes,5903407,0,7983,10239
+30.0,HFS,patients,left-side HFS,12.0,18.0,48.87,38.26-59.48,38.0,59.0,,yes,8569140,1,6781,8456
+30.0,none,healthy,control,12.0,18.0,47.63,34.34-60.92,34.0,61.0,,yes,8569140,1,6781,8456
+30.0,,healthy,healthy volunteers,9.0,21.0,23.0,,,,,yes,8018944,0,8670,11952
+26.0,,healthy,happy,,,,,,,,yes,3893192,1,6340,7837
+25.0,,healthy,unhappy,,,,,,,,yes,3893192,1,6340,7837
+223.0,mood and/or anxiety disorder,patients,MA,61.0,162.0,36.0,null,,,,yes,7082218,0,14245,17478
+45.0,healthy,healthy,HC,22.0,23.0,32.0,null,,,,yes,7082218,0,14245,17478
+90.0,absence of daily cannabis use,healthy,CON,,,,,,,,yes,7416060,0,8377,10336
+54.0,chronic cannabis use,patients,CAN,,,,,,,,yes,7416060,0,8377,10336
+24.0,none,healthy,"right-handed, white Caucasian volunteers",12.0,12.0,26.0,23-34,23.0,34.0,,yes,3502502,0,6711,7624
+46.0,none,healthy,right-handed healthy volunteers,21.0,25.0,30.0,19-63,19.0,63.0,,yes,3502502,0,6711,7624
+24.0,none,healthy,"right-handed, native German speakers",12.0,12.0,25.3,21-34,21.0,34.0,,yes,7994216,0,12556,14217
+12.0,,healthy,young adults,8.0,4.0,25.2,,,,,yes,6585311,1,8877,12685
+10.0,chronic post-stroke hemiparesis,patients,stroke participants,6.0,4.0,66.7,,,,,yes,6585311,1,8877,12685
+9.0,,healthy,age-matched control participants,4.0,5.0,64.2,,,,,yes,6585311,1,8877,12685
+53.0,mTBI,patients,,25.0,28.0,,20-58,20.0,58.0,,yes,7539836,0,6826,8200
+43.0,,healthy,,19.0,24.0,,20-59,20.0,59.0,,yes,7539836,0,6826,8200
+31.0,,healthy,controls and FIDA,17.0,14.0,21.5,null,,,,yes,5339238,1,10037,12304
+160.0,,healthy,FBIRN,115.0,45.0,37.04,19-59,19.0,59.0,,yes,7721229,0,10065,13228
+151.0,SZ,patients,FBIRN,115.0,36.0,38.77,18-62,18.0,62.0,,yes,7721229,0,10065,13228
+314.0,,healthy,ABIDE1,249.0,65.0,17.04,6.47-56.20,6.0,56.0,,yes,7721229,0,10065,13228
+255.0,ASD,patients,ABIDE1,224.0,31.0,17.05,7.00-55.40,7.0,55.0,,yes,7721229,0,10065,13228
+41.0,UC,patients,UC patients,25.0,16.0,37.1,20-54,20.0,54.0,,yes,6457314,0,5613,7441
+42.0,none,healthy,healthy controls,25.0,17.0,36.86,22-55,22.0,55.0,,yes,6457314,0,5613,7441
+37.0,Parkinson's Disease,patients,PD patients,17.0,20.0,,,,,,yes,4184784,0,6434,8455
+34.0,None,healthy,healthy controls,22.0,12.0,,,,,,yes,4184784,0,6434,8455
+13.0,right MCA territory infarction,patients,male,13.0,0.0,,,,,,yes,8154462,0,4472,5608
+11.0,none,healthy,male,11.0,0.0,,,,,,yes,8154462,0,4472,5608
+28.0,ASD,patients,,20.0,8.0,14.58,null,,,,yes,8213933,0,13173,14739
+27.0,TD,healthy,,18.0,9.0,14.49,null,,,,yes,8213933,0,13173,14739
+23.0,,healthy,HC,15.0,8.0,31.1,19-44,19.0,44.0,,yes,5761874,0,7481,8731
+25.0,temporal lobe epilepsy,patients,TLE,13.0,12.0,33.6,20-45,20.0,45.0,,yes,5761874,0,7481,8731
+12.0,cockroach phobia,patients,phobic individuals,4.0,8.0,40.08,,,,,yes,6220927,0,5977,7136
+12.0,no phobias,healthy,non-phobic individuals,4.0,8.0,24.08,,,,,yes,6220927,0,5977,7136
+66.0,unilateral hippocampal sclerosis (HS),patients,TLE patients,,,,,,,,yes,8933317,1,8349,9763
+31.0,none,healthy,healthy controls,,,,,,,,yes,8933317,1,8349,9763
+18.0,ASC,patients,ASC,,,30.4,,,,,yes,4265725,0,10617,12494
+18.0,TD,healthy,TD,,,28.6,,,,,yes,4265725,0,10617,12494
+20.0,none,healthy,healthy participants,9.0,11.0,21.95,18-35,18.0,35.0,,yes,4810172,0,9482,10858
+34.0,none,healthy,all participants,12.0,12.0,,23-45,23.0,45.0,,yes,2525845,0,5998,8666
+31.0,VaMCI,patients,VaMCI,,,,,,,,yes,6350268,1,6317,9916
+32.0,None,healthy,NCs,,,,,,,,yes,6350268,1,6317,9916
+16.0,asymptomatic carotid artery stenosis,patients,CAS patients,,,,55-80,55.0,80.0,,yes,5552726,1,3930,5250
+19.0,MTLE,patients,MTLE patients,11.0,8.0,45.3,unknown,,,,yes,7836234,0,7759,9900
+19.0,none,healthy,healthy controls,10.0,9.0,45.8,unknown,,,,yes,7836234,0,7759,9900
+14.0,PTSD,patients,PTSD,,,,,,,,yes,8785646,0,15850,19588
+15.0,none,healthy,healthy control,,,,,,,,yes,8785646,0,15850,19588
+14.0,AD,patients,AD,,,,,,,,yes,3423412,0,6223,8710
+8.0,MCI,patients,MCI,,,,,,,,yes,3423412,0,6223,8710
+14.0,,healthy,healthy controls,,,,,,,,yes,3423412,0,6223,8710
+27.0,generalized SAD,patients,,15.0,12.0,,,,,,yes,4029608,0,8770,11234
+27.0,no psychiatric disorders,healthy,,14.0,13.0,,,,,,yes,4029608,0,8770,11234
+167.0,ADHD,patients,ADHD patients,,,,5-18,5.0,18.0,,yes,8782893,0,7940,10880
+20.0,APOE 2/3,healthy,2/3,10.0,10.0,20.5,18-23,18.0,23.0,20.5,yes,3520927,0,5472,7428
+19.0,APOE 3/4,healthy,3/4,9.0,10.0,20.5,18-23,18.0,23.0,20.5,yes,3520927,0,5472,7428
+1.0,GNE myopathy,patients,GNE myopathy patients,0.0,1.0,,,,,,yes,8978988,7,10738,12684
+8.0,none,healthy,healthy young adults,4.0,4.0,31.75,null,,,,yes,4522562,0,34627,36506
+9.0,,healthy,musicians,6.0,3.0,,19-27,19.0,27.0,,yes,5719057,0,36231,39516
+22.0,typically developing adolescents,healthy,Control group,16.0,6.0,16.0,12-20,12.0,20.0,,yes,3701149,0,11779,14691
+12.0,adolescents with transient AHs,patients,AH group,5.0,7.0,15.97,12-20,12.0,20.0,,yes,3701149,0,11779,14691
+13.0,adolescents with a 22q11.2 Deletion Syndrome,patients,22q11.2DS group,9.0,4.0,16.14,12-20,12.0,20.0,,yes,3701149,0,11779,14691
+29.0,,healthy,,,,,,,,,no,7563756,0,9392,10386
+65.0,idiopathic PD,patients,PD patients,,,,,,,,yes,5655292,0,3039,4402
+24.0,none,healthy,healthy controls,,,,,,,,yes,5655292,0,3039,4402
+38.0,APOE-4 carriers,patients,carriers,16.0,22.0,49.9,40-60,40.0,60.0,,yes,9205431,0,45406,48741
+38.0,noncarriers,healthy,noncarriers,16.0,22.0,49.9,40-60,40.0,60.0,,yes,9205431,0,45406,48741
+7.0,,healthy,healthy males,7.0,0.0,23.5,21-28,21.0,28.0,,yes,7406917,1,8419,12364
+38.0,ADHD,patients,,18.0,20.0,,,18.0,65.0,,yes,6347794,0,7742,10511
+18.0,nAMD,patients,nAMD patients,9.0,9.0,,,55.0,,,no,8544331,1,16185,17940
+18.0,none,healthy,healthy control subjects,9.0,9.0,,,,,,no,8544331,1,16185,17940
+10.0,Essential Tremor (ET),patients,ET patients,6.0,4.0,69.4,unknown,,,,yes,7493988,0,43154,44585
+10.0,No diagnosis,healthy,Healthy Controls (HC),5.0,5.0,67.7,unknown,,,,yes,7493988,0,43154,44585
+163.0,,healthy,healthy controls,117.0,46.0,36.9,,,,,yes,6611425,2,12727,16419
+151.0,SZ,patients,patients with SZ,114.0,37.0,37.8,,,,,yes,6611425,2,12727,16419
+20.0,Tourette syndrome,patients,TS subjects,,,,,,,,yes,3877773,0,6179,7775
+17.0,No diagnosis,healthy,healthy control children,,,,,,,,yes,3877773,0,6179,7775
+21.0,"PTSD, depression, anxiety, conduct disorder and phobia",patients,young people with a history of childhood abuse,15.0,6.0,17.5,null,,,,yes,5104469,0,12106,15360
+13.0,experienced HA users,patients,eHA,,,,60-80,60.0,80.0,,yes,6509414,0,8835,10592
+14.0,inexperienced HA users,patients,iHA,,,,60-80,60.0,80.0,,yes,6509414,0,8835,10592
+21.0,Parkinson's disease,patients,,13.0,8.0,60.8,44-73,44.0,73.0,,yes,3182403,0,5559,6387
+20.0,"no history of any neurological or psychological disorders, head injuries, poor vision or poor hearing",healthy,typically developing children,,,5.8,5.2-6.8,5.0,6.0,,yes,4274095,1,12283,13600
+20.0,ALS,patients,ALS patients,,,,,,,,yes,3447931,0,7348,8813
+15.0,no history of psychiatric or neurological disorders,healthy,healthy volunteers,8.0,7.0,26.5,21-38,21.0,38.0,,yes,3324921,0,9056,13005
+284.0,null,healthy,RH and LH,142.0,142.0,25.0,null,,,,yes,4319399,0,9266,11511
+20.0,,healthy,VA group,20.0,0.0,,,,,,yes,9230060,0,4708,5988
+20.0,,healthy,HC group,20.0,0.0,,,,,,yes,9230060,0,4708,5988
+15.0,no history of neurological or psychiatric illness,healthy,students,7.0,8.0,23.8,,,,,yes,5324609,0,5173,8811
+14.0,normal hearing,healthy,listeners,7.0,7.0,,22-48,22.0,48.0,,yes,3788350,0,9587,10771
+15.0,phobic prone,patients,PP,9.0,6.0,39.2,,,,,yes,3002948,0,8290,11062
+15.0,eating disorders prone,patients,EDP,10.0,5.0,34.4,,,,,yes,3002948,0,8290,11062
+62.0,panic disorder and agoraphobia,patients,first funding period,,,,,,,,yes,6854061,0,8526,10737
+39.0,healthy,healthy,first funding period,,,,,,,,yes,6854061,0,8526,10737
+60.0,panic disorder and agoraphobia,patients,second funding period,,,,,,,,yes,6854061,0,8526,10737
+38.0,healthy,healthy,second funding period,,,,,,,,yes,6854061,0,8526,10737
+25.0,,healthy,normal adult subjects,14.0,10.0,33.2,,,,,yes,6412974,0,9389,12145
+18.0,JME,patients,JME patients,3.0,15.0,30.1,20-48,20.0,48.0,,yes,6412974,0,9389,12145
+24.0,MSA c-type,patients,,,,,,,,,yes,7485713,0,27477,29306
+20.0,none,healthy,,,,,,,,,yes,7485713,0,27477,29306
+28.0,,healthy,younger adults,19.0,9.0,24.39,18-34,18.0,34.0,,yes,7004957,4,9185,11794
+23.0,,healthy,older adults,14.0,9.0,66.95,55-75,55.0,75.0,,yes,7004957,4,9185,11794
+23.0,non-convicted CSOs,patients,non-convicted CSOs,,,,,,,,yes,6678781,1,16665,20137
+38.0,convicted CSOs,patients,convicted CSOs,,,,,,,,yes,6678781,1,16665,20137
+16.0,ASD,patients,ASD,16.0,0.0,,8-18,8.0,18.0,,yes,5279905,0,7481,9124
+16.0,TD,healthy,TD,,,,,,,,yes,5279905,0,7481,9124
+42.0,ASD,patients,ASD,,,,8-36,8.0,36.0,,yes,3842522,0,11123,13089
+48.0,TD,healthy,TD,,,,8-36,8.0,36.0,,yes,3842522,0,11123,13089
+32.0,"no self-reported history of neurological disease, substance abuse, head trauma, CNS tumors, or psychoactive prescriptive medication usage",healthy,all participants,17.0,15.0,,25-27,25.0,27.0,,yes,4332461,0,4501,7045
+19.0,obsessive-compulsive disorder,patients,OCD patients,,,,,,,,yes,3777673,1,6638,9015
+19.0,none,healthy,control group,,,,,,,,yes,3777673,1,6638,9015
+20.0,MdDS,patients,,5.0,15.0,43.4,27-66,27.0,66.0,,yes,3510214,0,12585,13447
+20.0,none,healthy,,,,43.0,23-59,23.0,59.0,,yes,3510214,0,12585,13447
+11.0,,healthy,healthy normal subjects,5.0,6.0,31.0,25-38,25.0,38.0,,yes,3132672,0,7753,11701
+21.0,PTSD,patients,,,,,,,,,yes,5030332,0,7905,9151
+14.0,DD,patients,children with DD at baseline,,,,,,,,yes,5758587,0,11527,14377
+11.0,TD,healthy,TD children at baseline,,,,,,,,yes,5758587,0,11527,14377
+13.0,DD,patients,children with DD at follow-up,,,,,,,,yes,5758587,0,11527,14377
+8.0,TD,healthy,TD children at follow-up,,,,,,,,yes,5758587,0,11527,14377
+34.0,alcohol dependence,patients,ADP,34.0,0.0,,,,,,yes,5413198,0,10741,12545
+26.0,,healthy,HC,26.0,0.0,,,,,,yes,5413198,0,10741,12545
+19.0,,healthy,right-handed,7.0,12.0,24.7,19-30,19.0,30.0,,yes,2561002,1,27803,30938
+15.0,,healthy,left-handed,5.0,10.0,26.1,21-35,21.0,35.0,,yes,2561002,1,27803,30938
+63.0,"no history of neurological, gynaecological or psychiatric disorders, including PMDD",healthy,GnRHa and placebo,0.0,63.0,24.3,not specified,,,,yes,5068584,0,5351,8476
+23.0,none,healthy,healthy,,,15.2,,,,,yes,4030253,0,12909,14925
+18.0,Internet Addiction,patients,IA,,,15.1,,,,,yes,4030253,0,12909,14925
+23.0,refractory epilepsy of the temporal lobe,patients,general,8.0,15.0,,,,,,yes,4017227,2,7012,9327
+19.0,no record of neurological illness,healthy,general,10.0,9.0,,,,,,yes,4017227,2,7012,9327
+173.0,TSC,patients,all patients,,,,,,,,yes,9308181,0,5201,8942
+19.0,,healthy,subjects,,,,,,,,no,4352055,1,33687,36137
+163.0,,healthy,HCs,117.0,46.0,36.9,,,,,yes,9057100,0,12793,13992
+151.0,SZ,patients,SZ,114.0,37.0,37.8,,,,,yes,9057100,0,12793,13992
+5.0,TS,patients,,3.0,2.0,27.0,,,,,yes,5857897,0,6603,7746
+5.0,,healthy,patients,,,,,,,,yes,6699415,0,34985,36467
+75.0,chronic dieters,patients,Dartmouth community,0.0,75.0,19.38,18-23,18.0,23.0,,yes,5460048,0,11781,14592
+24.0,,healthy,Experiment 1 and 2,9.0,15.0,,,,,,yes,6016936,2,11174,13042
+6.0,PCH,patients,,,,,,,,,yes,9461104,0,8676,10310
+102.0,,healthy,Oulu dataset,36.0,66.0,21.5,20-23,20.0,23.0,,yes,3775427,1,8012,10968
+100.0,,healthy,Human Connectome Project,,,,,,,,yes,6492297,3,2027,5319
+595.0,,healthy,all,,,39.47,8-83,8.0,83.0,,yes,8615904,0,7046,10033
+539.0,ASD,patients,ASD patients,,,,,,,,yes,9407088,1,29835,31900
+521.0,ASD,patients,ASD patients,,,,,,,,yes,9407088,1,29835,31900
+573.0,,healthy,normal controls,,,,,,,,yes,9407088,1,29835,31900
+593.0,,healthy,normal controls,,,,,,,,yes,9407088,1,29835,31900
