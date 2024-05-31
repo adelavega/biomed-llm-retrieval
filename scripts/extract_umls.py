@@ -86,6 +86,8 @@ def run_extraction(docs, pmcids=None):
 							"end_char": pred['end_char'],
 						})
 
+	return results
+
 results = run_extraction(docs)
 
 results_df = pd.DataFrame(results)
