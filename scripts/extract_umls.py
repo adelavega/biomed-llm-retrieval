@@ -89,3 +89,5 @@ def run_extraction(docs, pmcids=None):
 results = run_extraction(docs)
 
 results_df = pd.DataFrame(results)
+
+results_df.to_csv(output_dir / f'{base_name}_umls.csv', index=False)
