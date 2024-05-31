@@ -1,16 +1,24 @@
 import pandas as pd
 import os
 from pathlib import Path
-from nipub_templates.prompts import FEW_SHOT_FC, ZERO_SHOT_MULTI_GROUP_FC, FEW_SHOT_FC_2
-from nipub_templates.clean import clean_predictions
 from publang.pipelines import search_extract
 from labelrepo.projects.participant_demographics import \
         get_participant_demographics
 from labelrepo import database
 from openai import OpenAI
 
+# Change directory for importing
+import sys
+sys.path.append('../')
+
+from nipub_templates.prompts import ZERO_SHOT_MULTI_GROUP_FC
+from nipub_templates.clean import clean_predictions
+
 # Load original annotations
 combined_annotations = pd.read_csv('../annotations/combined_pd.csv')
+
+# Retry subset
+pmids = [4732188, 4936600, 6290711, 7275020, 8459240, 8785614, 8933759, 10870473]
 
 # TMP: ONLY EXTRACT NEW ANNOTATIONS
 combined_annotations = combined_annotations[
@@ -22,7 +30,7 @@ docs = pd.read_sql(
     database.get_database_connection(),
 )
 docs = docs[
-    docs.pmcid.isin(combined_annotations.pmcid)].to_dict(orient='records')
+    docs.pmcid.isin(pmids)].to_dict(orient='records')
 
 output_dir = Path('../outputs')
 
@@ -61,14 +69,14 @@ def _run(extraction_model, extraction_client, min_chars, max_chars,
 
 
 models = [
-    ("accounts/fireworks/models/firefunction-v1", fireworks_client),
+    # ("accounts/fireworks/models/firefunction-v1", fireworks_client),
     # ("gpt-3.5-turbo-0613", openai_client),
     # ("gpt-4-0125-preview", openai_client),
-    # ("gpt-4o-2024-05-13", openai_client),
+    ("gpt-4o-2024-05-13", openai_client),
 ]
 
 
 # Split body into large sections (by setting min_chars to high number)
 for model_name, client in models:
-    _run(model_name, client, 40, 4000, prepend='demographics-fewshot',
-         **FEW_SHOT_FC, num_workers=10)
+    _run(model_name, client, 40, 4000, prepend='demographics-zeroshot-retry',
+         **ZERO_SHOT_MULTI_GROUP_FC, num_workers=10)
