@@ -68,7 +68,8 @@ def _run(extraction_model, extraction_client, min_chars, max_chars,
 
 
 models = [
-    ("anthropic/claude-3.5-sonnet", openrouter_client),
+    ("anthropic/claude-3-haiku", openrouter_client),
+    # ("anthropic/claude-3.5-sonnet", openrouter_client),
     # ("accounts/fireworks/models/firefunction-v2", fireworks_client),
     # ("gpt-3.5-turbo-0613", openai_client),
     # ("gpt-4-0125-preview", openai_client),

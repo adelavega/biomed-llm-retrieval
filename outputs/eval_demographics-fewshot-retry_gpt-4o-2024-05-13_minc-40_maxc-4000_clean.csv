@@ -1,0 +1,2 @@
+count,diagnosis,group_name,subgroup_name,male_count,female_count,age_mean,age_range,age_minimum,age_maximum,age_median,imaging_sample,pmcid,rank,start_char,end_char
+0.0,,healthy,,0.0,0.0,0.0,,0.0,0.0,0.0,no,10870473.0,0,18277,19066
