@@ -3,7 +3,7 @@ import pandas as pd
 from publang.evaluate import score_columns, hungarian_match_compare
 
 # Load annotations
-combined_annotations = pd.read_csv('annotations/combined_pd.csv')
+combined_annotations = pd.read_csv('../annotations/combined_pd.csv')
 
 subset_cols = ['count', 'diagnosis', 'group_name', 'subgroup_name', 'male count',
        'female count', 'age mean', 'age minimum', 'age maximum',
@@ -13,7 +13,7 @@ combined_annotations = combined_annotations[subset_cols].sort_values('pmcid')
 # Replace column names space with underscore
 combined_annotations.columns = combined_annotations.columns.str.replace(' ', '_')
 
-results_dir = Path('outputs')
+results_dir = Path('../outputs')
 
 
 def _filter_imaging_sample(x):
