@@ -66,8 +66,8 @@ def _evaluate(annotations, predictions):
     )
 
 
-all_results = []
-for f in sorted(results_dir.glob('eval_*_clean.csv')):
+eval_results = []
+for f in sorted(results_dir.glob('chunked_*_clean.csv')):
     predictions = pd.read_csv(f)
     predictions.columns = predictions.columns.str.replace(' ', '_')
 
@@ -88,8 +88,69 @@ for f in sorted(results_dir.glob('eval_*_clean.csv')):
     stats['more_groups'] = more
     stats['less_groups'] = less
 
-    all_results.append(stats)
+    eval_results.append(stats)
 
-all_results = pd.concat(all_results)
-all_results = pd.DataFrame(all_results)
-all_results.to_csv(results_dir / 'all_results.csv', index=False)
+eval_results = pd.concat(eval_results)
+eval_results = pd.DataFrame(eval_results)
+eval_results.to_csv(results_dir / 'chunked_results.csv', index=False)
+
+# For extraction from full-text (html or md)
+full_results = []
+for f in sorted(results_dir.glob('full_*_clean.csv')):
+    predictions = pd.read_csv(f)
+    predictions.columns = predictions.columns.str.replace(' ', '_')
+
+    n_studies, corr_n_groups, more, less, stats = _evaluate(
+        combined_annotations, predictions)
+
+    # Add metadata to pd dataframe
+    _, source, task, model_name, _ = f.stem.split('_')
+
+    if source == 'html':
+        html_pmids = predictions.pmcid.unique()
+
+    stats = pd.DataFrame(stats).reset_index()
+    stats = stats.rename(columns={'index': 'variable'})
+    stats['n_studies'] = n_studies
+    stats['task'] = task
+    stats['model_name'] = model_name
+    stats['corr_groups'] = corr_n_groups
+    stats['more_groups'] = more
+    stats['less_groups'] = less
+    stats['source'] = source
+    stats['subset'] = 'full'
+
+    full_results.append(stats)
+
+# Re-compute for MD on html subset
+for f in sorted(results_dir.glob('full_*_md_*_clean.csv')):
+    predictions = pd.read_csv(f)
+    predictions.columns = predictions.columns.str.replace(' ', '_')
+
+    predictions = predictions[predictions.pmcid.isin(html_pmids)] # Subset
+
+    n_studies, corr_n_groups, more, less, stats = _evaluate(
+        combined_annotations, predictions)
+
+    # Add metadata to pd dataframe
+    _, source, task, model_name, _, min_chars, max_chars = f.stem.split('_')
+
+    stats = pd.DataFrame(stats).reset_index()
+    stats = stats.rename(columns={'index': 'variable'})
+    stats['n_studies'] = n_studies
+    stats['task'] = task
+    stats['model_name'] = model_name
+    stats['corr_groups'] = corr_n_groups
+    stats['more_groups'] = more
+    stats['less_groups'] = less
+    stats['source'] = source
+    stats['subset'] = 'html_match'
+    stats['min_chars'] = min_chars.split('-')[1]
+    stats['max_chars'] = max_chars.split('-')[1]
+
+    full_results.append(stats)
+
+
+full_results = pd.concat(full_results)
+full_results = pd.DataFrame(full_results)
+full_results.to_csv(results_dir / 'full_results.csv', index=False)
