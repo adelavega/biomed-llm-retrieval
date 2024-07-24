@@ -1,3 +1,5 @@
 *.parquet
 *.pkl
 data/pubget_searches
+*.pyc
+data/html*
