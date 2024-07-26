@@ -25,6 +25,12 @@ output_dir = Path('../outputs')
 # Set up OpenAI clients
 embed_model = 'text-embedding-ada-002'
 openai_client = OpenAI(api_key=os.getenv('MYOPENAI_API_KEY'))
+fireworks_client = OpenAI(api_key=os.getenv('FIREWORKS_API_KEY'), 
+                          base_url='https://api.fireworks.ai/inference/v1')
+openrouter_client = OpenAI(
+  base_url="https://openrouter.ai/api/v1",
+  api_key=os.getenv("OPENROUTER_API_KEY"),
+)
 
 # Change directory for importing
 import sys
@@ -75,7 +81,10 @@ def _run(extraction_model, extraction_client, docs, prepend='', **extract_kwargs
 
 
 models = [
-    ("gpt-4o-mini-2024-07-18", openai_client),]
+    # ("gpt-4o-mini-2024-07-18", openai_client)
+    # ("anthropic/claude-3.5-sonnet", openrouter_client),
+    ("gpt-4o-2024-05-13", openai_client),
+]
 
 
 # for model_name, client in models:

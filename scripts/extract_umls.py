@@ -6,24 +6,26 @@ from pathlib import Path
 from labelrepo import database
 from tqdm import tqdm
 
-# Load predictions
-base_name = 'eval_demographics-zeroshot_gpt-4o-2024-05-13_minc-40_maxc-4000'
-gpt_predictions = pd.read_csv(f'../outputs/{base_name}_clean.csv')
-
-# Load articles that have been annotated
-docs = pd.read_sql(
-    "select pmcid, text from document",
-    database.get_database_connection(),
-)
-docs = docs[
-    docs.pmcid.isin(gpt_predictions.pmcid)].to_dict(orient='records')
-
-output_dir = Path('../outputs')
-
 nlp = spacy.load("en_core_sci_sm")
 nlp.add_pipe("abbreviation_detector")
 
 generator = CandidateGenerator(name='umls')
+
+
+def load_docs(pmids, source='md'):
+    if source == 'md':
+        docs = pd.read_sql(
+            "select pmcid, text from document",
+            database.get_database_connection(),
+        )
+        docs = docs[
+            docs.pmcid.isin(pmids)].to_dict(orient='records')
+
+    elif source == 'html':
+        docs = pd.read_csv('../data/html_combined.csv')
+        docs = docs[docs.pmcid.isin(pmids)].to_dict(orient='records')
+
+    return docs
 
 
 def get_candidates(
@@ -58,13 +60,13 @@ def get_candidates(
     return target, sorted_predicted[: max_entities_per_mention]
 
 
-def run_extraction(docs, pmcids=None):
+def run_extraction(docs, predictions, pmcids=None):
     if pmcids is not None:
         docs = [d for d in docs if int(d['pmcid']) in pmcids]
 
     results = []
     for doc in tqdm(docs):
-        doc_preds = gpt_predictions[gpt_predictions.pmcid == doc['pmcid']]
+        doc_preds = predictions[predictions.pmcid == doc['pmcid']]
         processed_doc = nlp(doc['text'])
         for ix, pred in doc_preds.iterrows():
             # Get the UMLS entities that match the targettarg
@@ -88,6 +90,22 @@ def run_extraction(docs, pmcids=None):
     return results
 
 
-results = run_extraction(docs)
-results_df = pd.DataFrame(results)
-results_df.to_csv(output_dir / f'{base_name}_umls.csv', index=False)
+# Apply to all predictions, with different sources
+input_predictions = [
+    ('md', 'chunked_demographics-zeroshot_gpt-4o-2024-05-13_minc-40_maxc-4000_clean.csv'),
+    ('md', 'full_md_demographics-zeroshot_gpt-4o-mini-2024-07-18_clean.csv'),
+    ('md', 'full_md_demographics-zeroshot_gpt-4o-2024-05-13_clean.csv'),
+    ('html', 'full_html_demographics-zeroshot_gpt-4o-mini-2024-07-18_clean.csv')
+]
+
+output_dir = Path('../outputs')
+
+for source, pred_path in input_predictions:
+    predictions = pd.read_csv(output_dir / pred_path)
+    docs = load_docs(predictions.pmcid.unique(), source)
+    results = run_extraction(docs, predictions)
+    results_df = pd.DataFrame(results)
+
+    # Remove _clean from the filename
+    out_name = pred_path.replace('_clean', '_umls')
+    results_df.to_csv(output_dir / out_name, index=False)

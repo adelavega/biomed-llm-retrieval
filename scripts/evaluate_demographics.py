@@ -123,7 +123,7 @@ for f in sorted(results_dir.glob('full_*_clean.csv')):
     full_results.append(stats)
 
 # Re-compute for MD on html subset
-for f in sorted(results_dir.glob('full_*_md_*_clean.csv')):
+for f in sorted(results_dir.glob('full_*md*_clean.csv')):
     predictions = pd.read_csv(f)
     predictions.columns = predictions.columns.str.replace(' ', '_')
 
@@ -133,7 +133,7 @@ for f in sorted(results_dir.glob('full_*_md_*_clean.csv')):
         combined_annotations, predictions)
 
     # Add metadata to pd dataframe
-    _, source, task, model_name, _, min_chars, max_chars = f.stem.split('_')
+    _, source, task, model_name, _ = f.stem.split('_')
 
     stats = pd.DataFrame(stats).reset_index()
     stats = stats.rename(columns={'index': 'variable'})
@@ -145,8 +145,6 @@ for f in sorted(results_dir.glob('full_*_md_*_clean.csv')):
     stats['less_groups'] = less
     stats['source'] = source
     stats['subset'] = 'html_match'
-    stats['min_chars'] = min_chars.split('-')[1]
-    stats['max_chars'] = max_chars.split('-')[1]
 
     full_results.append(stats)
 
