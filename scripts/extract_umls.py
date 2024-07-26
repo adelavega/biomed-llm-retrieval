@@ -37,9 +37,12 @@ def get_candidates(
     # First we need to resolve abbreciation in the target text
     if resolve_abbreviations:
         for abrv in processed_doc._.abbreviations:
-            if abrv.start_char >= start_char and abrv.end_char <= end_char:
-                if abrv.text in target:
-                    target = target.replace(abrv.text, abrv._.long_form.text)
+            if abrv.text in target:
+                # If start and end char are provided, only resolve abbreviations within the target
+                if start_char is not None and end_char is not None:
+                    if not (abrv.start_char >= start_char and abrv.end_char <= end_char):
+                        continue 
+                target = target.replace(abrv.text, abrv._.long_form.text)
 
     # Second we can use the CandidateGenerator to get the UMLS entities
 
@@ -70,9 +73,11 @@ def run_extraction(docs, predictions, pmcids=None):
         processed_doc = nlp(doc['text'])
         for ix, pred in doc_preds.iterrows():
             # Get the UMLS entities that match the targettarg
-            if pred['group_name'] == 'patients':
+            start_char = pred['start_char'] if 'start_char' in pred else None
+            end_char = pred['end_char'] if 'end_char' in pred else None
+            if pred['group_name'] == 'patients' and pd.isna(pred['diagnosis']) == False:
                 resolved_target, target_ents = get_candidates(
-                    generator, processed_doc, pred['diagnosis'], start_char=pred['start_char'], end_char=pred['end_char'])
+                    generator, processed_doc, pred['diagnosis'], start_char=start_char, end_char=end_char)
 
                 for ent in target_ents:
                     results.append({
@@ -83,8 +88,8 @@ def run_extraction(docs, predictions, pmcids=None):
                         "umls_prob": ent[2],
                         "count": pred['count'],
                         "group_ix": ix,
-                        "start_char": pred['start_char'],
-                        "end_char": pred['end_char'],
+                        "start_char": start_char,
+                        "end_char": end_char,
                     })
 
     return results
@@ -92,10 +97,10 @@ def run_extraction(docs, predictions, pmcids=None):
 
 # Apply to all predictions, with different sources
 input_predictions = [
-    ('md', 'chunked_demographics-zeroshot_gpt-4o-2024-05-13_minc-40_maxc-4000_clean.csv'),
-    ('md', 'full_md_demographics-zeroshot_gpt-4o-mini-2024-07-18_clean.csv'),
-    ('md', 'full_md_demographics-zeroshot_gpt-4o-2024-05-13_clean.csv'),
-    ('html', 'full_html_demographics-zeroshot_gpt-4o-mini-2024-07-18_clean.csv')
+    # ('md', 'full_md_demographics-zeroshot_gpt-4o-mini-2024-07-18_clean.csv'),
+    # ('md', 'full_md_demographics-zeroshot_gpt-4o-2024-05-13_clean.csv'),
+    ('html', 'full_html_demographics-zeroshot_gpt-4o-mini-2024-07-18_clean.csv'),
+    ('md', 'chunked_demographics-zeroshot_gpt-4o-2024-05-13_minc-40_maxc-4000_clean.csv')
 ]
 
 output_dir = Path('../outputs')

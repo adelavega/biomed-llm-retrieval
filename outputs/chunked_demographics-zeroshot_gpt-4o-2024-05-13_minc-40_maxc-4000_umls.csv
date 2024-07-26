@@ -5,24 +5,24 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 8883821,schizophrenia,C1838069,SCHIZOPHRENIA 3,0.95782870054245,28.0,165,7464,8764
 8883821,schizophrenia,C1864153,SCHIZOPHRENIA 5,0.9558221101760864,28.0,165,7464,8764
 8883821,autism spectrum disorder,C0524528,Autism spectrum disorder,1.0,20.0,166,7464,8764
-8883821,autism spectrum disorder,C1510586,Autism spectrum disorder,1.0,20.0,166,7464,8764
+8883821,autism spectrum disorder,C1510586,Autism Spectrum Disorder,1.0,20.0,166,7464,8764
 8883821,autism spectrum disorder,C0004352,Autism disorder,0.8036827445030212,20.0,166,7464,8764
 8883821,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7405830025672913,20.0,166,7464,8764
 8883821,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.7330023646354675,20.0,166,7464,8764
 9407088,autism spectrum disorder,C0524528,Autism spectrum disorder,1.0,539.0,389,29835,31900
-9407088,autism spectrum disorder,C1510586,Autism spectrum disorder,1.0,539.0,389,29835,31900
+9407088,autism spectrum disorder,C1510586,Autism Spectrum Disorder,1.0,539.0,389,29835,31900
 9407088,autism spectrum disorder,C0004352,Autism disorder,0.8036827445030212,539.0,389,29835,31900
 9407088,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7405830025672913,539.0,389,29835,31900
 9407088,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.7330023646354675,539.0,389,29835,31900
 9407088,autism spectrum disorder,C0524528,Autism spectrum disorder,1.0,521.0,390,29835,31900
-9407088,autism spectrum disorder,C1510586,Autism spectrum disorder,1.0,521.0,390,29835,31900
+9407088,autism spectrum disorder,C1510586,Autism Spectrum Disorder,1.0,521.0,390,29835,31900
 9407088,autism spectrum disorder,C0004352,Autism disorder,0.8036827445030212,521.0,390,29835,31900
 9407088,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7405830025672913,521.0,390,29835,31900
 9407088,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.7330023646354675,521.0,390,29835,31900
 8782893,attention/deficit hyperactivity disorder,C1263846,Attention Deficit Hyperactivity Disorder,0.8728547692298889,167.0,303,7940,10880
 8782893,attention/deficit hyperactivity disorder,C0339002,Attention deficit disorder without hyperactivity,0.7822327017784119,167.0,303,7940,10880
 8978988,GNE myopathy,C1853926,GNE myopathy,1.0,1.0,306,10738,12684
-8978988,GNE myopathy,C0026848,MYOPATHY,0.8232776522636414,1.0,306,10738,12684
+8978988,GNE myopathy,C0026848,myopathy,0.8232776522636414,1.0,306,10738,12684
 8978988,GNE myopathy,C3711389,Actin myopathy,0.7283757328987122,1.0,306,10738,12684
 8978988,GNE myopathy,C0206157,Rod myopathy,0.7133665680885315,1.0,306,10738,12684
 8978988,GNE myopathy,C3710589,Cap myopathy,0.709169864654541,1.0,306,10738,12684
@@ -57,9 +57,9 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 7118554,major depressive disorder,C1269683,Major Depressive Disorder,1.0,43.0,88,8471,10050
 7118554,major depressive disorder,C1837929,Major Depressive Disorder 1,0.9817220568656921,43.0,88,8471,10050
 7118554,major depressive disorder,C1837529,Major Depressive Disorder 2,0.9764902591705322,43.0,88,8471,10050
-7118554,major depressive disorder,C0011581,depressive disorder,0.8105667233467102,43.0,88,8471,10050
+7118554,major depressive disorder,C0011581,Depressive Disorder,0.8105667233467102,43.0,88,8471,10050
 8213933,autism spectrum disorder,C0524528,Autism spectrum disorder,1.0,28.0,279,13173,14739
-8213933,autism spectrum disorder,C1510586,Autism spectrum disorder,1.0,28.0,279,13173,14739
+8213933,autism spectrum disorder,C1510586,Autism Spectrum Disorder,1.0,28.0,279,13173,14739
 8213933,autism spectrum disorder,C0004352,Autism disorder,0.8036827445030212,28.0,279,13173,14739
 8213933,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7405830025672913,28.0,279,13173,14739
 8213933,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.7330023646354675,28.0,279,13173,14739
@@ -79,7 +79,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 7721229,schizophrenia,C1838069,SCHIZOPHRENIA 3,0.95782870054245,151.0,270,10065,13228
 7721229,schizophrenia,C1864153,SCHIZOPHRENIA 5,0.9558221101760864,151.0,270,10065,13228
 7721229,autism spectrum disorder,C0524528,Autism spectrum disorder,1.0,255.0,272,10065,13228
-7721229,autism spectrum disorder,C1510586,Autism spectrum disorder,1.0,255.0,272,10065,13228
+7721229,autism spectrum disorder,C1510586,Autism Spectrum Disorder,1.0,255.0,272,10065,13228
 7721229,autism spectrum disorder,C0004352,Autism disorder,0.8036827445030212,255.0,272,10065,13228
 7721229,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7405830025672913,255.0,272,10065,13228
 7721229,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.7330023646354675,255.0,272,10065,13228
@@ -144,7 +144,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 8544331,neovascular age-related macular degeneration,C0271084,Neovascular age-related macular degeneration,1.0,18.0,319,16185,17940
 8544331,neovascular age-related macular degeneration,C0242383,age-related macular degeneration,0.8594051599502563,18.0,319,16185,17940
 8544331,neovascular age-related macular degeneration,C1853147,Age-Related Macular Degeneration-4,0.7767437696456909,18.0,319,16185,17940
-3447931,amyotrophic lateral sclerosis,C0002736,Amyotrophic lateral sclerosis,0.9999999403953552,20.0,332,7348,8813
+3447931,amyotrophic lateral sclerosis,C0002736,amyotrophic lateral sclerosis,0.9999999403953552,20.0,332,7348,8813
 3447931,amyotrophic lateral sclerosis,C1862939,Amyotrophic Lateral Sclerosis 1,0.9822667241096497,20.0,332,7348,8813
 3447931,amyotrophic lateral sclerosis,C1847735,Amyotrophic Lateral Sclerosis 3,0.9731687903404236,20.0,332,7348,8813
 3447931,amyotrophic lateral sclerosis,C1420344,amyotrophic lateral sclerosis 5,0.971846342086792,20.0,332,7348,8813
@@ -172,7 +172,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 2748718,Nonbelievers,C0004951,Believe,0.5847805142402649,21.0,138,25958,29873
 2748718,Nonbelievers,C0002771,Pain Relievers,0.5799762010574341,21.0,138,25958,29873
 2648877,Autism Spectrum Disorder,C0524528,Autism spectrum disorder,1.0,15.0,116,10521,12299
-2648877,Autism Spectrum Disorder,C1510586,Autism spectrum disorder,1.0,15.0,116,10521,12299
+2648877,Autism Spectrum Disorder,C1510586,Autism Spectrum Disorder,1.0,15.0,116,10521,12299
 2648877,Autism Spectrum Disorder,C0004352,Autism disorder,0.8036827445030212,15.0,116,10521,12299
 2648877,Autism Spectrum Disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7405830025672913,15.0,116,10521,12299
 2648877,Autism Spectrum Disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.7330023646354675,15.0,116,10521,12299
@@ -203,15 +203,15 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 6347794,attention-deficit/hyperactivity disorder,C1263846,Attention-deficit/hyperactivity disorder,1.0,38.0,318,7742,10511
 6347794,attention-deficit/hyperactivity disorder,C0339002,"Attention-Deficit/Hyperactivity Disorder, Predominantly Inattentive Type",0.7986267805099487,38.0,318,7742,10511
 6347794,attention-deficit/hyperactivity disorder,C0041671,Attention-deficit disorder,0.7052829265594482,38.0,318,7742,10511
-7829678,Type 2 diabetes mellitus,C0011860,Type 2 diabetes mellitus,1.0,53.0,199,7017,9210
+7829678,Type 2 diabetes mellitus,C0011860,Diabetes mellitus type 2,1.0,53.0,199,7017,9210
 7829678,Type 2 diabetes mellitus,C1832544,TYPE 2 DIABETES MELLITUS 1,0.9791269302368164,53.0,199,7017,9210
 7829678,Type 2 diabetes mellitus,C1852092,TYPE 1 DIABETES MELLITUS 2,0.9791269302368164,53.0,199,7017,9210
 7829678,Type 2 diabetes mellitus,C1832387,TYPE 2 DIABETES MELLITUS 2,0.977154016494751,53.0,199,7017,9210
 7829678,Type 2 diabetes mellitus,C1863594,TYPE 2 DIABETES MELLITUS 3,0.9685229063034058,53.0,199,7017,9210
-7829678,Type 2 diabetes mellitus-CI,C0011860,Type 2 diabetes mellitus,0.814891517162323,22.0,201,7017,9210
-7829678,Type 2 diabetes mellitus-CI,C0011854,diabetes mellitus type 1,0.7736166715621948,22.0,201,7017,9210
-7829678,Type 2 diabetes mellitus-NC,C0011860,Type 2 diabetes mellitus,0.7941452860832214,31.0,202,7017,9210
-7829678,Type 2 diabetes mellitus-NC,C0011854,diabetes mellitus type 1,0.7539213299751282,31.0,202,7017,9210
+7829678,Type 2 diabetes mellitus-CI,C0011860,Diabetes mellitus type 2,0.814891517162323,22.0,201,7017,9210
+7829678,Type 2 diabetes mellitus-CI,C0011854,Type 1 Diabetes Mellitus,0.7736166715621948,22.0,201,7017,9210
+7829678,Type 2 diabetes mellitus-NC,C0011860,Diabetes mellitus type 2,0.7941452860832214,31.0,202,7017,9210
+7829678,Type 2 diabetes mellitus-NC,C0011854,Type 1 Diabetes Mellitus,0.7539213299751282,31.0,202,7017,9210
 6878729,right-sided cerebral palsy,C0007789,CEREBRAL PALSY,0.7079616785049438,8.0,196,7912,9122
 6878729,right-sided cerebral palsy,C0444532,Right-sided,0.7062508463859558,8.0,196,7912,9122
 6878729,right-sided cerebral palsy,C3838784,Bilateral cerebral palsy,0.6184524297714233,8.0,196,7912,9122
@@ -233,7 +233,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 8315277,severe White matter hyperintensities,C4020908,White matter hypointensities on MRI,0.6951615214347839,28.0,235,7581,10145
 8315277,severe White matter hyperintensities,C1856979,Deep white matter hypodensities,0.6450570821762085,28.0,235,7581,10145
 5870086,autism spectrum disorder,C0524528,Autism spectrum disorder,1.0,33.0,139,9508,11703
-5870086,autism spectrum disorder,C1510586,Autism spectrum disorder,1.0,33.0,139,9508,11703
+5870086,autism spectrum disorder,C1510586,Autism Spectrum Disorder,1.0,33.0,139,9508,11703
 5870086,autism spectrum disorder,C0004352,Autism disorder,0.8036827445030212,33.0,139,9508,11703
 5870086,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7405830025672913,33.0,139,9508,11703
 5870086,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.7330023646354675,33.0,139,9508,11703
@@ -241,16 +241,16 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 5598991,Major depressive disorder,C1269683,Major Depressive Disorder,1.0,147.0,140,7260,9372
 5598991,Major depressive disorder,C1837929,Major Depressive Disorder 1,0.9817220568656921,147.0,140,7260,9372
 5598991,Major depressive disorder,C1837529,Major Depressive Disorder 2,0.9764902591705322,147.0,140,7260,9372
-5598991,Major depressive disorder,C0011581,depressive disorder,0.8105667233467102,147.0,140,7260,9372
+5598991,Major depressive disorder,C0011581,Depressive Disorder,0.8105667233467102,147.0,140,7260,9372
 4265725,Autism spectrum conditions,C0524528,Autism spectrum disorder,0.6556074023246765,18.0,287,10617,12494
-4265725,Autism spectrum conditions,C1510586,Autism spectrum disorder,0.6556074023246765,18.0,287,10617,12494
+4265725,Autism spectrum conditions,C1510586,Autism Spectrum Disorder,0.6556074023246765,18.0,287,10617,12494
 4265725,Autism spectrum conditions,C1883073,Spectrum,0.5604133009910583,18.0,287,10617,12494
 4265725,Autism spectrum conditions,C2827424,Spectrum,0.5604133009910583,18.0,287,10617,12494
-4265725,Autism spectrum conditions,C0004352,Autism,0.5507602095603943,18.0,287,10617,12494
+4265725,Autism spectrum conditions,C0004352,autism,0.5507602095603943,18.0,287,10617,12494
 5537800,obesity,C0028754,OBESITY,1.0,19.0,103,8516,10261
 5537800,obesity,C4759928,OBESITY,1.0,19.0,103,8516,10261
 5537800,obesity,C0311277,Central obesity,0.8148539662361145,19.0,103,8516,10261
-5537800,obesity,C4551560,Central obesity,0.8148539662361145,19.0,103,8516,10261
+5537800,obesity,C4551560,central obesity,0.8148539662361145,19.0,103,8516,10261
 5537800,obesity,C4742979,Obesity Factor,0.8052939772605896,19.0,103,8516,10261
 4175730,chronic osteoarthritis,C0263778,Chronic osteoarthritis,1.0,44.0,135,19248,20025
 4175730,chronic osteoarthritis,C0029408,OSTEOARTHRITIS,0.8643676042556763,44.0,135,19248,20025
@@ -280,7 +280,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 6246657,major depressive disorder,C1269683,Major Depressive Disorder,1.0,40.0,111,7306,10392
 6246657,major depressive disorder,C1837929,Major Depressive Disorder 1,0.9817220568656921,40.0,111,7306,10392
 6246657,major depressive disorder,C1837529,Major Depressive Disorder 2,0.9764902591705322,40.0,111,7306,10392
-6246657,major depressive disorder,C0011581,depressive disorder,0.8105667233467102,40.0,111,7306,10392
+6246657,major depressive disorder,C0011581,Depressive Disorder,0.8105667233467102,40.0,111,7306,10392
 6246657,bipolar disorderD,C0005586,Bipolar disorder,0.876652717590332,21.0,112,7306,10392
 6246657,bipolar disorderD,C0024713,bipolar disorder manic,0.7790005207061768,21.0,112,7306,10392
 3510214,mal de debarquement syndrome   ,C1608983,Mal de debarquement syndrome,1.0,20.0,360,12585,13447
@@ -291,7 +291,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 7875881,major depressive disorder,C1269683,Major Depressive Disorder,1.0,19.0,245,7093,8833
 7875881,major depressive disorder,C1837929,Major Depressive Disorder 1,0.9817220568656921,19.0,245,7093,8833
 7875881,major depressive disorder,C1837529,Major Depressive Disorder 2,0.9764902591705322,19.0,245,7093,8833
-7875881,major depressive disorder,C0011581,depressive disorder,0.8105667233467102,19.0,245,7093,8833
+7875881,major depressive disorder,C0011581,Depressive Disorder,0.8105667233467102,19.0,245,7093,8833
 3409150,smokers,C0337664,Smokers,1.0,18.0,149,8569,9966
 3409150,smokers,C0337671,ex smokers,0.9259503483772278,18.0,149,8569,9966
 3409150,smokers,C3241966,Smoker,0.8761741518974304,18.0,149,8569,9966
@@ -299,7 +299,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 3409150,smokers,C4554605,Nonsmokers,0.7714044451713562,18.0,149,8569,9966
 3511796,nicotine dependence,C0028043,Nicotine dependence,1.0,45.0,63,3425,5707
 3511796,nicotine dependence,C0011546,Dependence,0.7502702474594116,45.0,63,3425,5707
-3511796,nicotine dependence,C0439857,Dependence,0.7502702474594116,45.0,63,3425,5707
+3511796,nicotine dependence,C0439857,dependence,0.7502702474594116,45.0,63,3425,5707
 3511796,nicotine dependence,C2911355,Personal History of Nicotine Dependence,0.7389035224914551,45.0,63,3425,5707
 3511796,nicotine dependence,C0451156,Fagerstrom test for nicotine dependence,0.6990997195243835,45.0,63,3425,5707
 6509414,experienced hearing aid users,C0018768,hearing aid,0.615001380443573,13.0,328,8835,10592
@@ -331,11 +331,11 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 3554651,less-proficient,C5204275,HR Proficient,0.585686445236206,10.0,172,39775,41437
 2494616,"unilateral, upper limb amputation and phantom limb pain experienced during scanning experienced during scanning experienced during scanning",C0034606,Scanning,0.5560221672058105,13.0,150,8118,9527
 2494616,"unilateral, upper limb amputation and phantom limb pain experienced during scanning experienced during scanning experienced during scanning",C0441633,Scanning,0.5560221672058105,13.0,150,8118,9527
-2494616,"unilateral, upper limb amputation and phantom limb pain experienced during scanning experienced during scanning experienced during scanning",C0596545,experience,0.5403075814247131,13.0,150,8118,9527
+2494616,"unilateral, upper limb amputation and phantom limb pain experienced during scanning experienced during scanning experienced during scanning",C0596545,Experience,0.5403075814247131,13.0,150,8118,9527
 3742334,marijuana abuse,C0024809,Marijuana abuse,1.0,10.0,237,7512,11306
 3742334,marijuana abuse,C0024810,MARIJUANA USE,0.8659331202507019,10.0,237,7512,11306
 3742334,marijuana abuse,C4084815,Use Marijuana,0.8659331202507019,10.0,237,7512,11306
-3742334,marijuana abuse,C4316909,marijuana use,0.8659331202507019,10.0,237,7512,11306
+3742334,marijuana abuse,C4316909,Marijuana Use,0.8659331202507019,10.0,237,7512,11306
 3742334,marijuana abuse,C0024808,marijuana,0.8564018607139587,10.0,237,7512,11306
 8172304,chronic urticaria,C0263338,chronic urticaria,1.0,32.0,132,6637,7668
 8172304,chronic urticaria,C0578870,Chronic Spontaneous Urticaria,0.7908040881156921,32.0,132,6637,7668
@@ -352,7 +352,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 4190683,"Attention Deficit Hyperactivity Disorder, hyperactive-impulsive/inattentive combined subtype",C1263846,"Attention deficit hyperactivity disorder, hyperactive impulsive type",0.8172362446784973,30.0,247,9065,12151
 4190683,"Attention Deficit Hyperactivity Disorder, hyperactive-impulsive/inattentive combined subtype",C0339002,"Attention Deficit Hyperactivity Disorder, Inattentive Type",0.767595112323761,30.0,247,9065,12151
 7194032,Autism spectrum disorder,C0524528,Autism spectrum disorder,1.0,26.0,99,9309,10707
-7194032,Autism spectrum disorder,C1510586,Autism spectrum disorder,1.0,26.0,99,9309,10707
+7194032,Autism spectrum disorder,C1510586,Autism Spectrum Disorder,1.0,26.0,99,9309,10707
 7194032,Autism spectrum disorder,C0004352,Autism disorder,0.8036827445030212,26.0,99,9309,10707
 7194032,Autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7405830025672913,26.0,99,9309,10707
 7194032,Autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.7330023646354675,26.0,99,9309,10707
@@ -365,12 +365,12 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 6908505,bipolar disorder,C0853193,Bipolar 1 disorder,0.9684031009674072,70.0,148,7076,8109
 6908505,bipolar disorder,C0236788,Bipolar 2 disorder,0.9595701098442078,70.0,148,7076,8109
 6908505,bipolar disorder,C0024713,bipolar disorder manic,0.8886114954948425,70.0,148,7076,8109
-5394595,bronchial asthma,C0004096,bronchial asthma,1.0,17.0,126,5950,6820
+5394595,bronchial asthma,C0004096,Bronchial asthma,1.0,17.0,126,5950,6820
 5394595,bronchial asthma,C0205039,bronchial,0.6994755268096924,17.0,126,5950,6820
 5394595,bronchial asthma,C0719022,Bronchial,0.6994755268096924,17.0,126,5950,6820
 5394595,bronchial asthma,C1334103,Bronchial hyperresponsiveness-1 (bronchial asthma),0.6705305576324463,17.0,126,5950,6820
 5394595,bronchial asthma,C1708423,Bronchial Hyperresponsiveness-1 (Bronchial Asthma) Gene,0.6540811061859131,17.0,126,5950,6820
-5394595,bronchial asthma,C0004096,bronchial asthma,1.0,25.0,127,5950,6820
+5394595,bronchial asthma,C0004096,Bronchial asthma,1.0,25.0,127,5950,6820
 5394595,bronchial asthma,C0205039,bronchial,0.6994755268096924,25.0,127,5950,6820
 5394595,bronchial asthma,C0719022,Bronchial,0.6994755268096924,25.0,127,5950,6820
 5394595,bronchial asthma,C1334103,Bronchial hyperresponsiveness-1 (bronchial asthma),0.6705305576324463,25.0,127,5950,6820
@@ -396,7 +396,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 4869560,major depressive disorder,C1269683,Major Depressive Disorder,1.0,30.0,152,6957,9021
 4869560,major depressive disorder,C1837929,Major Depressive Disorder 1,0.9817220568656921,30.0,152,6957,9021
 4869560,major depressive disorder,C1837529,Major Depressive Disorder 2,0.9764902591705322,30.0,152,6957,9021
-4869560,major depressive disorder,C0011581,depressive disorder,0.8105667233467102,30.0,152,6957,9021
+4869560,major depressive disorder,C0011581,Depressive Disorder,0.8105667233467102,30.0,152,6957,9021
 5686883,juvenile fibromyalgia,C3896653,Juvenile Primary Fibromyalgia Syndrome,0.8374159932136536,10.0,108,7085,9280
 5686883,juvenile fibromyalgia,C0016053,fibromyalgia,0.7702178359031677,10.0,108,7085,9280
 5686883,juvenile fibromyalgia,C0432284,juvenile fibromatosis,0.6692326664924622,10.0,108,7085,9280
@@ -406,7 +406,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 4983635,major depressive disorder,C1269683,Major Depressive Disorder,1.0,45.0,203,8102,10652
 4983635,major depressive disorder,C1837929,Major Depressive Disorder 1,0.9817220568656921,45.0,203,8102,10652
 4983635,major depressive disorder,C1837529,Major Depressive Disorder 2,0.9764902591705322,45.0,203,8102,10652
-4983635,major depressive disorder,C0011581,depressive disorder,0.8105667233467102,45.0,203,8102,10652
+4983635,major depressive disorder,C0011581,Depressive Disorder,0.8105667233467102,45.0,203,8102,10652
 6389716,Parkinson’s disease,C0030567,Parkinson`s disease,1.0,42.0,227,8216,9580
 6389716,Parkinson’s disease,C1868675,Parkinson Disease 2,0.9572856426239014,42.0,227,8216,9580
 6389716,Parkinson’s disease,C2931436,Parkinson disease 3,0.9517221450805664,42.0,227,8216,9580
@@ -487,10 +487,10 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 4990879,heroin use,C0457083,Use,0.6135503649711609,40.0,119,7250,8174
 4990879,heroin use,C4086213,Concern About Your Use of Heroin,0.5257940888404846,40.0,119,7250,8174
 5266856,aphasia,C0003537,APHASIA,1.0,39.0,169,11355,12649
-5266856,aphasia,C0003113,APHASIA NOMINAL,0.7769953608512878,39.0,169,11355,12649
-5266856,aphasia,C0003550,Motor aphasia,0.7744381427764893,39.0,169,11355,12649
+5266856,aphasia,C0003113,nominal aphasia,0.7769953608512878,39.0,169,11355,12649
+5266856,aphasia,C0003550,aphasia motor,0.7744381427764893,39.0,169,11355,12649
 3842522,autism spectrum disorder,C0524528,Autism spectrum disorder,1.0,42.0,355,11123,13089
-3842522,autism spectrum disorder,C1510586,Autism spectrum disorder,1.0,42.0,355,11123,13089
+3842522,autism spectrum disorder,C1510586,Autism Spectrum Disorder,1.0,42.0,355,11123,13089
 3842522,autism spectrum disorder,C0004352,Autism disorder,0.8036827445030212,42.0,355,11123,13089
 3842522,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7405830025672913,42.0,355,11123,13089
 3842522,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.7330023646354675,42.0,355,11123,13089
@@ -500,7 +500,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 7836234,mesial temporal lobe epilepsy,C4551957,"Epilepsy, Familial Temporal Lobe 1",0.7307206392288208,19.0,294,7759,9900
 7836234,mesial temporal lobe epilepsy,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.7216513752937317,19.0,294,7759,9900
 3701149,adolescents with transient auditory hallucinations,C0233762,auditory hallucinations,0.6849893927574158,12.0,310,11779,14691
-3701149,adolescents with a 22q11.2 Deletion Syndrome,C0012236,22q11.2 deletion syndrome,0.8227300643920898,13.0,311,11779,14691
+3701149,adolescents with a 22q11.2 Deletion Syndrome,C0012236,22q11.2 Deletion Syndrome,0.8227300643920898,13.0,311,11779,14691
 3701149,adolescents with a 22q11.2 Deletion Syndrome,C0220704,Deletion 22q11.2 syndrome,0.8227300643920898,13.0,311,11779,14691
 3701149,adolescents with a 22q11.2 Deletion Syndrome,C4518343,Distal 22q11.2 microdeletion syndrome,0.7229992151260376,13.0,311,11779,14691
 3701149,adolescents with a 22q11.2 Deletion Syndrome,C2936346,22q11 Deletion Syndrome,0.7147161960601807,13.0,311,11779,14691
@@ -514,12 +514,12 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 4936600,attention-deficit hyperactivity disorder,C1263846,Attention-deficit hyperactivity disorder,1.0,19.0,120,7788,11563
 4936600,attention-deficit hyperactivity disorder,C0041671,Attention-deficit disorder,0.8385365009307861,19.0,120,7788,11563
 4936600,attention-deficit hyperactivity disorder,C0339002,Attention deficit disorder without hyperactivity,0.8163689970970154,19.0,120,7788,11563
-4936600,Developmental coordination disorder,C0011757,Developmental Coordination Disorder,1.0,6.0,121,7788,11563
+4936600,Developmental coordination disorder,C0011757,developmental coordination disorder,1.0,6.0,121,7788,11563
 4936600,Developmental coordination disorder,C0008073,developmental disorder,0.8141757249832153,6.0,121,7788,11563
 4936600,Developmental coordination disorder,C0494698,Dental Developmental Disorder,0.7639912366867065,6.0,121,7788,11563
 4936600,Developmental coordination disorder,C0005941,BONE DEVELOPMENT DISORDER,0.7130357623100281,6.0,121,7788,11563
 4936600,Developmental coordination disorder+attention-deficit hyperactivity disorder,C1263846,Attention-deficit hyperactivity disorder,0.7228999733924866,14.0,122,7788,11563
-4936600,Developmental coordination disorder+attention-deficit hyperactivity disorder,C0011757,Developmental Coordination Disorder,0.7096214890480042,14.0,122,7788,11563
+4936600,Developmental coordination disorder+attention-deficit hyperactivity disorder,C0011757,developmental coordination disorder,0.7096214890480042,14.0,122,7788,11563
 4936600,Developmental coordination disorder+attention-deficit hyperactivity disorder,C0041671,Attention-deficit disorder,0.6449911594390869,14.0,122,7788,11563
 4936600,Developmental coordination disorder+attention-deficit hyperactivity disorder,C0339002,Attention deficit disorder without mention of hyperactivity,0.6218153238296509,14.0,122,7788,11563
 4215530,VPT,C4749792,VPTR,0.7168786525726318,24.0,175,10681,12744
@@ -532,11 +532,11 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 7539836,mild traumatic brain injury,C3263723,TRAUMATIC INJURY,0.7950518131256104,53.0,266,6826,8200
 3777673,obsessive-compulsive disorder,C0028768,Obsessive-Compulsive Disorder,1.0,19.0,358,6638,9015
 3777673,obsessive-compulsive disorder,C1420214,obsessive-compulsive disorder 1,0.9887562394142151,19.0,358,6638,9015
-3777673,obsessive-compulsive disorder,C0009595,Obsessive-Compulsive Personality Disorder,0.8948076963424683,19.0,358,6638,9015
+3777673,obsessive-compulsive disorder,C0009595,Obsessive-compulsive personality disorder,0.8948076963424683,19.0,358,6638,9015
 3777673,obsessive-compulsive disorder,C1834433,Obsessive-compulsive trait,0.8500338196754456,19.0,358,6638,9015
 5552726,asymptomatic carotid artery stenosis,C3494609,Asymptomatic carotid artery stenosis,1.0,16.0,293,3930,5250
 5552726,asymptomatic carotid artery stenosis,C0007282,Carotid Artery Stenosis,0.7491970658302307,16.0,293,3930,5250
-3423412,Alzheimer disease,C0002395,ALZHEIMER DISEASE,1.0,14.0,298,6223,8710
+3423412,Alzheimer disease,C0002395,Alzheimer Disease,1.0,14.0,298,6223,8710
 3423412,Alzheimer disease,C1364818,Alzheimer disease,1.0,14.0,298,6223,8710
 3423412,Alzheimer disease,C2931257,Alzheimer disease 1,0.9817905426025391,14.0,298,6223,8710
 3423412,Alzheimer disease,C1863051,ALZHEIMER DISEASE 2,0.9765615463256836,14.0,298,6223,8710
