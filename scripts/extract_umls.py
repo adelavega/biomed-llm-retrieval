@@ -101,8 +101,9 @@ input_predictions = [
     # ('md', 'full_md_demographics-zeroshot_gpt-4o-2024-05-13_clean.csv'),
     # ('html', 'full_html_demographics-zeroshot_gpt-4o-mini-2024-07-18_clean.csv'),
     # ('md', 'chunked_demographics-zeroshot_gpt-4o-2024-05-13_minc-40_maxc-4000_clean.csv')
-    ('md', 'chunked_demographics-zeroshot_gpt-4o-mini-2024-07-18_minc-40_maxc-4000_clean.csv')
-
+    # ('md', 'chunked_demographics-zeroshot_gpt-4o-mini-2024-07-18_minc-40_maxc-4000_clean.csv')
+    ('md', 'full_md_demographics-zeroshot-ftstrict_gpt-4o-mini-2024-07-18_clean.csv'),
+    ('md', 'full_md_demographics-zeroshot-ftstrict_gpt-4o-2024-05-13_clean.csv')
 ]
 
 output_dir = Path('../outputs')
