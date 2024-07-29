@@ -13,7 +13,7 @@ import json
 # Change directory for importing
 import sys
 sys.path.append('../')
-from nipub_templates.prompts import ZERO_SHOT_MULTI_GROUP_FC
+from nipub_templates.prompts import ZERO_SHOT_MULTI_GROUP_FC, ZERO_SHOT_MULTI_GROUP_FTSTRICT_FC
 from nipub_templates.clean import clean_predictions
 
 
@@ -81,9 +81,9 @@ def _run(extraction_model, extraction_client, docs, prepend='', **extract_kwargs
 
 
 models = [
-    # ("gpt-4o-mini-2024-07-18", openai_client)
+    ("gpt-4o-mini-2024-07-18", openai_client),
     # ("anthropic/claude-3.5-sonnet", openrouter_client),
-    ("gpt-4o-2024-05-13", openai_client),
+    ("gpt-4o-2024-05-13", openai_client)
 ]
 
 
@@ -92,5 +92,5 @@ models = [
 #          **ZERO_SHOT_MULTI_GROUP_FC, num_workers=10)
 
 for model_name, client in models:
-    _run(model_name, client, md_docs, prepend='md_demographics-zeroshot',
-         **ZERO_SHOT_MULTI_GROUP_FC, num_workers=10)
+    _run(model_name, client, md_docs, prepend='md_demographics-zeroshot-ftstrict',
+         **ZERO_SHOT_MULTI_GROUP_FTSTRICT_FC, num_workers=10)

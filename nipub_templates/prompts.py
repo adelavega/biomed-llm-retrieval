@@ -28,16 +28,34 @@ ZERO_SHOT_MULTI_GROUP_FC = {
     "output_schema": BaseDemographicsSchema.model_json_schema()
 }
 
-ZERO_SHOT_MULTI_GROUP_OAI_JSON = {
+
+base_message_ft = """
+You will be provided with a text sample from a scientific journal.
+The sample is delimited with triple backticks.
+
+Your task is to identify groups of participants that participated in the study, and underwent MRI.
+If there is no mention of any participant groups, return a null array.
+
+For each group identify:
+    - the number of participants in each group, and the diagnosis.
+    - the number of male participants, and their mean age, median age, minimum and maximum age
+    - the number of female participants, and their mean age, median age, minimum and maximum age.
+
+Be as accurate as possible, and report information (especially diagnosis) using the technical terms (and abbreviations) used in the article.
+If any of the information is missing, return `null` for that field.
+
+Text sample: ${text}
+"""
+
+ZERO_SHOT_MULTI_GROUP_FTSTRICT_FC = {
     "search_query": "How many participants or subjects were recruited for this study?",
     "messages": [
         {
             "role": "user",
-            "content": base_message + "\n Please, ensure to respond in JSON format using the following JSON schema: {output_schema}"
+            "content": base_message_ft + "\n Call the extractData function to save the output."
         }
     ],
-    "output_schema": BaseDemographicsSchema.model_json_schema(),
-    "response_format": {"type": "json_object"},
+    "output_schema": BaseDemographicsSchema.model_json_schema()
 }
 
 base_message_2 = """
