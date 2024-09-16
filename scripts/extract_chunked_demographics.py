@@ -26,7 +26,7 @@ docs = pd.read_sql(
 docs = docs[
     docs.pmcid.isin(combined_annotations.pmcid)].to_dict(orient='records')
 
-output_dir = Path('../outputs')
+output_dir = Path('../outputs/extractions')
 
 # Set up OpenAI clients
 embed_model = 'text-embedding-ada-002'

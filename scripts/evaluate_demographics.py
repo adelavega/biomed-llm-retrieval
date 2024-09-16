@@ -13,7 +13,7 @@ combined_annotations = combined_annotations[subset_cols].sort_values('pmcid')
 # Replace column names space with underscore
 combined_annotations.columns = combined_annotations.columns.str.replace(' ', '_')
 
-results_dir = Path('../outputs')
+results_dir = Path('../outputs/extractions)
 
 
 def _filter_imaging_sample(x):
@@ -127,7 +127,8 @@ for f in sorted(results_dir.glob('full_*md*_clean.csv')):
     predictions = pd.read_csv(f)
     predictions.columns = predictions.columns.str.replace(' ', '_')
 
-    predictions = predictions[predictions.pmcid.isin(html_pmids)] # Subset
+    # Subset using HTML_PMIDS
+    predictions = predictions[predictions.pmcid.isin(html_pmids)] 
 
     n_studies, corr_n_groups, more, less, stats = _evaluate(
         combined_annotations, predictions)

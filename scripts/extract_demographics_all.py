@@ -8,7 +8,7 @@ from openai import OpenAI
 
 
 
-output_dir = Path('../outputs')
+output_dir = Path('../outputs/extractions')
 
 # Set up OpenAI clients
 embed_model = 'text-embedding-ada-002'
