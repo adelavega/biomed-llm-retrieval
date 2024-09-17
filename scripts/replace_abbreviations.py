@@ -79,25 +79,26 @@ def run_abbrev(docs, predictions):
 
 
 # Apply to all predictions, with different sources
-input_predictions = [
-    ('md', 'full_md_demographics-zeroshot_gpt-4o-mini-2024-07-18_clean.csv'),
-    ('md', 'full_md_demographics-zeroshot_gpt-4o-2024-05-13_clean.csv'),
-    ('html', 'full_html_demographics-zeroshot_gpt-4o-mini-2024-07-18_clean.csv'),
-    ('md', 'chunked_demographics-zeroshot_gpt-4o-2024-05-13_minc-40_maxc-4000_clean.csv'),
-    ('md', 'chunked_demographics-zeroshot_gpt-4o-mini-2024-07-18_minc-40_maxc-4000_clean.csv'),
-    ('md', 'full_md_demographics-zeroshot-ftstrict_gpt-4o-mini-2024-07-18_clean.csv'),
-    ('md', 'full_md_demographics-zeroshot-ftstrict_gpt-4o-2024-05-13_clean.csv')
-]
+# Apply to all predictions, with different sources
+output_dir = Path('../outputs/extractions')
+all_files = list(output_dir.glob('chunked_*zeroshot*_clean.csv')) + list(output_dir.glob('full_*zeroshot*_clean.csv'))
 
-results_dir = Path('../outputs/')
-extractions_dir = results_dir / 'extractions'
 
-for source, pred_path in input_predictions:
+for pred_path in all_files:
+    strategy = pred_path.stem.split('_')[0]
+    if strategy == 'chunked':
+        source = 'md'
+    else:
+        source = pred_path.stem.split('_')[1]
+        
+    out_name = Path(str(pred_path).replace('_clean', '_noabbrev'))
+    if out_name.exists():
+        continue
+    
     print(f'Processing {pred_path}')
-    predictions = pd.read_csv(extractions_dir / pred_path)
+    predictions = pd.read_csv(pred_path)
     docs = load_docs(predictions.pmcid.unique(), source)
     predictions = run_abbrev(docs, predictions)
 
     # Remove _clean from the filename
-    out_name = pred_path.replace('_clean', '_noabbrev')
-    predictions.to_csv(results_dir / out_name, index=False)
+    predictions.to_csv(out_name, index=False)

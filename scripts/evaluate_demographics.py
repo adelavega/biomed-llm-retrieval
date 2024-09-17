@@ -13,7 +13,7 @@ combined_annotations = combined_annotations[subset_cols].sort_values('pmcid')
 # Replace column names space with underscore
 combined_annotations.columns = combined_annotations.columns.str.replace(' ', '_')
 
-results_dir = Path('../outputs/extractions)
+results_dir = Path('../outputs/extractions')
 
 
 def _filter_imaging_sample(x):
@@ -108,6 +108,7 @@ for f in sorted(results_dir.glob('full_*_clean.csv')):
 
     if source == 'html':
         html_pmids = predictions.pmcid.unique()
+        assert 0
 
     stats = pd.DataFrame(stats).reset_index()
     stats = stats.rename(columns={'index': 'variable'})

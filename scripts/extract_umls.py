@@ -59,23 +59,19 @@ def run_extraction(predictions, pmcids=None):
 
 
 # Apply to all predictions, with different sources
-input_predictions = [
-    ('md', 'full_md_demographics-zeroshot_gpt-4o-mini-2024-07-18_noabbrev.csv'),
-    ('md', 'full_md_demographics-zeroshot_gpt-4o-2024-05-13_noabbrev.csv'),
-    ('html', 'full_html_demographics-zeroshot_gpt-4o-mini-2024-07-18_noabbrev.csv'),
-    ('md', 'chunked_demographics-zeroshot_gpt-4o-2024-05-13_minc-40_maxc-4000_noabbrev.csv')
-    ('md', 'chunked_demographics-zeroshot_gpt-4o-mini-2024-07-18_minc-40_maxc-4000_noabbrev.csv')
-    ('md', 'full_md_demographics-zeroshot-ftstrict_gpt-4o-mini-2024-07-18_noabbrev.csv'),
-    ('md', 'full_md_demographics-zeroshot-ftstrict_gpt-4o-2024-05-13_noabbrev.csv')
-]
+output_dir = Path('../outputs/extractions')
+extractions_dir = output_dir / 'extractions'
+all_files = list(extractions_dir.glob('chunked_*zeroshot*_clean.csv')) + list(extractions_dir.glob('full_*zeroshot*_clean.csv'))
 
-results_dir = Path('../outputs/extractions')
+for pred_path in all_files:
+    out_name = Path(str(pred_path).replace('_noabbrev', '_umls'))
 
-for source, pred_path in input_predictions:
-    predictions = pd.read_csv(results_dir / pred_path)
+    if out_name.exists():
+        continue
+
+    predictions = pd.read_csv(pred_path)
     results = run_extraction(predictions)
     results_df = pd.DataFrame(results)
 
     # Remove _clean from the filename
-    out_name = pred_path.replace('_noabbrev', '_umls')
-    results_df.to_csv(results_dir / out_name, index=False)
+    results_df.to_csv(out_name, index=False)

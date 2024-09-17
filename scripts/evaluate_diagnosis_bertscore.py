@@ -125,4 +125,5 @@ for f in tqdm(all_files):
 
 eval_results = pd.concat(eval_results)
 eval_results = pd.DataFrame(eval_results)
+eval_results.rename(columns={'index': 'metric', '0': 'score'}, inplace=True)
 eval_results.to_csv(results_dir / 'bertscore_results.csv', index=False)
