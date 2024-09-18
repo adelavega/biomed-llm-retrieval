@@ -1,0 +1,57 @@
+pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
+3045463,idiopathic Parkinson's disease,C0030567,Idiopathic Parkinson's disease,0.9701851606369019,21.0,36,6018,9180
+3965851,without a history of neurological or psychological complications,C0205494,NEUROLOGICAL,0.6272594332695007,24.0,15,13949,14774
+3965851,without a history of neurological or psychological complications,C0020792,Psychological Identifications,0.6112073063850403,24.0,15,13949,14774
+3965851,without a history of neurological or psychological complications,C0029266,Psychological Orientations,0.5909780859947205,24.0,15,13949,14774
+3965851,without a history of neurological or psychological complications,C0205462,Histological,0.5891270041465759,24.0,15,13949,14774
+3965851,identical to Experiment 1,C0681814,Experiment,0.6548669934272766,18.0,16,13949,14774
+3965851,identical to Experiment 1,C1706386,Experiment,0.6548669934272766,18.0,16,13949,14774
+3965851,identical to Experiment 1,C2986034,Experimental Unit Identifier,0.6107924580574036,18.0,16,13949,14774
+3965851,identical to Experiment 1,C1517586,Experimental,0.6018391251564026,18.0,16,13949,14774
+3965851,identical to Experiment 1,C5557229,Experiment Name,0.5371806025505066,18.0,16,13949,14774
+4190683,Attention Deficit Hyperactivity Disorder,C1263846,Attention Deficit Hyperactivity Disorder,0.9798376560211182,30.0,46,20116,20837
+4190683,Attention Deficit Hyperactivity Disorder,C0339002,Attention deficit disorder without hyperactivity,0.8781113028526306,30.0,46,20116,20837
+4265725,Autism spectrum conditions,C0524528,Autism spectrum disorder,0.6261480450630188,18.0,50,10617,12494
+4265725,Autism spectrum conditions,C1510586,Autism spectrum disorder,0.6261480450630188,18.0,50,10617,12494
+4265725,Autism spectrum conditions,C1883073,Spectrum,0.562343180179596,18.0,50,10617,12494
+4265725,Autism spectrum conditions,C2827424,Spectrum,0.562343180179596,18.0,50,10617,12494
+4265725,Autism spectrum conditions,C4042936,Action Spectrum,0.5514991283416748,18.0,50,10617,12494
+4522562,refractory epilepsy,C1096063,Refractory Epilepsy,0.9761543869972229,14.0,57,10229,14195
+4522562,refractory epilepsy,C0205269,Refractory,0.7195401191711426,14.0,57,10229,14195
+4522562,damage to right hippocampus,C0019564,Hippocampus,0.6634427905082703,5.0,58,10229,14195
+4522562,damage to right hippocampus,C3887642,Hippocampus,0.6634427905082703,5.0,58,10229,14195
+4990879,heroin addiction,C0019337,addiction heroin,0.9565509557723999,60.0,25,5273,7250
+4990879,heroin addiction,C0085281,Addiction,0.7288010120391846,60.0,25,5273,7250
+4990879,heroin addiction,C0011892,Heroin,0.6240851879119873,60.0,25,5273,7250
+4990879,heroin addiction,C4505067,Addiction medicine,0.6124552488327026,60.0,25,5273,7250
+4990879,heroin addiction,C4505163,Food Addiction,0.5914127826690674,60.0,25,5273,7250
+5104469,psychiatric controls,C0033873,Psychiatric,0.748622477054596,20.0,60,12106,15360
+5104469,psychiatric controls,C3526598,Psychiatric,0.748622477054596,20.0,60,12106,15360
+5104469,psychiatric controls,C0242539,Psychiatric Wills,0.6586141586303711,20.0,60,12106,15360
+5104469,psychiatric controls,C0552595,Psychiatric Finding,0.6314721703529358,20.0,60,12106,15360
+5104469,psychiatric controls,C0017467,Geriatric Psychiatry,0.6263535618782043,20.0,60,12106,15360
+5598991,early adult onset depression,C5676635,Early young adult onset,0.6695914268493652,58.0,26,14768,15660
+5598991,early adult onset depression,C1853562,Adult onset,0.628662645816803,58.0,26,14768,15660
+5598991,early adult onset depression,C0011570,depression,0.613231897354126,58.0,26,14768,15660
+5598991,early adult onset depression,C0011581,depression,0.613231897354126,58.0,26,14768,15660
+5598991,early adult onset depression,C0344315,depression,0.613231897354126,58.0,26,14768,15660
+5598991,later adult onset depression,C1853562,Adult onset,0.628662645816803,62.0,27,14768,15660
+5598991,later adult onset depression,C0011570,depression,0.613231897354126,62.0,27,14768,15660
+5598991,later adult onset depression,C0011581,depression,0.613231897354126,62.0,27,14768,15660
+5598991,later adult onset depression,C0344315,depression,0.613231897354126,62.0,27,14768,15660
+5598991,later adult onset depression,C4085311,Depression,0.613231897354126,62.0,27,14768,15660
+6200185,relapsing-remitting multiple sclerosis,C0751967,relapsing-remitting multiple sclerosis,0.9681533575057983,50.0,39,7655,8461
+6200185,relapsing-remitting multiple sclerosis,C0026769,multiple sclerosis,0.6601127982139587,50.0,39,7655,8461
+7518235,FD-PDS with comorbid Major Depressive Disorder,C0041696,Major Depressive Disorder,0.723638117313385,26.0,41,6771,8840
+7518235,FD-PDS with comorbid Major Depressive Disorder,C1269683,Major Depressive Disorder,0.723638117313385,26.0,41,6771,8840
+7518235,FD-PDS with comorbid Major Depressive Disorder,C0011581,depressive disorder,0.6510579586029053,26.0,41,6771,8840
+7518235,FD-PDS with comorbid Major Depressive Disorder,C0005586,Manic Depressive Disorder,0.6165063977241516,26.0,41,6771,8840
+7518235,FD-PDS without comorbid Major Depressive Disorder,C0041696,Major Depressive Disorder,0.6985329389572144,28.0,42,6771,8840
+7518235,FD-PDS without comorbid Major Depressive Disorder,C1269683,Major Depressive Disorder,0.6985329389572144,28.0,42,6771,8840
+7518235,FD-PDS without comorbid Major Depressive Disorder,C0011581,depressive disorder,0.6284710168838501,28.0,42,6771,8840
+7518235,FD-PDS without comorbid Major Depressive Disorder,C0005586,Manic Depressive Disorder,0.5951181054115295,28.0,42,6771,8840
+8154462,history of right middle cerebral artery territory infarction,C0740392,Middle Cerebral Artery Infarction,0.7016558647155762,13.0,48,4472,5608
+8154462,history of right middle cerebral artery territory infarction,C0149566,Middle Cerebral Artery,0.6024752855300903,13.0,48,4472,5608
+8785646,posttraumatic stress disorder,C0038436,Posttraumatic Stress Disorder,0.956368088722229,15.0,53,15850,19588
+8785646,posttraumatic stress disorder,C0038441,Traumatic Stress Disorder,0.866463840007782,15.0,53,15850,19588
+8785646,posttraumatic stress disorder,C0236816,acute traumatic stress disorder,0.7808260321617126,15.0,53,15850,19588

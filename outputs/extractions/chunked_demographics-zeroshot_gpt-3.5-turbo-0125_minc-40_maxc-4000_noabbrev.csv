@@ -1,0 +1,65 @@
+count,group_name,male count,female count,age range,age minimum,age maximum,diagnosis,age mean,age median,subgroup_name,pmcid,rank,start_char,end_char
+16.0,healthy,9.0,7.0,18-35,18.0,35.0,,,,,3183226,,28053,28467
+45.0,participants,18.0,27.0,18-30,18.0,30.0,healthy,24.49,24.0,,5428836,,26550,27302
+20.0,healthy,10.0,10.0,30-34,30.0,34.0,,31.5,,,6726765,,7719,8450
+40.0,healthy,32.0,8.0,18-28,,,,20.5,,,3605341,,12059,12659
+20.0,healthy,12.0,8.0,19-35,19.0,35.0,,24.4,,,3147157,,7853,8437
+20.0,healthy,10.0,10.0,19-28,19.0,28.0,,22.3,,undergraduate and postgraduate students,7002496,,9427,10109
+22.0,healthy,17.0,5.0,19-41,,,,,,participants for behavioral experiment,4349631,,5763,6450
+16.0,healthy,11.0,5.0,20-59,,,,,,participants for functional brain imaging experiment,4349631,,5763,6450
+70.0,healthy,25.0,45.0,12-14,,,,13.0,,adolescents,7057279,,6753,7414
+55.0,healthy,17.0,38.0,,,,,13.0,,adolescents,7057279,,6753,7414
+40.0,healthy,20.0,20.0,18-23,18.0,23.0,,20.0,,,4370584,,11424,11801
+11.0,observers,8.0,3.0,25-47,25.0,47.0,normal or corrected-to-normal vision,33.1,,right-handed,6328158,,9509,10064
+14.0,healthy,5.0,9.0,27-34,27.0,34.0,,27.0,27.0,,6198067,,8869,9939
+11.0,healthy,7.0,4.0,28-35,28.0,35.0,,28.0,28.0,,6198067,,8869,9939
+43.0,healthy,10.0,21.0,20-29,,,,24.3,,,6847157,,10334,11086
+24.0,patients,0.0,24.0,20-30,20.0,30.0,without a history of neurological or psychological complications,24.0,,female,3965851,,13949,14774
+18.0,patients,0.0,18.0,20-30,20.0,30.0,identical to Experiment 1,24.0,,female,3965851,,13949,14774
+20.0,healthy,20.0,0.0,18-33,,,,23.9,,,4255751,,5627,6165
+18.0,healthy,10.0,8.0,22-29,,,,25.0,,,4493392,,8993,9484
+13.0,healthy,6.0,7.0,19-45,,,,28.4,,,7430162,,7494,8254
+16.0,healthy,10.0,6.0,18-40,,,,30.1,,,4072722,,12442,12867
+18.0,healthy,8.0,10.0,,,,,22.5,,,6344389,,14874,15604
+19.0,healthy,10.0,9.0,19-31,19.0,31.0,,22.8,,,3869649,,5579,6473
+20.0,healthy,12.0,8.0,,,,,24.6,,,4477935,1.0,7228,7547
+1.0,participants,,,,9.0,26.0,participants who underwent MRI,,,"children, adolescents, and adults",5390693,18.0,1565,5318
+60.0,patients,60.0,0.0,,,,heroin addiction,,,,4990879,1.0,5273,7250
+58.0,patients,,,,,,early adult onset depression,,,,5598991,2.0,14768,15660
+62.0,patients,,,,,,later adult onset depression,,,,5598991,2.0,14768,15660
+60.0,healthy,,,,,,,,,young HC,5598991,2.0,14768,15660
+52.0,healthy,,,,,,,,,old HC,5598991,2.0,14768,15660
+57.0,healthy,22.0,35.0,18-37,18.0,37.0,,21.9,,,6024199,,14405,15358
+21.0,healthy,6.0,15.0,18-31,18.0,31.0,,21.5,,,6024199,,14405,15358
+21.0,healthy,7.0,14.0,18-37,18.0,37.0,,22.1,,,6024199,,14405,15358
+28.0,healthy,,,21-54,21.0,54.0,,,,,8883821,,7464,8764
+20.0,healthy,,,19-43,19.0,43.0,,,,,8883821,,7464,8764
+30.0,healthy,,,19-54,19.0,54.0,,,,,8883821,,7464,8764
+21.0,patients,14.0,7.0,,,,idiopathic Parkinson's disease,,,,3045463,,6018,9180
+19.0,healthy,12.0,7.0,,,,,,,,3045463,,6018,9180
+24.0,students,14.0,10.0,19-32,19.0,32.0,"No positive personal or family history of alcohol-dependence, absence of past or current other drug or psychotropic medication consumption, absence of present nicotine dependence, no major medical problems, no central nervous system disorder, no auditory impairment, low depression, and anxiety scores, and right-handedness",22.0,22.0,selected,3791281,,6198,9421
+50.0,patients,,,,,,relapsing-remitting multiple sclerosis,,,,6200185,,7655,8461
+25.0,healthy,,,,,,,,,,6200185,,7655,8461
+26.0,patients,,,,,,FD-PDS with comorbid Major Depressive Disorder,,,FD-PDS-MDD,7518235,2.0,6771,8840
+28.0,patients,,,,,,FD-PDS without comorbid Major Depressive Disorder,,,,7518235,2.0,6771,8840
+30.0,healthy,,,,,,,,,HC,7518235,2.0,6771,8840
+17.0,healthy,8.0,9.0,6.9-7.8,6.0,8.0,,7.4,,right-handed children,3780305,,14497,15232
+14.0,healthy,6.0,8.0,22-29,22.0,29.0,,24.8,,,3078751,,10341,10716
+30.0,patients,30.0,0.0,,,,Attention Deficit Hyperactivity Disorder,,,boys,4190683,1.0,20116,20837
+30.0,healthy,30.0,0.0,,,,,,,boys,4190683,1.0,20116,20837
+13.0,patients,13.0,0.0,,,,history of right middle cerebral artery territory infarction,,,,8154462,,4472,5608
+11.0,healthy,11.0,0.0,,,,,,,age-matched controls,8154462,,4472,5608
+18.0,patients,18.0,0.0,,,,Autism spectrum conditions,30.4,,,4265725,,10617,12494
+18.0,healthy,18.0,0.0,,,,,28.6,,,4265725,,10617,12494
+20.0,healthy,9.0,11.0,18-35,18.0,35.0,,21.95,,,4810172,,9482,10858
+15.0,patients,8.0,7.0,25-45,25.0,45.0,posttraumatic stress disorder,35.0,35.0,,8785646,,15850,19588
+15.0,healthy,7.0,8.0,20-40,20.0,40.0,,30.0,30.0,,8785646,,15850,19588
+8.0,control,,,,,,chronic lumbar back-pain,,,Back-Pain,4522562,5.0,10229,14195
+10.0,control,,,,,,epilepsy,,,Epilepsy,4522562,5.0,10229,14195
+14.0,patients,,,,,,refractory epilepsy,,,Brain-operated,4522562,5.0,10229,14195
+5.0,patients,,,,,,damage to right hippocampus,,,Right hippocampus,4522562,5.0,10229,14195
+23.0,patients,15.0,8.0,,,,young people with a history of childhood abuse,17.5,,,5104469,,12106,15360
+20.0,patients,,,,,,psychiatric controls,,,,5104469,,12106,15360
+27.0,healthy,,,,,,,,,,5104469,,12106,15360
+20.0,healthy,,,5.2-6.8,5.0,6.0,,5.8,,native English speaking children,4274095,1.0,12283,13600
+32.0,healthy,17.0,15.0,25-27,,,,26.0,,,4332461,,4501,7045

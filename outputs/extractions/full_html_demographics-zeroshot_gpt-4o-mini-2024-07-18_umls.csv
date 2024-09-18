@@ -1,884 +1,456 @@
 pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
-9407088,autism spectrum disorder patients and normal controls,C0524528,Autism spectrum disorder,0.6804090142250061,1112,0,,
-9407088,autism spectrum disorder patients and normal controls,C1510586,Autism Spectrum Disorder,0.6804090142250061,1112,0,,
-9407088,autism spectrum disorder patients and normal controls,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.5926331877708435,1112,0,,
-9407088,autism spectrum disorder patients and normal controls,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.5809548497200012,1112,0,,
-9407088,autism spectrum disorder patients and normal controls,C0004352,Autism disorder,0.5468330383300781,1112,0,,
-3893192,happy,C0018592,Happy,1.0,26,3,,
-3893192,happy,C3827648,Very happy,0.85002201795578,26,3,,
-3893192,happy,C4084868,Was Happy,0.8217281103134155,26,3,,
-3893192,happy,C4021029,Happy aspect,0.7787055373191833,26,3,,
-3893192,happy,C1856115,Happy demeanor,0.711665689945221,26,3,,
-3893192,unhappy,C1688635,Unhappy,1.0,25,4,,
-3893192,unhappy,C4744614,Very unhappy,0.9032949805259705,25,4,,
-3893192,unhappy,C4082799,Feel Unhappy,0.8373746871948242,25,4,,
-3893192,unhappy,C4703428,Unhappy demeanor,0.7975078225135803,25,4,,
-3893192,unhappy,C3274925,Unhappy With Appearance,0.7541390657424927,25,4,,
-3045463,Parkinson's disease,C0030567,DISEASE PARKINSON'S,1.0,21,5,,
-3045463,Parkinson's disease,C0030569,parkinson's disease secondary,0.8421570658683777,21,5,,
-4416052,social anxiety disorder,C0031572,Social Anxiety Disorder,0.9999999403953552,53,7,,
-4416052,social anxiety disorder,C0003469,Anxiety Disorder,0.8727912306785583,53,7,,
-4416052,social anxiety disorder,C0424166,social anxiety,0.8707749843597412,53,7,,
-4416052,social anxiety disorder,C0236748,organic anxiety disorder,0.7585169672966003,53,7,,
-4416052,social anxiety disorder,C3887605,Dream anxiety disorder,0.7502233386039734,53,7,,
-3423412,Alzheimer disease,C0002395,Alzheimer Disease,1.0,14,11,,
-3423412,Alzheimer disease,C1364818,Alzheimer disease,1.0,14,11,,
-3423412,Alzheimer disease,C2931257,Alzheimer disease 1,0.9817905426025391,14,11,,
-3423412,Alzheimer disease,C1863051,ALZHEIMER DISEASE 2,0.9765615463256836,14,11,,
-3423412,Alzheimer disease,C1418985,Alzheimer disease 3,0.9724722504615784,14,11,,
-3423412,mild cognitive impairment,C1270972,Mild cognitive impairment,1.0,8,12,,
-3423412,mild cognitive impairment,C0338656,cognitive impairment,0.9036532044410706,8,12,,
-3423412,mild cognitive impairment,C3554639,Severe cognitive impairment,0.7969586253166199,8,12,,
-4048172,chronic pain,C0150055,chronic pain,1.0,13,14,,
-4048172,chronic pain,C1333034,Chronic Cancer Pain,0.8218636512756348,13,14,,
-4048172,chronic pain,C0205191,chronic,0.8040075898170471,13,14,,
-4048172,chronic pain,C1555457,Chronic,0.8040075898170471,13,14,,
-4048172,chronic pain,C1171182,Chronic Pain Control,0.7845293879508972,13,14,,
-3492343,none,C0456148,None,0.9999999403953552,58,20,,
-3492343,none,C0549184,none,0.9999999403953552,58,20,,
-3492343,none,C1546509,none,0.9999999403953552,58,20,,
-3492343,none,C1547191,none,0.9999999403953552,58,20,,
-3492343,none,C1550083,None,0.9999999403953552,58,20,,
-5761874,temporal lobe epilepsy,C0014556,temporal lobe epilepsy,1.0,25,29,,
-5761874,temporal lobe epilepsy,C1842564,Familial temporal lobe epilepsy,0.8796684145927429,25,29,,
-5761874,temporal lobe epilepsy,C0376532,Centrotemporal epilepsy,0.7735133767127991,25,29,,
-5761874,temporal lobe epilepsy,C2363129,Centrotemporal epilepsy,0.7735133767127991,25,29,,
-5761874,temporal lobe epilepsy,C4551957,"Epilepsy, Familial Temporal Lobe 1",0.7649961709976196,25,29,,
-3510214,mal de debarquement syndrome (mal de debarquement syndrome),C1608983,Mal de debarquement syndrome,0.9612685441970825,20,33,,
-3510214,mal de debarquement syndrome (mal de debarquement syndrome),C4509839,Lopes Marques de Faria syndrome,0.5225355625152588,20,33,,
-3510214,mal de debarquement syndrome (mal de debarquement syndrome),C0853695,syndrome de,0.5008312463760376,20,33,,
-5598991,early onsetD,C5676787,Early fetal onset,0.652745246887207,58,34,,
-5598991,early onsetD,C4053907,Early Onset Tylosis,0.6185979247093201,58,34,,
-5598991,early onsetD,C1279919,early,0.6181648373603821,58,34,,
-5598991,early onsetD,C0151526,Early onset of delivery,0.5975998640060425,58,34,,
-5598991,early onsetD,C0031106,Early Onset Periodontitis,0.5669165849685669,58,34,,
-5598991,later onsetD,C4025592,Late onset,0.5973764061927795,62,35,,
-5598991,later onsetD,C0376415,Later Onset Disorder,0.5237537026405334,62,35,,
-5598991,later onsetD,C0206132,Onset,0.5103841423988342,62,35,,
-5598991,later onsetD,C0332162,Onset,0.5103841423988342,62,35,,
-3447931,amyotrophic lateral sclerosis,C0002736,amyotrophic lateral sclerosis,0.9999999403953552,20,38,,
-3447931,amyotrophic lateral sclerosis,C1862939,Amyotrophic Lateral Sclerosis 1,0.9822667241096497,20,38,,
-3447931,amyotrophic lateral sclerosis,C1847735,Amyotrophic Lateral Sclerosis 3,0.9731687903404236,20,38,,
-3447931,amyotrophic lateral sclerosis,C1420344,amyotrophic lateral sclerosis 5,0.971846342086792,20,38,,
-3447931,amyotrophic lateral sclerosis,C1865864,AMYOTROPHIC LATERAL SCLEROSIS 5,0.971846342086792,20,38,,
-3409150,nicotine-deprived smokers,C0337664,Smokers,0.5910022258758545,18,40,,
-3409150,nicotine-deprived smokers,C0337671,ex smokers,0.5472386479377747,18,40,,
-3409150,nicotine-deprived smokers,C0047964,Nicotine-Derived Nitrosamine Ketone,0.5208930969238281,18,40,,
-3409150,nicotine-deprived smokers,C3241966,Smoker,0.5178208947181702,18,40,,
-3409150,nicotine-deprived smokers,C0389836,Nicotine-Derived Nitrosamine Alcohol,0.5124614834785461,18,40,,
-2748718,nonbelievers,C0004951,Believe,0.5847805142402649,15,41,,
-2748718,nonbelievers,C0002771,Pain Relievers,0.5799762010574341,15,41,,
-2748718,Christians,C0344346,christians,1.0,15,42,,
-2748718,Christians,C0008532,Christian,0.8640570640563965,15,42,,
-2748718,Christians,C0242220,Protestant Christian,0.6643232703208923,15,42,,
-2748718,Christians,C0008531,Christian Science,0.6465040445327759,15,42,,
-2748718,Christians,C0030328,disease weber christians,0.643603503704071,15,42,,
-2561002,"right-hand, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectivelyed",C0679133,respect,0.5586377382278442,19,43,,
-2561002,"left-hand, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectively, respectivelyed",C0679133,respect,0.5586378574371338,15,44,,
-5104469,Childhood Abuse,C0231335,childhood,0.8255661129951477,21,45,,
-5104469,Childhood Abuse,C1516471,Childhood Abuse and Neglect,0.7997276186943054,21,45,,
-5104469,Childhood Abuse,C0023452,childhood ALL,0.7561879754066467,21,45,,
-5104469,Childhood Abuse,C4323871,Childhood age,0.7499881386756897,21,45,,
-5104469,Childhood Abuse,C0220645,childhood STS,0.7326300144195557,21,45,,
-5104469,Psychiatric Controls,C0033873,Psychiatric,0.7617509961128235,19,46,,
-5104469,Psychiatric Controls,C3526598,Psychiatric,0.7617509961128235,19,46,,
-5104469,Psychiatric Controls,C0242539,Psychiatric Wills,0.6750364899635315,19,46,,
-5104469,Psychiatric Controls,C0033872,psychiatrist,0.6483926177024841,19,46,,
-5104469,Psychiatric Controls,C0552595,Psychiatric Finding,0.6425495743751526,19,46,,
-3554651,proficient,C5204275,HR Proficient,0.8438323140144348,11,49,,
-3554651,proficient,C5206881,ATM Proficient Tumor,0.6933607459068298,11,49,,
-3554651,proficient,C2936630,Proficiency Testing,0.6848324537277222,11,49,,
-3554651,proficient,C1553512,Operator Proficiency,0.6747338175773621,11,49,,
-3554651,proficient,C1553513,Filler Proficiency,0.668479323387146,11,49,,
-3554651,less proficient,C5204275,HR Proficient,0.7293093204498291,10,50,,
-3554651,less proficient,C5206881,ATM Proficient Tumor,0.5992594957351685,10,50,,
-3554651,less proficient,C2936630,Proficiency Testing,0.5918886065483093,10,50,,
-3554651,less proficient,C1553512,Operator Proficiency,0.5831605792045593,10,50,,
-3554651,less proficient,C1553513,Filler Proficiency,0.5777547955513,10,50,,
-4184784,Parkinson's disease,C0030567,DISEASE PARKINSON'S,1.0,37,52,,
-4184784,Parkinson's disease,C0030569,parkinson's disease secondary,0.8421570658683777,37,52,,
-6200185,relapsing-remitting multiple sclerosis,C0751967,relapsing-remitting multiple sclerosis,1.0,44,57,,
-6200185,relapsing-remitting multiple sclerosis,C0026769,multiple sclerosis,0.6424044370651245,44,57,,
-4990879,heroin addiction,C0019337,addiction heroin,1.0,40,68,,
-4990879,heroin addiction,C0085281,Addiction,0.8080885410308838,40,68,,
-4990879,heroin addiction,C4505067,Addiction medicine,0.6652275919914246,40,68,,
-4990879,heroin addiction,C4505163,Food Addiction,0.6557645201683044,40,68,,
-4990879,heroin addiction,C0338777,Opium Addiction,0.639584481716156,40,68,,
-4990879,heroin addiction,C0019337,addiction heroin,1.0,40,69,,
-4990879,heroin addiction,C0085281,Addiction,0.8080885410308838,40,69,,
-4990879,heroin addiction,C4505067,Addiction medicine,0.6652275919914246,40,69,,
-4990879,heroin addiction,C4505163,Food Addiction,0.6557645201683044,40,69,,
-4990879,heroin addiction,C0338777,Opium Addiction,0.639584481716156,40,69,,
-4017227,"Mesial temporal lobe epilepsy (Metrics details
-
-
-
-
-AbstractBackgroundMesial temporal lobe epilepsy)",C0014556,temporal lobe epilepsy,0.711718738079071,23,70,,
-4017227,"Mesial temporal lobe epilepsy (Metrics details
-
-
-
-
-AbstractBackgroundMesial temporal lobe epilepsy)",C1842564,Familial temporal lobe epilepsy,0.6553828716278076,23,70,,
-4017227,"Mesial temporal lobe epilepsy (Metrics details
-
-
-
-
-AbstractBackgroundMesial temporal lobe epilepsy)",C4749273,Benign familial mesial temporal lobe epilepsy,0.6472041606903076,23,70,,
-4017227,"Mesial temporal lobe epilepsy (Metrics details
-
-
-
-
-AbstractBackgroundMesial temporal lobe epilepsy)",C4551957,"Epilepsy, Familial Temporal Lobe 1",0.5964844226837158,23,70,,
-4017227,"Mesial temporal lobe epilepsy (Metrics details
-
-
-
-
-AbstractBackgroundMesial temporal lobe epilepsy)",C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.5647859573364258,23,70,,
-4017227,"Mesial temporal lobe epilepsy (Metrics details
-
-
-
-
-AbstractBackgroundMesial temporal lobe epilepsy)",C0014556,temporal lobe epilepsy,0.711718738079071,23,71,,
-4017227,"Mesial temporal lobe epilepsy (Metrics details
-
-
-
-
-AbstractBackgroundMesial temporal lobe epilepsy)",C1842564,Familial temporal lobe epilepsy,0.6553828716278076,23,71,,
-4017227,"Mesial temporal lobe epilepsy (Metrics details
-
-
-
-
-AbstractBackgroundMesial temporal lobe epilepsy)",C4749273,Benign familial mesial temporal lobe epilepsy,0.6472041606903076,23,71,,
-4017227,"Mesial temporal lobe epilepsy (Metrics details
-
-
-
-
-AbstractBackgroundMesial temporal lobe epilepsy)",C4551957,"Epilepsy, Familial Temporal Lobe 1",0.5964844226837158,23,71,,
-4017227,"Mesial temporal lobe epilepsy (Metrics details
-
-
-
-
-AbstractBackgroundMesial temporal lobe epilepsy)",C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.5647859573364258,23,71,,
-5870086,Autism Spectrum Disorder (autism spectrum disorder),C0524528,Autism spectrum disorder,0.938662052154541,28,73,,
-5870086,Autism Spectrum Disorder (autism spectrum disorder),C1510586,Autism Spectrum Disorder,0.938662052154541,28,73,,
-5870086,Autism Spectrum Disorder (autism spectrum disorder),C0004352,Autism disorder,0.7363781332969666,28,73,,
-5870086,Autism Spectrum Disorder (autism spectrum disorder),C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.6951518654823303,28,73,,
-5870086,Autism Spectrum Disorder (autism spectrum disorder),C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.6880321502685547,28,73,,
-8933317,temporal lobe epilepsy with hippocampal sclerosis,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.9561135768890381,66,77,,
-8933317,temporal lobe epilepsy with hippocampal sclerosis,C1504404,Hippocampal Sclerosis,0.6939937472343445,66,77,,
-8933317,temporal lobe epilepsy with hippocampal sclerosis,C0014556,temporal lobe epilepsy,0.681022047996521,66,77,,
-8933317,temporal lobe epilepsy with hippocampal sclerosis,C1842564,Familial temporal lobe epilepsy,0.6062465310096741,66,77,,
-8933317,temporal lobe epilepsy with hippocampal sclerosis,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.9561135768890381,66,78,,
-8933317,temporal lobe epilepsy with hippocampal sclerosis,C1504404,Hippocampal Sclerosis,0.6939937472343445,66,78,,
-8933317,temporal lobe epilepsy with hippocampal sclerosis,C0014556,temporal lobe epilepsy,0.681022047996521,66,78,,
-8933317,temporal lobe epilepsy with hippocampal sclerosis,C1842564,Familial temporal lobe epilepsy,0.6062465310096741,66,78,,
-7416060,cannabis users,C0024808,cannabis,0.8054010272026062,54,81,,
-7416060,cannabis users,C0024809,Cannabis,0.8054010272026062,54,81,,
-7416060,cannabis users,C0936079,cannabis,0.8054010272026062,54,81,,
-7416060,cannabis users,C5419030,Cannabis Use Disorder,0.7300201654434204,54,81,,
-7416060,cannabis users,C0813973,Medical Cannabis,0.6872243881225586,54,81,,
-11069337,refractory epilepsy,C1096063,Refractory Epilepsy,1.0,28,82,,
-11069337,refractory epilepsy,C0014544,Epilepsy,0.7180101275444031,28,82,,
-9435010,auditory verbal hallucinations,C0424068,Verbal auditory hallucinations,1.0,50,83,,
-9435010,auditory verbal hallucinations,C0233762,auditory hallucinations,0.8643940091133118,50,83,,
-9435010,no auditory verbal hallucinations,C0424068,Verbal auditory hallucinations,0.9732468128204346,50,84,,
-9435010,no auditory verbal hallucinations,C0233762,auditory hallucinations,0.8412687182426453,50,84,,
-11033924,relapsing-remitting multiple sclerosis,C0751967,relapsing-remitting multiple sclerosis,1.0,122,89,,
-11033924,relapsing-remitting multiple sclerosis,C0026769,multiple sclerosis,0.6424044370651245,122,89,,
-7721229,schizophrenia,C0036341,schizophrenia,0.9999999403953552,151,92,,
-7721229,schizophrenia,C0220702,SCHIZOPHRENIA 1,0.9719115495681763,151,92,,
-7721229,schizophrenia,C1864010,SCHIZOPHRENIA 2,0.9640104174613953,151,92,,
-7721229,schizophrenia,C1838069,SCHIZOPHRENIA 3,0.95782870054245,151,92,,
-7721229,schizophrenia,C1864153,SCHIZOPHRENIA 5,0.9558221101760864,151,92,,
-7721229,autism spectrum disorder,C0524528,Autism spectrum disorder,1.0,255,94,,
-7721229,autism spectrum disorder,C1510586,Autism Spectrum Disorder,1.0,255,94,,
-7721229,autism spectrum disorder,C0004352,Autism disorder,0.8036827445030212,255,94,,
-7721229,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7405830025672913,255,94,,
-7721229,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.7330023646354675,255,94,,
-9057100,schizophrenia,C0036341,schizophrenia,0.9999999403953552,151,96,,
-9057100,schizophrenia,C0220702,SCHIZOPHRENIA 1,0.9719115495681763,151,96,,
-9057100,schizophrenia,C1864010,SCHIZOPHRENIA 2,0.9640104174613953,151,96,,
-9057100,schizophrenia,C1838069,SCHIZOPHRENIA 3,0.95782870054245,151,96,,
-9057100,schizophrenia,C1864153,SCHIZOPHRENIA 5,0.9558221101760864,151,96,,
-4190683,Attention Deficit Hyperactivity Disorder,C1263846,Attention Deficit Hyperactivity Disorder,1.0,30,97,,
-4190683,Attention Deficit Hyperactivity Disorder,C0339002,Attention deficit disorder without hyperactivity,0.8961736559867859,30,97,,
-6347794,attention-deficit/hyperactivity disorder,C1263846,Attention-deficit/hyperactivity disorder,1.0,38,102,,
-6347794,attention-deficit/hyperactivity disorder,C0339002,"Attention-Deficit/Hyperactivity Disorder, Predominantly Inattentive Type",0.7986267805099487,38,102,,
-6347794,attention-deficit/hyperactivity disorder,C0041671,Attention-deficit disorder,0.7052829265594482,38,102,,
-8782893,attention/deficit hyperactivity disorder,C1263846,Attention Deficit Hyperactivity Disorder,0.8728547692298889,167,105,,
-8782893,attention/deficit hyperactivity disorder,C0339002,Attention deficit disorder without hyperactivity,0.7822327017784119,167,105,,
-8782893,attention/deficit hyperactivity disorder,C1263846,Attention Deficit Hyperactivity Disorder,0.8728547692298889,88,106,,
-8782893,attention/deficit hyperactivity disorder,C0339002,Attention deficit disorder without hyperactivity,0.7822327017784119,88,106,,
-6290711,psychogenic erectile dysfunction,C0242350,Erectile Dysfunction,0.8050056099891663,26,107,,
-6290711,psychogenic erectile dysfunction,C1868524,Autonomic erectile dysfunction,0.6988373398780823,26,107,,
-6290711,psychogenic erectile dysfunction,C0004936,psychological dysfunction,0.6894933581352234,26,107,,
-6290711,psychogenic erectile dysfunction,C1961100,"Erectile Dysfunction, CTCAE",0.6708414554595947,26,107,,
-6290711,psychogenic erectile dysfunction,C0277785,Dysfunction,0.6541450619697571,26,107,,
-7275020,mild traumatic brain injury,C0006107,Mild traumatic brain injury,1.0,53,108,,
-7275020,mild traumatic brain injury,C3508472,Mild Traumatic Brain Injury,1.0,53,108,,
-7275020,mild traumatic brain injury,C0876926,Traumatic Brain Injury,0.8923770189285278,53,108,,
-7275020,mild traumatic brain injury,C0043251,injury traumatic,0.7950518131256104,53,108,,
-7275020,mild traumatic brain injury,C3263723,TRAUMATIC INJURY,0.7950518131256104,53,108,,
-7275001,lung cancer,C0242379,Lung cancer,1.0,18,110,,
-7275001,lung cancer,C0684249,Lung Cancer,1.0,18,110,,
-7275001,lung cancer,C1306460,Lung cancer,1.0,18,110,,
-7275001,lung cancer,C1881483,pTis Lung Cancer,0.8355341553688049,18,110,,
-7275001,lung cancer,C4521966,Stage I Lung Cancer,0.7806705832481384,18,110,,
-10870473,Borderline Personality Disorder,C0006012,Borderline personality disorder,1.0,30,116,,
-10870473,Borderline Personality Disorder,C0031212,DISORDER PERSONALITY,0.8201783299446106,30,116,,
-9230060,Affective Violence,C0042693,violence,0.6773481965065002,20,118,,
-9230060,Affective Violence,C0013987,affective state,0.6357586979866028,20,118,,
-9230060,Affective Violence,C5539408,Affective aura,0.608011782169342,20,118,,
-9230060,Affective Violence,C0871641,Affection,0.6045894622802734,20,118,,
-9230060,Affective Violence,C0001721,Affect,0.5836485028266907,20,118,,
-9230060,Predatory Violence,C0042693,violence,0.680648684501648,20,119,,
-9230060,Predatory Violence,C0032942,Predatory Behavior,0.5933613181114197,20,119,,
-9230060,Predatory Violence,C0150215,prevention violence,0.580951452255249,20,119,,
-9230060,Predatory Violence,C1456721,Teen Violence,0.5256344079971313,20,119,,
-9230060,Predatory Violence,C3162149,Violence control,0.5237234234809875,20,119,,
-9230060,Non-Violent,C5556942,Non-Viable,0.6242263913154602,20,120,,
-9230060,Non-Violent,C1518392,Non-Visceral,0.6179562211036682,20,120,,
-9230060,Non-Violent,C0302535,Non-vital tooth,0.5819560289382935,20,120,,
-8213933,autism spectrum disorder (autism spectrum disorder),C0524528,Autism spectrum disorder,0.938662052154541,28,123,,
-8213933,autism spectrum disorder (autism spectrum disorder),C1510586,Autism Spectrum Disorder,0.938662052154541,28,123,,
-8213933,autism spectrum disorder (autism spectrum disorder),C0004352,Autism disorder,0.7363781332969666,28,123,,
-8213933,autism spectrum disorder (autism spectrum disorder),C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.6951518654823303,28,123,,
-8213933,autism spectrum disorder (autism spectrum disorder),C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.6880321502685547,28,123,,
-8785614,arterial ischemic stroke,C0948008,Ischemic stroke,0.8777574300765991,26,125,,
-8785614,arterial ischemic stroke,C5680049,Pediatric arterial ischemic stroke,0.8608078956604004,26,125,,
-8785614,arterial ischemic stroke,C4763940,Non-ischemic Stroke,0.693488597869873,26,125,,
-8785614,periventricular venous infarction,C5237503,Periventricular,0.6849964261054993,26,126,,
-8785614,periventricular venous infarction,C0392041,Testicular infarction,0.624754786491394,26,126,,
-8785614,periventricular venous infarction,C4331000,Periventricular Region,0.6139251589775085,26,126,,
-8785614,periventricular venous infarction,C0021308,Infarction,0.6011111736297607,26,126,,
-8785614,periventricular venous infarction,C0018827,ventricular,0.5976987481117249,26,126,,
-3869681,none,C0456148,None,0.9999999403953552,36,128,,
-3869681,none,C0549184,none,0.9999999403953552,36,128,,
-3869681,none,C1546509,none,0.9999999403953552,36,128,,
-3869681,none,C1547191,none,0.9999999403953552,36,128,,
-3869681,none,C1550083,None,0.9999999403953552,36,128,,
-3869681,none,C0456148,None,0.9999999403953552,18,129,,
-3869681,none,C0549184,none,0.9999999403953552,18,129,,
-3869681,none,C1546509,none,0.9999999403953552,18,129,,
-3869681,none,C1547191,none,0.9999999403953552,18,129,,
-3869681,none,C1550083,None,0.9999999403953552,18,129,,
-3869681,none,C0456148,None,0.9999999403953552,18,130,,
-3869681,none,C0549184,none,0.9999999403953552,18,130,,
-3869681,none,C1546509,none,0.9999999403953552,18,130,,
-3869681,none,C1547191,none,0.9999999403953552,18,130,,
-3869681,none,C1550083,None,0.9999999403953552,18,130,,
-8933759,left mesial temporal lobe epilepsy with hippocampal sclerosis,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.9742648005485535,12,131,,
-8933759,left mesial temporal lobe epilepsy with hippocampal sclerosis,C1504404,Hippocampal Sclerosis,0.646824061870575,12,131,,
-8933759,left mesial temporal lobe epilepsy with hippocampal sclerosis,C0014556,temporal lobe epilepsy,0.6350229978561401,12,131,,
-8933759,left mesial temporal lobe epilepsy with hippocampal sclerosis,C1842564,Familial temporal lobe epilepsy,0.589672327041626,12,131,,
-8933759,left mesial temporal lobe epilepsy with hippocampal sclerosis,C4749273,Benign familial mesial temporal lobe epilepsy,0.5857443809509277,12,131,,
-8933759,right mesial temporal lobe epilepsy with hippocampal sclerosis,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.967412531375885,11,132,,
-8933759,right mesial temporal lobe epilepsy with hippocampal sclerosis,C1504404,Hippocampal Sclerosis,0.6422747373580933,11,132,,
-8933759,right mesial temporal lobe epilepsy with hippocampal sclerosis,C0014556,temporal lobe epilepsy,0.6305567026138306,11,132,,
-8933759,right mesial temporal lobe epilepsy with hippocampal sclerosis,C1842564,Familial temporal lobe epilepsy,0.5855249762535095,11,132,,
-8933759,right mesial temporal lobe epilepsy with hippocampal sclerosis,C4749273,Benign familial mesial temporal lobe epilepsy,0.5816246271133423,11,132,,
-8785646,posttraumatic stress disorder,C0038436,Posttraumatic Stress Disorder,1.0,14,134,,
-8785646,posttraumatic stress disorder,C0038441,Traumatic Stress Disorder,0.8096595406532288,14,134,,
-4030253,Internet Addiction,C5392078,Internet Addiction,1.0,18,137,,
-4030253,Internet Addiction,C0085281,Addiction,0.7473107576370239,18,137,,
-4030253,Internet Addiction,C0282111,internet,0.664474606513977,18,137,,
-4030253,Internet Addiction,C4505067,Addiction medicine,0.6151947975158691,18,137,,
-4030253,Internet Addiction,C4505163,Food Addiction,0.6064435243606567,18,137,,
-5665859,post stroke depression,C0520887,ST depression,0.7042039036750793,21,138,,
-5665859,post stroke depression,C0221074,Post Natal Depression,0.6599633693695068,21,138,,
-5665859,post stroke depression,C0011570,DEPRESSION,0.6520765423774719,21,138,,
-5665859,post stroke depression,C0011581,Depression,0.6520765423774719,21,138,,
-5665859,post stroke depression,C0344315,depression,0.6520765423774719,21,138,,
-5665859,post stroke depression,C0520887,ST depression,0.7042039036750793,30,139,,
-5665859,post stroke depression,C0221074,Post Natal Depression,0.6599633693695068,30,139,,
-5665859,post stroke depression,C0011570,DEPRESSION,0.6520765423774719,30,139,,
-5665859,post stroke depression,C0011581,Depression,0.6520765423774719,30,139,,
-5665859,post stroke depression,C0344315,depression,0.6520765423774719,30,139,,
-5665859,post stroke depression,C0520887,ST depression,0.7042039036750793,21,140,,
-5665859,post stroke depression,C0221074,Post Natal Depression,0.6599633693695068,21,140,,
-5665859,post stroke depression,C0011570,DEPRESSION,0.6520765423774719,21,140,,
-5665859,post stroke depression,C0011581,Depression,0.6520765423774719,21,140,,
-5665859,post stroke depression,C0344315,depression,0.6520765423774719,21,140,,
-7493988,essential tremor (essential tremor),C0270736,essential tremor,0.890658974647522,10,149,,
-7493988,essential tremor (essential tremor),C0205224,essential,0.6764124631881714,10,149,,
-6820536,fibromyalgia,C0016053,fibromyalgia,1.0,20,154,,
-6820536,fibromyalgia,C0231528,MYALGIA,0.7713977694511414,20,154,,
-4175730,chronic osteoarthritis,C0263778,Chronic osteoarthritis,1.0,30,157,,
-4175730,chronic osteoarthritis,C0029408,OSTEOARTHRITIS,0.8643676042556763,30,157,,
-4175730,chronic osteoarthritis,C0949690,spine osteoarthritis,0.7951980233192444,30,157,,
-4175730,chronic osteoarthritis,C2350242,Spine Osteoarthritis,0.7951980233192444,30,157,,
-4175730,chronic osteoarthritis,C0029410,Hip osteoarthritis,0.7694616913795471,30,157,,
-6382839,panic disorder,C0030319,panic disorder,1.0,17,158,,
-6382839,panic disorder,C1868649,PANIC DISORDER 1,0.9558184742927551,17,158,,
-6382839,panic disorder,C0024713,manic disorder,0.8274330496788025,17,158,,
-6382839,panic disorder,C0012634,disorder,0.7709341049194336,17,158,,
-6382839,panic disorder,C0040188,Tic disorder,0.7254387736320496,17,158,,
-8544331,neovascular age-related macular degeneration,C0271084,Neovascular age-related macular degeneration,1.0,18,162,,
-8544331,neovascular age-related macular degeneration,C0242383,age-related macular degeneration,0.8594051599502563,18,162,,
-8544331,neovascular age-related macular degeneration,C1853147,Age-Related Macular Degeneration-4,0.7767437696456909,18,162,,
-7485713,multiple system atrophy,C0393571,Multiple system atrophy,1.0,24,164,,
-7485713,multiple system atrophy,C5554234,"Multiple system atrophy, cerebellar type",0.7008717656135559,24,164,,
-7485713,multiple system atrophy,C0439064,Multiple,0.6710606217384338,24,164,,
-7485713,multiple system atrophy,C5554235,"Multiple system atrophy, parkinsonian type",0.6641775369644165,24,164,,
-7485713,multiple system atrophy,C0026766,Multiple System Failure,0.648919403553009,24,164,,
-3511796,smokers,C0337664,Smokers,1.0,45,166,,
-3511796,smokers,C0337671,ex smokers,0.9259503483772278,45,166,,
-3511796,smokers,C3241966,Smoker,0.8761741518974304,45,166,,
-3511796,smokers,C0399478,Smokers keratosis,0.800966739654541,45,166,,
-3511796,smokers,C4554605,Nonsmokers,0.7714044451713562,45,166,,
-5266856,aphasia,C0003537,APHASIA,1.0,39,169,,
-5266856,aphasia,C0003113,nominal aphasia,0.7769953608512878,39,169,,
-5266856,aphasia,C0003550,aphasia motor,0.7744381427764893,39,169,,
-8154462,right middle cerebral artery infarction,C0751849,Right Middle Cerebral Artery Infarction,1.0,11,171,,
-8154462,right middle cerebral artery infarction,C0740392,Middle Cerebral Artery Infarction,0.9404659271240234,11,171,,
-8154462,right middle cerebral artery infarction,C0149566,Middle Cerebral Artery,0.7522140741348267,11,171,,
-8154462,right middle cerebral artery infarction,C0751843,Anterior Cerebral Artery Infarction,0.7281467318534851,11,171,,
-11024046,Alzheimer's disease,C0002395,ALZHEIMER'S DISEASE,1.0,16,173,,
-11024046,Alzheimer's disease,C1863052,Alzheimer's Disease 1,0.9857295751571655,16,173,,
-11024046,Alzheimer's disease,C1843013,Alzheimer's Disease 3,0.9783559441566467,16,173,,
-11024046,Alzheimer's disease,C1847200,Alzheimer's Disease 4,0.9763211607933044,16,173,,
-11024046,Alzheimer's disease,C3554452,Alzheimer's Disease 17,0.9479978680610657,16,173,,
-8550949,schizophrenia or schizoaffective disorder,C0036337,Schizoaffective schizophrenia (disorder),0.9456963539123535,31,176,,
-8550949,schizophrenia or schizoaffective disorder,C0036341,disorder schizophrenia,0.7928324937820435,31,176,,
-5460049,none,C0456148,None,0.9999999403953552,56,179,,
-5460049,none,C0549184,none,0.9999999403953552,56,179,,
-5460049,none,C1546509,none,0.9999999403953552,56,179,,
-5460049,none,C1547191,none,0.9999999403953552,56,179,,
-5460049,none,C1550083,None,0.9999999403953552,56,179,,
-5460048,chronic dieters,C0205191,chronic,0.6577720046043396,75,182,,
-5460048,chronic dieters,C1555457,Chronic,0.6577720046043396,75,182,,
-5460048,chronic dieters,C0008679,chronic disorders,0.6497328281402588,75,182,,
-5460048,chronic dieters,C1416467,DIETER,0.6043859720230103,75,182,,
-5460048,chronic dieters,C3539774,DIETER,0.6043859720230103,75,182,,
-6688454,none,C0456148,None,0.9999999403953552,17,183,,
-6688454,none,C0549184,none,0.9999999403953552,17,183,,
-6688454,none,C1546509,none,0.9999999403953552,17,183,,
-6688454,none,C1547191,none,0.9999999403953552,17,183,,
-6688454,none,C1550083,None,0.9999999403953552,17,183,,
-5903407,left hemisphere stroke,C0228176,Left Brain Hemisphere,0.6824724674224854,27,185,,
-5903407,left hemisphere stroke,C0038454,STROKE,0.6236057877540588,27,185,,
-5903407,left hemisphere stroke,C0228174,Brain Hemisphere,0.5765777230262756,27,185,,
-5903407,left hemisphere stroke,C0018843,heat stroke,0.5670439600944519,27,185,,
-5903407,left hemisphere stroke,C0038819,Heat Stroke,0.5670439600944519,27,185,,
-5903407,left hemisphere stroke,C0228176,Left Brain Hemisphere,0.6824724674224854,27,186,,
-5903407,left hemisphere stroke,C0038454,STROKE,0.6236057877540588,27,186,,
-5903407,left hemisphere stroke,C0228174,Brain Hemisphere,0.5765777230262756,27,186,,
-5903407,left hemisphere stroke,C0018843,heat stroke,0.5670439600944519,27,186,,
-5903407,left hemisphere stroke,C0038819,Heat Stroke,0.5670439600944519,27,186,,
-2494616,phantom limb pain experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning,C0034606,Scanning,0.6229237914085388,13,188,,
-2494616,phantom limb pain experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning,C0441633,Scanning,0.6229237914085388,13,188,,
-2494616,phantom limb pain experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning,C0596545,Experience,0.5945507884025574,13,188,,
-2494616,phantom limb pain experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning,C0040405,cat scanning,0.549705445766449,13,188,,
-2494616,phantom limb pain experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning experienced during scanning,C0203668,bone scanning,0.5396702289581299,13,188,,
-8978988,GNE myopathy with congenital thrombocytopenia,C0272278,Congenital thrombocytopenia,0.7709707617759705,1,208,,
-8978988,GNE myopathy with congenital thrombocytopenia,C0040034,THROMBOCYTOPENIA,0.6551616787910461,1,208,,
-8978988,GNE myopathy with congenital thrombocytopenia,C0392386,Thrombocytopenia,0.6551616787910461,1,208,,
-8978988,GNE myopathy with congenital thrombocytopenia,C0005818,THROMBOCYTOPATHY,0.649576723575592,1,208,,
-8978988,GNE myopathy with congenital thrombocytopenia,C3710589,Congenital Myopathy with Caps,0.6420186758041382,1,208,,
-5686883,idiopathic musculoskeletal pain syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure,C0265257,miller syndromes,0.5382857322692871,10,209,,
-5686883,idiopathic musculoskeletal pain syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure,C0812435,miller syndromes,0.5382857322692871,10,209,,
-5686883,idiopathic musculoskeletal pain syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure,C0547044,smaller,0.5079769492149353,10,209,,
-5686883,idiopathic musculoskeletal pain syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure syndromes tolerate smaller amount of pressure,C0700321,smaller,0.5079769492149353,10,209,,
-9461104,"PCH.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia",C1261175,Pontocerebellar hypoplasia,0.6473473906517029,6,211,,
-9461104,"PCH.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia",C5442006,Pontocerebellar hypoplasia type 1,0.590097188949585,6,211,,
-9461104,"PCH.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia",C2932714,Pontocerebellar Hypoplasia Type 2,0.587590217590332,6,211,,
-9461104,"PCH.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia",C1842687,Pontocerebellar hypoplasia type 3,0.5856245756149292,6,211,,
-9461104,"PCH.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia.
-BackgroundPontocerebellar Hypoplasia",C1856974,Pontocerebellar Hypoplasia Type 4,0.5844036340713501,6,211,,
-8939409,internet addiction,C5392078,Internet Addiction,1.0,24,212,,
-8939409,internet addiction,C0085281,Addiction,0.7473107576370239,24,212,,
-8939409,internet addiction,C0282111,internet,0.664474606513977,24,212,,
-8939409,internet addiction,C4505067,Addiction medicine,0.6151947975158691,24,212,,
-8939409,internet addiction,C4505163,Food Addiction,0.6064435243606567,24,212,,
-8459240,Cocaine Use Disorder,C4763868,Cocaine Use Disorder,1.0,28,214,,
-8459240,Cocaine Use Disorder,C0236736,Cocaine Related Disorders,0.6874690651893616,28,214,,
-8459240,Cocaine Use Disorder,C0009170,Cocaine,0.6485874652862549,28,214,,
-8459240,Cocaine Use Disorder,C0012634,disorder,0.6188791394233704,28,214,,
-8459240,Cocaine Use Disorder,C4763868,Cocaine Use Disorder,1.0,27,215,,
-8459240,Cocaine Use Disorder,C0236736,Cocaine Related Disorders,0.6874690651893616,27,215,,
-8459240,Cocaine Use Disorder,C0009170,Cocaine,0.6485874652862549,27,215,,
-8459240,Cocaine Use Disorder,C0012634,disorder,0.6188791394233704,27,215,,
-11035677,Cocaine Use Disorder,C4763868,Cocaine Use Disorder,1.0,54,218,,
-11035677,Cocaine Use Disorder,C0236736,Cocaine Related Disorders,0.6874690651893616,54,218,,
-11035677,Cocaine Use Disorder,C0009170,Cocaine,0.6485874652862549,54,218,,
-11035677,Cocaine Use Disorder,C0012634,disorder,0.6188791394233704,54,218,,
-5655292,anxiety,C0003467,Anxiety,1.0,18,219,,
-5655292,anxiety,C0003469,anxiety,1.0,18,219,,
-5655292,anxiety,C0871504,anxiety test,0.8868278861045837,18,219,,
-5655292,anxiety,C0085380,dental anxiety,0.8794196248054504,18,219,,
-5655292,anxiety,C4050613,Anxiety Scale,0.8576766848564148,18,219,,
-5655292,non-anxiety,C0003467,Anxiety,0.7723224759101868,45,220,,
-5655292,non-anxiety,C0003469,anxiety,0.7723224759101868,45,220,,
-5655292,non-anxiety,C0871504,anxiety test,0.6849128603935242,45,220,,
-5655292,non-anxiety,C0085380,dental anxiety,0.6792020797729492,45,220,,
-5655292,non-anxiety,C4050613,Anxiety Scale,0.6623964309692383,45,220,,
-7539836,mild traumatic brain injury,C0006107,Mild traumatic brain injury,1.0,50,221,,
-7539836,mild traumatic brain injury,C3508472,Mild Traumatic Brain Injury,1.0,50,221,,
-7539836,mild traumatic brain injury,C0876926,Traumatic Brain Injury,0.8923770189285278,50,221,,
-7539836,mild traumatic brain injury,C0043251,injury traumatic,0.7950518131256104,50,221,,
-7539836,mild traumatic brain injury,C3263723,TRAUMATIC INJURY,0.7950518131256104,50,221,,
-10999557,normal cognition,C2712133,Normal cognition,0.9999999403953552,27,223,,
-10999557,normal cognition,C0009240,COGNITION,0.8148331642150879,27,223,,
-10999557,normal cognition,C0589513,Meta cognition,0.7166038751602173,27,223,,
-10999557,normal cognition,C0524637,recognition,0.6978585124015808,27,223,,
-10999557,normal cognition,C1516691,Cognitive,0.6849557757377625,27,223,,
-10999557,mild cognitive impairment,C1270972,Mild cognitive impairment,1.0,21,224,,
-10999557,mild cognitive impairment,C0338656,cognitive impairment,0.9036532044410706,21,224,,
-10999557,mild cognitive impairment,C3554639,Severe cognitive impairment,0.7969586253166199,21,224,,
-10999557,severe cognitive impairment,C3554639,Severe cognitive impairment,1.0,10,225,,
-10999557,severe cognitive impairment,C0338656,cognitive impairment,0.8819254040718079,10,225,,
-10999557,severe cognitive impairment,C1270972,Mild cognitive impairment,0.7969503998756409,10,225,,
-10958407,new daily persistent headache,C2349426,New daily persistent headache,1.0,29,226,,
-10958407,new daily persistent headache,C0018681,headache,0.5640498995780945,29,226,,
-10958407,new daily persistent headache,C0205322,Persistent,0.5080114006996155,29,226,,
-10958407,new daily persistent headache,C0332173,daily,0.506513237953186,29,226,,
-10850607,benign paroxysmal positional vertigo with residual dizziness,C0155502,Benign paroxysmal positional vertigo,0.7570739984512329,55,228,,
-10850607,benign paroxysmal positional vertigo with residual dizziness,C0497293,dizziness vertigo,0.6097735166549683,55,228,,
-10850607,benign paroxysmal positional vertigo with residual dizziness,C0522357,paroxysmal vertigo,0.5857497453689575,55,228,,
-10850607,benign paroxysmal positional vertigo without residual dizziness,C0155502,Benign paroxysmal positional vertigo,0.733313262462616,55,229,,
-10850607,benign paroxysmal positional vertigo without residual dizziness,C0497293,dizziness vertigo,0.5906358957290649,55,229,,
-10850607,benign paroxysmal positional vertigo without residual dizziness,C0522357,paroxysmal vertigo,0.5673660635948181,55,229,,
-10839335,focal epilepsy,C0014547,Focal epilepsy,1.0,48,231,,
-10839335,focal epilepsy,C0016399,Focal Motor Epilepsy,0.8828045129776001,48,231,,
-10839335,focal epilepsy,C0014544,Epilepsy,0.8256424069404602,48,231,,
-10839335,focal epilepsy,C2363129,Temporal Central Focal Epilepsy,0.7558881044387817,48,231,,
-10839335,focal epilepsy,C0014553,Minor epilepsy,0.7107421159744263,48,231,,
-6678781,non-convicted child sexual offenders,C0036888,Sexual offence,0.5568198561668396,31,232,,
-6678781,non-convicted child sexual offenders,C0699726,Offenders,0.5094767212867737,31,232,,
-6678781,non-convicted child sexual offenders,C0008062,of child sexual abuse,0.50612872838974,31,232,,
-6678781,convicted child sexual offenders,C0036888,Sexual offence,0.6003738045692444,48,233,,
-6678781,convicted child sexual offenders,C0699726,Offenders,0.549327552318573,48,233,,
-6678781,convicted child sexual offenders,C0008062,of child sexual abuse,0.545717716217041,48,233,,
-4029608,generalized SAD,C0205246,generalized,0.815209150314331,27,234,,
-4029608,generalized SAD,C0346957,Generalized cancer,0.6864933371543884,27,234,,
-4029608,generalized SAD,C0234533,Generalized fit,0.6797559857368469,27,234,,
-4029608,generalized SAD,C0497365,generalized rash,0.6606307625770569,27,234,,
-4029608,generalized SAD,C0849867,Generalized Disease,0.6579979658126831,27,234,,
-10877862,Cervical spondylotic myelopathy (cervical spondylosis myelopathy),C1384641,Cervical Spondylosis,0.6951358318328857,78,237,,
-10877862,Cervical spondylotic myelopathy (cervical spondylosis myelopathy),C0037933,spondylopathy,0.6861996650695801,78,237,,
-10877862,Cervical spondylotic myelopathy (cervical spondylosis myelopathy),C1384641,Cervical Spondylosis,0.6951358318328857,78,238,,
-10877862,Cervical spondylotic myelopathy (cervical spondylosis myelopathy),C0037933,spondylopathy,0.6861996650695801,78,238,,
-10995093,bipolar depression,C0005587,depression bipolar,0.9999999403953552,21,239,,
-10995093,bipolar depression,C1171527,bipolar depression depressed phase,0.8593942523002625,21,239,,
-10995093,bipolar depression,C0024713,bipolar depression manic phase,0.8225867748260498,21,239,,
-10995093,bipolar depression,C0041696,Unipolar Depression,0.7978866696357727,21,239,,
-10995093,bipolar depression,C0011570,monopolar depression,0.7187427878379822,21,239,,
-10995093,unipolar depression,C0041696,Unipolar Depression,1.0,27,240,,
-10995093,unipolar depression,C1837929,UNIPOLAR DEPRESSION 1,0.9752302169799805,27,240,,
-10995093,unipolar depression,C1837529,UNIPOLAR DEPRESSION 2,0.9681812524795532,27,240,,
-10995093,unipolar depression,C0005587,depression bipolar,0.7978113889694214,27,240,,
-10995093,unipolar depression,C1171527,bipolar depression depressed phase,0.724616527557373,27,240,,
-10844152,intracranial lesions,C0581296,intracranial lesions,1.0,7,243,,
-10844152,intracranial lesions,C0524466,Intracranial,0.7863481044769287,7,243,,
-10844152,intracranial lesions,C1522213,Intracranial,0.7863481044769287,7,243,,
-10844152,intracranial lesions,C4021250,Intracranial cystic lesion,0.7803741097450256,7,243,,
-10844152,intracranial lesions,C0151740,hypertensions intracranial,0.6995291709899902,7,243,,
-6787094,disorder of consciousness (DOC),C0009792,Disorder of Consciousness,0.7930631041526794,22,245,,
-6787094,disorder of consciousness (DOC),C0234421,consciousness,0.6704921126365662,22,245,,
-6787094,disorder of consciousness (DOC),C0041657,LOSS OF CONSCIOUSNESS,0.61966872215271,22,245,,
-6787094,disorder of consciousness (DOC),C0234425,Level of consciousness,0.5913970470428467,22,245,,
-5416685,unipolar major depression,C0041696,Unipolar Depression,0.8248925805091858,20,247,,
-5416685,unipolar major depression,C1269683,major depression,0.8033536076545715,20,247,,
-5416685,unipolar major depression,C0005587,depression bipolar,0.6581087112426758,20,247,,
-5416685,unipolar major depression,C0041696,Unipolar Depression,0.8248925805091858,19,248,,
-5416685,unipolar major depression,C1269683,major depression,0.8033536076545715,19,248,,
-5416685,unipolar major depression,C0005587,depression bipolar,0.6581087112426758,19,248,,
-9308181,tuberous sclerosis complex,C0041341,tuberous sclerosis complex,1.0,173,255,,
-9308181,tuberous sclerosis complex,C2247022,tuberous sclerosis complex,1.0,173,255,,
-9308181,tuberous sclerosis complex,C4317139,tuberous sclerosis complex 1 protein,0.9197196364402771,173,255,,
-9308181,tuberous sclerosis complex,C0291147,Tuberous Sclerosis Complex 2 Protein,0.9154935479164124,173,255,,
-9308181,tuberous sclerosis complex,C0694894,tuberous sclerosis 1,0.8308829069137573,173,255,,
-8172304,Chronic spontaneous urticaria,C0578870,Chronic Spontaneous Urticaria,1.0,32,257,,
-8172304,Chronic spontaneous urticaria,C0263338,chronic urticaria,0.7907882928848267,32,257,,
-8172304,Chronic spontaneous urticaria,C0000809,chronic spontaneous abortion,0.7015033960342407,32,257,,
-8172304,Chronic spontaneous urticaria,C0205359,spontaneous,0.6120897531509399,32,257,,
-8172304,Chronic spontaneous urticaria,C0042109,urticaria,0.6002485156059265,32,257,,
-5537800,obesity,C0028754,OBESITY,1.0,16,258,,
-5537800,obesity,C4759928,OBESITY,1.0,16,258,,
-5537800,obesity,C0311277,Central obesity,0.8148539662361145,16,258,,
-5537800,obesity,C4551560,central obesity,0.8148539662361145,16,258,,
-5537800,obesity,C4742979,Obesity Factor,0.8052939772605896,16,258,,
+2494616,phantom limb pain,C0031315,PHANTOM LIMB PAIN,0.9794905185699463,13,188,,
+2494616,phantom limb pain,C4048296,Phantom Limb Pain,0.9794905185699463,13,188,,
+2494616,phantom limb pain,C3495442,Phantom pain,0.8421396017074585,13,188,,
+2494616,phantom limb pain,C0030196,pain limb,0.7109892964363098,13,188,,
+2494616,phantom limb pain,C0452135,Phantom limb syndrome without pain,0.6966620087623596,13,188,,
+2561002,right-handed,C0919262,Right-Handed DNA,0.8494227528572083,19,43,,
+2561002,right-handed,C1517773,Right-Handed Beta-Alpha Superhelix,0.5896397233009338,19,43,,
+2561002,right-handed,C0205090,right sided,0.5322900414466858,19,43,,
+2561002,right-handed,C0444532,right sided,0.5322900414466858,19,43,,
+2561002,right-handed,C0043442,Left-Handed DNA,0.5246121287345886,19,43,,
+2561002,left-handed,C0043442,Left-Handed DNA,0.8424458503723145,15,44,,
+2561002,left-handed,C1516692,Left-Handed Twist,0.7570056915283203,15,44,,
+2561002,left-handed,C1148747,left-handed Z-DNA binding,0.6445634961128235,15,44,,
+2561002,left-handed,C0919262,Right-Handed DNA,0.5448070764541626,15,44,,
+2748718,nonbelievers,C0002771,Pain Relievers,0.6171939969062805,15,41,,
+2748718,nonbelievers,C0004951,Believe,0.5784448385238647,15,41,,
+2748718,Christians,C0344346,christians,0.9938357472419739,15,42,,
+2748718,Christians,C0008532,Christian,0.8474553227424622,15,42,,
+2748718,Christians,C0242220,Protestant Christian,0.6515681743621826,15,42,,
+2748718,Christians,C0030328,disease weber christians,0.6396371722221375,15,42,,
+2748718,Christians,C2678194,Christianson Syndrome,0.6355597972869873,15,42,,
+3045463,Parkinson's disease,C0030567,DISEASE PARKINSON'S,0.9629952907562256,21,5,,
+3409150,nicotine-deprived smokers,C0047964,Nicotine-Derived Nitrosamine Ketone,0.5472185611724854,18,40,,
+3409150,nicotine-deprived smokers,C0389836,Nicotine-Derived Nitrosamine Alcohol,0.5383540391921997,18,40,,
+3409150,nicotine-deprived smokers,C0337664,Smokers,0.5347498655319214,18,40,,
+3409150,nicotine-deprived smokers,C0028040,NICOTINE,0.5174999237060547,18,40,,
+3423412,Alzheimer disease,C0002395,ALZHEIMER DISEASE,0.9341862797737122,14,11,,
+3423412,Alzheimer disease,C1364818,Alzheimer disease,0.9341862797737122,14,11,,
+3423412,Alzheimer disease,C1418985,Alzheimer disease 3,0.9084566235542297,14,11,,
+3423412,Alzheimer disease,C1843013,Alzheimer disease 3,0.9084566235542297,14,11,,
+3423412,Alzheimer disease,C1418986,Alzheimer disease 4,0.9060426950454712,14,11,,
+3423412,mild cognitive impairment,C1270972,Mild cognitive impairment,0.9720510244369507,8,12,,
+3423412,mild cognitive impairment,C0338656,cognitive impairment,0.8798452019691467,8,12,,
+3423412,mild cognitive impairment,C3554639,Severe cognitive impairment,0.7759852409362793,8,12,,
+3447931,amyotrophic lateral sclerosis,C0002736,Amyotrophic lateral sclerosis,0.972338080406189,20,38,,
+3447931,amyotrophic lateral sclerosis,C1862939,Amyotrophic Lateral Sclerosis 1,0.95508873462677,20,38,,
+3447931,amyotrophic lateral sclerosis,C1822695,amyotrophic lateral sclerosis 4,0.9438249468803406,20,38,,
+3447931,amyotrophic lateral sclerosis,C1414860,amyotrophic lateral sclerosis 6,0.9394366145133972,20,38,,
+3447931,amyotrophic lateral sclerosis,C2931786,Amyotrophic Lateral Sclerosis 6,0.9394366145133972,20,38,,
+3492343,none,C0456148,None,0.9886488318443298,58,20,,
+3492343,none,C0549184,None,0.9886488318443298,58,20,,
+3492343,none,C1546509,none,0.9886488318443298,58,20,,
+3492343,none,C1547191,none,0.9886488318443298,58,20,,
+3492343,none,C1550083,None,0.9886488318443298,58,20,,
+3510214,mal de debarquement syndrome,C1608983,Mal de debarquement syndrome,0.9310316443443298,20,33,,
+3510214,mal de debarquement syndrome,C0853695,syndrome de,0.6530311703681946,20,33,,
+3510214,mal de debarquement syndrome,C0878681,Dent syndrome,0.6516091823577881,20,33,,
+3510214,mal de debarquement syndrome,C4303593,DEND syndrome,0.5567460060119629,20,33,,
+3510214,mal de debarquement syndrome,C0039082,Syndrome,0.5411238670349121,20,33,,
+3511796,smokers,C0337664,Smokers,0.9901642799377441,45,166,,
+3511796,smokers,C0337671,ex smokers,0.9168155789375305,45,166,,
+3511796,smokers,C3241966,Smoker,0.822004497051239,45,166,,
+3511796,smokers,C0399478,Smokers keratosis,0.79575514793396,45,166,,
+3511796,smokers,C0337666,cigar smokers,0.7600803375244141,45,166,,
+3554651,proficient,C5204275,HR Proficient,0.8056691288948059,11,49,,
+3554651,proficient,C5206881,ATM Proficient Tumor,0.6620137095451355,11,49,,
+3554651,proficient,C2936630,Proficiency Testing,0.6176790595054626,11,49,,
+3554651,proficient,C4330691,Mismatch Repair Protein Proficient,0.6095282435417175,11,49,,
+3554651,proficient,C1553512,Operator Proficiency,0.6085749864578247,11,49,,
+3554651,less proficient,C5204275,HR Proficient,0.6809146404266357,10,50,,
+3554651,less proficient,C5206881,ATM Proficient Tumor,0.5595037937164307,10,50,,
+3554651,less proficient,C0439092,less,0.5315110683441162,10,50,,
+3554651,less proficient,C0547044,Less,0.5315110683441162,10,50,,
+3554651,less proficient,C2936630,Proficiency Testing,0.5220341682434082,10,50,,
+3742334,chronic marijuana users,C0205191,chronic,0.5726951360702515,10,199,,
+3742334,chronic marijuana users,C1555457,Chronic,0.5726951360702515,10,199,,
+3742334,chronic marijuana users,C0008679,chronic disorders,0.5049537420272827,10,199,,
+3869681,none,C0456148,None,0.9886488318443298,36,128,,
+3869681,none,C0549184,None,0.9886488318443298,36,128,,
+3869681,none,C1546509,none,0.9886488318443298,36,128,,
+3869681,none,C1547191,none,0.9886488318443298,36,128,,
+3869681,none,C1550083,None,0.9886488318443298,36,128,,
+3869681,none,C0456148,None,0.9886488318443298,18,129,,
+3869681,none,C0549184,None,0.9886488318443298,18,129,,
+3869681,none,C1546509,none,0.9886488318443298,18,129,,
+3869681,none,C1547191,none,0.9886488318443298,18,129,,
+3869681,none,C1550083,None,0.9886488318443298,18,129,,
+3869681,none,C0456148,None,0.9886488318443298,18,130,,
+3869681,none,C0549184,None,0.9886488318443298,18,130,,
+3869681,none,C1546509,none,0.9886488318443298,18,130,,
+3869681,none,C1547191,none,0.9886488318443298,18,130,,
+3869681,none,C1550083,None,0.9886488318443298,18,130,,
+3893192,happy,C0018592,Happy,0.9694340229034424,26,3,,
+3893192,happy,C3827648,Very happy,0.8240306973457336,26,3,,
+3893192,happy,C4084868,Was Happy,0.7966381311416626,26,3,,
+3893192,happy,C4021029,Happy aspect,0.7549136877059937,26,3,,
+3893192,happy,C1856115,Happy demeanor,0.6899201273918152,26,3,,
+3893192,unhappy,C1688635,Unhappy,0.965053915977478,25,4,,
+3893192,unhappy,C4744614,Very unhappy,0.8717395067214966,25,4,,
+3893192,unhappy,C4082799,Feel Unhappy,0.8081185221672058,25,4,,
+3893192,unhappy,C4703428,Unhappy demeanor,0.7696265578269958,25,4,,
+3893192,unhappy,C3274925,Unhappy With Appearance,0.7509815692901611,25,4,,
+4017227,Mesial temporal lobe epilepsy,C0014556,temporal lobe epilepsy,0.8508138060569763,23,70,,
+4017227,Mesial temporal lobe epilepsy,C4749273,Benign familial mesial temporal lobe epilepsy,0.8197827339172363,23,70,,
+4017227,Mesial temporal lobe epilepsy,C1842564,Familial temporal lobe epilepsy,0.8057664632797241,23,70,,
+4017227,Mesial temporal lobe epilepsy,C4551957,"Epilepsy, Familial Temporal Lobe 1",0.7195398807525635,23,70,,
+4017227,Mesial temporal lobe epilepsy,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.713108241558075,23,70,,
+4017227,Mesial temporal lobe epilepsy,C0014556,temporal lobe epilepsy,0.8508138060569763,23,71,,
+4017227,Mesial temporal lobe epilepsy,C4749273,Benign familial mesial temporal lobe epilepsy,0.8197827339172363,23,71,,
+4017227,Mesial temporal lobe epilepsy,C1842564,Familial temporal lobe epilepsy,0.8057664632797241,23,71,,
+4017227,Mesial temporal lobe epilepsy,C4551957,"Epilepsy, Familial Temporal Lobe 1",0.7195398807525635,23,71,,
+4017227,Mesial temporal lobe epilepsy,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.713108241558075,23,71,,
+4029608,generalized SAD,C0205246,generalized,0.8605808615684509,27,234,,
+4029608,generalized SAD,C0346957,Generalized cancer,0.7246718406677246,27,234,,
+4029608,generalized SAD,C0234533,Generalized fit,0.717572033405304,27,234,,
+4029608,generalized SAD,C0497365,generalized rash,0.6974125504493713,27,234,,
+4029608,generalized SAD,C0849867,Generalized Disease,0.6946272253990173,27,234,,
+4030253,Internet Addiction,C5392078,Internet Addiction,0.9517041444778442,18,137,,
+4030253,Internet Addiction,C0085281,Addiction,0.6845893859863281,18,137,,
+4030253,Internet Addiction,C3898714,Internet Intervention,0.6720983982086182,18,137,,
+4030253,Internet Addiction,C0282111,internet,0.6623272895812988,18,137,,
+4030253,Internet Addiction,C4505067,Addiction medicine,0.5753015279769897,18,137,,
+4048172,chronic pain,C0150055,chronic pain,0.9859752655029297,13,14,,
+4048172,chronic pain,C1333034,Chronic Cancer Pain,0.8103399872779846,13,14,,
+4048172,chronic pain,C0205191,chronic,0.7912920117378235,13,14,,
+4048172,chronic pain,C1555457,Chronic,0.7912920117378235,13,14,,
+4175730,chronic osteoarthritis,C0263778,Chronic osteoarthritis,0.9718143939971924,30,157,,
+4175730,chronic osteoarthritis,C0029408,OSTEOARTHRITIS,0.7911454439163208,30,157,,
+4175730,chronic osteoarthritis,C0949690,spine osteoarthritis,0.7278708815574646,30,157,,
+4175730,chronic osteoarthritis,C2350242,Spine Osteoarthritis,0.7278708815574646,30,157,,
+4184784,Parkinson's disease,C0030567,DISEASE PARKINSON'S,0.9629952907562256,37,52,,
+4190683,Attention Deficit Hyperactivity Disorder,C1263846,Attention Deficit Hyperactivity Disorder,0.9798376560211182,30,97,,
+4190683,Attention Deficit Hyperactivity Disorder,C0339002,Attention deficit disorder without hyperactivity,0.8781113028526306,30,97,,
+4416052,social anxiety disorder,C0031572,Social Anxiety Disorder,0.9575433731079102,53,7,,
+4416052,social anxiety disorder,C0003469,Anxiety Disorder,0.8055554032325745,53,7,,
+4416052,social anxiety disorder,C0236748,Anxiety disorder due to medical disorder,0.7544277310371399,53,7,,
+4416052,social anxiety disorder,C0424166,social anxiety,0.7530109882354736,53,7,,
+4416052,social anxiety disorder,C3887605,Dream anxiety disorder (disorder),0.7020254135131836,53,7,,
+4990879,heroin addiction,C0019337,addiction heroin,0.9565509557723999,40,68,,
+4990879,heroin addiction,C0085281,Addiction,0.7288010120391846,40,68,,
+4990879,heroin addiction,C0011892,Heroin,0.6240851879119873,40,68,,
+4990879,heroin addiction,C4505067,Addiction medicine,0.6124552488327026,40,68,,
+4990879,heroin addiction,C4505163,Food Addiction,0.5914127826690674,40,68,,
+4990879,heroin addiction,C0019337,addiction heroin,0.9565509557723999,40,69,,
+4990879,heroin addiction,C0085281,Addiction,0.7288010120391846,40,69,,
+4990879,heroin addiction,C0011892,Heroin,0.6240851879119873,40,69,,
+4990879,heroin addiction,C4505067,Addiction medicine,0.6124552488327026,40,69,,
+4990879,heroin addiction,C4505163,Food Addiction,0.5914127826690674,40,69,,
+5104469,Childhood Abuse,C0231335,childhood,0.7836598753929138,21,45,,
+5104469,Childhood Abuse,C1516471,Childhood Abuse and Neglect,0.7800073623657227,21,45,,
+5104469,Childhood Abuse,C0008060,child abuse,0.7344275116920471,21,45,,
+5104469,Childhood Abuse,C0023452,childhood ALL,0.7177926301956177,21,45,,
+5104469,Childhood Abuse,C4323871,Childhood age,0.7118937969207764,21,45,,
+5104469,Psychiatric Controls,C0033873,Psychiatric,0.748622477054596,19,46,,
+5104469,Psychiatric Controls,C3526598,Psychiatric,0.748622477054596,19,46,,
+5104469,Psychiatric Controls,C0242539,Psychiatric Wills,0.6586141586303711,19,46,,
+5104469,Psychiatric Controls,C0552595,Psychiatric Finding,0.6314721703529358,19,46,,
+5104469,Psychiatric Controls,C0017467,Geriatric Psychiatry,0.6263535618782043,19,46,,
+5266856,aphasia,C0003537,APHASIA,0.985831618309021,39,169,,
+5266856,aphasia,C0003113,APHASIA NOMINAL,0.7659984230995178,39,169,,
+5266856,aphasia,C0003550,Motor aphasia,0.7634828686714172,39,169,,
+5416685,unipolar major depression,C0041696,Unipolar Depression,0.8620129823684692,20,247,,
+5416685,unipolar major depression,C1269683,major depression,0.7685896754264832,20,247,,
+5416685,unipolar major depression,C0005587,depression bipolar,0.7159472703933716,20,247,,
+5416685,unipolar major depression,C0011570,monopolar depression,0.6430288553237915,20,247,,
+5416685,unipolar major depression,C1171527,bipolar depression depressed phase,0.6396021842956543,20,247,,
+5416685,unipolar major depression,C0041696,Unipolar Depression,0.8620129823684692,19,248,,
+5416685,unipolar major depression,C1269683,major depression,0.7685896754264832,19,248,,
+5416685,unipolar major depression,C0005587,depression bipolar,0.7159472703933716,19,248,,
+5416685,unipolar major depression,C0011570,monopolar depression,0.6430288553237915,19,248,,
+5416685,unipolar major depression,C1171527,bipolar depression depressed phase,0.6396021842956543,19,248,,
+5460048,chronic dieters,C0205191,chronic,0.70140540599823,75,182,,
+5460048,chronic dieters,C1555457,Chronic,0.70140540599823,75,182,,
+5460048,chronic dieters,C0008679,chronic disorders,0.6746525168418884,75,182,,
+5460048,chronic dieters,C0023977,chronic care,0.5668206214904785,75,182,,
+5460048,chronic dieters,C0150055,chronic pain,0.5639235377311707,75,182,,
+5460049,none,C0456148,None,0.9886488318443298,56,179,,
+5460049,none,C0549184,None,0.9886488318443298,56,179,,
+5460049,none,C1546509,none,0.9886488318443298,56,179,,
+5460049,none,C1547191,none,0.9886488318443298,56,179,,
+5460049,none,C1550083,None,0.9886488318443298,56,179,,
+5537800,obesity,C0028754,OBESITY,0.9890912771224976,16,258,,
+5537800,obesity,C4759928,OBESITY,0.9890912771224976,16,258,,
+5537800,obesity,C0311277,Central obesity,0.8059842586517334,16,258,,
+5537800,obesity,C4551560,Central obesity,0.8059842586517334,16,258,,
+5537800,obesity,C4742979,Obesity Factor,0.7964982986450195,16,258,,
+5598991,early onsetD,C5676787,Early fetal onset,0.7429162859916687,58,34,,
+5598991,early onsetD,C4053907,Early Onset Tylosis,0.704048216342926,58,34,,
+5598991,early onsetD,C0151526,Early onset of delivery,0.6801459193229675,58,34,,
+5598991,early onsetD,C1279919,early,0.6637823581695557,58,34,,
+5598991,early onsetD,C0031106,Early Onset Periodontitis,0.6452364325523376,58,34,,
+5598991,later onsetD,C4025592,Late onset,0.7093777060508728,62,35,,
+5598991,later onsetD,C0376415,Later Onset Disorder,0.6759840846061707,62,35,,
+5598991,later onsetD,C0205087,Later,0.6664978265762329,62,35,,
+5598991,later onsetD,C0206132,Onset,0.5496752262115479,62,35,,
+5598991,later onsetD,C0332162,Onset,0.5496752262115479,62,35,,
+5655292,anxiety,C0003467,Anxiety,0.9637579321861267,18,219,,
+5655292,anxiety,C0003469,anxiety,0.9637579321861267,18,219,,
+5655292,anxiety,C0871504,anxiety test,0.8546943068504333,18,219,,
+5655292,anxiety,C0085380,dental anxiety,0.8475556373596191,18,219,,
+5655292,anxiety,C4050613,Anxiety Scale,0.8266143202781677,18,219,,
+5655292,non-anxiety,C0003467,Anxiety,0.7118759155273438,45,220,,
+5655292,non-anxiety,C0003469,anxiety,0.7118759155273438,45,220,,
+5655292,non-anxiety,C0871504,anxiety test,0.6313084363937378,45,220,,
+5655292,non-anxiety,C0085380,dental anxiety,0.6260573863983154,45,220,,
+5655292,non-anxiety,C4050613,Anxiety Scale,0.6105635166168213,45,220,,
+5665859,post stroke depression,C0520887,ST depression,0.7540484070777893,21,138,,
+5665859,post stroke depression,C0221074,Post Natal Depression,0.7071786522865295,21,138,,
+5665859,post stroke depression,C0011570,depression,0.6856141686439514,21,138,,
+5665859,post stroke depression,C0011581,depression,0.6856141686439514,21,138,,
+5665859,post stroke depression,C0344315,depression,0.6856141686439514,21,138,,
+5665859,post stroke depression,C0520887,ST depression,0.7540484070777893,30,139,,
+5665859,post stroke depression,C0221074,Post Natal Depression,0.7071786522865295,30,139,,
+5665859,post stroke depression,C0011570,depression,0.6856141686439514,30,139,,
+5665859,post stroke depression,C0011581,depression,0.6856141686439514,30,139,,
+5665859,post stroke depression,C0344315,depression,0.6856141686439514,30,139,,
+5665859,post stroke depression,C0520887,ST depression,0.7540484070777893,21,140,,
+5665859,post stroke depression,C0221074,Post Natal Depression,0.7071786522865295,21,140,,
+5665859,post stroke depression,C0011570,depression,0.6856141686439514,21,140,,
+5665859,post stroke depression,C0011581,depression,0.6856141686439514,21,140,,
+5665859,post stroke depression,C0344315,depression,0.6856141686439514,21,140,,
+5686883,idiopathic musculoskeletal pain,C0026858,Musculoskeletal Pain,0.7845332622528076,10,209,,
+5686883,idiopathic musculoskeletal pain,C0476280,musculoskeletal chest pain,0.7117058634757996,10,209,,
+5686883,idiopathic musculoskeletal pain,C0497254,musculoskeletal,0.6987569332122803,10,209,,
+5686883,idiopathic musculoskeletal pain,C0009326,Musculoskeletal Pain Disorder,0.696125328540802,10,209,,
+5686883,idiopathic musculoskeletal pain,C0035435,Musculoskeletal pain disorder,0.696125328540802,10,209,,
+5761874,temporal lobe epilepsy,C0014556,temporal lobe epilepsy,0.9817611575126648,25,29,,
+5761874,temporal lobe epilepsy,C1842564,Familial temporal lobe epilepsy,0.8746944069862366,25,29,,
+5761874,temporal lobe epilepsy,C4551957,"Epilepsy, Familial Temporal Lobe 1",0.7766635417938232,25,29,,
+5761874,temporal lobe epilepsy,C1838062,Autosomal Dominant Lateral Temporal Lobe Epilepsy,0.7664481401443481,25,29,,
+5761874,temporal lobe epilepsy,C0039485,Temporal lobe,0.7584754228591919,25,29,,
+5870086,Autism Spectrum Disorder,C0524528,Autism spectrum disorder,0.9845767617225647,28,73,,
+5870086,Autism Spectrum Disorder,C1510586,Autism spectrum disorder,0.9845767617225647,28,73,,
+5870086,Autism Spectrum Disorder,C0004352,Autism disorder,0.7902024388313293,28,73,,
+5870086,Autism Spectrum Disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7291615009307861,28,73,,
+5870086,Autism Spectrum Disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.721701443195343,28,73,,
+5903407,left hemisphere stroke,C0228176,Left Brain Hemisphere,0.7254756093025208,27,185,,
+5903407,left hemisphere stroke,C0228174,Brain Hemisphere,0.5924671292304993,27,185,,
+5903407,left hemisphere stroke,C0228176,Left Brain Hemisphere,0.7254756093025208,27,186,,
+5903407,left hemisphere stroke,C0228174,Brain Hemisphere,0.5924671292304993,27,186,,
+6200185,relapsing-remitting multiple sclerosis,C0751967,relapsing-remitting multiple sclerosis,0.9681533575057983,44,57,,
+6200185,relapsing-remitting multiple sclerosis,C0026769,multiple sclerosis,0.6601127982139587,44,57,,
+6290711,psychogenic erectile dysfunction,C0242350,Erectile Dysfunction,0.7759900689125061,26,107,,
+6290711,psychogenic erectile dysfunction,C1868524,Autonomic erectile dysfunction,0.681686520576477,26,107,,
+6290711,psychogenic erectile dysfunction,C1961100,"Erectile Dysfunction, CTCAE",0.6381832361221313,26,107,,
+6347794,attention-deficit/hyperactivity disorder,C1263846,Attention-deficit/hyperactivity disorder,0.9479967355728149,38,102,,
+6347794,attention-deficit/hyperactivity disorder,C0339002,Attention deficit disorder without hyperactivity,0.7679945826530457,38,102,,
+6382839,panic disorder,C0030319,panic disorder,0.9921966791152954,17,158,,
+6382839,panic disorder,C0024713,manic disorder,0.836835503578186,17,158,,
+6382839,panic disorder,C0012634,disorder,0.7802134156227112,17,158,,
+6382839,panic disorder,C0040188,Tic disorder,0.7476732134819031,17,158,,
+6382839,panic disorder,C2169806,Tic disorder,0.7476732134819031,17,158,,
+6678781,non-convicted child sexual offenders,C0699726,Offenders,0.5096541047096252,31,232,,
+6678781,convicted child sexual offenders,C0699726,Offenders,0.5436676144599915,48,233,,
+6678781,convicted child sexual offenders,C0036888,Sexual offence,0.5197734832763672,48,233,,
+6678781,convicted child sexual offenders,C0008062,of child sexual abuse,0.5105741620063782,48,233,,
+6688454,none,C0456148,None,0.9886488318443298,17,183,,
+6688454,none,C0549184,None,0.9886488318443298,17,183,,
+6688454,none,C1546509,none,0.9886488318443298,17,183,,
+6688454,none,C1547191,none,0.9886488318443298,17,183,,
+6688454,none,C1550083,None,0.9886488318443298,17,183,,
+6787094,disorder of consciousness (DOC),C0009792,Disorder of Consciousness,0.8709756135940552,22,245,,
+6787094,disorder of consciousness (DOC),C0234421,consciousness,0.6566240787506104,22,245,,
+6787094,disorder of consciousness (DOC),C0041657,LOSS OF CONSCIOUSNESS,0.6353970766067505,22,245,,
+6787094,disorder of consciousness (DOC),C0234425,Level of consciousness,0.601905882358551,22,245,,
+6820536,fibromyalgia,C0016053,fibromyalgia,0.9703152775764465,20,154,,
+7275001,lung cancer,C0242379,Lung cancer,0.977493166923523,18,110,,
+7275001,lung cancer,C0684249,Lung Cancer,0.977493166923523,18,110,,
+7275001,lung cancer,C1306460,Lung cancer,0.977493166923523,18,110,,
+7275001,lung cancer,C1881483,pTis Lung Cancer,0.8167136311531067,18,110,,
+7275001,lung cancer,C0006826,Cancer,0.7680030465126038,18,110,,
+7275020,mild traumatic brain injury,C0006107,Mild traumatic brain injury,0.970161497592926,53,108,,
+7275020,mild traumatic brain injury,C3508472,Mild Traumatic Brain Injury,0.970161497592926,53,108,,
+7275020,mild traumatic brain injury,C0876926,Traumatic Brain Injury,0.882588267326355,53,108,,
+7275020,mild traumatic brain injury,C0043251,injury traumatic,0.7611843943595886,53,108,,
+7275020,mild traumatic brain injury,C3263723,TRAUMATIC INJURY,0.7611843943595886,53,108,,
+7416060,cannabis users,C0024808,cannabis,0.7654266953468323,54,81,,
+7416060,cannabis users,C0024809,Cannabis,0.7654266953468323,54,81,,
+7416060,cannabis users,C0936079,cannabis,0.7654266953468323,54,81,,
+7416060,cannabis users,C5419030,Cannabis Use Disorder,0.7005062699317932,54,81,,
+7416060,cannabis users,C0813973,Medical Cannabis,0.6531124711036682,54,81,,
+7485713,multiple system atrophy,C0393571,Multiple system atrophy,0.9892247915267944,24,164,,
+7485713,multiple system atrophy,C5554234,"Multiple system atrophy, cerebellar type",0.6986150741577148,24,164,,
+7485713,multiple system atrophy,C5554235,"Multiple system atrophy, parkinsonian type",0.6620328426361084,24,164,,
+7485713,multiple system atrophy,C0026766,Multiple System Failure,0.6297110319137573,24,164,,
+7485713,multiple system atrophy,C0439064,Multiple,0.6100001931190491,24,164,,
+7493988,essential tremor,C0270736,essential tremor,0.9826844930648804,10,149,,
+7493988,essential tremor,C0205224,essential,0.7556995153427124,10,149,,
+7539836,mild traumatic brain injury,C0006107,Mild traumatic brain injury,0.970161497592926,50,221,,
+7539836,mild traumatic brain injury,C3508472,Mild Traumatic Brain Injury,0.970161497592926,50,221,,
+7539836,mild traumatic brain injury,C0876926,Traumatic Brain Injury,0.882588267326355,50,221,,
+7539836,mild traumatic brain injury,C0043251,injury traumatic,0.7611843943595886,50,221,,
+7539836,mild traumatic brain injury,C3263723,TRAUMATIC INJURY,0.7611843943595886,50,221,,
+7721229,schizophrenia,C0036341,schizophrenia,0.9816023111343384,151,92,,
+7721229,schizophrenia,C0220702,SCHIZOPHRENIA 1,0.9540121555328369,151,92,,
+7721229,autism spectrum disorder,C0524528,Autism spectrum disorder,0.9845767617225647,255,94,,
+7721229,autism spectrum disorder,C1510586,Autism spectrum disorder,0.9845767617225647,255,94,,
+7721229,autism spectrum disorder,C0004352,Autism disorder,0.7902024388313293,255,94,,
+7721229,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7291615009307861,255,94,,
+7721229,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.721701443195343,255,94,,
+8154462,right middle cerebral artery infarction,C0751849,Right Middle Cerebral Artery Infarction,0.9629340171813965,11,171,,
+8154462,right middle cerebral artery infarction,C0740392,Middle Cerebral Artery Infarction,0.887319803237915,11,171,,
+8154462,right middle cerebral artery infarction,C0149566,Middle Cerebral Artery,0.7349287867546082,11,171,,
+8154462,right middle cerebral artery infarction,C0751843,Anterior Cerebral Artery Infarction,0.7235372066497803,11,171,,
+8172304,Chronic spontaneous urticaria,C0578870,Chronic Spontaneous Urticaria,0.9810258746147156,32,257,,
+8172304,Chronic spontaneous urticaria,C0263338,chronic urticaria,0.757294237613678,32,257,,
+8172304,Chronic spontaneous urticaria,C0000809,chronic spontaneous abortion,0.7018186450004578,32,257,,
+8172304,Chronic spontaneous urticaria,C0205359,spontaneous,0.6243549585342407,32,257,,
+8172304,Chronic spontaneous urticaria,C0042109,urticaria,0.5645032525062561,32,257,,
+8213933,autism spectrum disorder,C0524528,Autism spectrum disorder,0.9845767617225647,28,123,,
+8213933,autism spectrum disorder,C1510586,Autism spectrum disorder,0.9845767617225647,28,123,,
+8213933,autism spectrum disorder,C0004352,Autism disorder,0.7902024388313293,28,123,,
+8213933,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7291615009307861,28,123,,
+8213933,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.721701443195343,28,123,,
+8459240,Cocaine Use Disorder,C4763868,Cocaine Use Disorder,0.9793114066123962,28,214,,
+8459240,Cocaine Use Disorder,C0236736,Cocaine Related Disorders,0.6751880645751953,28,214,,
+8459240,Cocaine Use Disorder,C0012634,disorder,0.6630539894104004,28,214,,
+8459240,Cocaine Use Disorder,C0037933,spine disorder,0.6411163806915283,28,214,,
+8459240,Cocaine Use Disorder,C0004936,mental disorder disorder,0.6192527413368225,28,214,,
+8459240,Cocaine Use Disorder,C4763868,Cocaine Use Disorder,0.9793114066123962,27,215,,
+8459240,Cocaine Use Disorder,C0236736,Cocaine Related Disorders,0.6751880645751953,27,215,,
+8459240,Cocaine Use Disorder,C0012634,disorder,0.6630539894104004,27,215,,
+8459240,Cocaine Use Disorder,C0037933,spine disorder,0.6411163806915283,27,215,,
+8459240,Cocaine Use Disorder,C0004936,mental disorder disorder,0.6192527413368225,27,215,,
+8544331,neovascular age-related macular degeneration,C0271084,Neovascular age-related macular degeneration,0.9662023186683655,18,162,,
+8544331,neovascular age-related macular degeneration,C0242383,age-related macular degeneration,0.842440664768219,18,162,,
+8544331,neovascular age-related macular degeneration,C1853147,Age-Related Macular Degeneration-4,0.7554969191551208,18,162,,
+8550949,schizophrenia or schizoaffective disorder,C0036337,Schizoaffective schizophrenia (disorder),0.8981538414955139,31,176,,
+8550949,schizophrenia or schizoaffective disorder,C0036341,disorder schizophrenia,0.8191381692886353,31,176,,
+8550949,schizophrenia or schizoaffective disorder,C1419374,schizophrenia disorder 9,0.778577983379364,31,176,,
+8782893,attention/deficit hyperactivity disorder,C1263846,Attention Deficit Hyperactivity Disorder,0.9279094338417053,167,105,,
+8782893,attention/deficit hyperactivity disorder,C0339002,Attention deficit disorder without hyperactivity,0.8315789699554443,167,105,,
+8782893,attention/deficit hyperactivity disorder,C1263846,Attention Deficit Hyperactivity Disorder,0.9279094338417053,88,106,,
+8782893,attention/deficit hyperactivity disorder,C0339002,Attention deficit disorder without hyperactivity,0.8315789699554443,88,106,,
+8785614,arterial ischemic stroke,C5680049,Pediatric arterial ischemic stroke,0.8399941325187683,26,125,,
+8785614,arterial ischemic stroke,C0948008,Ischemic stroke,0.7759526968002319,26,125,,
+8785614,periventricular venous infarction,C5237503,Periventricular,0.7143792510032654,26,126,,
+8785614,periventricular venous infarction,C4331000,Periventricular Region,0.6584369540214539,26,126,,
+8785614,periventricular venous infarction,C0018827,ventricular,0.6345117688179016,26,126,,
+8785614,periventricular venous infarction,C1522565,Ventricular,0.6345117688179016,26,126,,
+8785614,periventricular venous infarction,C0080309,Ventricular Function,0.5904026627540588,26,126,,
+8785646,posttraumatic stress disorder,C0038436,Posttraumatic Stress Disorder,0.956368088722229,14,134,,
+8785646,posttraumatic stress disorder,C0038441,Traumatic Stress Disorder,0.866463840007782,14,134,,
+8785646,posttraumatic stress disorder,C0236816,acute traumatic stress disorder,0.7808260321617126,14,134,,
+8933317,temporal lobe epilepsy with hippocampal sclerosis,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.9425435662269592,66,77,,
+8933317,temporal lobe epilepsy with hippocampal sclerosis,C0014556,temporal lobe epilepsy,0.663796067237854,66,77,,
+8933317,temporal lobe epilepsy with hippocampal sclerosis,C1504404,Hippocampal Sclerosis,0.6599679589271545,66,77,,
+8933317,temporal lobe epilepsy with hippocampal sclerosis,C1842564,Familial temporal lobe epilepsy,0.605322539806366,66,77,,
+8933317,temporal lobe epilepsy with hippocampal sclerosis,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.9425435662269592,66,78,,
+8933317,temporal lobe epilepsy with hippocampal sclerosis,C0014556,temporal lobe epilepsy,0.663796067237854,66,78,,
+8933317,temporal lobe epilepsy with hippocampal sclerosis,C1504404,Hippocampal Sclerosis,0.6599679589271545,66,78,,
+8933317,temporal lobe epilepsy with hippocampal sclerosis,C1842564,Familial temporal lobe epilepsy,0.605322539806366,66,78,,
+8933759,left mesial temporal lobe epilepsy with hippocampal sclerosis,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.9336401224136353,12,131,,
+8933759,left mesial temporal lobe epilepsy with hippocampal sclerosis,C1504404,Mesial Temporal Sclerosis,0.6588091850280762,12,131,,
+8933759,left mesial temporal lobe epilepsy with hippocampal sclerosis,C0014556,temporal lobe epilepsy,0.5956131219863892,12,131,,
+8933759,left mesial temporal lobe epilepsy with hippocampal sclerosis,C4749273,Benign familial mesial temporal lobe epilepsy,0.5906537175178528,12,131,,
+8933759,left mesial temporal lobe epilepsy with hippocampal sclerosis,C1842564,Familial temporal lobe epilepsy,0.5754554867744446,12,131,,
+8933759,right mesial temporal lobe epilepsy with hippocampal sclerosis,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.9259556531906128,11,132,,
+8933759,right mesial temporal lobe epilepsy with hippocampal sclerosis,C1504404,Mesial Temporal Sclerosis,0.6533868908882141,11,132,,
+8933759,right mesial temporal lobe epilepsy with hippocampal sclerosis,C0014556,temporal lobe epilepsy,0.5907108187675476,11,132,,
+8933759,right mesial temporal lobe epilepsy with hippocampal sclerosis,C4749273,Benign familial mesial temporal lobe epilepsy,0.5857923030853271,11,132,,
+8933759,right mesial temporal lobe epilepsy with hippocampal sclerosis,C1842564,Familial temporal lobe epilepsy,0.5707192420959473,11,132,,
+8939409,internet addiction,C5392078,Internet Addiction,0.9517041444778442,24,212,,
+8939409,internet addiction,C0085281,Addiction,0.6845893859863281,24,212,,
+8939409,internet addiction,C3898714,Internet Intervention,0.6720983982086182,24,212,,
+8939409,internet addiction,C0282111,internet,0.6623272895812988,24,212,,
+8939409,internet addiction,C4505067,Addiction medicine,0.5753015279769897,24,212,,
+8978988,GNE myopathy with congenital thrombocytopenia,C0272278,Congenital thrombocytopenia,0.7897242307662964,1,208,,
+8978988,GNE myopathy with congenital thrombocytopenia,C3710589,Congenital Myopathy with Caps,0.6631960272789001,1,208,,
+8978988,GNE myopathy with congenital thrombocytopenia,C4302508,Thrombocytopenia with congenital dyserythropoietic anemia,0.6404964923858643,1,208,,
+8978988,GNE myopathy with congenital thrombocytopenia,C0040034,THROMBOCYTOPENIA,0.6307253241539001,1,208,,
+8978988,GNE myopathy with congenital thrombocytopenia,C0392386,Thrombocytopenia,0.6307253241539001,1,208,,
+9057100,schizophrenia,C0036341,schizophrenia,0.9816023111343384,151,96,,
+9057100,schizophrenia,C0220702,SCHIZOPHRENIA 1,0.9540121555328369,151,96,,
+9230060,Affective Violence,C0013987,affective state,0.6162551045417786,20,118,,
+9230060,Affective Violence,C5539408,Affective aura,0.5893542170524597,20,118,,
+9230060,Affective Violence,C0525045,AFFECTIVE DISORDER,0.5646802186965942,20,118,,
+9230060,Affective Violence,C0871641,Affection,0.5455935001373291,20,118,,
+9230060,Affective Violence,C0392760,Affecting,0.5264229774475098,20,118,,
+9230060,Predatory Violence,C0042693,violence,0.6767845749855042,20,119,,
+9230060,Predatory Violence,C0150215,prevention violence,0.5984839797019958,20,119,,
+9230060,Predatory Violence,C0032942,Predatory Behavior,0.5508342981338501,20,119,,
+9230060,Predatory Violence,C1456721,Teen Violence,0.5226525664329529,20,119,,
+9230060,Predatory Violence,C3162149,Violence control,0.5207433104515076,20,119,,
+9230060,Non-Violent,C5556942,Non-Viable,0.5070116519927979,20,120,,
+9230060,Non-Violent,C1518392,Non-Visceral,0.5019084811210632,20,120,,
+9230060,Non-Violent,C0042693,Violent Crime,0.5006906986236572,20,120,,
+9308181,tuberous sclerosis complex,C0041341,tuberous sclerosis complex,0.9868051409721375,173,255,,
+9308181,tuberous sclerosis complex,C2247022,tuberous sclerosis complex,0.9868051409721375,173,255,,
+9308181,tuberous sclerosis complex,C4317139,tuberous sclerosis complex 1 protein,0.9075822234153748,173,255,,
+9308181,tuberous sclerosis complex,C0291147,Tuberous Sclerosis Complex 2 Protein,0.9033961892127991,173,255,,
+9308181,tuberous sclerosis complex,C0694894,tuberous sclerosis 1,0.8218972682952881,173,255,,
+9407088,autism spectrum disorder patients and normal controls,C0524528,Autism spectrum disorder,0.6736154556274414,1112,0,,
+9407088,autism spectrum disorder patients and normal controls,C1510586,Autism spectrum disorder,0.6736154556274414,1112,0,,
+9407088,autism spectrum disorder patients and normal controls,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.5875697731971741,1112,0,,
+9407088,autism spectrum disorder patients and normal controls,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.577937126159668,1112,0,,
+9407088,autism spectrum disorder patients and normal controls,C0004352,Autism disorder,0.5406308770179749,1112,0,,
+9435010,auditory verbal hallucinations,C0424068,Verbal auditory hallucinations,0.9725556969642639,50,83,,
+9435010,auditory verbal hallucinations,C0233762,auditory hallucinations,0.8658250570297241,50,83,,
+9435010,no auditory verbal hallucinations,C0233762,auditory hallucinations,0.8364664912223816,50,84,,
+9461104,PCH,C0086774,PCH,0.9619268774986267,6,211,,
+9461104,PCH,C1261175,PCH,0.9619268774986267,6,211,,
+9461104,PCH,C1882250,PCH Regimen,0.6919459700584412,6,211,,
+9461104,PCH,C2932714,PCH2,0.5917308926582336,6,211,,
+9461104,PCH,C3890721,PCH2,0.5917308926582336,6,211,,
+10839335,focal epilepsy,C0014547,Focal epilepsy,0.969962477684021,48,231,,
+10839335,focal epilepsy,C0016399,Focal Motor Epilepsy,0.8563147783279419,48,231,,
+10839335,focal epilepsy,C0014544,epilepsy,0.7790203094482422,48,231,,
+10839335,focal epilepsy,C2363129,Temporal Central Focal Epilepsy,0.7619866728782654,48,231,,
+10844152,intracranial lesions,C0581296,intracranial lesions,0.9814246296882629,7,243,,
+10844152,intracranial lesions,C0524466,Intracranial,0.7781705260276794,7,243,,
+10844152,intracranial lesions,C1522213,Intracranial,0.7781705260276794,7,243,,
+10844152,intracranial lesions,C4021250,Intracranial cystic lesion,0.774512529373169,7,243,,
+10844152,intracranial lesions,C2827410,Intracranial Leptomeningeal Lesion,0.7039297223091125,7,243,,
+10850607,benign paroxysmal positional vertigo with residual dizziness,C0155502,Benign paroxysmal positional vertigo,0.7576214075088501,55,228,,
+10850607,benign paroxysmal positional vertigo with residual dizziness,C0522357,paroxysmal vertigo,0.5464924573898315,55,228,,
+10850607,benign paroxysmal positional vertigo without residual dizziness,C0155502,Benign paroxysmal positional vertigo,0.7393627762794495,55,229,,
+10850607,benign paroxysmal positional vertigo without residual dizziness,C0522357,paroxysmal vertigo,0.5333219766616821,55,229,,
+10870473,Borderline Personality Disorder,C0006012,borderline personality disorder,0.9782822132110596,30,116,,
+10870473,Borderline Personality Disorder,C0031212,DISORDER PERSONALITY,0.8410298228263855,30,116,,
+10877862,Cervical spondylotic myelopathy,C0037933,Spondylopathy,0.6548381447792053,78,237,,
+10877862,Cervical spondylotic myelopathy,C1384641,Cervical Spondylosis,0.6302679777145386,78,237,,
+10877862,Cervical spondylotic myelopathy,C0037933,Spondylopathy,0.6548381447792053,78,238,,
+10877862,Cervical spondylotic myelopathy,C1384641,Cervical Spondylosis,0.6302679777145386,78,238,,
+10958407,new daily persistent headache,C2349426,New daily persistent headache,0.9736436009407043,29,226,,
+10958407,new daily persistent headache,C0205322,Persistent,0.6085854768753052,29,226,,
+10958407,new daily persistent headache,C1141883,Persistent head lag,0.5640473961830139,29,226,,
+10958407,new daily persistent headache,C0018681,headache,0.5491939187049866,29,226,,
+10995093,bipolar depression,C0005587,depression bipolar,0.9672370553016663,21,239,,
+10995093,bipolar depression,C1171527,bipolar depression depressed phase,0.8282007575035095,21,239,,
+10995093,bipolar depression,C0041696,Unipolar Depression,0.8038148283958435,21,239,,
+10995093,bipolar depression,C0024713,bipolar depression manic phase,0.7956530451774597,21,239,,
+10995093,bipolar depression,C0011570,monopolar depression,0.7479454278945923,21,239,,
+10995093,unipolar depression,C0041696,Unipolar Depression,0.9744093418121338,27,240,,
+10995093,unipolar depression,C1837929,UNIPOLAR DEPRESSION 1,0.9502649903297424,27,240,,
+10995093,unipolar depression,C0005587,depression bipolar,0.8092984557151794,27,240,,
+10995093,unipolar depression,C0011570,monopolar depression,0.7268723249435425,27,240,,
+10995093,unipolar depression,C1171527,bipolar depression depressed phase,0.7229987978935242,27,240,,
+10999557,normal cognition,C0009240,cognition,0.7231582403182983,27,223,,
+10999557,normal cognition,C0589513,Meta cognition,0.6359930038452148,27,223,,
+10999557,normal cognition,C0205307,Normal,0.6200588345527649,27,223,,
+10999557,normal cognition,C1550457,Normal,0.6200588345527649,27,223,,
+10999557,normal cognition,C1550469,normal,0.6200588345527649,27,223,,
+10999557,mild cognitive impairment,C1270972,Mild cognitive impairment,0.9720510244369507,21,224,,
+10999557,mild cognitive impairment,C0338656,cognitive impairment,0.8798452019691467,21,224,,
+10999557,mild cognitive impairment,C3554639,Severe cognitive impairment,0.7759852409362793,21,224,,
+10999557,severe cognitive impairment,C3554639,Severe cognitive impairment,0.9708648920059204,10,225,,
+10999557,severe cognitive impairment,C0338656,cognitive impairment,0.8439179062843323,10,225,,
+10999557,severe cognitive impairment,C1270972,Mild cognitive impairment,0.7626147270202637,10,225,,
+10999557,severe cognitive impairment,C4021074,Severe conductive hearing impairment,0.7069597840309143,10,225,,
+10999557,severe cognitive impairment,C3874334,Severe hearing impairment,0.6875311136245728,10,225,,
+11024046,Alzheimer's disease,C0002395,alzheimer's disease,0.946372389793396,16,173,,
+11024046,Alzheimer's disease,C1863052,Alzheimer's Disease 1,0.932833194732666,16,173,,
+11024046,Alzheimer's disease,C1843013,Alzheimer's Disease 3,0.9258649349212646,16,173,,
+11024046,Alzheimer's disease,C1847200,Alzheimer's Disease 4,0.9239505529403687,16,173,,
+11024046,Alzheimer's disease,C3554452,Alzheimer's Disease 17,0.8971145153045654,16,173,,
+11033924,relapsing-remitting multiple sclerosis,C0751967,relapsing-remitting multiple sclerosis,0.9681533575057983,122,89,,
+11033924,relapsing-remitting multiple sclerosis,C0026769,multiple sclerosis,0.6601127982139587,122,89,,
+11035677,Cocaine Use Disorder,C4763868,Cocaine Use Disorder,0.9793114066123962,54,218,,
+11035677,Cocaine Use Disorder,C0236736,Cocaine Related Disorders,0.6751880645751953,54,218,,
+11035677,Cocaine Use Disorder,C0012634,disorder,0.6630539894104004,54,218,,
+11035677,Cocaine Use Disorder,C0037933,spine disorder,0.6411163806915283,54,218,,
+11035677,Cocaine Use Disorder,C0004936,mental disorder disorder,0.6192527413368225,54,218,,
+11069337,refractory epilepsy,C1096063,Refractory Epilepsy,0.9761543869972229,28,82,,
+11069337,refractory epilepsy,C0205269,Refractory,0.7195401191711426,28,82,,

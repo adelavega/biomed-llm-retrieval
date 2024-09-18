@@ -1,0 +1,617 @@
+pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
+2494616,"unilateral, upper limb amputation and phantom limb pain",C0031315,PHANTOM LIMB PAIN,0.6671693325042725,13.0,75,8118,20615
+2494616,"unilateral, upper limb amputation and phantom limb pain",C0239377,Upper limb pain,0.6447744965553284,13.0,75,8118,20615
+2648877,Autism Spectrum Disorder,C0524528,Autism spectrum disorder,0.9845767617225647,15.0,9,10521,18387
+2648877,Autism Spectrum Disorder,C1510586,Autism spectrum disorder,0.9845767617225647,15.0,9,10521,18387
+2648877,Autism Spectrum Disorder,C0004352,Autism disorder,0.7902024388313293,15.0,9,10521,18387
+2648877,Autism Spectrum Disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7291615009307861,15.0,9,10521,18387
+2648877,Autism Spectrum Disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.721701443195343,15.0,9,10521,18387
+3002948,phobic prone,C0033422,Prone,0.6658980846405029,15.0,59,8290,19457
+3002948,phobic prone,C0349231,phobic disorder,0.5297921299934387,15.0,59,8290,19457
+3002948,eating disorders prone,C0013473,EATING DISORDERS,0.8533963561058044,15.0,60,8290,19457
+3002948,eating disorders prone,C0596170,binge disorders eating,0.7596011161804199,15.0,60,8290,19457
+3002948,eating disorders prone,C0855228,Disordered Eating,0.7074334025382996,15.0,60,8290,19457
+3002948,eating disorders prone,C4042784,Feeding and Eating Disorders,0.6898925304412842,15.0,60,8290,19457
+3002948,eating disorders prone,C0013447,disorders earing,0.6843474507331848,15.0,60,8290,19457
+3045463,idiopathic Parkinson's disease,C0030567,Idiopathic Parkinson's disease,0.9701851606369019,21.0,49,6018,21237
+3182403,Parkinson's disease,C0030567,DISEASE PARKINSON'S,0.9629952907562256,21.0,357,0,26805
+3324921,epilepsy,C0014544,epilepsy,0.9930600523948669,5.0,216,9056,28693
+3324921,epilepsy,C0014547,Local epilepsy,0.8565506935119629,5.0,216,9056,28693
+3324921,epilepsy,C0014553,Minor epilepsy,0.8548762202262878,5.0,216,9056,28693
+3324921,epilepsy,C0393725,Eating epilepsy,0.8358542323112488,5.0,216,9056,28693
+3324921,epilepsy,C0376532,epilepsy roland,0.8218892216682434,5.0,216,9056,28693
+3409150,smokers,C0337664,Smokers,0.9901642799377441,18.0,154,8385,20226
+3409150,smokers,C0337671,ex smokers,0.9168155789375305,18.0,154,8385,20226
+3409150,smokers,C3241966,Smoker,0.822004497051239,18.0,154,8385,20226
+3409150,smokers,C0399478,Smokers keratosis,0.79575514793396,18.0,154,8385,20226
+3409150,smokers,C0337666,cigar smokers,0.7600803375244141,18.0,154,8385,20226
+3423412,Alzheimer disease,C0002395,ALZHEIMER DISEASE,0.9341862797737122,14.0,382,2069,24627
+3423412,Alzheimer disease,C1364818,Alzheimer disease,0.9341862797737122,14.0,382,2069,24627
+3423412,Alzheimer disease,C1418985,Alzheimer disease 3,0.9084566235542297,14.0,382,2069,24627
+3423412,Alzheimer disease,C1843013,Alzheimer disease 3,0.9084566235542297,14.0,382,2069,24627
+3423412,Alzheimer disease,C1418986,Alzheimer disease 4,0.9060426950454712,14.0,382,2069,24627
+3423412,mild cognitive impairment,C1270972,Mild cognitive impairment,0.9720510244369507,8.0,383,2069,24627
+3423412,mild cognitive impairment,C0338656,cognitive impairment,0.8798452019691467,8.0,383,2069,24627
+3423412,mild cognitive impairment,C3554639,Severe cognitive impairment,0.7759852409362793,8.0,383,2069,24627
+3447931,amyotrophic lateral sclerosis,C0002736,Amyotrophic lateral sclerosis,0.972338080406189,20.0,324,0,25604
+3447931,amyotrophic lateral sclerosis,C1862939,Amyotrophic Lateral Sclerosis 1,0.95508873462677,20.0,324,0,25604
+3447931,amyotrophic lateral sclerosis,C1822695,amyotrophic lateral sclerosis 4,0.9438249468803406,20.0,324,0,25604
+3447931,amyotrophic lateral sclerosis,C1414860,amyotrophic lateral sclerosis 6,0.9394366145133972,20.0,324,0,25604
+3447931,amyotrophic lateral sclerosis,C2931786,Amyotrophic Lateral Sclerosis 6,0.9394366145133972,20.0,324,0,25604
+3510214,mal de debarquement syndrome,C1608983,Mal de debarquement syndrome,0.9310316443443298,20.0,366,2266,31419
+3510214,mal de debarquement syndrome,C0853695,syndrome de,0.6530311703681946,20.0,366,2266,31419
+3510214,mal de debarquement syndrome,C0878681,Dent syndrome,0.6516091823577881,20.0,366,2266,31419
+3510214,mal de debarquement syndrome,C4303593,DEND syndrome,0.5567460060119629,20.0,366,2266,31419
+3510214,mal de debarquement syndrome,C0039082,Syndrome,0.5411238670349121,20.0,366,2266,31419
+3511796,chronic smokers,C0205191,chronic,0.7014054656028748,45.0,304,0,13919
+3511796,chronic smokers,C1555457,Chronic,0.7014054656028748,45.0,304,0,13919
+3511796,chronic smokers,C0008679,chronic disorders,0.6184396147727966,45.0,304,0,13919
+3511796,chronic smokers,C0023977,chronic care,0.5668206810951233,45.0,304,0,13919
+3511796,chronic smokers,C0150055,chronic pain,0.5639235377311707,45.0,304,0,13919
+3554651,proficient,C5204275,HR Proficient,0.8056691288948059,11.0,130,39775,47337
+3554651,proficient,C5206881,ATM Proficient Tumor,0.6620137095451355,11.0,130,39775,47337
+3554651,proficient,C2936630,Proficiency Testing,0.6176790595054626,11.0,130,39775,47337
+3554651,proficient,C4330691,Mismatch Repair Protein Proficient,0.6095282435417175,11.0,130,39775,47337
+3554651,proficient,C1553512,Operator Proficiency,0.6085749864578247,11.0,130,39775,47337
+3554651,less-proficient,C5204275,HR Proficient,0.6127207279205322,10.0,131,39775,47337
+3554651,less-proficient,C5206881,ATM Proficient Tumor,0.5034648180007935,10.0,131,39775,47337
+3701149,transient auditory hallucinations,C0233762,auditory hallucinations,0.8228644728660583,12.0,187,11779,21523
+3701149,transient auditory hallucinations,C0018524,hallucinations,0.6567831039428711,12.0,187,11779,21523
+3701149,22q11.2 Deletion Syndrome,C0012236,22q11.2 deletion syndrome,0.9288032054901123,13.0,188,11779,21523
+3701149,22q11.2 Deletion Syndrome,C0220704,22q11.2 Deletion Syndrome,0.9288032054901123,13.0,188,11779,21523
+3701149,22q11.2 Deletion Syndrome,C2936346,22q11 Deletion Syndrome,0.842059314250946,13.0,188,11779,21523
+3701149,22q11.2 Deletion Syndrome,C4518343,Distal 22q11.2 microdeletion syndrome,0.8059272766113281,13.0,188,11779,21523
+3701149,22q11.2 Deletion Syndrome,C1853490,Deletion 22q13 Syndrome,0.7591739892959595,13.0,188,11779,21523
+3742334,marijuana abuse,C0024809,Marijuana abuse,0.9404541850090027,10.0,45,7512,22496
+3742334,marijuana abuse,C0024810,MARIJUANA USE,0.7966894507408142,10.0,45,7512,22496
+3742334,marijuana abuse,C4084815,Use Marijuana,0.7966894507408142,10.0,45,7512,22496
+3742334,marijuana abuse,C4316909,marijuana use,0.7966894507408142,10.0,45,7512,22496
+3742334,marijuana abuse,C0024808,marijuana,0.7473585605621338,10.0,45,7512,22496
+3777673,obsessive-compulsive-disorder,C0028768,Obsessive-Compulsive Disorder,0.9342569708824158,19.0,113,6638,16887
+3777673,obsessive-compulsive-disorder,C1420214,obsessive-compulsive disorder 1,0.923718273639679,19.0,113,6638,16887
+3777673,obsessive-compulsive-disorder,C0009595,Obsessive-Compulsive Personality Disorder,0.8359436392784119,19.0,113,6638,16887
+3777673,obsessive-compulsive-disorder,C1834433,Obsessive-compulsive trait,0.7689359188079834,19.0,113,6638,16887
+3791281,binge drinkers,C0556346,binge drink,0.7454811334609985,12.0,424,0,26715
+3791281,binge drinkers,C0556338,Drinker,0.6526684761047363,12.0,424,0,26715
+3791281,binge drinkers,C0457801,non drinker,0.5923289060592651,12.0,424,0,26715
+3791281,binge drinkers,C0262816,Syringe Drivers,0.550137460231781,12.0,424,0,26715
+3791281,binge drinkers,C0337676,Social drinker,0.5141023397445679,12.0,424,0,26715
+3842522,autism spectrum disorder,C0524528,Autism spectrum disorder,0.9845767617225647,42.0,221,11123,22456
+3842522,autism spectrum disorder,C1510586,Autism spectrum disorder,0.9845767617225647,42.0,221,11123,22456
+3842522,autism spectrum disorder,C0004352,Autism disorder,0.7902024388313293,42.0,221,11123,22456
+3842522,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7291615009307861,42.0,221,11123,22456
+3842522,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.721701443195343,42.0,221,11123,22456
+3877773,Tourette syndrome,C0040517,Tourette Syndrome,0.9815427660942078,17.0,314,0,24556
+3877773,Tourette syndrome,C0039082,syndrome,0.7029404640197754,17.0,314,0,24556
+3893192,unhappy,C1688635,Unhappy,0.965053915977478,25.0,358,0,25372
+3893192,unhappy,C4744614,Very unhappy,0.8717395067214966,25.0,358,0,25372
+3893192,unhappy,C4082799,Feel Unhappy,0.8081185221672058,25.0,358,0,25372
+3893192,unhappy,C4703428,Unhappy demeanor,0.7696265578269958,25.0,358,0,25372
+3893192,unhappy,C3274925,Unhappy With Appearance,0.7509815692901611,25.0,358,0,25372
+3913832,Anorexia nervosa,C0003125,Anorexia nervosa,0.9716147184371948,31.0,387,2178,32124
+3913832,Anorexia nervosa,C5396958,Orthorexia nervosa,0.7781927585601807,31.0,387,2178,32124
+3913832,Anorexia nervosa,C5568567,Prepubertal anorexia nervosa,0.7446135878562927,31.0,387,2178,32124
+3913832,Anorexia nervosa,C0003123,Anorexia,0.7075310349464417,31.0,387,2178,32124
+3984441,dementia with Lewy bodies,C0752347,Dementia with Lewy Bodies,0.9271519780158997,16.0,429,2077,31965
+3984441,dementia with Lewy bodies,C0085200,Lewy bodies,0.6206755042076111,16.0,429,2077,31965
+3984441,dementia with Lewy bodies,C0011265,dementia,0.5850844383239746,16.0,429,2077,31965
+3984441,dementia with Lewy bodies,C0497327,dementia,0.5850844383239746,16.0,429,2077,31965
+4017227,refractory epilepsy of the temporal lobe,C0014556,temporal lobe epilepsy,0.7421417236328125,23.0,261,7012,17348
+4017227,refractory epilepsy of the temporal lobe,C1096063,Refractory Epilepsy,0.7000366449356079,23.0,261,7012,17348
+4017227,refractory epilepsy of the temporal lobe,C1842564,Familial temporal lobe epilepsy,0.6612069010734558,23.0,261,7012,17348
+4029608,generalized Social anxiety disorder,C0270549,generalized anxiety disorder,0.8641172647476196,27.0,161,8770,22037
+4029608,generalized Social anxiety disorder,C3641330,Generalized Anxiety Disorder Scale,0.8041279315948486,27.0,161,8770,22037
+4029608,generalized Social anxiety disorder,C0031572,Social Anxiety Disorder,0.7756987810134888,27.0,161,8770,22037
+4029608,generalized Social anxiety disorder,C2982365,Generalized Anxiety Disorder Questionnaire,0.6945269703865051,27.0,161,8770,22037
+4030253,Internet Addiction,C5392078,Internet Addiction,0.9517041444778442,18.0,365,0,22915
+4030253,Internet Addiction,C0085281,Addiction,0.6845893859863281,18.0,365,0,22915
+4030253,Internet Addiction,C3898714,Internet Intervention,0.6720983982086182,18.0,365,0,22915
+4030253,Internet Addiction,C0282111,internet,0.6623272895812988,18.0,365,0,22915
+4030253,Internet Addiction,C4505067,Addiction medicine,0.5753015279769897,18.0,365,0,22915
+4048172,chronic pain,C0150055,chronic pain,0.9859752655029297,13.0,31,8584,21370
+4048172,chronic pain,C1333034,Chronic Cancer Pain,0.8103399872779846,13.0,31,8584,21370
+4048172,chronic pain,C0205191,chronic,0.7912920117378235,13.0,31,8584,21370
+4048172,chronic pain,C1555457,Chronic,0.7912920117378235,13.0,31,8584,21370
+4174863,psychopathy,C0003431,Psychopathy,0.9918001294136047,157.0,393,2197,31756
+4174863,psychopathy,C0033927,Psychopathology,0.7256017327308655,157.0,393,2197,31756
+4174863,psychopathy,C0033930,Psychophysic,0.5671643614768982,157.0,393,2197,31756
+4175730,chronic osteoarthritis,C0263778,Chronic osteoarthritis,0.9718143939971924,30.0,37,5086,19248
+4175730,chronic osteoarthritis,C0029408,OSTEOARTHRITIS,0.7911454439163208,30.0,37,5086,19248
+4175730,chronic osteoarthritis,C0949690,spine osteoarthritis,0.7278708815574646,30.0,37,5086,19248
+4175730,chronic osteoarthritis,C2350242,Spine Osteoarthritis,0.7278708815574646,30.0,37,5086,19248
+4175730,chronic osteoarthritis,C0263778,Chronic osteoarthritis,0.9718143939971924,30.0,38,5086,19248
+4175730,chronic osteoarthritis,C0029408,OSTEOARTHRITIS,0.7911454439163208,30.0,38,5086,19248
+4175730,chronic osteoarthritis,C0949690,spine osteoarthritis,0.7278708815574646,30.0,38,5086,19248
+4175730,chronic osteoarthritis,C2350242,Spine Osteoarthritis,0.7278708815574646,30.0,38,5086,19248
+4175730,chronic osteoarthritis,C0263778,Chronic osteoarthritis,0.9718143939971924,30.0,39,5086,19248
+4175730,chronic osteoarthritis,C0029408,OSTEOARTHRITIS,0.7911454439163208,30.0,39,5086,19248
+4175730,chronic osteoarthritis,C0949690,spine osteoarthritis,0.7278708815574646,30.0,39,5086,19248
+4175730,chronic osteoarthritis,C2350242,Spine Osteoarthritis,0.7278708815574646,30.0,39,5086,19248
+4184784,Parkinson's disease,C0030567,DISEASE PARKINSON'S,0.9629952907562256,37.0,397,0,24862
+4190683,"Attention Deficit Hyperactivity Disorder, hyperactive-impulsive/inattentive combined subtype",C1263846,"Attention deficit hyperactivity disorder, hyperactive impulsive type",0.8556283712387085,30.0,172,9065,20116
+4190683,"Attention Deficit Hyperactivity Disorder, hyperactive-impulsive/inattentive combined subtype",C0339002,"Attention Deficit Hyperactivity Disorder, Inattentive Type",0.8178698420524597,30.0,172,9065,20116
+4215530,"VPT with no history of cerebral palsy, grade 3/4 intraventricular haemorrhage or periventricular leukomalacia",C4505184,Cerebral Intraventricular Haemorrhage,0.6916232705116272,24.0,71,10681,22966
+4215530,"VPT with no history of cerebral palsy, grade 3/4 intraventricular haemorrhage or periventricular leukomalacia",C0240059,intraventricular haemorrhage,0.6468495726585388,24.0,71,10681,22966
+4215530,"VPT with no history of cerebral palsy, grade 3/4 intraventricular haemorrhage or periventricular leukomalacia",C5676806,Fetal intraventricular hemorrhage with periventricular hemorrhage,0.6448314785957336,24.0,71,10681,22966
+4215530,"VPT with no history of cerebral palsy, grade 3/4 intraventricular haemorrhage or periventricular leukomalacia",C0270191,Perinatal intraventricular haemorrhage,0.6329542994499207,24.0,71,10681,22966
+4215530,"VPT with no history of cerebral palsy, grade 3/4 intraventricular haemorrhage or periventricular leukomalacia",C0023529,leukomalacia periventricular,0.6290405988693237,24.0,71,10681,22966
+4265725,Autism spectrum conditions,C0524528,Autism spectrum disorder,0.6261480450630188,18.0,181,10617,22526
+4265725,Autism spectrum conditions,C1510586,Autism spectrum disorder,0.6261480450630188,18.0,181,10617,22526
+4265725,Autism spectrum conditions,C1883073,Spectrum,0.562343180179596,18.0,181,10617,22526
+4265725,Autism spectrum conditions,C2827424,Spectrum,0.562343180179596,18.0,181,10617,22526
+4265725,Autism spectrum conditions,C4042936,Action Spectrum,0.5514991283416748,18.0,181,10617,22526
+4416052,social anxiety disorder (generalized subtype),C0270549,generalized anxiety disorder,0.7379187941551208,53.0,118,5666,15046
+4416052,social anxiety disorder (generalized subtype),C3641330,Generalized Anxiety Disorder Scale,0.6866927742958069,53.0,118,5666,15046
+4416052,social anxiety disorder (generalized subtype),C0031572,Social Anxiety Disorder,0.6852928400039673,53.0,118,5666,15046
+4416052,social anxiety disorder (generalized subtype),C2982365,Generalized Anxiety Disorder Questionnaire,0.5930876135826111,53.0,118,5666,15046
+4473263,chronic left-hemisphere stroke,C0228176,Left Brain Hemisphere,0.5325112342834473,32.0,278,8398,19333
+4530666,anorexia nervosa,C0003125,Anorexia nervosa,0.9716147184371948,23.0,151,8966,21133
+4530666,anorexia nervosa,C5396958,Orthorexia nervosa,0.7781927585601807,23.0,151,8966,21133
+4530666,anorexia nervosa,C5568567,Prepubertal anorexia nervosa,0.7446135878562927,23.0,151,8966,21133
+4530666,anorexia nervosa,C0003123,Anorexia,0.7075310349464417,23.0,151,8966,21133
+4589842,depression,C0011570,depression,0.9696047902107239,11.0,427,0,23127
+4589842,depression,C0011581,depression,0.9696047902107239,11.0,427,0,23127
+4589842,depression,C0344315,depression,0.9696047902107239,11.0,427,0,23127
+4589842,depression,C0460137,Depression,0.9696047902107239,11.0,427,0,23127
+4589842,depression,C0812393,depression,0.9696047902107239,11.0,427,0,23127
+4732188,essential tremor,C0270736,essential tremor,0.9826844930648804,21.0,416,2426,31720
+4732188,essential tremor,C0205224,essential,0.7556995153427124,21.0,416,2426,31720
+4869560,"first-episode, drug-nave major depressive disorder",C0041696,Major Depressive Disorder,0.7047921419143677,30.0,342,2409,25553
+4869560,"first-episode, drug-nave major depressive disorder",C1269683,Major Depressive Disorder,0.7047921419143677,30.0,342,2409,25553
+4869560,"first-episode, drug-nave major depressive disorder",C0024517,Single Episode of Major Depressive Disorder,0.6801470518112183,30.0,342,2409,25553
+4869560,"first-episode, drug-nave major depressive disorder",C0011581,depressive disorder,0.6506546139717102,30.0,342,2409,25553
+4869560,"first-episode, drug-nave major depressive disorder",C0005586,Manic Depressive Disorder,0.6133584380149841,30.0,342,2409,25553
+4936600,attention-deficit hyperactivity disorder,C1263846,Attention-deficit hyperactivity disorder,0.9772719144821167,19.0,420,2670,31280
+4936600,attention-deficit hyperactivity disorder,C0339002,Attention deficit disorder without hyperactivity,0.8315789699554443,19.0,420,2670,31280
+4936600,attention-deficit hyperactivity disorder,C0041671,Attention-deficit disorder,0.7890127301216125,19.0,420,2670,31280
+4936600,Developmental coordination disorder,C0011757,Developmental Coordination Disorder,0.9609795808792114,6.0,421,2670,31280
+4936600,Developmental coordination disorder,C0008073,developmental disorder,0.7852920889854431,6.0,421,2670,31280
+4936600,Developmental coordination disorder,C0494698,Dental Developmental Disorder,0.7621097564697266,6.0,421,2670,31280
+4936600,Developmental coordination disorder+attention-deficit hyperactivity disorder,C1263846,Attention deficit hyperactivity disorder (disorder),0.7646325826644897,14.0,422,2670,31280
+4936600,Developmental coordination disorder+attention-deficit hyperactivity disorder,C0011757,Developmental coordination disorder (disorder),0.7444082498550415,14.0,422,2670,31280
+4936600,Developmental coordination disorder+attention-deficit hyperactivity disorder,C0339002,Attention deficit disorder without mention of hyperactivity,0.6999083161354065,14.0,422,2670,31280
+4936600,Developmental coordination disorder+attention-deficit hyperactivity disorder,C0041671,Attention deficit disorder,0.6636183857917786,14.0,422,2670,31280
+4983635,major depressive disorder,C0041696,Major Depressive Disorder,0.966160774230957,45.0,96,8102,31407
+4983635,major depressive disorder,C1269683,Major Depressive Disorder,0.966160774230957,45.0,96,8102,31407
+4983635,major depressive disorder,C0011581,depressive disorder,0.8692560791969299,45.0,96,8102,31407
+4983635,major depressive disorder,C0005586,Manic Depressive Disorder,0.8231246471405029,45.0,96,8102,31407
+4983635,major depressive disorder,C0024517,Single Episode of Major Depressive Disorder,0.7714975476264954,45.0,96,8102,31407
+4983635,major depressive disorder,C0041696,Major Depressive Disorder,0.966160774230957,12.0,97,8102,31407
+4983635,major depressive disorder,C1269683,Major Depressive Disorder,0.966160774230957,12.0,97,8102,31407
+4983635,major depressive disorder,C0011581,depressive disorder,0.8692560791969299,12.0,97,8102,31407
+4983635,major depressive disorder,C0005586,Manic Depressive Disorder,0.8231246471405029,12.0,97,8102,31407
+4983635,major depressive disorder,C0024517,Single Episode of Major Depressive Disorder,0.7714975476264954,12.0,97,8102,31407
+4983635,major depressive disorder,C0041696,Major Depressive Disorder,0.966160774230957,18.0,98,8102,31407
+4983635,major depressive disorder,C1269683,Major Depressive Disorder,0.966160774230957,18.0,98,8102,31407
+4983635,major depressive disorder,C0011581,depressive disorder,0.8692560791969299,18.0,98,8102,31407
+4983635,major depressive disorder,C0005586,Manic Depressive Disorder,0.8231246471405029,18.0,98,8102,31407
+4983635,major depressive disorder,C0024517,Single Episode of Major Depressive Disorder,0.7714975476264954,18.0,98,8102,31407
+4983635,major depressive disorder,C0041696,Major Depressive Disorder,0.966160774230957,15.0,99,8102,31407
+4983635,major depressive disorder,C1269683,Major Depressive Disorder,0.966160774230957,15.0,99,8102,31407
+4983635,major depressive disorder,C0011581,depressive disorder,0.8692560791969299,15.0,99,8102,31407
+4983635,major depressive disorder,C0005586,Manic Depressive Disorder,0.8231246471405029,15.0,99,8102,31407
+4983635,major depressive disorder,C0024517,Single Episode of Major Depressive Disorder,0.7714975476264954,15.0,99,8102,31407
+4990879,heroin relapser,C0205336,relapse,0.6184850335121155,21.0,379,2120,22230
+4990879,heroin relapser,C0277556,Relapse,0.6184850335121155,21.0,379,2120,22230
+4990879,heroin relapser,C5446367,At Relapse,0.5590243339538574,21.0,379,2120,22230
+4990879,heroin relapser,C5203068,Relapse in Skin,0.5554084181785583,21.0,379,2120,22230
+4990879,heroin relapser,C4054664,Late Relapse,0.5314936637878418,21.0,379,2120,22230
+5030332,posttraumatic stress disorder,C0038436,Posttraumatic Stress Disorder,0.956368088722229,21.0,263,7905,20301
+5030332,posttraumatic stress disorder,C0038441,Traumatic Stress Disorder,0.866463840007782,21.0,263,7905,20301
+5030332,posttraumatic stress disorder,C0236816,acute traumatic stress disorder,0.7808260321617126,21.0,263,7905,20301
+5104469,history of childhood abuse,C0262926,History of,0.6145142912864685,21.0,81,12106,23270
+5104469,psychiatric controls,C0033873,Psychiatric,0.748622477054596,19.0,82,12106,23270
+5104469,psychiatric controls,C3526598,Psychiatric,0.748622477054596,19.0,82,12106,23270
+5104469,psychiatric controls,C0242539,Psychiatric Wills,0.6586141586303711,19.0,82,12106,23270
+5104469,psychiatric controls,C0552595,Psychiatric Finding,0.6314721703529358,19.0,82,12106,23270
+5104469,psychiatric controls,C0017467,Geriatric Psychiatry,0.6263535618782043,19.0,82,12106,23270
+5266856,aphasia,C0003537,APHASIA,0.985831618309021,39.0,79,11323,19859
+5266856,aphasia,C0003113,APHASIA NOMINAL,0.7659984230995178,39.0,79,11323,19859
+5266856,aphasia,C0003550,Motor aphasia,0.7634828686714172,39.0,79,11323,19859
+5279905,ASD,C0018817,asd,0.9644922614097595,16.0,204,7481,14126
+5279905,ASD,C0856975,ASD,0.9644922614097595,16.0,204,7481,14126
+5279905,ASD,C1510586,ASD,0.9644922614097595,16.0,204,7481,14126
+5279905,ASD,C0015923,FASD,0.7015364170074463,16.0,204,7481,14126
+5279905,ASD,C2985290,FASD,0.7015364170074463,16.0,204,7481,14126
+5292583,schizophrenia,C0036341,schizophrenia,0.9816023111343384,34.0,196,6605,24979
+5292583,schizophrenia,C0220702,SCHIZOPHRENIA 1,0.9540121555328369,34.0,196,6605,24979
+5292583,schizophrenia,C0036341,schizophrenia,0.9816023111343384,29.0,198,6605,24979
+5292583,schizophrenia,C0220702,SCHIZOPHRENIA 1,0.9540121555328369,29.0,198,6605,24979
+5292583,schizophrenia,C0036341,schizophrenia,0.9816023111343384,24.0,199,6605,24979
+5292583,schizophrenia,C0220702,SCHIZOPHRENIA 1,0.9540121555328369,24.0,199,6605,24979
+5339238,former iron-deficiency anemia (Firon deficiency anemia),C0162316,iron deficiency anemia,0.8867931365966797,14.0,369,2807,31582
+5339238,former iron-deficiency anemia (Firon deficiency anemia),C0340950,Iron deficiency without anemia,0.7612075209617615,14.0,369,2807,31582
+5371603,congenitally profoundly deaf,C0009678,congenital,0.5514968633651733,14.0,77,24766,41275
+5371603,congenitally profoundly deaf,C1744681,Congenital,0.5514968633651733,14.0,77,24766,41275
+5371603,congenitally profoundly deaf,C0000768,congenital anomaly,0.5087701678276062,14.0,77,24766,41275
+5394595,bronchial asthma,C0004096,bronchial asthma,0.9720533490180969,42.0,346,2522,27967
+5394595,bronchial asthma,C0205039,bronchial,0.7623927593231201,42.0,346,2522,27967
+5394595,bronchial asthma,C0719022,Bronchial,0.7623927593231201,42.0,346,2522,27967
+5394595,bronchial asthma,C1334103,Bronchial hyperresponsiveness-1 (bronchial asthma),0.669772744178772,42.0,346,2522,27967
+5394595,bronchial asthma,C1708423,Bronchial Hyperresponsiveness-1 (Bronchial Asthma) Gene,0.6533347368240356,42.0,346,2522,27967
+5394595,bronchial asthma,C0004096,bronchial asthma,0.9720533490180969,17.0,348,2522,27967
+5394595,bronchial asthma,C0205039,bronchial,0.7623927593231201,17.0,348,2522,27967
+5394595,bronchial asthma,C0719022,Bronchial,0.7623927593231201,17.0,348,2522,27967
+5394595,bronchial asthma,C1334103,Bronchial hyperresponsiveness-1 (bronchial asthma),0.669772744178772,17.0,348,2522,27967
+5394595,bronchial asthma,C1708423,Bronchial Hyperresponsiveness-1 (Bronchial Asthma) Gene,0.6533347368240356,17.0,348,2522,27967
+5413198,alcohol dependence,C0001973,Alcohol dependence,0.9818964004516602,34.0,210,10741,34068
+5413198,alcohol dependence,C0011546,Dependence,0.7537113428115845,34.0,210,10741,34068
+5413198,alcohol dependence,C0439857,Dependence,0.7537113428115845,34.0,210,10741,34068
+5460048,chronic dieters,C0205191,chronic,0.70140540599823,75.0,253,11781,19444
+5460048,chronic dieters,C1555457,Chronic,0.70140540599823,75.0,253,11781,19444
+5460048,chronic dieters,C0008679,chronic disorders,0.6746525168418884,75.0,253,11781,19444
+5460048,chronic dieters,C0023977,chronic care,0.5668206214904785,75.0,253,11781,19444
+5460048,chronic dieters,C0150055,chronic pain,0.5639235377311707,75.0,253,11781,19444
+5537800,obesity,C0028754,OBESITY,0.9890912771224976,19.0,95,8484,19703
+5537800,obesity,C4759928,OBESITY,0.9890912771224976,19.0,95,8484,19703
+5537800,obesity,C0311277,Central obesity,0.8059842586517334,19.0,95,8484,19703
+5537800,obesity,C4551560,Central obesity,0.8059842586517334,19.0,95,8484,19703
+5537800,obesity,C4742979,Obesity Factor,0.7964982986450195,19.0,95,8484,19703
+5552726,asymptomatic carotid artery stenosis,C3494609,Asymptomatic carotid artery stenosis,0.9781074523925781,16.0,402,2701,19138
+5552726,asymptomatic carotid artery stenosis,C0007282,Carotid Artery Stenosis,0.789074718952179,16.0,402,2701,19138
+5598991,Major depressive disorder,C0041696,Major Depressive Disorder,0.966160774230957,58.0,316,2445,31167
+5598991,Major depressive disorder,C1269683,Major Depressive Disorder,0.966160774230957,58.0,316,2445,31167
+5598991,Major depressive disorder,C0011581,depressive disorder,0.8692560791969299,58.0,316,2445,31167
+5598991,Major depressive disorder,C0005586,Manic Depressive Disorder,0.8231246471405029,58.0,316,2445,31167
+5598991,Major depressive disorder,C0024517,Single Episode of Major Depressive Disorder,0.7714975476264954,58.0,316,2445,31167
+5598991,Major depressive disorder,C0041696,Major Depressive Disorder,0.966160774230957,62.0,317,2445,31167
+5598991,Major depressive disorder,C1269683,Major Depressive Disorder,0.966160774230957,62.0,317,2445,31167
+5598991,Major depressive disorder,C0011581,depressive disorder,0.8692560791969299,62.0,317,2445,31167
+5598991,Major depressive disorder,C0005586,Manic Depressive Disorder,0.8231246471405029,62.0,317,2445,31167
+5598991,Major depressive disorder,C0024517,Single Episode of Major Depressive Disorder,0.7714975476264954,62.0,317,2445,31167
+5655292,Parkinson's disease with anxiety,C0030567,DISEASE PARKINSON'S,0.7586847543716431,18.0,434,0,22003
+5655292,Parkinson's disease without anxiety,C0030567,DISEASE PARKINSON'S,0.7222464680671692,45.0,435,0,22003
+5665859,ischemic stroke,C0948008,Ischemic stroke,0.9727082252502441,72.0,33,7175,15026
+5665859,ischemic stroke,C4763940,Non-ischemic Stroke,0.7696096897125244,72.0,33,7175,15026
+5665859,ischemic stroke,C5680049,Pediatric arterial ischemic stroke,0.7525074481964111,72.0,33,7175,15026
+5665859,ischemic stroke,C0475224,Ischemic,0.7474812269210815,72.0,33,7175,15026
+5686883,juvenile fibromyalgia,C3896653,Juvenile Primary Fibromyalgia Syndrome,0.8223859667778015,10.0,310,2956,30786
+5686883,juvenile fibromyalgia,C0016053,fibromyalgia,0.7516030073165894,10.0,310,2956,30786
+5686883,juvenile fibromyalgia,C0432284,juvenile fibromatosis,0.6866216659545898,10.0,310,2956,30786
+5686883,juvenile fibromyalgia,C2745948,Fibromatosis Juvenile Hyaline,0.6585564613342285,10.0,310,2956,30786
+5686883,juvenile fibromyalgia,C0346158,Juvenile Fibroadenoma,0.6243640184402466,10.0,310,2956,30786
+5758587,Developmental dyscalculia,C1395913,Developmental Dyscalculia,0.9639253616333008,14.0,242,11527,31998
+5758587,Developmental dyscalculia,C0678723,Developmental,0.7101881504058838,14.0,242,11527,31998
+5758587,Developmental dyscalculia,C0028877,dental development,0.6887815594673157,14.0,242,11527,31998
+5758587,Developmental dyscalculia,C0869474,Dyscalculia,0.6548758745193481,14.0,242,11527,31998
+5758587,Developmental dyscalculia,C5551529,Dyscalculia,0.6548758745193481,14.0,242,11527,31998
+5758587,Developmental dyscalculia,C1395913,Developmental Dyscalculia,0.9639253616333008,13.0,244,11527,31998
+5758587,Developmental dyscalculia,C0678723,Developmental,0.7101881504058838,13.0,244,11527,31998
+5758587,Developmental dyscalculia,C0028877,dental development,0.6887815594673157,13.0,244,11527,31998
+5758587,Developmental dyscalculia,C0869474,Dyscalculia,0.6548758745193481,13.0,244,11527,31998
+5758587,Developmental dyscalculia,C5551529,Dyscalculia,0.6548758745193481,13.0,244,11527,31998
+5761874,temporal lobe epilepsy,C0014556,temporal lobe epilepsy,0.9817611575126648,25.0,293,7481,31843
+5761874,temporal lobe epilepsy,C1842564,Familial temporal lobe epilepsy,0.8746944069862366,25.0,293,7481,31843
+5761874,temporal lobe epilepsy,C4551957,"Epilepsy, Familial Temporal Lobe 1",0.7766635417938232,25.0,293,7481,31843
+5761874,temporal lobe epilepsy,C1838062,Autosomal Dominant Lateral Temporal Lobe Epilepsy,0.7664481401443481,25.0,293,7481,31843
+5761874,temporal lobe epilepsy,C0039485,Temporal lobe,0.7584754228591919,25.0,293,7481,31843
+5857897,Tourette syndrome,C0040517,Tourette Syndrome,0.9815427660942078,5.0,271,6603,15566
+5857897,Tourette syndrome,C0039082,syndrome,0.7029404640197754,5.0,271,6603,15566
+5870086,autism spectrum disorder,C0524528,Autism spectrum disorder,0.9845767617225647,28.0,58,9508,25571
+5870086,autism spectrum disorder,C1510586,Autism spectrum disorder,0.9845767617225647,28.0,58,9508,25571
+5870086,autism spectrum disorder,C0004352,Autism disorder,0.7902024388313293,28.0,58,9508,25571
+5870086,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7291615009307861,28.0,58,9508,25571
+5870086,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.721701443195343,28.0,58,9508,25571
+5903407,left hemisphere infarcts,C0228176,Left Brain Hemisphere,0.6917137503623962,27.0,159,7983,19980
+5903407,left hemisphere infarcts,C0228174,Brain Hemisphere,0.5648952126502991,27.0,159,7983,19980
+6004505,multi-problem young adults,C0238598,Young adults,0.6873080134391785,100.0,7,7938,17136
+6004505,multi-problem young adults,C0001675,Adults,0.5358113646507263,100.0,7,7938,17136
+6004505,multi-problem young adults,C3554568,Young adult onset,0.5049914717674255,100.0,7,7938,17136
+6024199,Posttraumatic stress disorder,C0038436,Posttraumatic Stress Disorder,0.956368088722229,21.0,84,14405,25023
+6024199,Posttraumatic stress disorder,C0038441,Traumatic Stress Disorder,0.866463840007782,21.0,84,14405,25023
+6024199,Posttraumatic stress disorder,C0236816,acute traumatic stress disorder,0.7808260321617126,21.0,84,14405,25023
+6024199,trauma-exposed control,C0009932,Control,0.5732956528663635,21.0,85,14405,25023
+6024199,trauma-exposed control,C0308718,CONTROL,0.5732956528663635,21.0,85,14405,25023
+6024199,trauma-exposed control,C1882979,Control,0.5732956528663635,21.0,85,14405,25023
+6024199,trauma-exposed control,C2587213,Control,0.5732956528663635,21.0,85,14405,25023
+6024199,trauma-exposed control,C3274648,Control,0.5732956528663635,21.0,85,14405,25023
+6197719,"drug-naive, first-episode schizophrenia",C0036341,schizophrenia,0.5818438529968262,44.0,301,2232,30145
+6197719,unaffected siblings,C2986417,Unaffected,0.7209799885749817,42.0,302,2232,30145
+6197719,unaffected siblings,C0037047,Siblings,0.6460230946540833,42.0,302,2232,30145
+6197719,unaffected siblings,C0392760,Affected,0.5551227331161499,42.0,302,2232,30145
+6197719,unaffected siblings,C1314939,Affected,0.5551227331161499,42.0,302,2232,30145
+6197719,unaffected siblings,C0037046,Sibling,0.5378863215446472,42.0,302,2232,30145
+6200185,relapsing-remitting multiple sclerosis,C0751967,relapsing-remitting multiple sclerosis,0.9681533575057983,50.0,194,7655,19689
+6200185,relapsing-remitting multiple sclerosis,C0026769,multiple sclerosis,0.6601127982139587,50.0,194,7655,19689
+6220927,cockroach phobia,C0009208,Cockroach,0.7317716479301453,12.0,355,0,26001
+6220927,cockroach phobia,C0600450,German Cockroach,0.6216258406639099,12.0,355,0,26001
+6220927,cockroach phobia,C0349231,PHOBIA,0.6128426194190979,12.0,355,0,26001
+6246657,bipolar disorderD,C0005586,Bipolar disorder,0.9000585675239563,21.0,331,2468,25354
+6246657,bipolar disorderD,C0024713,bipolar disorder manic,0.7997838854789734,21.0,331,2468,25354
+6246657,major depressive disorder,C0041696,Major Depressive Disorder,0.966160774230957,40.0,332,2468,25354
+6246657,major depressive disorder,C1269683,Major Depressive Disorder,0.966160774230957,40.0,332,2468,25354
+6246657,major depressive disorder,C0011581,depressive disorder,0.8692560791969299,40.0,332,2468,25354
+6246657,major depressive disorder,C0005586,Manic Depressive Disorder,0.8231246471405029,40.0,332,2468,25354
+6246657,major depressive disorder,C0024517,Single Episode of Major Depressive Disorder,0.7714975476264954,40.0,332,2468,25354
+6290711,Psychogenic erectile dysfunction,C0242350,Erectile Dysfunction,0.7759900689125061,26.0,101,7097,15731
+6290711,Psychogenic erectile dysfunction,C1868524,Autonomic erectile dysfunction,0.681686520576477,26.0,101,7097,15731
+6290711,Psychogenic erectile dysfunction,C1961100,"Erectile Dysfunction, CTCAE",0.6381832361221313,26.0,101,7097,15731
+6347794,attention-deficit/hyperactivity disorder,C1263846,Attention-deficit/hyperactivity disorder,0.9479967355728149,20.0,407,3088,32438
+6347794,attention-deficit/hyperactivity disorder,C0339002,Attention deficit disorder without hyperactivity,0.7679945826530457,20.0,407,3088,32438
+6347794,attention-deficit/hyperactivity disorder,C1263846,Attention-deficit/hyperactivity disorder,0.9479967355728149,38.0,409,3088,32438
+6347794,attention-deficit/hyperactivity disorder,C0339002,Attention deficit disorder without hyperactivity,0.7679945826530457,38.0,409,3088,32438
+6350268,vascular mild cognitive impairment,C1270972,Mild cognitive impairment,0.8372827172279358,31.0,334,2321,24735
+6350268,vascular mild cognitive impairment,C0338656,cognitive impairment,0.7578606605529785,31.0,334,2321,24735
+6350268,vascular mild cognitive impairment,C3554639,Severe cognitive impairment,0.6684000492095947,31.0,334,2321,24735
+6382839,panic disorder,C0030319,panic disorder,0.9921966791152954,17.0,87,30626,39383
+6382839,panic disorder,C0024713,manic disorder,0.836835503578186,17.0,87,30626,39383
+6382839,panic disorder,C0012634,disorder,0.7802134156227112,17.0,87,30626,39383
+6382839,panic disorder,C0040188,Tic disorder,0.7476732134819031,17.0,87,30626,39383
+6382839,panic disorder,C2169806,Tic disorder,0.7476732134819031,17.0,87,30626,39383
+6389716,Parkinson’s disease,C0030567,Parkinson`s disease,0.9714372158050537,42.0,231,8216,20017
+6389716,Parkinson’s disease,C1847640,Parkinson disease 9,0.9034284353256226,42.0,231,8216,20017
+6389716,Parkinson’s disease,C0242422,Parkinsonian disease,0.8788676857948303,42.0,231,8216,20017
+6389716,Parkinson’s disease,C1311470,Parkinson Disease Protein 2,0.8500699996948242,42.0,231,8216,20017
+6412974,juvenile myoclonic epilepsy,C0270853,Juvenile myoclonic epilepsy,0.9810349345207214,18.0,239,9389,18256
+6412974,juvenile myoclonic epilepsy,C0014550,MYOCLONIC EPILEPSY,0.8283182382583618,18.0,239,9389,18256
+6457314,ulcerative colitis,C0009324,Ulcerative Colitis,0.9720373153686523,41.0,141,5613,15497
+6457314,ulcerative colitis,C4053902,Ulcerative Colitis Flare,0.8466690182685852,41.0,141,5613,15497
+6509414,experienced hearing aid users,C0018768,hearing aid,0.6002880930900574,13.0,65,8835,31062
+6509414,experienced hearing aid users,C0181134,Hearing Aid Testers,0.5838608741760254,13.0,65,8835,31062
+6509414,experienced hearing aid users,C0542459,Aid to hearing,0.5632203221321106,13.0,65,8835,31062
+6509414,experienced hearing aid users,C0596545,experience,0.5485079884529114,13.0,65,8835,31062
+6509414,experienced hearing aid users,C0567452,Hearing Aid Care,0.526470959186554,13.0,65,8835,31062
+6509414,inexperienced hearing aid users,C0018768,hearing aid,0.5784521698951721,14.0,66,8835,31062
+6509414,inexperienced hearing aid users,C0181134,Hearing Aid Testers,0.5626224875450134,14.0,66,8835,31062
+6509414,inexperienced hearing aid users,C0542459,Aid to hearing,0.5427326560020447,14.0,66,8835,31062
+6509414,inexperienced hearing aid users,C0567452,Hearing Aid Care,0.5073201656341553,14.0,66,8835,31062
+6585311,chronic post-stroke hemiparesis,C0018989,HEMIPARESIS,0.6012595891952515,10.0,149,8877,32783
+6585311,chronic post-stroke hemiparesis,C0154694,Spastic hemiparesis,0.5272939205169678,10.0,149,8877,32783
+6611425,schizophrenia,C0036341,schizophrenia,0.9816023111343384,50.0,432,2467,5524
+6611425,schizophrenia,C0220702,SCHIZOPHRENIA 1,0.9540121555328369,50.0,432,2467,5524
+6667657,problematic tinnitus,C0040264,TINNITUS,0.630021333694458,12.0,14,7425,27130
+6667657,problematic tinnitus,C0033213,problem,0.5005834698677063,12.0,14,7425,27130
+6675526,Idiopathic Parkinson's Disease,C0030567,Idiopathic Parkinson's disease,0.9701851606369019,50.0,391,2116,17794
+6678781,pedophilia/hebephilia,C0030764,pedophilia,0.8011850118637085,23.0,133,9492,23376
+6678781,pedophilia/hebephilia,C0019069,Hemophilia,0.5617594718933105,23.0,133,9492,23376
+6678781,pedophilia/hebephilia,C0684275,Hemophilia,0.5617594718933105,23.0,133,9492,23376
+6678781,pedophilia/hebephilia,C0853716,Basophilia,0.5514892339706421,23.0,133,9492,23376
+6678781,pedophilia/hebephilia,C1366370,hemophilia A,0.537262499332428,23.0,133,9492,23376
+6678781,pedophilia/hebephilia,C0030764,pedophilia,0.8011850118637085,38.0,134,9492,23376
+6678781,pedophilia/hebephilia,C0019069,Hemophilia,0.5617594718933105,38.0,134,9492,23376
+6678781,pedophilia/hebephilia,C0684275,Hemophilia,0.5617594718933105,38.0,134,9492,23376
+6678781,pedophilia/hebephilia,C0853716,Basophilia,0.5514892339706421,38.0,134,9492,23376
+6678781,pedophilia/hebephilia,C1366370,hemophilia A,0.537262499332428,38.0,134,9492,23376
+6699415,intrinsic tumours within the right cerebral hemisphere,C0228175,cerebral hemisphere right,0.6994019746780396,5.0,233,5975,19549
+6699415,intrinsic tumours within the right cerebral hemisphere,C1263885,Tumor of the Cerebral Hemispheres,0.6534734964370728,5.0,233,5975,19549
+6699415,intrinsic tumours within the right cerebral hemisphere,C0228174,Cerebral hemisphere,0.6245037913322449,5.0,233,5975,19549
+6699415,intrinsic tumours within the right cerebral hemisphere,C0228176,Left Cerebral Hemisphere,0.5792351961135864,5.0,233,5975,19549
+6699415,intrinsic tumours within the right cerebral hemisphere,C0686378,Benign Tumor of the Cerebral Hemispheres,0.5779154300689697,5.0,233,5975,19549
+6820536,fibromyalgia,C0016053,fibromyalgia,0.9703152775764465,20.0,255,5393,21203
+6854061,panic disorder and agoraphobia,C0236800,panic disorder agoraphobia,0.9189702272415161,121.0,418,2596,28842
+6854061,panic disorder and agoraphobia,C0236794,Panic Disorder without Agoraphobia,0.7990701794624329,121.0,418,2596,28842
+6878729,right-sided cerebral palsy,C0007789,CEREBRAL PALSY,0.7035267949104309,8.0,213,7912,16083
+6878729,right-sided cerebral palsy,C0444532,Right-sided,0.6418331265449524,8.0,213,7912,16083
+6878729,right-sided cerebral palsy,C3838784,Bilateral cerebral palsy,0.6380323767662048,8.0,213,7912,16083
+6878729,right-sided cerebral palsy,C0394007,Atonic Cerebral Palsy,0.6144723296165466,8.0,213,7912,16083
+6878729,right-sided cerebral palsy,C0338596,Spastic cerebral palsy,0.6071489453315735,8.0,213,7912,16083
+6902076,Dementia with Lewy bodies,C0752347,Dementia with Lewy Bodies,0.9271519780158997,17.0,177,6917,17715
+6902076,Dementia with Lewy bodies,C0085200,Lewy bodies,0.6206755042076111,17.0,177,6917,17715
+6902076,Dementia with Lewy bodies,C0011265,dementia,0.5850844383239746,17.0,177,6917,17715
+6902076,Dementia with Lewy bodies,C0497327,dementia,0.5850844383239746,17.0,177,6917,17715
+6908505,bipolar disorder,C0005586,Bipolar disorder,0.9751492738723755,70.0,105,7076,15408
+6908505,bipolar disorder,C0024713,bipolar disorder manic,0.8665149807929993,70.0,105,7076,15408
+7082218,mood and/or anxiety disorder,C0003469,Anxiety Disorder,0.7404535412788391,223.0,259,14245,26774
+7082218,mood and/or anxiety disorder,C0236748,Anxiety disorder due to medical disorder,0.6689839959144592,223.0,259,14245,26774
+7082218,mood and/or anxiety disorder,C0525045,Mood disorder,0.6491849422454834,223.0,259,14245,26774
+7082218,mood and/or anxiety disorder,C0031572,Social Anxiety Disorder,0.6462537050247192,223.0,259,14245,26774
+7082218,mood and/or anxiety disorder,C3887605,Dream anxiety disorder (disorder),0.6386749148368835,223.0,259,14245,26774
+7090024,subjective cognitive decline,C0234985,Cognitive decline,0.783292829990387,35.0,280,2474,26050
+7090024,subjective cognitive decline,C0338656,Cognitive decline,0.783292829990387,35.0,280,2474,26050
+7090024,subjective cognitive decline,C4721773,Postoperative Cognitive Decline,0.7511714100837708,35.0,280,2474,26050
+7090024,subjective cognitive decline,C0439655,Subjective,0.6705393195152283,35.0,280,2474,26050
+7090024,subjective cognitive decline,C1516691,Cognitive,0.6491180062294006,35.0,280,2474,26050
+7118554,major depressive disorder,C0041696,Major Depressive Disorder,0.966160774230957,43.0,167,8471,17832
+7118554,major depressive disorder,C1269683,Major Depressive Disorder,0.966160774230957,43.0,167,8471,17832
+7118554,major depressive disorder,C0011581,depressive disorder,0.8692560791969299,43.0,167,8471,17832
+7118554,major depressive disorder,C0005586,Manic Depressive Disorder,0.8231246471405029,43.0,167,8471,17832
+7118554,major depressive disorder,C0024517,Single Episode of Major Depressive Disorder,0.7714975476264954,43.0,167,8471,17832
+7194032,Autism spectrum disorder,C0524528,Autism spectrum disorder,0.9845767617225647,26.0,73,9309,18933
+7194032,Autism spectrum disorder,C1510586,Autism spectrum disorder,0.9845767617225647,26.0,73,9309,18933
+7194032,Autism spectrum disorder,C0004352,Autism disorder,0.7902024388313293,26.0,73,9309,18933
+7194032,Autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7291615009307861,26.0,73,9309,18933
+7194032,Autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.721701443195343,26.0,73,9309,18933
+7260173,total sleep deprivation,C0037316,Sleep Deprivation,0.8370038270950317,39.0,54,30977,41739
+7260173,total sleep deprivation,C4476669,Triggered by sleep deprivation,0.6614612936973572,39.0,54,30977,41739
+7260173,total sleep deprivation,C0424574,Total Sleep Time,0.600461483001709,39.0,54,30977,41739
+7260173,total sleep deprivation,C4722414,Total Sleep Time,0.600461483001709,39.0,54,30977,41739
+7260173,total sleep deprivation,C0030654,Paternal Deprivation,0.5977146029472351,39.0,54,30977,41739
+7272423,postpartum,C0086839,Postpartum,0.957534909248352,25.0,257,5390,15950
+7272423,postpartum,C0032782,Postpartum care,0.8583605289459229,25.0,257,5390,15950
+7272423,postpartum,C2985349,Postpartum Process,0.8040926456451416,25.0,257,5390,15950
+7272423,postpartum,C0034040,Postpartum disorder,0.794463038444519,25.0,257,5390,15950
+7272423,postpartum,C1171170,Postpartum risk,0.7896265983581543,25.0,257,5390,15950
+7275001,lung cancer,C0242379,Lung cancer,0.977493166923523,18.0,111,8631,17518
+7275001,lung cancer,C0684249,Lung Cancer,0.977493166923523,18.0,111,8631,17518
+7275001,lung cancer,C1306460,Lung cancer,0.977493166923523,18.0,111,8631,17518
+7275001,lung cancer,C1881483,pTis Lung Cancer,0.8167136311531067,18.0,111,8631,17518
+7275001,lung cancer,C0006826,Cancer,0.7680030465126038,18.0,111,8631,17518
+7275020,mild traumatic brain injury,C0006107,Mild traumatic brain injury,0.970161497592926,53.0,403,2510,24695
+7275020,mild traumatic brain injury,C3508472,Mild Traumatic Brain Injury,0.970161497592926,53.0,403,2510,24695
+7275020,mild traumatic brain injury,C0876926,Traumatic Brain Injury,0.882588267326355,53.0,403,2510,24695
+7275020,mild traumatic brain injury,C0043251,injury traumatic,0.7611843943595886,53.0,403,2510,24695
+7275020,mild traumatic brain injury,C3263723,TRAUMATIC INJURY,0.7611843943595886,53.0,403,2510,24695
+7485713,multiple system atrophy,C0393571,Multiple system atrophy,0.9892247915267944,24.0,389,0,6819
+7485713,multiple system atrophy,C5554234,"Multiple system atrophy, cerebellar type",0.6986150741577148,24.0,389,0,6819
+7485713,multiple system atrophy,C5554235,"Multiple system atrophy, parkinsonian type",0.6620328426361084,24.0,389,0,6819
+7485713,multiple system atrophy,C0026766,Multiple System Failure,0.6297110319137573,24.0,389,0,6819
+7485713,multiple system atrophy,C0439064,Multiple,0.6100001931190491,24.0,389,0,6819
+7493988,Essential Tremor,C0270736,essential tremor,0.9826844930648804,10.0,190,43154,53378
+7493988,Essential Tremor,C0205224,essential,0.7556995153427124,10.0,190,43154,53378
+7518235,Functional Dyspepsia-PDS with comorbid Major Depressive Disorder,C0041696,Major Depressive Disorder,0.6084141731262207,24.0,235,6771,18065
+7518235,Functional Dyspepsia-PDS with comorbid Major Depressive Disorder,C1269683,Major Depressive Disorder,0.6084141731262207,24.0,235,6771,18065
+7518235,Functional Dyspepsia-PDS with comorbid Major Depressive Disorder,C0011581,depressive disorder,0.547390878200531,24.0,235,6771,18065
+7518235,Functional Dyspepsia-PDS with comorbid Major Depressive Disorder,C0277785,Functional disorder,0.5447141528129578,24.0,235,6771,18065
+7518235,Functional Dyspepsia-PDS with comorbid Major Depressive Disorder,C0005586,Manic Depressive Disorder,0.5183408856391907,24.0,235,6771,18065
+7518235,Functional Dyspepsia-PDS without comorbid Major Depressive Disorder,C0041696,Major Depressive Disorder,0.5932646989822388,24.0,236,6771,18065
+7518235,Functional Dyspepsia-PDS without comorbid Major Depressive Disorder,C1269683,Major Depressive Disorder,0.5932646989822388,24.0,236,6771,18065
+7518235,Functional Dyspepsia-PDS without comorbid Major Depressive Disorder,C0011581,depressive disorder,0.5337609052658081,24.0,236,6771,18065
+7518235,Functional Dyspepsia-PDS without comorbid Major Depressive Disorder,C0277785,Functional disorder,0.5311506986618042,24.0,236,6771,18065
+7518235,Functional Dyspepsia-PDS without comorbid Major Depressive Disorder,C0005586,Manic Depressive Disorder,0.5054341554641724,24.0,236,6771,18065
+7539836,mild traumatic brain injury,C0006107,Mild traumatic brain injury,0.970161497592926,50.0,360,2128,29560
+7539836,mild traumatic brain injury,C3508472,Mild Traumatic Brain Injury,0.970161497592926,50.0,360,2128,29560
+7539836,mild traumatic brain injury,C0876926,Traumatic Brain Injury,0.882588267326355,50.0,360,2128,29560
+7539836,mild traumatic brain injury,C0043251,injury traumatic,0.7611843943595886,50.0,360,2128,29560
+7539836,mild traumatic brain injury,C3263723,TRAUMATIC INJURY,0.7611843943595886,50.0,360,2128,29560
+7721229,schizophrenia,C0036341,schizophrenia,0.9816023111343384,151.0,274,10065,22917
+7721229,schizophrenia,C0220702,SCHIZOPHRENIA 1,0.9540121555328369,151.0,274,10065,22917
+7721229,autism spectrum disorder,C0524528,Autism spectrum disorder,0.9845767617225647,255.0,276,10065,22917
+7721229,autism spectrum disorder,C1510586,Autism spectrum disorder,0.9845767617225647,255.0,276,10065,22917
+7721229,autism spectrum disorder,C0004352,Autism disorder,0.7902024388313293,255.0,276,10065,22917
+7721229,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7291615009307861,255.0,276,10065,22917
+7721229,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.721701443195343,255.0,276,10065,22917
+7829678,Type 2 diabetes mellitus-CI,C0011860,Type 2 diabetes mellitus,0.8919955492019653,22.0,68,7017,21035
+7829678,Type 2 diabetes mellitus-CI,C0011854,diabetes mellitus type 1,0.849189281463623,22.0,68,7017,21035
+7829678,Type 2 diabetes mellitus-NC,C0011860,Type 2 diabetes mellitus,0.8919955492019653,31.0,69,7017,21035
+7829678,Type 2 diabetes mellitus-NC,C0011854,diabetes mellitus type 1,0.8491893410682678,31.0,69,7017,21035
+7836234,mesial temporal lobe epilepsy,C0014556,temporal lobe epilepsy,0.8508138060569763,19.0,135,7759,23195
+7836234,mesial temporal lobe epilepsy,C4749273,Benign familial mesial temporal lobe epilepsy,0.8197827339172363,19.0,135,7759,23195
+7836234,mesial temporal lobe epilepsy,C1842564,Familial temporal lobe epilepsy,0.8057664632797241,19.0,135,7759,23195
+7836234,mesial temporal lobe epilepsy,C4551957,"Epilepsy, Familial Temporal Lobe 1",0.7195398807525635,19.0,135,7759,23195
+7836234,mesial temporal lobe epilepsy,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.713108241558075,19.0,135,7759,23195
+7838677,amnestic mild cognitive impairment/mild Alzheimer's dementia,C1270972,Mild cognitive impairment,0.6789225935935974,17.0,156,6036,24910
+7838677,amnestic mild cognitive impairment/mild Alzheimer's dementia,C3827035,Alzheimer's Disease Cooperative Study-Activities of Daily Living Inventory Mild Cognitive Impairment Questionnaire,0.5566655397415161,17.0,156,6036,24910
+7838677,amnestic mild cognitive impairment/mild Alzheimer's dementia,C3829835,"Has Alzheimer's, Dementia from any Etiology or any Serious Cognitive Impairment",0.5521341562271118,17.0,156,6036,24910
+7838677,amnestic mild cognitive impairment/mild Alzheimer's dementia,C0338656,cognitive impairment,0.5415604114532471,17.0,156,6036,24910
+7838677,amnestic mild cognitive impairment/mild Alzheimer's dementia,C0002395,Alzheimer's Dementia,0.5399675965309143,17.0,156,6036,24910
+7851842,"schizophrenia (F20.0, n=13, and F20.3, n=1) or schizoaffective disorder (F25.0, n=2, and F25.2, n=1)",C0036337,Schizoaffective schizophrenia (disorder),0.5906223058700562,17.0,124,9615,19453
+7851842,"schizophrenia (F20.0, n=13, and F20.3, n=1) or schizoaffective disorder (F25.0, n=2, and F25.2, n=1)",C0036341,disorder schizophrenia,0.5386618971824646,17.0,124,9615,19453
+7851842,"schizophrenia (F20.0, n=13, and F20.3, n=1) or schizoaffective disorder (F25.0, n=2, and F25.2, n=1)",C1419374,schizophrenia disorder 9,0.5119897127151489,17.0,124,9615,19453
+7875881,major depressive disorder,C0041696,Major Depressive Disorder,0.966160774230957,19.0,336,2056,24611
+7875881,major depressive disorder,C1269683,Major Depressive Disorder,0.966160774230957,19.0,336,2056,24611
+7875881,major depressive disorder,C0011581,depressive disorder,0.8692560791969299,19.0,336,2056,24611
+7875881,major depressive disorder,C0005586,Manic Depressive Disorder,0.8231246471405029,19.0,336,2056,24611
+7875881,major depressive disorder,C0024517,Single Episode of Major Depressive Disorder,0.7714975476264954,19.0,336,2056,24611
+8154462,right middle cerebral artery infarction,C0751849,Right Middle Cerebral Artery Infarction,0.9629340171813965,11.0,377,0,19156
+8154462,right middle cerebral artery infarction,C0740392,Middle Cerebral Artery Infarction,0.887319803237915,11.0,377,0,19156
+8154462,right middle cerebral artery infarction,C0149566,Middle Cerebral Artery,0.7349287867546082,11.0,377,0,19156
+8154462,right middle cerebral artery infarction,C0751843,Anterior Cerebral Artery Infarction,0.7235372066497803,11.0,377,0,19156
+8172304,chronic urticaria,C0263338,chronic urticaria,0.9837539792060852,32.0,340,0,24378
+8172304,chronic urticaria,C0578870,Chronic Spontaneous Urticaria,0.7779648303985596,32.0,340,0,24378
+8172304,chronic urticaria,C0042109,urticaria,0.7333112359046936,32.0,340,0,24378
+8172304,chronic urticaria,C5197720,Chronic Inducible Urticaria,0.7257519960403442,32.0,340,0,24378
+8213933,autism spectrum disorder,C0524528,Autism spectrum disorder,0.9845767617225647,28.0,282,13173,21786
+8213933,autism spectrum disorder,C1510586,Autism spectrum disorder,0.9845767617225647,28.0,282,13173,21786
+8213933,autism spectrum disorder,C0004352,Autism disorder,0.7902024388313293,28.0,282,13173,21786
+8213933,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7291615009307861,28.0,282,13173,21786
+8213933,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.721701443195343,28.0,282,13173,21786
+8315277,mild White matter hyperintensities,C2938912,White matter hyperintensities,0.9125041365623474,39.0,321,2178,30865
+8315277,mild White matter hyperintensities,C4293686,Periventricular white matter hyperintensities,0.775628924369812,39.0,321,2178,30865
+8315277,mild White matter hyperintensities,C4293685,Deep cerebral white matter hyperintensities,0.7386987209320068,39.0,321,2178,30865
+8315277,mild White matter hyperintensities,C4020908,White matter hypointensities on MRI,0.6932092905044556,39.0,321,2178,30865
+8315277,mild White matter hyperintensities,C1856979,Deep white matter hypodensities,0.6305609941482544,39.0,321,2178,30865
+8315277,moderate White matter hyperintensities,C2938912,White matter hyperintensities,0.8605318665504456,37.0,322,2178,30865
+8315277,moderate White matter hyperintensities,C4293686,Periventricular white matter hyperintensities,0.7303086519241333,37.0,322,2178,30865
+8315277,moderate White matter hyperintensities,C4293685,Deep cerebral white matter hyperintensities,0.6966261863708496,37.0,322,2178,30865
+8315277,moderate White matter hyperintensities,C4020908,White matter hypointensities on MRI,0.6565334796905518,37.0,322,2178,30865
+8315277,moderate White matter hyperintensities,C1856979,Deep white matter hypodensities,0.6298529505729675,37.0,322,2178,30865
+8315277,severe White matter hyperintensities,C2938912,White matter hyperintensities,0.8844204545021057,28.0,323,2178,30865
+8315277,severe White matter hyperintensities,C4293686,Periventricular white matter hyperintensities,0.7517576217651367,28.0,323,2178,30865
+8315277,severe White matter hyperintensities,C4293685,Deep cerebral white matter hyperintensities,0.7432485222816467,28.0,323,2178,30865
+8315277,severe White matter hyperintensities,C4020908,White matter hypointensities on MRI,0.6718746423721313,28.0,323,2178,30865
+8315277,severe White matter hyperintensities,C1856979,Deep white matter hypodensities,0.6111544966697693,28.0,323,2178,30865
+8459240,Cocaine Use Disorder,C4763868,Cocaine Use Disorder,0.9793114066123962,54.0,192,7650,16120
+8459240,Cocaine Use Disorder,C0236736,Cocaine Related Disorders,0.6751880645751953,54.0,192,7650,16120
+8459240,Cocaine Use Disorder,C0012634,disorder,0.6630539894104004,54.0,192,7650,16120
+8459240,Cocaine Use Disorder,C0037933,spine disorder,0.6411163806915283,54.0,192,7650,16120
+8459240,Cocaine Use Disorder,C0004936,mental disorder disorder,0.6192527413368225,54.0,192,7650,16120
+8544331,neovascular age-related macular degeneration,C0271084,Neovascular age-related macular degeneration,0.9662023186683655,18.0,296,2458,21485
+8544331,neovascular age-related macular degeneration,C0242383,age-related macular degeneration,0.842440664768219,18.0,296,2458,21485
+8544331,neovascular age-related macular degeneration,C1853147,Age-Related Macular Degeneration-4,0.7554969191551208,18.0,296,2458,21485
+8550949,first episode psychosis,C4085940,Age at First Episode,0.6523570418357849,31.0,345,2232,30471
+8550949,first episode psychosis,C0033975,psychosis,0.6434687972068787,31.0,345,2232,30471
+8550949,first episode psychosis,C0332189,episode,0.5713505148887634,31.0,345,2232,30471
+8550949,first episode psychosis,C0151772,Manic psychosis,0.5493433475494385,31.0,345,2232,30471
+8569140,hemifacial spasm,C0278152,Hemifacial spasm,0.9578537940979004,30.0,265,6781,14913
+8569140,hemifacial spasm,C1841639,Hemifacial spasm,0.9578537940979004,30.0,265,6781,14913
+8569140,hemifacial spasm,C0278151,FACIAL SPASM,0.7574896812438965,30.0,265,6781,14913
+8569140,hemifacial spasm,C0015458,Hemifacial Atrophy,0.6245697140693665,30.0,265,6781,14913
+8569140,hemifacial spasm,C0278152,Hemifacial spasm,0.9578537940979004,30.0,266,6781,14913
+8569140,hemifacial spasm,C1841639,Hemifacial spasm,0.9578537940979004,30.0,266,6781,14913
+8569140,hemifacial spasm,C0278151,FACIAL SPASM,0.7574896812438965,30.0,266,6781,14913
+8569140,hemifacial spasm,C0015458,Hemifacial Atrophy,0.6245697140693665,30.0,266,6781,14913
+8782893,attention/deficit hyperactivity disorder,C1263846,Attention Deficit Hyperactivity Disorder,0.9279094338417053,167.0,381,0,27082
+8782893,attention/deficit hyperactivity disorder,C0339002,Attention deficit disorder without hyperactivity,0.8315789699554443,167.0,381,0,27082
+8785614,perinatal stroke,C0178795,Perinatal,0.7651739716529846,14.0,207,10157,21631
+8785614,perinatal stroke,C0242963,Perinatal Care,0.6171520948410034,14.0,207,10157,21631
+8785614,perinatal stroke,C0038454,STROKE,0.6062530875205994,14.0,207,10157,21631
+8785614,perinatal stroke,C0701826,perinatal death,0.5608174800872803,14.0,207,10157,21631
+8785614,perinatal stroke,C0178795,Perinatal,0.7651739716529846,14.0,208,10157,21631
+8785614,perinatal stroke,C0242963,Perinatal Care,0.6171520948410034,14.0,208,10157,21631
+8785614,perinatal stroke,C0038454,STROKE,0.6062530875205994,14.0,208,10157,21631
+8785614,perinatal stroke,C0701826,perinatal death,0.5608174800872803,14.0,208,10157,21631
+8785646,posttraumatic stress disorder,C0038436,Posttraumatic Stress Disorder,0.956368088722229,14.0,164,15850,36556
+8785646,posttraumatic stress disorder,C0038441,Traumatic Stress Disorder,0.866463840007782,14.0,164,15850,36556
+8785646,posttraumatic stress disorder,C0236816,acute traumatic stress disorder,0.7808260321617126,14.0,164,15850,36556
+8883821,schizophrenia,C0036341,schizophrenia,0.9816023111343384,28.0,16,7464,18951
+8883821,schizophrenia,C0220702,SCHIZOPHRENIA 1,0.9540121555328369,28.0,16,7464,18951
+8883821,autism spectrum disorder,C0524528,Autism spectrum disorder,0.9845767617225647,20.0,17,7464,18951
+8883821,autism spectrum disorder,C1510586,Autism spectrum disorder,0.9845767617225647,20.0,17,7464,18951
+8883821,autism spectrum disorder,C0004352,Autism disorder,0.7902024388313293,20.0,17,7464,18951
+8883821,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7291615009307861,20.0,17,7464,18951
+8883821,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.721701443195343,20.0,17,7464,18951
+8933317,unilateral hippocampal sclerosis,C1504404,Hippocampal Sclerosis,0.7912737727165222,66.0,184,8349,22009
+8933317,unilateral hippocampal sclerosis,C0154682,lateral sclerosis,0.6748754978179932,66.0,184,8349,22009
+8933317,unilateral hippocampal sclerosis,C0019564,Hippocampal,0.5973027944564819,66.0,184,8349,22009
+8933317,unilateral hippocampal sclerosis,C0221065,POSTEROLATERAL SCLEROSIS,0.5853077173233032,66.0,184,8349,22009
+8933317,unilateral hippocampal sclerosis,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.580766499042511,66.0,184,8349,22009
+8933759,left Mesial temporal lobe epilepsy,C0014556,temporal lobe epilepsy,0.7958636283874512,12.0,289,7220,14113
+8933759,left Mesial temporal lobe epilepsy,C4749273,Benign familial mesial temporal lobe epilepsy,0.7668365836143494,12.0,289,7220,14113
+8933759,left Mesial temporal lobe epilepsy,C1842564,Familial temporal lobe epilepsy,0.7537254095077515,12.0,289,7220,14113
+8933759,left Mesial temporal lobe epilepsy,C4551957,"Epilepsy, Familial Temporal Lobe 1",0.6730678677558899,12.0,289,7220,14113
+8933759,left Mesial temporal lobe epilepsy,C4749367,Mesial temporal lobe epilepsy with hippocampal sclerosis,0.6670516729354858,12.0,289,7220,14113
+8933759,right Mesial temporal lobe epilepsy,C0014556,temporal lobe epilepsy,0.7837122082710266,11.0,290,7220,14113
+8933759,right Mesial temporal lobe epilepsy,C4749273,Benign familial mesial temporal lobe epilepsy,0.7551283836364746,11.0,290,7220,14113
+8933759,right Mesial temporal lobe epilepsy,C1842564,Familial temporal lobe epilepsy,0.742217481136322,11.0,290,7220,14113
+8933759,right Mesial temporal lobe epilepsy,C4551957,"Epilepsy, Familial Temporal Lobe 1",0.6627914309501648,11.0,290,7220,14113
+8939409,internet addiction,C5392078,Internet Addiction,0.9517041444778442,24.0,56,8544,18377
+8939409,internet addiction,C0085281,Addiction,0.6845893859863281,24.0,56,8544,18377
+8939409,internet addiction,C3898714,Internet Intervention,0.6720983982086182,24.0,56,8544,18377
+8939409,internet addiction,C0282111,internet,0.6623272895812988,24.0,56,8544,18377
+8939409,internet addiction,C4505067,Addiction medicine,0.5753015279769897,24.0,56,8544,18377
+8978988,GNE myopathy with congenital thrombocytopenia,C0272278,Congenital thrombocytopenia,0.7897242307662964,1.0,431,0,16470
+8978988,GNE myopathy with congenital thrombocytopenia,C3710589,Congenital Myopathy with Caps,0.6631960272789001,1.0,431,0,16470
+8978988,GNE myopathy with congenital thrombocytopenia,C4302508,Thrombocytopenia with congenital dyserythropoietic anemia,0.6404964923858643,1.0,431,0,16470
+8978988,GNE myopathy with congenital thrombocytopenia,C0040034,THROMBOCYTOPENIA,0.6307253241539001,1.0,431,0,16470
+8978988,GNE myopathy with congenital thrombocytopenia,C0392386,Thrombocytopenia,0.6307253241539001,1.0,431,0,16470
+9057100,schizophrenia,C0036341,schizophrenia,0.9816023111343384,151.0,373,32216,52513
+9057100,schizophrenia,C0220702,SCHIZOPHRENIA 1,0.9540121555328369,151.0,373,32216,52513
+9205431,APOE-4 carriers,C0007294,carriers,0.746549665927887,38.0,284,45406,63870
+9205431,APOE-4 carriers,C3888060,Carriers,0.746549665927887,38.0,284,45406,63870
+9205431,APOE-4 carriers,C1736727,Dental Carriers,0.6290247440338135,38.0,284,45406,63870
+9205431,APOE-4 carriers,C0560175,Carrier,0.6239330768585205,38.0,284,45406,63870
+9205431,APOE-4 carriers,C1325398,carrier,0.6239330768585205,38.0,284,45406,63870
+9230060,affective violence,C0013987,affective state,0.6162551045417786,6.0,326,2158,20252
+9230060,affective violence,C5539408,Affective aura,0.5893542170524597,6.0,326,2158,20252
+9230060,affective violence,C0525045,AFFECTIVE DISORDER,0.5646802186965942,6.0,326,2158,20252
+9230060,affective violence,C0871641,Affection,0.5455935001373291,6.0,326,2158,20252
+9230060,affective violence,C0392760,Affecting,0.5264229774475098,6.0,326,2158,20252
+9230060,predatory violence,C0042693,violence,0.6767845749855042,7.0,327,2158,20252
+9230060,predatory violence,C0150215,prevention violence,0.5984839797019958,7.0,327,2158,20252
+9230060,predatory violence,C0032942,Predatory Behavior,0.5508342981338501,7.0,327,2158,20252
+9230060,predatory violence,C1456721,Teen Violence,0.5226525664329529,7.0,327,2158,20252
+9230060,predatory violence,C3162149,Violence control,0.5207433104515076,7.0,327,2158,20252
+9230060,non-violent crime,C0042693,Violent Crime,0.7858625650405884,7.0,328,2158,20252
+9230060,non-violent crime,C0010325,crime,0.5565365552902222,7.0,328,2158,20252
+9308181,Tuberous sclerosis complex,C0041341,tuberous sclerosis complex,0.9868051409721375,81.0,410,0,26539
+9308181,Tuberous sclerosis complex,C2247022,tuberous sclerosis complex,0.9868051409721375,81.0,410,0,26539
+9308181,Tuberous sclerosis complex,C4317139,tuberous sclerosis complex 1 protein,0.9075822234153748,81.0,410,0,26539
+9308181,Tuberous sclerosis complex,C0291147,Tuberous Sclerosis Complex 2 Protein,0.9033961892127991,81.0,410,0,26539
+9308181,Tuberous sclerosis complex,C0694894,tuberous sclerosis 1,0.8218972682952881,81.0,410,0,26539
+9407088,autism spectrum disorder,C0524528,Autism spectrum disorder,0.9845767617225647,1112.0,350,29835,37514
+9407088,autism spectrum disorder,C1510586,Autism spectrum disorder,0.9845767617225647,1112.0,350,29835,37514
+9407088,autism spectrum disorder,C0004352,Autism disorder,0.7902024388313293,1112.0,350,29835,37514
+9407088,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7291615009307861,1112.0,350,29835,37514
+9407088,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.721701443195343,1112.0,350,29835,37514
+9407088,autism spectrum disorder,C0524528,Autism spectrum disorder,0.9845767617225647,1114.0,352,29835,37514
+9407088,autism spectrum disorder,C1510586,Autism spectrum disorder,0.9845767617225647,1114.0,352,29835,37514
+9407088,autism spectrum disorder,C0004352,Autism disorder,0.7902024388313293,1114.0,352,29835,37514
+9407088,autism spectrum disorder,C4286238,Autism Spectrum Disorder Gene Panel Reagents,0.7291615009307861,1114.0,352,29835,37514
+9407088,autism spectrum disorder,C4286239,Autism Spectrum Disorder Gene Mutation Reagents,0.721701443195343,1114.0,352,29835,37514
+9435010,schizophrenia with AVH,C0036341,schizophrenia,0.7913932204246521,50.0,399,3139,31882
+9435010,schizophrenia without AVH,C0036341,schizophrenia,0.7379778027534485,50.0,400,3139,31882
+9461104,Pontocerebellar hypoplasia,C0266468,Pontocerebellar Hypoplasia,0.9851983785629272,6.0,437,0,23477
+9461104,Pontocerebellar hypoplasia,C1261175,Pontocerebellar hypoplasia,0.9851983785629272,6.0,437,0,23477
+9461104,Pontocerebellar hypoplasia,C5442006,Pontocerebellar hypoplasia type 1,0.8980754613876343,6.0,437,0,23477
+9461104,Pontocerebellar hypoplasia,C2932714,Pontocerebellar Hypoplasia Type 2,0.8942810297012329,6.0,437,0,23477
+9461104,Pontocerebellar hypoplasia,C1842687,Pontocerebellar hypoplasia type 3,0.8912703990936279,6.0,437,0,23477

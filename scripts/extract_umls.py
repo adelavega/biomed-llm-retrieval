@@ -33,42 +33,35 @@ def get_candidates(
 
 def run_extraction(predictions, pmcids=None):
     results = []
-    for _, doc_preds in tqdm(predictions.groupby('pmcid')):
+    for pmcid, doc_preds in tqdm(predictions.groupby('pmcid')):
         for ix, pred in doc_preds.iterrows():
             # Get the UMLS entities that match the targettarg
-            start_char = pred['start_char'] if 'start_char' in pred else None
-            end_char = pred['end_char'] if 'end_char' in pred else None
             if pred['group_name'] == 'patients' and pd.isna(pred['diagnosis']) == False:
                 resolved_target, target_ents = get_candidates(
-                    generator, pred['diagnosis'], start_char=start_char, end_char=end_char)
-
+                    generator, pred['diagnosis'])
                 for ent in target_ents:
                     results.append({
-                        "pmcid": int(doc['pmcid']),
+                        "pmcid": int(pmcid),
                         "diagnosis": resolved_target,
                         "umls_cui": ent[0],
                         "umls_name": ent[1],
                         "umls_prob": ent[2],
                         "count": pred['count'],
                         "group_ix": ix,
-                        "start_char": start_char,
-                        "end_char": end_char,
+                        "start_char": pred['start_char'] if 'start_char' in pred else None,
+                        "end_char": pred['end_char'] if 'end_char' in pred else None,
                     })
 
     return results
 
 
 # Apply to all predictions, with different sources
-output_dir = Path('../outputs/extractions')
-extractions_dir = output_dir / 'extractions'
-all_files = list(extractions_dir.glob('chunked_*zeroshot*_clean.csv')) + list(extractions_dir.glob('full_*zeroshot*_clean.csv'))
+extractions_dir = Path('../outputs/extractions')
+all_files = list(extractions_dir.glob('chunked_*zeroshot*_noabbrev.csv')) + list(extractions_dir.glob('full_*zeroshot*_noabbrev.csv'))
 
 for pred_path in all_files:
+    print(f"Processing {pred_path}")
     out_name = Path(str(pred_path).replace('_noabbrev', '_umls'))
-
-    if out_name.exists():
-        continue
-
     predictions = pd.read_csv(pred_path)
     results = run_extraction(predictions)
     results_df = pd.DataFrame(results)
