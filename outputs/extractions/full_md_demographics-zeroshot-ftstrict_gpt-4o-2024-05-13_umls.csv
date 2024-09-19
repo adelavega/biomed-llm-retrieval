@@ -464,7 +464,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 7082218,mood and/or anxiety disorder,C0031572,Social Anxiety Disorder,0.6462537050247192,223,413,,
 7082218,mood and/or anxiety disorder,C3887605,Dream anxiety disorder (disorder),0.6386749148368835,223,413,,
 7090024,subjective cognitive decline,C0234985,Cognitive decline,0.783292829990387,35,371,,
-7090024,subjective cognitive decline,C0338656,Cognitive decline,0.783292829990387,35,371,,
+7090024,subjective cognitive decline,C0338656,cognitive decline,0.783292829990387,35,371,,
 7090024,subjective cognitive decline,C4721773,Postoperative Cognitive Decline,0.7511714100837708,35,371,,
 7090024,subjective cognitive decline,C0439655,Subjective,0.6705393195152283,35,371,,
 7090024,subjective cognitive decline,C1516691,Cognitive,0.6491180062294006,35,371,,

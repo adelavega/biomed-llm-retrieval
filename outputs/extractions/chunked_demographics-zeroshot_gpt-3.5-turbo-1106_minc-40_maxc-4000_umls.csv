@@ -114,9 +114,9 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 4265725,Autism spectrum conditions,C4042936,Action Spectrum,0.5514991283416748,18.0,263,10617,12494
 4280551,screening visits,C0042792,Vision Screening,0.8323668241500854,20.0,108,39662,41442
 4280551,screening visits,C0199230,screening,0.7614251375198364,20.0,108,39662,41442
-4280551,screening visits,C0220908,screening,0.7614251375198364,20.0,108,39662,41442
+4280551,screening visits,C0220908,Screening,0.7614251375198364,20.0,108,39662,41442
 4280551,screening visits,C1698960,screening,0.7614251375198364,20.0,108,39662,41442
-4280551,screening visits,C1710031,screening,0.7614251375198364,20.0,108,39662,41442
+4280551,screening visits,C1710031,Screening,0.7614251375198364,20.0,108,39662,41442
 4416052,social anxiety disorder,C0031572,Social Anxiety Disorder,0.9575433731079102,53.0,201,5666,9459
 4416052,social anxiety disorder,C0003469,Anxiety Disorder,0.8055554032325745,53.0,201,5666,9459
 4416052,social anxiety disorder,C0236748,Anxiety disorder due to medical disorder,0.7544277310371399,53.0,201,5666,9459
@@ -289,7 +289,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 6908505,bipolar disorder patients,C0005586,Bipolar disorder,0.7875039577484131,70.0,144,7076,8109
 6908505,bipolar disorder patients,C0024713,bipolar disorder manic,0.6997739672660828,70.0,144,7076,8109
 7090024,subjective cognitive decline,C0234985,Cognitive decline,0.783292829990387,35.0,212,5511,6530
-7090024,subjective cognitive decline,C0338656,Cognitive decline,0.783292829990387,35.0,212,5511,6530
+7090024,subjective cognitive decline,C0338656,cognitive decline,0.783292829990387,35.0,212,5511,6530
 7090024,subjective cognitive decline,C4721773,Postoperative Cognitive Decline,0.7511714100837708,35.0,212,5511,6530
 7090024,subjective cognitive decline,C0439655,Subjective,0.6705393195152283,35.0,212,5511,6530
 7090024,subjective cognitive decline,C1516691,Cognitive,0.6491180062294006,35.0,212,5511,6530

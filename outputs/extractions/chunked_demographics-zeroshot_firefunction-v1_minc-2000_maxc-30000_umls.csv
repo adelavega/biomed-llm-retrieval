@@ -799,7 +799,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 5537800,obese,C3853264,Obese class I,0.7097854018211365,19.0,144,8484.0,19703
 5537800,responded to treatment,C0438286,No response to treatment,0.7671346664428711,16.0,145,8484.0,19703
 5537800,responded to treatment,C0039798,treatment,0.6509323120117188,16.0,145,8484.0,19703
-5537800,responded to treatment,C0087111,treatment,0.6509323120117188,16.0,145,8484.0,19703
+5537800,responded to treatment,C0087111,Treatment,0.6509323120117188,16.0,145,8484.0,19703
 5537800,responded to treatment,C1522326,Treatment,0.6509323120117188,16.0,145,8484.0,19703
 5537800,responded to treatment,C1533734,Treatment,0.6509323120117188,16.0,145,8484.0,19703
 5548834,healthy,C3898900,Healthy,0.9904220700263977,47.0,251,7835.0,23525
@@ -1271,12 +1271,12 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 7082218,mood and/or anxiety disorder,C0031572,Social Anxiety Disorder,0.6462537050247192,223.0,397,14245.0,26774
 7082218,mood and/or anxiety disorder,C3887605,Dream anxiety disorder (disorder),0.6386749148368835,223.0,397,14245.0,26774
 7090024,subjective cognitive decline,C0234985,Cognitive decline,0.783292829990387,35.0,436,2474.0,26050
-7090024,subjective cognitive decline,C0338656,Cognitive decline,0.783292829990387,35.0,436,2474.0,26050
+7090024,subjective cognitive decline,C0338656,cognitive decline,0.783292829990387,35.0,436,2474.0,26050
 7090024,subjective cognitive decline,C4721773,Postoperative Cognitive Decline,0.7511714100837708,35.0,436,2474.0,26050
 7090024,subjective cognitive decline,C0439655,Subjective,0.6705393195152283,35.0,436,2474.0,26050
 7090024,subjective cognitive decline,C1516691,Cognitive,0.6491180062294006,35.0,436,2474.0,26050
 7090024,subjective cognitive decline,C0234985,Cognitive decline,0.783292829990387,10.0,438,2474.0,26050
-7090024,subjective cognitive decline,C0338656,Cognitive decline,0.783292829990387,10.0,438,2474.0,26050
+7090024,subjective cognitive decline,C0338656,cognitive decline,0.783292829990387,10.0,438,2474.0,26050
 7090024,subjective cognitive decline,C4721773,Postoperative Cognitive Decline,0.7511714100837708,10.0,438,2474.0,26050
 7090024,subjective cognitive decline,C0439655,Subjective,0.6705393195152283,10.0,438,2474.0,26050
 7090024,subjective cognitive decline,C1516691,Cognitive,0.6491180062294006,10.0,438,2474.0,26050

@@ -29,7 +29,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 3324921,epilepsy,C0376532,epilepsy roland,0.8218892216682434,5.0,189,9056.0,28693
 3409150,Chinese smokers,C0008120,chinese,0.6990295648574829,18.0,133,8385.0,20226
 3409150,Chinese smokers,C0018555,Chinese,0.6990295648574829,18.0,133,8385.0,20226
-3409150,Chinese smokers,C0152035,chinese,0.6990295648574829,18.0,133,8385.0,20226
+3409150,Chinese smokers,C0152035,Chinese,0.6990295648574829,18.0,133,8385.0,20226
 3409150,Chinese smokers,C4761455,Man Chinese,0.5925173759460449,18.0,133,8385.0,20226
 3409150,Chinese smokers,C4761672,Li Chinese,0.5863176584243774,18.0,133,8385.0,20226
 3483694,depression,C0011570,depression,0.9696047902107239,20.0,259,2076.0,7909
@@ -247,7 +247,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 6908505,bipolar disorder patients,C0005586,Bipolar disorder,0.7875039577484131,70.0,90,7076.0,15408
 6908505,bipolar disorder patients,C0024713,bipolar disorder manic,0.6997739672660828,70.0,90,7076.0,15408
 7090024,subjective cognitive decline,C0234985,Cognitive decline,0.783292829990387,35.0,243,2474.0,26050
-7090024,subjective cognitive decline,C0338656,Cognitive decline,0.783292829990387,35.0,243,2474.0,26050
+7090024,subjective cognitive decline,C0338656,cognitive decline,0.783292829990387,35.0,243,2474.0,26050
 7090024,subjective cognitive decline,C4721773,Postoperative Cognitive Decline,0.7511714100837708,35.0,243,2474.0,26050
 7090024,subjective cognitive decline,C0439655,Subjective,0.6705393195152283,35.0,243,2474.0,26050
 7090024,subjective cognitive decline,C1516691,Cognitive,0.6491180062294006,35.0,243,2474.0,26050

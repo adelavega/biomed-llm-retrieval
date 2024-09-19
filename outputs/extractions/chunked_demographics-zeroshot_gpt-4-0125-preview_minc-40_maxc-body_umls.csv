@@ -15,7 +15,7 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 3182403,Parkinson's disease,C0030567,DISEASE PARKINSON'S,0.9629952907562256,21.0,194,,
 3409150,Chinese smokers,C0008120,chinese,0.6990295648574829,18.0,220,,
 3409150,Chinese smokers,C0018555,Chinese,0.6990295648574829,18.0,220,,
-3409150,Chinese smokers,C0152035,chinese,0.6990295648574829,18.0,220,,
+3409150,Chinese smokers,C0152035,Chinese,0.6990295648574829,18.0,220,,
 3409150,Chinese smokers,C4761455,Man Chinese,0.5925173759460449,18.0,220,,
 3409150,Chinese smokers,C4761672,Li Chinese,0.5863176584243774,18.0,220,,
 3423412,Alzheimer's disease,C0002395,alzheimer's disease,0.946372389793396,14.0,455,,

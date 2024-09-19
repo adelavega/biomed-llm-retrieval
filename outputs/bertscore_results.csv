@@ -1,4 +1,4 @@
-level_0,index,0,min_chars,max_chars,strategy,task,model_name,source
+level_0,metric,0,min_chars,max_chars,strategy,task,model_name,source
 0,p,0.47273074693916256,40,4000,chunked,demographics-zeroshot,gpt-3.5-turbo-0613,
 1,r,0.40367797977668196,40,4000,chunked,demographics-zeroshot,gpt-3.5-turbo-0613,
 2,f1,0.43577654499652957,40,4000,chunked,demographics-zeroshot,gpt-3.5-turbo-0613,
@@ -47,6 +47,9 @@ level_0,index,0,min_chars,max_chars,strategy,task,model_name,source
 0,p,0.7118034062423105,40,4000,chunked,demographics-zeroshot,claude-3.5-sonnet,
 1,r,0.7756902739757628,40,4000,chunked,demographics-zeroshot,claude-3.5-sonnet,
 2,f1,0.7399767778051181,40,4000,chunked,demographics-zeroshot,claude-3.5-sonnet,
+0,p,0.7743245293112362,,,full,demographics-zeroshot,claude-3.5-sonnet,md
+1,r,0.8211530797621783,,,full,demographics-zeroshot,claude-3.5-sonnet,md
+2,f1,0.794063455918256,,,full,demographics-zeroshot,claude-3.5-sonnet,md
 0,p,0.6870900006361411,,,full,demographics-zeroshot,gpt-4o-2024-05-13,md
 1,r,0.7025675169179137,,,full,demographics-zeroshot,gpt-4o-2024-05-13,md
 2,f1,0.6914108706192231,,,full,demographics-zeroshot,gpt-4o-2024-05-13,md

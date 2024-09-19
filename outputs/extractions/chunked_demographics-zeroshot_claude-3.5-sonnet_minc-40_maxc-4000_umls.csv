@@ -378,11 +378,11 @@ pmcid,diagnosis,umls_cui,umls_name,umls_prob,count,group_ix,start_char,end_char
 7004957,healthy,C2986479,Healthy Control,0.7621602416038513,23.0,392,9185,11794
 7082218,mood and/or anxiety disorders,C0003469,anxiety disorders,0.7551285028457642,223.0,280,14245,17478
 7082218,mood and/or anxiety disorders,C0525045,mood disorders,0.6678922176361084,223.0,280,14245,17478
-7082218,mood and/or anxiety disorders,C0031572,Social Anxiety Disorders,0.6666471362113953,223.0,280,14245,17478
+7082218,mood and/or anxiety disorders,C0031572,anxiety disorders social,0.6666471362113953,223.0,280,14245,17478
 7082218,mood and/or anxiety disorders,C3887605,dream anxiety disorders,0.6572653651237488,223.0,280,14245,17478
 7082218,mood and/or anxiety disorders,C0236748,Anxiety disorder due to medical disorder,0.6196731925010681,223.0,280,14245,17478
 7090024,Subjective Cognitive Decline,C0234985,Cognitive decline,0.783292829990387,35.0,249,5511,6530
-7090024,Subjective Cognitive Decline,C0338656,Cognitive decline,0.783292829990387,35.0,249,5511,6530
+7090024,Subjective Cognitive Decline,C0338656,cognitive decline,0.783292829990387,35.0,249,5511,6530
 7090024,Subjective Cognitive Decline,C4721773,Postoperative Cognitive Decline,0.7511714100837708,35.0,249,5511,6530
 7090024,Subjective Cognitive Decline,C0439655,Subjective,0.6705393195152283,35.0,249,5511,6530
 7090024,Subjective Cognitive Decline,C1516691,Cognitive,0.6491180062294006,35.0,249,5511,6530
