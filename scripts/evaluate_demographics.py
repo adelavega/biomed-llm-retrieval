@@ -13,7 +13,8 @@ combined_annotations = combined_annotations[subset_cols].sort_values('pmcid')
 # Replace column names space with underscore
 combined_annotations.columns = combined_annotations.columns.str.replace(' ', '_')
 
-results_dir = Path('../outputs/extractions')
+outout_dir = Path('../outputs')
+results_dir = output_dir / 'extractions'
 
 
 def _filter_imaging_sample(x):
@@ -30,8 +31,8 @@ def _evaluate(annotations, predictions):
 
     # Subset to only include mri participant groups
     if 'imaging_sample' in predictions.columns:
-        predictions = predictions.groupby('pmcid').apply(
-            lambda x: _filter_imaging_sample(x)
+        predictions = predictions.groupby('pmcid')[predictions.columns].apply(
+            lambda x: _filter_imaging_sample(x),
         ).reset_index(drop=True)
 
     if 'assessment_type' in predictions.columns:
@@ -108,7 +109,6 @@ for f in sorted(results_dir.glob('full_*_clean.csv')):
 
     if source == 'html':
         html_pmids = predictions.pmcid.unique()
-        assert 0
 
     stats = pd.DataFrame(stats).reset_index()
     stats = stats.rename(columns={'index': 'variable'})

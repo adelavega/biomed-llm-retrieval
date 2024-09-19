@@ -13,7 +13,8 @@ combined_annotations = combined_annotations[subset_cols].sort_values('pmcid')
 # Replace column names space with underscore
 combined_annotations.columns = combined_annotations.columns.str.replace(' ', '_')
 
-results_dir = Path('../outputs/extractions')
+output_dir = Path('../outputs/')
+results_dir = output_dir / 'extractions'
 
 scorer = BERTScorer(lang='en-sci', rescale_with_baseline=True)
 
@@ -35,7 +36,7 @@ def _evaluate(annotations, predictions, agg=True):
     " Evaluate the predictions against the annotations  for the diagnosis column"
         # Subset to only include mri participant groups
     if 'imaging_sample' in predictions.columns:
-        predictions = predictions.groupby('pmcid').apply(
+        predictions = predictions.groupby('pmcid')[predictions.columns].apply(
             lambda x: _filter_imaging_sample(x)
         ).reset_index(drop=True)
 
@@ -126,4 +127,4 @@ for f in tqdm(all_files):
 eval_results = pd.concat(eval_results)
 eval_results = pd.DataFrame(eval_results)
 eval_results.rename(columns={'index': 'metric', '0': 'score'}, inplace=True)
-eval_results.to_csv(results_dir / 'bertscore_results.csv', index=False)
+eval_results.to_csv(output_dir / 'bertscore_results.csv', index=False)
