@@ -1,0 +1,100 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Acquisition Reporting",
+    "type": "object",
+    "properties": {
+      "scanner_information": {
+        "type": "object",
+        "description": "Details about the scanner used in the study.",
+        "properties": {
+          "make_model": {
+            "type": "string",
+            "description": "Make and model of the scanner."
+          },
+          "field_strength": {
+            "type": "number",
+            "description": "Field strength of the scanner in Tesla (e.g., 3.0T)."
+          },
+          "coil_type": {
+            "type": "string",
+            "description": "Type of coil used for image acquisition (e.g., 32-channel head coil)."
+          }
+        },
+        "required": ["make_model", "field_strength", "coil_type"]
+      },
+      "sequence_parameters": {
+        "type": "object",
+        "description": "Details about the imaging sequences used.",
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Type of imaging sequence (e.g., gradient echo, spin echo)."
+          },
+          "repetition_time": {
+            "type": "number",
+            "description": "Repetition time (TR) in milliseconds."
+          },
+          "echo_time": {
+            "type": "number",
+            "description": "Echo time (TE) in milliseconds."
+          },
+          "flip_angle": {
+            "type": "number",
+            "description": "Flip angle in degrees."
+          },
+          "field_of_view": {
+            "type": "string",
+            "description": "Field of view dimensions (e.g., 256x256 mm)."
+          },
+          "resolution": {
+            "type": "object",
+            "description": "Spatial resolution of the acquisition.",
+            "properties": {
+              "voxel_size": {
+                "type": "string",
+                "description": "Voxel dimensions (e.g., 1x1x1 mm)."
+              },
+              "matrix_size": {
+                "type": "string",
+                "description": "Matrix size (e.g., 256x256)."
+              }
+            },
+            "required": ["voxel_size", "matrix_size"]
+          }
+        },
+        "required": ["type", "repetition_time", "echo_time", "flip_angle", "field_of_view", "resolution"]
+      },
+      "functional_specific_details": {
+        "type": "object",
+        "description": "Details specific to functional MRI acquisitions.",
+        "properties": {
+          "volumes_per_run": {
+            "type": "integer",
+            "description": "Number of volumes acquired per run."
+          },
+          "dummy_volumes": {
+            "type": "integer",
+            "description": "Number of dummy volumes discarded."
+          }
+        },
+        "required": ["volumes_per_run", "dummy_volumes"]
+      },
+      "diffusion_specific_details": {
+        "type": "object",
+        "description": "Details specific to diffusion MRI acquisitions.",
+        "properties": {
+          "directions": {
+            "type": "integer",
+            "description": "Number of diffusion directions."
+          },
+          "b_values": {
+            "type": "string",
+            "description": "b-values used during acquisition."
+          }
+        },
+        "required": ["directions", "b_values"]
+      }
+    },
+    "required": ["scanner_information", "sequence_parameters"]
+  }
+  

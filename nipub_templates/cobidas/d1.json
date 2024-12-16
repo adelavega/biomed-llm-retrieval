@@ -1,0 +1,89 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Experimental Design Reporting",
+    "type": "object",
+    "properties": {
+      "number_of_subjects": {
+        "type": "object",
+        "description": "The total number of subjects in the study, separated by group if applicable.",
+        "properties": {
+          "approached": {
+            "type": "integer",
+            "description": "Number of subjects approached for the study."
+          },
+          "consented": {
+            "type": "integer",
+            "description": "Number of subjects who provided consent."
+          },
+          "refused": {
+            "type": "integer",
+            "description": "Number of subjects who refused participation, with reasons if available."
+          },
+          "excluded": {
+            "type": "integer",
+            "description": "Number of subjects excluded after consenting but before data acquisition, with reasons."
+          },
+          "analyzed": {
+            "type": "integer",
+            "description": "Number of subjects included in data analysis, including details on exclusions and reasons."
+          }
+        },
+        "required": ["approached", "consented", "refused", "excluded", "analyzed"]
+      },
+      "inclusion_criteria": {
+        "type": "object",
+        "description": "Criteria for inclusion and basic descriptive statistics for subjects.",
+        "properties": {
+          "age": {
+            "type": "object",
+            "description": "Age details of subjects.",
+            "properties": {
+              "mean": {
+                "type": "number",
+                "description": "Mean age of participants."
+              },
+              "standard_deviation": {
+                "type": "number",
+                "description": "Standard deviation of participant ages."
+              },
+              "range": {
+                "type": "string",
+                "description": "Age range of participants (e.g., '18-65 years')."
+              }
+            },
+            "required": ["mean", "standard_deviation", "range"]
+          },
+          "sex": {
+            "type": "object",
+            "description": "Sex distribution of participants.",
+            "properties": {
+              "male": {
+                "type": "integer",
+                "description": "Number of male participants."
+              },
+              "female": {
+                "type": "integer",
+                "description": "Number of female participants."
+              }
+            },
+            "required": ["male", "female"]
+          },
+          "race_ethnicity": {
+            "type": "string",
+            "description": "Details on the race and ethnicity of participants as per NIH or relevant guidelines."
+          },
+          "education_ses": {
+            "type": "string",
+            "description": "Education level and socioeconomic status details, specifying instruments used for measurement."
+          },
+          "iq": {
+            "type": "string",
+            "description": "IQ information, specifying the measurement instrument used."
+          }
+        },
+        "required": ["age", "sex"]
+      }
+    },
+    "required": ["number_of_subjects", "inclusion_criteria"]
+  }
+  

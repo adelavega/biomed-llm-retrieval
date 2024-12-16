@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Data Sharing",
+    "type": "object",
+    "properties": {
+      "data_types_shared": {
+        "type": "array",
+        "description": "Types of data shared (e.g., raw data, processed data).",
+        "items": {
+          "type": "string"
+        }
+      },
+      "repository_used": {
+        "type": "string",
+        "description": "Name of the repository where data is shared (e.g., OpenNeuro)."
+      },
+      "format_and_anonymization": {
+        "type": "object",
+        "description": "Details about data format and anonymization procedures.",
+        "properties": {
+          "file_format": {
+            "type": "string",
+            "description": "File format used for shared data (e.g., NIfTI, DICOM)."
+          },
+          "anonymization_steps": {
+            "type": "string",
+            "description": "Steps taken to anonymize the shared data."
+          }
+        },
+        "required": ["file_format", "anonymization_steps"]
+      },
+      "documentation_shared": {
+        "type": "string",
+        "description": "Description of documentation shared alongside the data (e.g., README, metadata files)."
+      },
+      "ethics_and_consent": {
+        "type": "string",
+        "description": "Details about ethics and consent approval for data sharing."
+      }
+    },
+    "required": ["data_types_shared", "repository_used", "format_and_anonymization", "documentation_shared", "ethics_and_consent"]
+  }
+  

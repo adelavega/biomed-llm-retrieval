@@ -1,0 +1,50 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Reproducibility",
+    "type": "object",
+    "properties": {
+      "analysis_pipelines": {
+        "type": "object",
+        "description": "Details about the analysis pipelines used.",
+        "properties": {
+          "software_used": {
+            "type": "string",
+            "description": "Software used for the analysis (e.g., FSL, SPM)."
+          },
+          "pipeline_steps": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "List of pipeline steps performed in sequence."
+            }
+          }
+        },
+        "required": ["software_used", "pipeline_steps"]
+      },
+      "version_control": {
+        "type": "object",
+        "description": "Version control details for code and analysis scripts.",
+        "properties": {
+          "repository_url": {
+            "type": "string",
+            "description": "URL of the repository hosting the scripts/code (e.g., GitHub)."
+          },
+          "commit_hash": {
+            "type": "string",
+            "description": "Commit hash identifying the exact version of the code used."
+          }
+        },
+        "required": ["repository_url", "commit_hash"]
+      },
+      "documentation": {
+        "type": "string",
+        "description": "Details about documentation provided to replicate the study (e.g., methods, parameters)."
+      },
+      "archiving": {
+        "type": "string",
+        "description": "Details about archiving of raw and processed data for long-term accessibility."
+      }
+    },
+    "required": ["analysis_pipelines", "version_control", "documentation", "archiving"]
+  }
+  

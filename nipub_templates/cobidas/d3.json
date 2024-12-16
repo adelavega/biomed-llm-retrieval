@@ -1,0 +1,69 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Preprocessing Reporting",
+    "type": "object",
+    "properties": {
+      "motion_correction": {
+        "type": "object",
+        "description": "Details of motion correction steps.",
+        "properties": {
+          "software_used": {
+            "type": "string",
+            "description": "Software and version used for motion correction."
+          },
+          "parameters": {
+            "type": "string",
+            "description": "Parameters used (e.g., degrees of freedom, thresholds)."
+          }
+        },
+        "required": ["software_used", "parameters"]
+      },
+      "spatial_normalization": {
+        "type": "object",
+        "description": "Details of spatial normalization procedures.",
+        "properties": {
+          "template": {
+            "type": "string",
+            "description": "Template used for spatial normalization (e.g., MNI152)."
+          },
+          "interpolation_method": {
+            "type": "string",
+            "description": "Method of interpolation used (e.g., linear, spline)."
+          }
+        },
+        "required": ["template", "interpolation_method"]
+      },
+      "denoising": {
+        "type": "object",
+        "description": "Denoising steps applied to the data.",
+        "properties": {
+          "techniques_used": {
+            "type": "string",
+            "description": "Techniques used for denoising (e.g., ICA, PCA)."
+          },
+          "thresholds_applied": {
+            "type": "string",
+            "description": "Thresholds applied during denoising."
+          }
+        },
+        "required": ["techniques_used", "thresholds_applied"]
+      },
+      "quality_control": {
+        "type": "object",
+        "description": "Details on quality control procedures.",
+        "properties": {
+          "automated_checks": {
+            "type": "string",
+            "description": "Automated checks performed (e.g., motion outliers)."
+          },
+          "visual_inspection": {
+            "type": "boolean",
+            "description": "Whether visual inspection was conducted."
+          }
+        },
+        "required": ["automated_checks", "visual_inspection"]
+      }
+    },
+    "required": ["motion_correction", "spatial_normalization", "denoising", "quality_control"]
+  }
+  

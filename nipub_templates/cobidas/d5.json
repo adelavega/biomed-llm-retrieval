@@ -1,0 +1,73 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Results Reporting",
+    "type": "object",
+    "properties": {
+      "effects_tested": {
+        "type": "array",
+        "description": "A list of all effects tested, identifying those presented and omitted.",
+        "items": {
+          "type": "string",
+          "description": "Description of each effect tested."
+        }
+      },
+      "coordinates_table": {
+        "type": "object",
+        "description": "Details of reported brain coordinates.",
+        "properties": {
+          "contrast_description": {
+            "type": "string",
+            "description": "Description of the contrast or effect the coordinates refer to."
+          },
+          "anatomical_region": {
+            "type": "string",
+            "description": "Anatomical region corresponding to the coordinates."
+          },
+          "coordinates": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "Coordinates in X-Y-Z format (e.g., '30, -22, 40')."
+            }
+          },
+          "statistics": {
+            "type": "object",
+            "description": "Statistical information for the reported coordinates.",
+            "properties": {
+              "t_statistic": {
+                "type": "number",
+                "description": "T-statistic value."
+              },
+              "p_value": {
+                "type": "number",
+                "description": "P-value for the inference."
+              }
+            },
+            "required": ["t_statistic", "p_value"]
+          }
+        },
+        "required": ["contrast_description", "anatomical_region", "coordinates", "statistics"]
+      },
+      "thresholded_maps": {
+        "type": "object",
+        "description": "Details about thresholded statistical maps.",
+        "properties": {
+          "inference_type": {
+            "type": "string",
+            "description": "Type of inference applied (e.g., '5% FWE cluster size')."
+          },
+          "correction_method": {
+            "type": "string",
+            "description": "Correction method applied to the maps."
+          },
+          "color_bar": {
+            "type": "boolean",
+            "description": "Whether a color bar is included for statistic values."
+          }
+        },
+        "required": ["inference_type", "correction_method", "color_bar"]
+      }
+    },
+    "required": ["effects_tested", "coordinates_table", "thresholded_maps"]
+  }
+  

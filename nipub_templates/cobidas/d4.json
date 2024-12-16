@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Statistical Modeling and Inference",
+    "type": "object",
+    "properties": {
+      "model_description": {
+        "type": "object",
+        "description": "Details of the statistical model used.",
+        "properties": {
+          "dependent_variable": {
+            "type": "string",
+            "description": "Dependent variable analyzed in the model."
+          },
+          "independent_variables": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Independent variables included in the model."
+          }
+        },
+        "required": ["dependent_variable", "independent_variables"]
+      },
+      "inference_method": {
+        "type": "object",
+        "description": "Details on how statistical inferences were drawn.",
+        "properties": {
+          "thresholding_method": {
+            "type": "string",
+            "description": "Thresholding method used (e.g., FDR, FWE)."
+          },
+          "multiple_comparisons_correction": {
+            "type": "string",
+            "description": "Method for correcting multiple comparisons."
+          }
+        },
+        "required": ["thresholding_method", "multiple_comparisons_correction"]
+      }
+    },
+    "required": ["model_description", "inference_method"]
+  }
+  
