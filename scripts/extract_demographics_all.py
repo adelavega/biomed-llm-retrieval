@@ -1,8 +1,8 @@
 import pandas as pd
 import os
 from pathlib import Path
-from nipub_templates.prompts import ZERO_SHOT_MULTI_GROUP_FC
-from nipub_templates.clean import clean_predictions
+from nipub_templates.demographics.prompts import ZERO_SHOT_MULTI_GROUP_FC
+from nipub_templates.demographics.clean import clean_predictions
 from publang.pipelines import search_extract
 from openai import OpenAI
 
@@ -10,7 +10,7 @@ from openai import OpenAI
 inputs = pd.read_csv('/data/alejandro/projects/ns-pond/source/mega-ni-dataset/pubget_searches/fmri_journal/query_875641cf4cbc22f32027447cd62fca27/subset_allArticles_extractedData/text.csv')
 
 
-output_dir = Path('../outputs/extractions')
+output_dir = Path('../outputs/demographicsextractions')
 
 # Set up OpenAI clients
 openai_client = OpenAI(api_key=os.getenv('MYOPENAI_API_KEY'))

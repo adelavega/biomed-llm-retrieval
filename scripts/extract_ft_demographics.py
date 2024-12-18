@@ -13,14 +13,14 @@ import json
 # Change directory for importing
 import sys
 sys.path.append('../')
-from nipub_templates.prompts import ZERO_SHOT_MULTI_GROUP_FC, ZERO_SHOT_MULTI_GROUP_FTSTRICT_FC
-from nipub_templates.clean import clean_predictions
+from nipub_templates.demographics.prompts import ZERO_SHOT_MULTI_GROUP_FC, ZERO_SHOT_MULTI_GROUP_FTSTRICT_FC
+from nipub_templates.demographics.clean import clean_predictions
 
 
 html_docs = pd.read_csv('../data/html_combined.csv')
 html_docs = html_docs[html_docs.complete == True]
 
-output_dir = Path('../outputs/extractions')
+output_dir = Path('../outputs/demographicsextractions')
 
 # Set up OpenAI clients
 embed_model = 'text-embedding-ada-002'

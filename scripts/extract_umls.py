@@ -56,7 +56,7 @@ def run_extraction(predictions, pmcids=None):
 
 
 # Apply to all predictions, with different sources
-extractions_dir = Path('../outputs/extractions')
+extractions_dir = Path('../outputs/demographicsextractions')
 all_files = list(extractions_dir.glob('chunked_*zeroshot*_noabbrev.csv')) + list(extractions_dir.glob('full_*zeroshot*_noabbrev.csv'))
 
 for pred_path in all_files:

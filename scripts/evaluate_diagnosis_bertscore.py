@@ -13,7 +13,7 @@ combined_annotations = combined_annotations[subset_cols].sort_values('pmcid')
 # Replace column names space with underscore
 combined_annotations.columns = combined_annotations.columns.str.replace(' ', '_')
 
-output_dir = Path('../outputs/')
+output_dir = Path('../outputs/demographics')
 results_dir = output_dir / 'extractions'
 
 scorer = BERTScorer(lang='en-sci', rescale_with_baseline=True)

@@ -5,7 +5,7 @@ import os
 import json
 from pathlib import Path
 from publang.extract import extract_from_text
-from nipub_templates.clean import clean_predictions
+from nipub_templates.demographics.clean import clean_predictions
 from nipub_templates.demographics_orig import ZERO_SHOT_MULTI_GROUP
 from openai import OpenAI
 

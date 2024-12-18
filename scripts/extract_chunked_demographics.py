@@ -11,8 +11,8 @@ from openai import OpenAI
 import sys
 sys.path.append('../')
 
-from nipub_templates.prompts import ZERO_SHOT_MULTI_GROUP_FC, FEW_SHOT_FC
-from nipub_templates.clean import clean_predictions
+from nipub_templates.demographics.prompts import ZERO_SHOT_MULTI_GROUP_FC, FEW_SHOT_FC
+from nipub_templates.demographics.clean import clean_predictions
 
 # Load original annotations
 combined_annotations = pd.read_csv('../annotations/combined_pd.csv')
@@ -26,7 +26,7 @@ docs = pd.read_sql(
 docs = docs[
     docs.pmcid.isin(combined_annotations.pmcid)].to_dict(orient='records')
 
-output_dir = Path('../outputs/extractions')
+output_dir = Path('../outputs/demographicsextractions')
 
 # Set up OpenAI clients
 embed_model = 'text-embedding-ada-002'

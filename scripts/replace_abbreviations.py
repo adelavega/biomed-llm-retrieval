@@ -80,7 +80,7 @@ def run_abbrev(docs, predictions):
 
 # Apply to all predictions, with different sources
 # Apply to all predictions, with different sources
-output_dir = Path('../outputs/extractions')
+output_dir = Path('../outputs/demographicsextractions')
 all_files = list(output_dir.glob('chunked_*zeroshot*_clean.csv')) + list(output_dir.glob('full_*zeroshot*_clean.csv'))
 
 
