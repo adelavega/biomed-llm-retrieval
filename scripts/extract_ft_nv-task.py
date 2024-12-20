@@ -15,7 +15,8 @@ from nipub_templates.nv_task.prompts import ZERO_SHOT_TASK
 # Read JSON lines
 docs = pd.read_json('../../labelbuddy-annotations/projects/nv_task/documents/task_0.jsonl', lines=True)
 
-output_dir = Path('../outputs/demographicsextractions/nv_task')
+output_dir = Path('../outputs/nv_task/extractions')
+output_dir.mkdir(parents=True, exist_ok=True)
 
 # Set up OpenAI clients
 openai_client = OpenAI(api_key=os.getenv('MYOPENAI_API_KEY'))

@@ -1,20 +1,20 @@
 from typing import List
 from pydantic import BaseModel, Field
+from typing_extensions import Literal, Optional
 
 
 class TaskMetadataModel(BaseModel):
-    # Annotated fields
-    Modality: List[str] = Field(
-        description="Modality", 
-        enum=["fMRI-BOLD", "Structural MRI", "Diffusion MRI", "PET FDG", "PET [15O]-water", "fMRI-CBF", "fMRI-CBV", "MEG", "EEG", "Other"],
+    Modality: List[Literal["fMRI-BOLD", "StructuralMRI", "DiffusionMRI", "PET FDG", "PET [15O]-water", "fMRI-CBF", "fMRI-CBV", "MEG", "EEG", "Other"]] = Field(
+        description="Modality of the neuroimaging data",
     )
-    DesignType: List[str] = Field(
-        description="Design Type", enum=["Task-based", "RestingState"])
-    Exclude: str = Field(
-        description="Exclude", enum=["Meta-Analysis", "Review"]
+    DesignType: List[Literal['RestingState', 'Task-based']] = Field(
+        description="Design types(s) used in the neuroimaging study. List all that apply. If 'rest' task is listed, 'RestingState' is a DesignType"
+    )
+    Exclude: Optional[Literal['MetaAnalysis', 'Review']] = Field(
+        description="Only studies that conduct primary data collection are to be be included. Thus, if a study is primarily either a meta-analysis or a review, note here.",
         )
     TaskName: List[str] = Field(
-        description="Task (or lack of it) performed by the subjects in the scanner"
+        description="Task performed by the subjects in the scanner. Do not include tasks performed outside the scanner (e.g. behavioral session)."
         )
     TaskDescription: List[str] = Field(
         description="Text describing in detail the task performed by the subject(s) in the scanner. If multiple tasks are performed, provide a description for each task."
