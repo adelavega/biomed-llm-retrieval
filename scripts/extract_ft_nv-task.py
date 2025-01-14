@@ -55,5 +55,5 @@ models = [
 ]
 
 for model_name, client in models:
-    _run(model_name, client, docs, prepend='lb_nv_task-zeroshot',
+    _run(model_name, client, docs, prepend='lb_nv_taskstructured-zeroshot',
          **ZERO_SHOT_TASK, num_workers=10)
