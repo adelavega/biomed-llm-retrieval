@@ -29,18 +29,18 @@ class TaskMetadataModelOld(BaseModel):
 
 
 class TaskMetadataModel(BaseModel):
-    TaskName: List[str] = Field(
+    TaskName: str = Field(
         description="Name of the task, e.g., 'Stroop Task' or 'Go/No-Go Task'. Provide the name as it appears in the paper or a descriptive name if unspecified."
     )
-    TaskDescription: List[str] = Field(
+    TaskDescription: str = Field(
         description="In 1-2 sentences, describe the key features of the task, such as its purpose or what it measures."
     )
-    DesignDetails: List[str] = Field(
+    DesignDetails: str = Field(
         description="""Provide a detailed description of the task design in up to 1 paragraph. Include 
         information on the number of conditions, the number of trials per condition, the length of trials, 
         and the length of inter-trial intervals. Quote directly from the paper where possible."""
     )
-    Conditions: List[str] = Field(
+    Conditions: Optional[List[str]] = Field(
         description="Conditions of task performed by the subjects."
         )
     TaskMetrics: Optional[List[str]] = Field(
@@ -56,7 +56,7 @@ class fMRITaskMetadataModel(TaskMetadataModel):
         description="Additional details about the resting-state task, such as duration and instructions provided to participants, if applicable."
     )
     TaskDesign: List[Literal["Blocked", "EventRelated", "Mixed", "Other"]] = Field(
-        description="Design of the task"
+        description="Design(s) of the task"
         )
     TaskDuration: Optional[str] = Field(
         description="Total duration of the task, e.g., '10 minutes' or '600 seconds'."

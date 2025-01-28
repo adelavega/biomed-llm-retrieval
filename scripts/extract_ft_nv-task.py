@@ -49,11 +49,11 @@ def _run(extraction_model, extraction_client, docs, prepend='', **extract_kwargs
 
 
 models = [
-    ("gpt-4o-mini-2024-07-18", openai_client),
+    ("gpt-4o-2024-08-06", openai_client, {"temperature": 1}),
     # ("anthropic/claude-3.5-sonnet", openrouter_client),
     # ("gpt-4o-2024-05-13", openai_client)
 ]
 
-for model_name, client in models:
+for model_name, client, kwargs in models:
     _run(model_name, client, docs, prepend='lb_nv_taskstructured-zeroshot',
-         **ZERO_SHOT_TASK, num_workers=10)
+         **ZERO_SHOT_TASK, num_workers=10, **kwargs)
